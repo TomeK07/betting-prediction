@@ -1,4 +1,7 @@
-"""T1 — injuries and availability (LLM_ISTRAZUVACI §2, §4). Output → data/vesti/<date>.yaml (only PROVERENO)."""
+"""T1 — injuries and availability (LLM_ISTRAZUVACI §2, §4). Output → data/vesti/<date>.yaml (only PROVERENO).
+
+LLM = само extract. Анализата е 100% во Python.
+"""
 from __future__ import annotations
 
 from datetime import datetime

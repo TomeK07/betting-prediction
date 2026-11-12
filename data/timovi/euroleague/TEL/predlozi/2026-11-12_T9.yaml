@@ -1,0 +1,47 @@
+tip: ОПИС
+tim: TEL
+liga: euroleague
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/euroleague/2033105/maccabi-tel-aviv-lands-kamar-baldwin/; https://www.eurohoops.net/en/euroleague/2004293/maccabi-tel-aviv-falls-to-hapoel-herzliya-despite-strong-showing-from-keaton-wallace/;
+  https://www.eurohoops.net/en/euroleague/1996656/maccabi-tel-aviv-signs-armando-bacot-jr-to-a-two-year-deal/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Oded Kattash
+  izvor: box score Евролига
+napisi:
+- objaveno: '2026-11-10'
+  naslov: Maccabi Tel Aviv lands Kamar Baldwin
+  izvor_url: https://www.eurohoops.net/en/euroleague/2033105/maccabi-tel-aviv-lands-kamar-baldwin/
+- objaveno: '2026-09-03'
+  naslov: Maccabi Tel Aviv falls despite strong showing from Keaton Wallace
+  izvor_url: https://www.eurohoops.net/en/euroleague/2004293/maccabi-tel-aviv-falls-to-hapoel-herzliya-despite-strong-showing-from-keaton-wallace/
+- objaveno: '2026-08-06'
+  naslov: Maccabi Tel Aviv signs Armando Bacot Jr. to a two-year deal
+  izvor_url: https://www.eurohoops.net/en/euroleague/1996656/maccabi-tel-aviv-signs-armando-bacot-jr-to-a-two-year-deal/
+- objaveno: '2026-07-12'
+  naslov: Maccabi Tel Aviv officially announced the addition of Yam Madar
+  izvor_url: https://www.eurohoops.net/en/euroleague/1990468/maccabi-tel-aviv-officially-announced-the-addition-of-yam-madar/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2033105/maccabi-tel-aviv-lands-kamar-baldwin/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2033105/maccabi-tel-aviv-lands-kamar-baldwin/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2004293/maccabi-tel-aviv-falls-to-hapoel-herzliya-despite-strong-showing-from-keaton-wallace/:
+  LLM gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2004293/maccabi-tel-aviv-falls-to-hapoel-herzliya-despite-strong-showing-from-keaton-wallace/:
+  LLM qwen3.8-27b не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1996656/maccabi-tel-aviv-signs-armando-bacot-jr-to-a-two-year-deal/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1996656/maccabi-tel-aviv-signs-armando-bacot-jr-to-a-two-year-deal/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1990468/maccabi-tel-aviv-officially-announced-the-addition-of-yam-madar/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1990468/maccabi-tel-aviv-officially-announced-the-addition-of-yam-madar/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

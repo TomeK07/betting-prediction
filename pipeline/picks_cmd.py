@@ -89,6 +89,11 @@ def _names(roster: pd.DataFrame) -> pd.DataFrame:
 
 def player_projections(settings: Settings, league: str, day: date, games: pd.DataFrame, absent: pd.DataFrame,
                        logs: pd.DataFrame, roster: pd.DataFrame) -> pd.DataFrame:
+    """μ / минути само од статистики + отсуства.
+
+    Статистичкиот модел не гледа квоти. Anchoring е забранет.
+    (Mozzart/evrotip влегуваат дури во build_candidates / picks.)
+    """
     cfg = settings.league(league)
     params = player_params(cfg.player_model)
     names = _names(roster).drop_duplicates("player_code").set_index("player_code")
@@ -107,6 +112,7 @@ def player_projections(settings: Settings, league: str, day: date, games: pd.Dat
             eff = ab.pregame_minutes(logs, roster, league, team, day.isoformat(), out_codes, params, old_out=old)
             if eff.empty:
                 continue
+            # OUT/DOUBTFUL already flagged out=True; keep them out of μ rows
             eff = eff[~eff["out"]].copy()
             eff["game_code"], eff["team"], eff["opp"] = str(g.game_code), team, opp
             eff["home"] = team == g.home
@@ -344,7 +350,11 @@ def picks_report(settings: Settings, league: str, day: date, write: bool = True)
     lines = attach_team_codes(lines, settings)
     absent, notes = league_absences(settings, league, day)
     teamp = team_projections(settings, league, day, games)
+    # μ прво — без линии (anti-anchoring). Квотите влегуваат дури во build_candidates.
     players = player_projections(settings, league, day, games, absent, logs, roster)
+    from model.stats_preds import build_stat_preds, format_stat_section
+    disp = (cfg.player_model or {}).get("dispersion", {})
+    stat_preds, odbieni = build_stat_preds(league, day.isoformat(), players, logs, disp)
     cands = build_candidates(settings, league, day, games, teamp, players, lines)
     ticket = pk.build_ticket(cands)
     n_written = record(cands, ticket, day, teamp) if write else 0
@@ -354,7 +364,10 @@ def picks_report(settings: Settings, league: str, day: date, write: bool = True)
            "> 📝 **РЕЖИМ НА ХАРТИЈА** — ништо не се уплаќа; сè е запишано (CEKA, uplateno = не). "
            "Не е доказ за предност пред 100 одлучени избори И 10 вечери на хартија (PROCES §4А).", "",
            *[f"- {n}" for n in [x for x in notes if not x.startswith("__")]],
-           f"- Кандидати: {len(cands)} · запишани во архивата: {n_written} · модел {MODEL_VERSION}", ""]
+           f"- Кандидати: {len(cands)} · запишани во архивата: {n_written} · модел {MODEL_VERSION}",
+           f"- Статистички предикции (без квоти): {len({p.player_code for p in stat_preds})} играчи · "
+           f"{len(odbieni)} ODBIENI", ""]
+    out += format_stat_section(stat_preds, odbieni, cfg.name_mk)
     s_team, s_total, s_margin = team_sigmas(settings, league)
     fav8 = frozenset((gc, t["home"] if t["mu_home"] > t["mu_away"] else t["away"]) for gc, t in teamp.items()
                      if abs(t["mu_home"] - t["mu_away"]) >= BLOWOUT_WARN)

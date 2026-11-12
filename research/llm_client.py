@@ -1,5 +1,10 @@
 """OpenAI-compatible client for FreeLLMAPI (LLM_ISTRAZUVACI §7). Disabled unless configured.
 
+LLM = само extract. Анализата е 100% во Python.
+FreeLLMAPI се користи ИСКЛУЧИВО за структуриран JSON extract од симнат текст
+(T1 повреди, T2 превјуа, T3 улога/минути, T10 вести) — со извор + цитат.
+Никогаш: веројатности, проекции, препораки, EV, picks, мислење.
+
 Keys only from .env (never in code). temperature=0, JSON output, timeout, 3 retries, cache by
 hash(prompt version + model + prompt + text) so the same text is never sent twice.
 """

@@ -242,6 +242,9 @@ def _items(ans, src: dict, roster: set, labels: dict, model: str) -> tuple[list[
         if not isinstance(it, dict):
             continue
         tip = str(it.get("tip", "")).upper()
+        if tip in getattr(t10_vesti, "REJECTED_TYPES", {}):
+            bad.append(f"{model}: тип „{tip}“ = анализа/мислење — LLM само extract (отфрлено)")
+            continue
         if tip not in t10_vesti.TYPES:
             bad.append(f"{model}: непознат тип „{tip}“")
             continue

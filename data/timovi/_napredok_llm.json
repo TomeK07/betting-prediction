@@ -100,7 +100,18 @@
   "nba/PHX": "2026-11-12",
   "nba/TOR": "2026-11-12",
   "nba/WAS": "2026-11-12",
-  "euroleague/DUB": "2026-11-12"
+  "euroleague/DUB": "2026-11-12",
+  "euroleague/HTA": "2026-11-12",
+  "euroleague/MIL": "2026-11-12",
+  "euroleague/MUN": "2026-11-12",
+  "euroleague/PAM": "2026-11-12",
+  "euroleague/TEL": "2026-11-12",
+  "euroleague/ZAL": "2026-11-12",
+  "eurocup/FRA": "2026-11-12",
+  "eurocup/MRO": "2026-11-12",
+  "nba/ATL": "2026-11-12",
+  "nba/GSW": "2026-11-12",
+  "nba/HOU": "2026-11-12"
  },
  "zastanato": {
   "zadaca": "T10",

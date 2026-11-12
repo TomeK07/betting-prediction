@@ -1,0 +1,62 @@
+tip: ОПИС
+tim: GSW
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/nba-news/2028876/luka-doncic-giannis-antetokounmpo-nikola-jokic-nba-european-recap/; https://www.eurohoops.net/en/nba-news/2022797/stephen-curry-injury-update-golden-state-warriors-nba-2/;
+  https://www.eurohoops.net/en/nba-news/2021040/warriors-kristaps-porzingis-out-indefinitely-for-the-start-of-the-season-amid-health-problems/
+  …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Steve Kerr
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-31'
+  naslov: 'NBA Roundup: Jokis and Giannis get the wins, Doncic scores 37 in loss to Warriors'
+  izvor_url: https://www.eurohoops.net/en/nba-news/2028876/luka-doncic-giannis-antetokounmpo-nikola-jokic-nba-european-recap/
+- objaveno: '2026-10-19'
+  naslov: Stephen Curry suffers ankle sprain in Warriors open practice
+  izvor_url: https://www.eurohoops.net/en/nba-news/2022797/stephen-curry-injury-update-golden-state-warriors-nba-2/
+- objaveno: '2026-10-14'
+  naslov: Warriors’ Kristaps Porzingis out indefinitely for the start of the season amid health problems
+  izvor_url: https://www.eurohoops.net/en/nba-news/2021040/warriors-kristaps-porzingis-out-indefinitely-for-the-start-of-the-season-amid-health-problems/
+- objaveno: '2026-10-10'
+  naslov: Golden State Warriors face mystery over absence of Kristaps Porzingis
+  izvor_url: https://www.eurohoops.net/en/nba-news/2018917/kristaps-porzingis-update-golden-state-warriors-nba-2/
+- objaveno: '2026-09-26'
+  naslov: Stephen Curry locks in contract extension with the Warriors
+  izvor_url: https://www.eurohoops.net/en/nba-news/2012419/stephen-curry-signs-contract-extension-golden-state-warriors-nba/
+- objaveno: '2026-08-12'
+  naslov: 'Warriors GM downplays Curry rumors: “He really, really wants to win”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/1998136/mike-dunleavy-jr-talks-stephen-curry-draymond-green-golden-state-warriors-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2028876/luka-doncic-giannis-antetokounmpo-nikola-jokic-nba-european-recap/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2028876/luka-doncic-giannis-antetokounmpo-nikola-jokic-nba-european-recap/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2022797/stephen-curry-injury-update-golden-state-warriors-nba-2/: LLM gpt-oss-120b не
+  одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2022797/stephen-curry-injury-update-golden-state-warriors-nba-2/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2021040/warriors-kristaps-porzingis-out-indefinitely-for-the-start-of-the-season-amid-health-problems/:
+  LLM gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2021040/warriors-kristaps-porzingis-out-indefinitely-for-the-start-of-the-season-amid-health-problems/:
+  LLM qwen3.8-27b не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2018917/kristaps-porzingis-update-golden-state-warriors-nba-2/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2018917/kristaps-porzingis-update-golden-state-warriors-nba-2/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2012419/stephen-curry-signs-contract-extension-golden-state-warriors-nba/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2012419/stephen-curry-signs-contract-extension-golden-state-warriors-nba/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1998136/mike-dunleavy-jr-talks-stephen-curry-draymond-green-golden-state-warriors-nba/:
+  LLM gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1998136/mike-dunleavy-jr-talks-stephen-curry-draymond-green-golden-state-warriors-nba/:
+  LLM qwen3.8-27b не одговара: Connection error.'
+se_kosi_so_brojki: []

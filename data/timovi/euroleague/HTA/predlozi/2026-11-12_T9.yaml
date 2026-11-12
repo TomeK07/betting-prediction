@@ -1,0 +1,61 @@
+tip: ОПИС
+tim: HTA
+liga: euroleague
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/euroleague/2005115/hapoel-tel-aviv-signs-max-heidegger-to-a-one-season-contract/; https://www.eurohoops.net/en/euroleague/1994934/jacob-toppin-moves-to-europe-for-hapoel-tel-aviv/;
+  https://www.eurohoops.net/en/euroleague/1994550/tomer-ginat-extends-his-contract-with-hapoel-tel-aviv-until-2030/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Dimitris Itoudis
+  izvor: box score Евролига
+napisi:
+- objaveno: '2026-09-06'
+  naslov: Hapoel Tel Aviv signs Max Heidegger to a one-season contract
+  izvor_url: https://www.eurohoops.net/en/euroleague/2005115/hapoel-tel-aviv-signs-max-heidegger-to-a-one-season-contract/
+- objaveno: '2026-07-29'
+  naslov: Jacob Toppin moves to Europe for Hapoel Tel Aviv
+  izvor_url: https://www.eurohoops.net/en/euroleague/1994934/jacob-toppin-moves-to-europe-for-hapoel-tel-aviv/
+- objaveno: '2026-07-27'
+  naslov: Tomer Ginat extends his contract with Hapoel Tel Aviv until 2030
+  izvor_url: https://www.eurohoops.net/en/euroleague/1994550/tomer-ginat-extends-his-contract-with-hapoel-tel-aviv-until-2030/
+- objaveno: '2026-07-14'
+  naslov: Hapoel Tel Aviv announces Zach LeDay’s signing
+  izvor_url: https://www.eurohoops.net/en/euroleague/1990975/hapoel-tel-aviv-announces-zach-ledays-signing/
+- objaveno: '2026-07-13'
+  naslov: Khadeen Carrington moves from Hapoel Jerusalem to Hapoel Tel Aviv
+  izvor_url: https://www.eurohoops.net/en/euroleague/1990838/khadeen-carrington-moves-from-hapoel-jerusalem-to-hapoel-tel-aviv/
+- objaveno: '2026-07-11'
+  naslov: Elijah Bryant staying with Hapoel Tel Aviv until the summer of 2029
+  izvor_url: https://www.eurohoops.net/en/euroleague/1990361/elijah-bryant-staying-to-hapoel-tel-aviv-until-the-summer-of-2029/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2005115/hapoel-tel-aviv-signs-max-heidegger-to-a-one-season-contract/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2005115/hapoel-tel-aviv-signs-max-heidegger-to-a-one-season-contract/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1994934/jacob-toppin-moves-to-europe-for-hapoel-tel-aviv/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1994934/jacob-toppin-moves-to-europe-for-hapoel-tel-aviv/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1994550/tomer-ginat-extends-his-contract-with-hapoel-tel-aviv-until-2030/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1994550/tomer-ginat-extends-his-contract-with-hapoel-tel-aviv-until-2030/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1990975/hapoel-tel-aviv-announces-zach-ledays-signing/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1990975/hapoel-tel-aviv-announces-zach-ledays-signing/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1990838/khadeen-carrington-moves-from-hapoel-jerusalem-to-hapoel-tel-aviv/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1990838/khadeen-carrington-moves-from-hapoel-jerusalem-to-hapoel-tel-aviv/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1990361/elijah-bryant-staying-to-hapoel-tel-aviv-until-the-summer-of-2029/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1990361/elijah-bryant-staying-to-hapoel-tel-aviv-until-the-summer-of-2029/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

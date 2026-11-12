@@ -26,6 +26,14 @@ python main.py profil               # (неделно) профили на ти�
 ```
 Извештајот е во `reports\`.
 
+### FreeLLM extract (САМО рачно)
+```
+python main.py llm dnevno            # T10 вести за тимови што играат денес/утре
+python main.py llm site              # T10 + T9 за сите 82 (продолжува од напредокот)
+```
+**`llm dnevno` се пушта САМО рачно кога Томе ќе каже.** Не е дел од Task Scheduler / `dnevno 14:00`.  
+LLM = само extract (JSON + цитат). Анализата и бројките се 100% во Python.
+
 ## Документи
 | | |
 |---|---|

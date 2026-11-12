@@ -4,6 +4,9 @@ Minutes first, then per-minute rates, then a distribution → P(over line).
 Every feature of a game row is computed from the player's EARLIER games only (groupby + shift(1)),
 so the walk-forward property holds by construction (test: tests/test_player_model.py).
 
+Статистичкиот модел не гледа квоти. Anchoring е забранет.
+(Odds / Mozzart are attached only later in pipeline picks — never inside μ.)
+
 Assumption (documented): who plays in a game is known before tip-off (injury report / lineups).
 In history we take "appeared in the box score" as that knowledge. Coach's-decision DNPs are not
 knowable in advance — a small optimistic bias, the same for the naive model and ours.

@@ -8,8 +8,10 @@ from typing import Optional
 
 T1_STATUSES = {"OUT", "DOUBTFUL", "QUESTIONABLE", "PROBABLE", "AVAILABLE", "RETURN"}
 # §3.1: an answer carrying any of these is rejected as a whole (no probabilities, projections, picks)
+# LLM = само extract. Анализата е 100% во Python — овие клучеви → цел одговор отфрлен.
 FORBIDDEN_KEYS = {"verojatnost", "probability", "proekcija", "projection", "preporaka", "recommendation",
-                  "izbor", "pick", "tiket", "ticket", "kvota_predlog", "odds_suggestion", "confidence"}
+                  "izbor", "pick", "tiket", "ticket", "kvota_predlog", "odds_suggestion", "confidence",
+                  "opinion", "analiza", "analysis", "ev", "p_model"}
 MAX_AGE = timedelta(hours=24)
 
 

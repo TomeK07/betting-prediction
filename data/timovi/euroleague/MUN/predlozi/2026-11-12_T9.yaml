@@ -1,0 +1,25 @@
+tip: ОПИС
+tim: MUN
+liga: euroleague
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/euroleague/1989538/austin-wiley-officially-joins-bayern-munich-on-three-year-deal/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Anton Gavel
+  izvor: box score Евролига
+napisi:
+- objaveno: '2026-07-09'
+  naslov: Austin Wiley officially joins Bayern Munich on three-year deal
+  izvor_url: https://www.eurohoops.net/en/euroleague/1989538/austin-wiley-officially-joins-bayern-munich-on-three-year-deal/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1989538/austin-wiley-officially-joins-bayern-munich-on-three-year-deal/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1989538/austin-wiley-officially-joins-bayern-munich-on-three-year-deal/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

@@ -1,0 +1,25 @@
+tip: ОПИС
+tim: ATL
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/nba-news/2007478/ettore-messina-returns-to-the-nba-as-a-consultant-for-the-atlanta-hawks/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Quin Snyder
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-09-13'
+  naslov: Ettore Messina returns to the NBA as a consultant for the Atlanta Hawks
+  izvor_url: https://www.eurohoops.net/en/nba-news/2007478/ettore-messina-returns-to-the-nba-as-a-consultant-for-the-atlanta-hawks/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2007478/ettore-messina-returns-to-the-nba-as-a-consultant-for-the-atlanta-hawks/: LLM
+  gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2007478/ettore-messina-returns-to-the-nba-as-a-consultant-for-the-atlanta-hawks/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

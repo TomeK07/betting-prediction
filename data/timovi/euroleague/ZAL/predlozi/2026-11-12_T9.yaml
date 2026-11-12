@@ -1,0 +1,61 @@
+tip: ОПИС
+tim: ZAL
+liga: euroleague
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/euroleague/2017895/justin-minaya-out-ten-days-barcelona-versus-zalgiris-euroleague/; https://www.eurohoops.net/en/euroleague/2018077/zalgiris-fined-e30000-and-handed-suspended-arena-restriction/;
+  https://www.eurohoops.net/en/euroleague/2010945/zalgiris-budget-presentation-2026-27-lithuania-euroleague/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Tomas Masiulis
+  izvor: box score Евролига
+napisi:
+- objaveno: '2026-10-08'
+  naslov: Justin Minaya out for ten days as Barcelona hosts Zalgiris
+  izvor_url: https://www.eurohoops.net/en/euroleague/2017895/justin-minaya-out-ten-days-barcelona-versus-zalgiris-euroleague/
+- objaveno: '2026-10-08'
+  naslov: Zalgiris fined €30,000 and handed suspended arena restriction
+  izvor_url: https://www.eurohoops.net/en/euroleague/2018077/zalgiris-fined-e30000-and-handed-suspended-arena-restriction/
+- objaveno: '2026-09-22'
+  naslov: Zalgiris unveils €28.8 million budget for new season
+  izvor_url: https://www.eurohoops.net/en/euroleague/2010945/zalgiris-budget-presentation-2026-27-lithuania-euroleague/
+- objaveno: '2026-09-22'
+  naslov: Zalgiris extends Nigel Williams-Goss through the 2028–29 season
+  izvor_url: https://www.eurohoops.net/en/euroleague/2010956/zalgiris-extends-nigel-williams-goss-through-the-2028-29-season/
+- objaveno: '2026-08-07'
+  naslov: Keenan Evans returns to Zalgiris, loaned to London Lions
+  izvor_url: https://www.eurohoops.net/en/euroleague/1997021/keenan-evans-returns-to-zalgiris-loaned-to-london-lions/
+- objaveno: '2026-08-02'
+  naslov: Zalgiris signs EuroCup blocks leader Kaodirichi Akobundu-Ehiogu
+  izvor_url: https://www.eurohoops.net/en/euroleague/1995878/zalgiris-signs-eurocup-blocks-leader-kaodirichi-akobundu-ehiogu/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2017895/justin-minaya-out-ten-days-barcelona-versus-zalgiris-euroleague/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2017895/justin-minaya-out-ten-days-barcelona-versus-zalgiris-euroleague/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2018077/zalgiris-fined-e30000-and-handed-suspended-arena-restriction/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2018077/zalgiris-fined-e30000-and-handed-suspended-arena-restriction/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2010945/zalgiris-budget-presentation-2026-27-lithuania-euroleague/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2010945/zalgiris-budget-presentation-2026-27-lithuania-euroleague/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2010956/zalgiris-extends-nigel-williams-goss-through-the-2028-29-season/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2010956/zalgiris-extends-nigel-williams-goss-through-the-2028-29-season/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1997021/keenan-evans-returns-to-zalgiris-loaned-to-london-lions/: LLM gpt-oss-120b не
+  одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1997021/keenan-evans-returns-to-zalgiris-loaned-to-london-lions/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1995878/zalgiris-signs-eurocup-blocks-leader-kaodirichi-akobundu-ehiogu/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1995878/zalgiris-signs-eurocup-blocks-leader-kaodirichi-akobundu-ehiogu/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

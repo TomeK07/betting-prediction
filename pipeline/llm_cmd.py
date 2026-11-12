@@ -3,8 +3,8 @@
   llm testset            build tests/llm/T1.jsonl, T9.jsonl, T10.jsonl from official data (no AI in the answers)
   llm test [--modeli] [--zadaci T1,T9,T10]   run the models on the test sets → archive/llm_log.db + table
   llm rezime             the table again + the two-model agreement rate per model (СЛЕДИ checker)
-  llm dnevno             T10 news for every team playing today or tomorrow (Tome 31.10: daily, quota → T10 first)
-  llm site               T10 (7 days) + T9 for all 82: today's teams daily, others weekly, EuroCup last; resumes after the quota
+  llm dnevno             T10 news for teams playing today/tomorrow — САМО РАЧНО кога Томе ќе каже (не автоматски)
+  llm site               T10 (7 days) + T9 for all 82 — исто САМО РАЧНО; resumes after the quota
   llm napredok           table: team | news | T9 | last update → reports/llm_napredok.md
   llm izvadok            T10 with excerpts: official test + real sources full vs excerpt (Tome 1.11, decides USE_EXCERPT)
   llm vesti --tim RED    T10 news for one team (any of the 82)

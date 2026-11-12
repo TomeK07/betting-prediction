@@ -1,6 +1,7 @@
 """T9 — team profile, DESCRIPTION only (LLM_ISTRAZUVACI §2, §9). Output is a PROPOSAL:
 data/timovi/{league}/{team}/predlozi/<date>.yaml → Python validates → Tome approves (`profil odobri`).
 
+LLM = само extract. Анализата е 100% во Python.
 Tome 31.10: the AI style description was too weak — style now comes from numbers (Python). T9 only extracts the
 head coach (name, since when, short philosophy) and the GM. Nothing else.
 """

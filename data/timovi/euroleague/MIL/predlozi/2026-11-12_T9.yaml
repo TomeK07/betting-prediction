@@ -1,0 +1,61 @@
+tip: ОПИС
+tim: MIL
+liga: euroleague
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/euroleague/2032190/luca-banchi-officially-returns-to-olimpia-milano-as-head-coach/; https://www.eurohoops.net/en/euroleague/2031461/olimpia-milano-relieves-giuseppe-poeta-luca-banchi-is-taking-over/;
+  https://www.eurohoops.net/en/euroleague/2018590/olimpia-milano-believes-in-peppe-poeta-and-moves-forward-with-him/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Giuseppe Poeta
+  izvor: box score Евролига
+napisi:
+- objaveno: '2026-11-08'
+  naslov: Luca Banchi officially returns to Olimpia Milano as head coach
+  izvor_url: https://www.eurohoops.net/en/euroleague/2032190/luca-banchi-officially-returns-to-olimpia-milano-as-head-coach/
+- objaveno: '2026-11-06'
+  naslov: Olimpia Milano fires head coach Giuseppe Poeta, Luca Banchi is taking over
+  izvor_url: https://www.eurohoops.net/en/euroleague/2031461/olimpia-milano-relieves-giuseppe-poeta-luca-banchi-is-taking-over/
+- objaveno: '2026-10-09'
+  naslov: Olimpia Milano believes in Peppe Poeta and moves forward with him
+  izvor_url: https://www.eurohoops.net/en/euroleague/2018590/olimpia-milano-believes-in-peppe-poeta-and-moves-forward-with-him/
+- objaveno: '2026-09-09'
+  naslov: Olimpia Milano defeats Strasbourg after two losses in Crete
+  izvor_url: https://www.eurohoops.net/en/euroleague/2006096/olimpia-milano-defeats-strasbourg-after-two-losses-in-crete/
+- objaveno: '2026-08-16'
+  naslov: Mike D’Antoni thanks Olimpia Milano in Hall of Fame speech
+  izvor_url: https://www.eurohoops.net/en/nba-news/1998993/naismith-memorial-basketball-hall-of-fame-class-of-2026-recap/
+- objaveno: '2026-07-14'
+  naslov: Josh Nebo officially leaves Olimpia Milano, next stop is Barcelona
+  izvor_url: https://www.eurohoops.net/en/euroleague/1991057/josh-nebo-officially-leaves-olimpia-milano-next-stop-is-barcelona/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2032190/luca-banchi-officially-returns-to-olimpia-milano-as-head-coach/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2032190/luca-banchi-officially-returns-to-olimpia-milano-as-head-coach/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2031461/olimpia-milano-relieves-giuseppe-poeta-luca-banchi-is-taking-over/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2031461/olimpia-milano-relieves-giuseppe-poeta-luca-banchi-is-taking-over/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2018590/olimpia-milano-believes-in-peppe-poeta-and-moves-forward-with-him/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2018590/olimpia-milano-believes-in-peppe-poeta-and-moves-forward-with-him/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/2006096/olimpia-milano-defeats-strasbourg-after-two-losses-in-crete/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/2006096/olimpia-milano-defeats-strasbourg-after-two-losses-in-crete/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1998993/naismith-memorial-basketball-hall-of-fame-class-of-2026-recap/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1998993/naismith-memorial-basketball-hall-of-fame-class-of-2026-recap/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/euroleague/1991057/josh-nebo-officially-leaves-olimpia-milano-next-stop-is-barcelona/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/euroleague/1991057/josh-nebo-officially-leaves-olimpia-milano-next-stop-is-barcelona/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

@@ -1,8 +1,8 @@
 """`python main.py dnevno --rezim 14|20|clv|zakazi` — daily automation (Tome 31.10; times 14/20 since 1.11), run by
 Windows Task Scheduler.
 
-14:00  grade → stats → povredi → fetch → picks (all leagues) → reports/dnevno/YYYY-MM-DD.md → CLV tasks → llm site
-       (T10 + T9, all 82) until 23:00
+14:00  grade → stats → povredi → fetch → picks (all leagues) → reports/dnevno/YYYY-MM-DD.md → CLV tasks
+       LLM extract НЕ се пушта автоматски (Томе 12.11): `llm dnevno` / `llm site` САМО рачно
 20:00  NBA focus: povredi → fetch → picks → section „Ажурирање 20:00“ in the same report
 clv    fetch (= new data + line snapshot of both books) 30 min before each league's first game today
 zakazi registers the two daily tasks (14:00, 20:00): wake the computer, run if missed, one run at a time
@@ -271,7 +271,7 @@ def acquire_run_lock(wait_s: float = RUN_LOCK_WAIT_S, poll_s: float = 20.0) -> b
             time.sleep(poll_s)
 
 
-def cmd_dnevno(settings: Settings, rezim: str, llm: bool = True) -> int:
+def cmd_dnevno(settings: Settings, rezim: str, llm: bool = False) -> int:
     if rezim == "zakazi":
         return cmd_zakazi()
     if not acquire_run_lock():
@@ -285,7 +285,7 @@ def cmd_dnevno(settings: Settings, rezim: str, llm: bool = True) -> int:
         RUN_LOCK.unlink(missing_ok=True)
 
 
-def _cmd_dnevno(settings: Settings, rezim: str, llm: bool = True) -> int:
+def _cmd_dnevno(settings: Settings, rezim: str, llm: bool = False) -> int:
     now = _now(settings)
     day = now.date()
     if rezim == "clv":
@@ -311,15 +311,21 @@ def _cmd_dnevno(settings: Settings, rezim: str, llm: bool = True) -> int:
     path = write_report(day, "\n".join(sec), flags, first=main)
     notify(f"Betting · {label} · {day}", (f"{URGENT}: " + " · ".join(flags)) if flags else f"Извештај: {path.name}")
     print(f"Извештај: {path}")
-    RUN_LOCK.unlink(missing_ok=True)                     # `llm site` runs for hours and has its own lock
+    RUN_LOCK.unlink(missing_ok=True)
+    # Томе 12.11: дневен LLM extract е исклучен од автоматско пуштање. Се пушта само на барање
+    # (`python main.py llm dnevno` или `llm site`). Опционално: dnevno --so-llm (рачно).
     until = now.replace(hour=LLM_UNTIL[0], minute=LLM_UNTIL[1], second=0, microsecond=0)
     if main and llm and until > now:
         TIMEOUT_S["llm"] = int((until - now).total_seconds())
-        ok = run_step(["llm", "site"], "llm", now)        # Tome 1.11: all 82 teams, resumes where the quota stopped
+        ok = run_step(["llm", "site"], "llm", now)
         prog = ROOT / "data" / "timovi" / "_napredok_llm.json"
         stop = (json.loads(prog.read_text(encoding="utf-8")).get("zastanato") or {}) if prog.exists() else {}
-        status = ((f"⚠️ квотата потрошена кај {stop['zadaca']} {stop['tim']} — продолжува утре во 14:00"
+        status = ((f"⚠️ квотата потрошена кај {stop['zadaca']} {stop['tim']}"
                    if stop.get("tim") else "✅ сè што доспева е готово") if ok else "❌ види GRESKI.log")
         with path.open("a", encoding="utf-8") as f:
-            f.write(f"\nLLM вести + T9 (`llm site`): {status} · табела: reports/llm_napredok.md\n")
+            f.write(f"\nLLM вести + T9 (`llm site`, рачно --so-llm): {status}\n")
+    elif main:
+        with path.open("a", encoding="utf-8") as f:
+            f.write("\nLLM extract: **не е пуштен** (автоматски исклучен 12.11 — "
+                    "`python main.py llm dnevno` само рачно кога Томе ќе каже).\n")
     return 1 if failed else 0

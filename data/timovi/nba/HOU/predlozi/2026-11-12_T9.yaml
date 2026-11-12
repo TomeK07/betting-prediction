@@ -1,0 +1,18 @@
+tip: ОПИС
+tim: HOU
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: ''
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Ime Udoka
+  izvor: nba_api CommonTeamRoster
+napisi: []
+fakti: []
+otfrleno_od_python: []
+bez_odgovor: []
+se_kosi_so_brojki: []

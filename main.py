@@ -91,8 +91,9 @@ def main(argv=None) -> int:
     p.add_argument("--league", choices=leagues, default="all")
     p.add_argument("--prifati")
     p.add_argument("--odbij")
-    p = sub.add_parser("llm", help="бесплатни LLM истражувачи: тест-сет / тест на моделите / резиме (LLM_ISTRAZUVACI §6)")
-    p.add_argument("akcija", choices=["testset", "test", "rezime", "dnevno", "site", "napredok", "izvadok", "vesti", "t9", "pilot"])
+    p = sub.add_parser("llm", help="бесплатни LLM = само extract (T1/T2/T3/T10); анализата е 100%% во Python")
+    p.add_argument("akcija", choices=["testset", "test", "rezime", "dnevno", "site", "napredok", "izvadok", "vesti", "t9", "pilot"],
+                   help="dnevno/site: САМО рачно кога Томе ќе каже (не се пуштаат од Task Scheduler)")
     p.add_argument("--tim", help="за vesti / t9 / pilot: код на тимот (пр. RED, DAL)")
     p.add_argument("--league", choices=leagues, default="all")
     p.add_argument("--modeli", help="листа одделена со запирка (стандардно: сите достапни во FreeLLMAPI)")
@@ -139,9 +140,11 @@ def main(argv=None) -> int:
     p.add_argument("--pristrasnost", action="store_true", help="почеток на сезона: лига=15 / неделна корекција")
     p.add_argument("--niski", action="store_true", help="ниски линии (тројки 0.5/1.5, скокови 2.5/3.5, асистенции 1.5/2.5)")
     p.add_argument("--devig", action="store_true", help="de-vig методи (пропорционален / power / Shin) на снимките")
-    p = sub.add_parser("dnevno", help="дневна автоматика (Task Scheduler): 14 / 20 / clv / zakazi — ништо не се уплаќа")
+    p = sub.add_parser("dnevno", help="дневна автоматика (Task Scheduler): 14 / 20 / clv / zakazi — без автоматски LLM")
     p.add_argument("--rezim", choices=["14", "20", "clv", "zakazi"], required=True)
-    p.add_argument("--bez-llm", action="store_true", help="14: без `llm site` на крај")
+    p.add_argument("--so-llm", action="store_true",
+                   help="ОПЦИОНАЛНО: на крај од 14:00 пушти `llm site` (default: НЕ — llm dnevno само рачно)")
+    p.add_argument("--bez-llm", action="store_true", help="(застарено, default е без LLM)")
     p = sub.add_parser("nitro", help="НИТРО: факти што Claude ги нашол → Python ги симнува и проверува → vesti → povredi → picks")
     p.add_argument("vlez", help="data/raw/vesti/nitro/<датум>/<ознака>_vlez.json")
     p.add_argument("--date")
@@ -165,7 +168,7 @@ def main(argv=None) -> int:
         return code
     if args.command == "dnevno":
         from pipeline.dnevno_cmd import cmd_dnevno
-        return cmd_dnevno(settings, args.rezim, llm=not args.bez_llm)
+        return cmd_dnevno(settings, args.rezim, llm=bool(getattr(args, "so_llm", False)))
     if args.command == "nitro":
         from research.nitro import cmd_nitro
         return cmd_nitro(settings, args.vlez, _parse_date(args.date, settings.timezone), picks=not args.bez_picks)

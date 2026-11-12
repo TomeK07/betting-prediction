@@ -1,0 +1,399 @@
+tim: NAP
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 76.2
+    rang: 14
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 118.3
+    drtg_surov: 107.3
+    ortg_prilagoden: 113.9
+    drtg_prilagoden: 108.1
+    rang_napad: 6
+    rang_odbrana: 11
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: -1.0
+      ast_pct: -24.6
+      skok_pct: 1.5
+      trojki_pct: 9.0
+    крила:
+      poeni_pct: -11.4
+      ast_pct: 1.9
+      skok_pct: -10.6
+      trojki_pct: -18.2
+    бекови:
+      poeni_pct: 6.4
+      ast_pct: -11.2
+      skok_pct: -8.8
+      trojki_pct: -5.0
+  nositeli:
+  - igrac: Ramsey J. (NAP)
+    minuti: 21.4
+    usg_pct: 31.8
+    ast_pct: 11.3
+    poeni: 12.7
+    ast: 1.3
+  - igrac: Dowtin Jr J. (NAP)
+    minuti: 25.2
+    usg_pct: 23.1
+    ast_pct: 23.2
+    poeni: 14.2
+    ast: 3.4
+  - igrac: Petrucelli J. (NAP)
+    minuti: 24.4
+    usg_pct: 21.6
+    ast_pct: 16.0
+    poeni: 9.0
+    ast: 2.6
+  - igrac: White J. (NAP)
+    minuti: 21.5
+    usg_pct: 20.7
+    ast_pct: 15.0
+    poeni: 11.2
+    ast: 1.8
+  rotacija:
+  - igrac: Seljaas Z. (NAP)
+    minuti: 30.8
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Dowtin Jr J. (NAP)
+    minuti: 25.2
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Brown M. (NAP)
+    minuti: 24.6
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Petrucelli J. (NAP)
+    minuti: 24.4
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: White J. (NAP)
+    minuti: 21.5
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Ramsey J. (NAP)
+    minuti: 21.4
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Spissu M. (NAP)
+    minuti: 20.7
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Jakimovski A. (NAP)
+    minuti: 15.2
+    natprevari: 2
+    starter_pct: 50.0
+  - igrac: Caruso G. (NAP)
+    minuti: 15.1
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Faggian L. (NAP)
+    minuti: 10.4
+    natprevari: 5
+    starter_pct: 80.0
+  startna_petorka_posledni_5:
+  - Brown M. (NAP)
+  - Dowtin Jr J. (NAP)
+  - Faggian L. (NAP)
+  - Seljaas Z. (NAP)
+  - Tarczewski K. (NAP)
+  trener: REPESA, JASMIN
+  doma:
+    n: 2
+    poeni: 94.5
+    primeni: 88.5
+  gosti:
+    n: 3
+    poeni: 91.0
+    primeni: 80.7
+  forma_posledni_5:
+    pobedi: 5
+    porazi: 0
+    poeni: 92.4
+    primeni: 83.8
+    neto_rejting: 11.0
+  trojki:
+    3par_napad: 47.4
+    3par_dozvoluva: 36.8
+    3p_pct: 42.9
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 29.4
+    dreb_pct: 66.5
+  igraci_vo_zapisnik:
+  - Brown M. (NAP)
+  - Caruso G. (NAP)
+  - Dowtin Jr J. (NAP)
+  - Faggian L. (NAP)
+  - Jakimovski A. (NAP)
+  - Petrucelli J. (NAP)
+  - Ramsey J. (NAP)
+  - Sankare A. (NAP)
+  - Seljaas Z. (NAP)
+  - Spissu M. (NAP)
+  - Tarczewski K. (NAP)
+  - Tote L. (NAP)
+  - White J. (NAP)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 76.2
+      rang: 17
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 113.9
+      surov: 118.3
+      rang: 6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 108.1
+      surov: 107.3
+      rang: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 47.4
+      rang: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 47.4
+      ftr: 38.4
+      2p_pct: 59.5
+      3p_pct: 42.9
+      efg: 61.8
+      rang_efg: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 36.8
+      ftr: 31.0
+      2p_pct: 54.3
+      3p_pct: 32.2
+      efg: 52.1
+      rang_efg: 13
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -1.0
+        ast_pct: -24.6
+        skok_pct: 1.5
+        trojki_pct: 9.0
+      крила:
+        poeni_pct: -11.4
+        ast_pct: 1.9
+        skok_pct: -10.6
+        trojki_pct: -18.2
+      бекови:
+        poeni_pct: 6.4
+        ast_pct: -11.2
+        skok_pct: -8.8
+        trojki_pct: -5.0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 29.4
+      rang_oreb: 24
+      dreb_pct: 66.5
+      rang_dreb: 20
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 23.0
+      rang_najmalku: 23
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 20.4
+      ftr_dozvoluva: 31.0
+      rang_najmalku: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.8
+      rang_blk: 12
+      2p_pct_protivnik: 54.3
+      rang_2p_odbrana: 18
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 28.0
+        n: 2
+      top3:
+        min: 29.3
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 24.4
+        n: 1
+      top3:
+        min: 25.1
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 29.3
+      top3_min_razlika: 25.1
+      razlika_min: 4.2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni: []
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 76.2
+          rang: 17
+          od: 32
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 47.4
+          rang: 1
+          od: 32
+      napad_preku:
+        oznaka: избалансиран
+        brojki:
+          udel_poeni_pct:
+            бекови: 51.9
+            крила: 34.6
+            центри: 13.4
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 29.4
+          rang: 24
+          od: 32
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 7
+          rang: 12
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 4.2
+          rang: 6
+          od: 25
+      fauli:
+        oznaka: фаулира многу; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 23.0
+          rang: 10
+          ftr_protivnik: 31.0
+          rang_ftr: 19
+          od: 32
+      dozvoluva:
+        oznaka: ги брани тројките; средна заштита на кош; пушта над лигата на бекови
+          (+6% поени)
+        brojki:
+          3par_protivnik: 36.8
+          rang_3par: 27
+          2p_pct_protivnik: 54.3
+          rang_2p: 15
+          od: 32
+          dvp_poeni_pct:
+            центри: -1.0
+            крила: -11.4
+            бекови: 6.4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

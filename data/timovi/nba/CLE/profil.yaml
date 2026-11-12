@@ -1,0 +1,417 @@
+tim: CLE
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 103.3
+    rang: 8
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 114.3
+    drtg_surov: 110.9
+    ortg_prilagoden: 113.7
+    drtg_prilagoden: 113.5
+    rang_napad: 7
+    rang_odbrana: 24
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: 4.7
+      ast_pct: -12.3
+      skok_pct: 15.8
+      trojki_pct: 36.7
+    крила:
+      poeni_pct: 0.6
+      ast_pct: 12.2
+      skok_pct: -4.4
+      trojki_pct: -0.7
+    бекови:
+      poeni_pct: 0.6
+      ast_pct: -3.2
+      skok_pct: 3.4
+      trojki_pct: -4.5
+  nositeli:
+  - igrac: Mitchell D. (CLE)
+    minuti: 33.4
+    usg_pct: 26.9
+    ast_pct: 25.3
+    poeni: 21.9
+    ast: 5.4
+  - igrac: Thomas M. (CLE)
+    minuti: 22.1
+    usg_pct: 23.5
+    ast_pct: 6.7
+    poeni: 14.0
+    ast: 1.0
+  - igrac: Harden J. (CLE)
+    minuti: 33.5
+    usg_pct: 22.1
+    ast_pct: 26.0
+    poeni: 16.3
+    ast: 6.3
+  - igrac: Watson P. (CLE)
+    minuti: 28.6
+    usg_pct: 20.4
+    ast_pct: 14.2
+    poeni: 10.8
+    ast: 3.0
+  rotacija:
+  - igrac: Harden J. (CLE)
+    minuti: 33.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Mitchell D. (CLE)
+    minuti: 33.4
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Mobley E. (CLE)
+    minuti: 32.8
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Watson P. (CLE)
+    minuti: 28.6
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Allen J. (CLE)
+    minuti: 27.9
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Merrill S. (CLE)
+    minuti: 24.1
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Thomas M. (CLE)
+    minuti: 22.1
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Tyson J. (CLE)
+    minuti: 20.7
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Hezonja M. (CLE)
+    minuti: 19.1
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Proctor T. (CLE)
+    minuti: 13.0
+    natprevari: 6
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Allen J. (CLE)
+  - Harden J. (CLE)
+  - Mitchell D. (CLE)
+  - Mobley E. (CLE)
+  - Watson P. (CLE)
+  trener: null
+  doma:
+    n: 4
+    poeni: 121.2
+    primeni: 118.5
+  gosti:
+    n: 3
+    poeni: 117.7
+    primeni: 113.0
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 121.4
+    primeni: 115.6
+    neto_rejting: 5.7
+  trojki:
+    3par_napad: 45.1
+    3par_dozvoluva: 41.0
+    3p_pct: 36.9
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 26.0
+    dreb_pct: 73.0
+  igraci_vo_zapisnik:
+  - Allen J. (CLE)
+  - Bryant T. (CLE)
+  - Diop K. (CLE)
+  - Enaruna T. (CLE)
+  - Harden J. (CLE)
+  - Hezonja M. (CLE)
+  - Merrill S. (CLE)
+  - Minix R. (CLE)
+  - Mitchell D. (CLE)
+  - Mobley E. (CLE)
+  - Porter Jr. C. (CLE)
+  - Proctor T. (CLE)
+  - Thomas M. (CLE)
+  - Tomlin N. (CLE)
+  - Tyson J. (CLE)
+  - Udeh Jr. E. (CLE)
+  - Watson P. (CLE)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 103.3
+      rang: 8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 113.7
+      surov: 114.3
+      rang: 7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 113.5
+      surov: 110.9
+      rang: 24
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 45.1
+      rang: 11
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 45.1
+      ftr: 28.6
+      2p_pct: 55.0
+      3p_pct: 36.9
+      efg: 55.2
+      rang_efg: 8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 41.0
+      ftr: 23.4
+      2p_pct: 52.0
+      3p_pct: 34.3
+      efg: 51.8
+      rang_efg: 10
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 4.7
+        ast_pct: -12.3
+        skok_pct: 15.8
+        trojki_pct: 36.7
+      крила:
+        poeni_pct: 0.6
+        ast_pct: 12.2
+        skok_pct: -4.4
+        trojki_pct: -0.7
+      бекови:
+        poeni_pct: 0.6
+        ast_pct: -3.2
+        skok_pct: 3.4
+        trojki_pct: -4.5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 26.0
+      rang_oreb: 22
+      dreb_pct: 73.0
+      rang_dreb: 12
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 20.9
+      rang_najmalku: 6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 22.3
+      ftr_dozvoluva: 23.4
+      rang_najmalku: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 6.0
+      rang_blk: 5
+      2p_pct_protivnik: 52.0
+      rang_2p_odbrana: 8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 33.0
+        n: 4
+      top3:
+        min: 35.4
+        n: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 24.2
+        n: 1
+      top3:
+        min: 24.9
+        n: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 35.4
+      top3_min_razlika: 24.9
+      razlika_min: 10.5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Watson P. (CLE)
+        propushteni: 1
+        prichini:
+          не е во записник: 1
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 36
+      pogodok_pct: 55.6
+      ochekuvano_pct: 58.5
+      razlika_pp: -2.3
+      po_pazar:
+        asistencii: 4/7
+        hendikep: 2/4
+        poeni: 3/5
+        skokovi: 7/11
+        tim_vkupno: 2/3
+        trojki: 1/3
+        vkupno: 1/3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 103.3
+          rang: 8
+          od: 30
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 45.1
+          rang: 11
+          od: 30
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 62.5
+            крила: 7.0
+            центри: 30.4
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 26.0
+          rang: 22
+          od: 30
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 7
+          rang: 22
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 10.5
+          rang: 1
+          od: 23
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 20.9
+          rang: 25
+          ftr_protivnik: 23.4
+          rang_ftr: 27
+          od: 30
+      dozvoluva:
+        oznaka: ги брани тројките; силна заштита на кош
+        brojki:
+          3par_protivnik: 41.0
+          rang_3par: 23
+          2p_pct_protivnik: 52.0
+          rang_2p: 23
+          od: 30
+          dvp_poeni_pct:
+            центри: 4.7
+            крила: 0.6
+            бекови: 0.6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

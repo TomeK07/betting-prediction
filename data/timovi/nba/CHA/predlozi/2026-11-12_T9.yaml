@@ -1,0 +1,32 @@
+tip: ОПИС
+tim: CHA
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/nba-news/1999427/dennis-schroder-talks-charlotte-hornets-trade-nba/; https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Charles Lee
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-08-17'
+  naslov: Schroder embraces Hornets trade, sees opportunity for growth and mentoring
+  izvor_url: https://www.eurohoops.net/en/nba-news/1999427/dennis-schroder-talks-charlotte-hornets-trade-nba/
+- objaveno: '2026-08-14'
+  naslov: Cavaliers trade Dennis Schröder to Hornets
+  izvor_url: https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1999427/dennis-schroder-talks-charlotte-hornets-trade-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1999427/dennis-schroder-talks-charlotte-hornets-trade-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+se_kosi_so_brojki: []

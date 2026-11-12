@@ -1,0 +1,403 @@
+tim: VNC
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 73.9
+    rang: 29
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 116.3
+    drtg_surov: 110.1
+    ortg_prilagoden: 112.2
+    drtg_prilagoden: 109.7
+    rang_napad: 8
+    rang_odbrana: 16
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 13.0
+      ast_pct: -1.7
+      skok_pct: -2.0
+      trojki_pct: 73.2
+    крила:
+      poeni_pct: -9.6
+      ast_pct: -6.0
+      skok_pct: -13.3
+      trojki_pct: -5.2
+    бекови:
+      poeni_pct: -4.4
+      ast_pct: -4.9
+      skok_pct: 16.6
+      trojki_pct: 1.7
+  nositeli:
+  - igrac: Wiltjer K. (VNC)
+    minuti: 17.0
+    usg_pct: 26.7
+    ast_pct: 7.8
+    poeni: 10.5
+    ast: 0.8
+  - igrac: Watson G. (VNC)
+    minuti: 25.1
+    usg_pct: 25.1
+    ast_pct: 22.6
+    poeni: 14.8
+    ast: 3.2
+  - igrac: Green E. (VNC)
+    minuti: 17.2
+    usg_pct: 23.1
+    ast_pct: 15.2
+    poeni: 10.2
+    ast: 1.5
+  - igrac: Tessitori A. (VNC)
+    minuti: 22.8
+    usg_pct: 22.7
+    ast_pct: 13.4
+    poeni: 11.0
+    ast: 1.8
+  rotacija:
+  - igrac: Watson G. (VNC)
+    minuti: 25.1
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Tessitori A. (VNC)
+    minuti: 22.8
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Bowman K. (VNC)
+    minuti: 22.4
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Parks J. (VNC)
+    minuti: 22.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Candi L. (VNC)
+    minuti: 21.2
+    natprevari: 4
+    starter_pct: 50.0
+  - igrac: Olinde L. (VNC)
+    minuti: 18.9
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Green E. (VNC)
+    minuti: 17.2
+    natprevari: 4
+    starter_pct: 0.0
+  - igrac: Wiltjer K. (VNC)
+    minuti: 17.0
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Boakye E. (VNC)
+    minuti: 16.7
+    natprevari: 4
+    starter_pct: 0.0
+  - igrac: Maretto O. (VNC)
+    minuti: 13.5
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Bowman K. (VNC)
+  - Parks J. (VNC)
+  - Tessitori A. (VNC)
+  - Watson G. (VNC)
+  - Wiltjer K. (VNC)
+  trener: SPAHIJA, NEVEN
+  doma:
+    n: 2
+    poeni: 89.5
+    primeni: 68.5
+  gosti:
+    n: 3
+    poeni: 83.7
+    primeni: 90.0
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 86.0
+    primeni: 81.4
+    neto_rejting: 6.2
+  trojki:
+    3par_napad: 40.2
+    3par_dozvoluva: 38.5
+    3p_pct: 38.8
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 33.3
+    dreb_pct: 66.3
+  igraci_vo_zapisnik:
+  - Boakye E. (VNC)
+  - Bowman K. (VNC)
+  - Candi L. (VNC)
+  - De Nicolao G. (VNC)
+  - Grant S. (VNC)
+  - Green E. (VNC)
+  - Janelidze G. (VNC)
+  - Maretto O. (VNC)
+  - Olinde L. (VNC)
+  - Parks J. (VNC)
+  - Tessitori A. (VNC)
+  - Watson G. (VNC)
+  - Wiltjer K. (VNC)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 73.9
+      rang: 28
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 112.2
+      surov: 116.3
+      rang: 8
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.7
+      surov: 110.1
+      rang: 16
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 40.2
+      rang: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 40.2
+      ftr: 24.9
+      2p_pct: 52.8
+      3p_pct: 38.8
+      efg: 55.0
+      rang_efg: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 38.5
+      ftr: 31.7
+      2p_pct: 52.0
+      3p_pct: 34.7
+      efg: 52.0
+      rang_efg: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 13.0
+        ast_pct: -1.7
+        skok_pct: -2.0
+        trojki_pct: 73.2
+      крила:
+        poeni_pct: -9.6
+        ast_pct: -6.0
+        skok_pct: -13.3
+        trojki_pct: -5.2
+      бекови:
+        poeni_pct: -4.4
+        ast_pct: -4.9
+        skok_pct: 16.6
+        trojki_pct: 1.7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 33.3
+      rang_oreb: 13
+      dreb_pct: 66.3
+      rang_dreb: 21
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 19.8
+      rang_najmalku: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 20.4
+      ftr_dozvoluva: 31.7
+      rang_najmalku: 17
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.8
+      rang_blk: 12
+      2p_pct_protivnik: 52.0
+      rang_2p_odbrana: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 25.1
+        n: 2
+      top3:
+        min: 25.8
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 18.5
+        n: 1
+      top3:
+        min: 19.4
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 25.8
+      top3_min_razlika: 19.4
+      razlika_min: 6.4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Candi L. (VNC)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 73.9
+          rang: 28
+          od: 32
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 40.2
+          rang: 14
+          od: 32
+      napad_preku:
+        oznaka: избалансиран
+        brojki:
+          udel_poeni_pct:
+            бекови: 49.5
+            крила: 34.2
+            центри: 16.3
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 33.3
+          rang: 13
+          od: 32
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 6
+          rang: 26
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 6.4
+          rang: 3
+          od: 25
+      fauli:
+        oznaka: фаулира малку; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 19.8
+          rang: 31
+          ftr_protivnik: 31.7
+          rang_ftr: 16
+          od: 32
+      dozvoluva:
+        oznaka: средно тројки; силна заштита на кош; пушта над лигата на центри (+13%
+          поени)
+        brojki:
+          3par_protivnik: 38.5
+          rang_3par: 20
+          2p_pct_protivnik: 52.0
+          rang_2p: 22
+          od: 32
+          dvp_poeni_pct:
+            центри: 13.0
+            крила: -9.6
+            бекови: -4.4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

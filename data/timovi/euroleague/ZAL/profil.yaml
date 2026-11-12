@@ -1,0 +1,411 @@
+tim: ZAL
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 74.7
+    rang: 11
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 115.0
+    drtg_surov: 112.5
+    ortg_prilagoden: 117.1
+    drtg_prilagoden: 114.9
+    rang_napad: 7
+    rang_odbrana: 8
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: -11.6
+      ast_pct: -2.3
+      skok_pct: -11.7
+      trojki_pct: -40.4
+    крила:
+      poeni_pct: 7.7
+      ast_pct: -17.8
+      skok_pct: -5.0
+      trojki_pct: -7.2
+    бекови:
+      poeni_pct: -6.7
+      ast_pct: 5.8
+      skok_pct: 3.7
+      trojki_pct: -20.4
+  nositeli:
+  - igrac: Edwards C. (ZAL)
+    minuti: 22.6
+    usg_pct: 33.6
+    ast_pct: 21.5
+    poeni: 15.8
+    ast: 2.6
+  - igrac: Valanciunas J. (ZAL)
+    minuti: 21.4
+    usg_pct: 24.6
+    ast_pct: 17.0
+    poeni: 12.1
+    ast: 2.0
+  - igrac: Brown S. (ZAL)
+    minuti: 18.7
+    usg_pct: 21.0
+    ast_pct: 9.9
+    poeni: 11.0
+    ast: 1.0
+  - igrac: Tubelis A. (ZAL)
+    minuti: 23.2
+    usg_pct: 19.2
+    ast_pct: 12.1
+    poeni: 11.3
+    ast: 1.6
+  rotacija:
+  - igrac: Tubelis A. (ZAL)
+    minuti: 23.2
+    natprevari: 9
+    starter_pct: 67.0
+  - igrac: Edwards C. (ZAL)
+    minuti: 22.6
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Valanciunas J. (ZAL)
+    minuti: 21.4
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Lee S. (ZAL)
+    minuti: 19.9
+    natprevari: 6
+    starter_pct: 83.0
+  - igrac: Butkevicius A. (ZAL)
+    minuti: 19.2
+    natprevari: 9
+    starter_pct: 89.0
+  - igrac: Brown S. (ZAL)
+    minuti: 18.7
+    natprevari: 9
+    starter_pct: 0.0
+  - igrac: Williams-Goss N. (ZAL)
+    minuti: 18.6
+    natprevari: 2
+    starter_pct: 100.0
+  - igrac: Sleva D. (ZAL)
+    minuti: 17.2
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Evans K. (ZAL)
+    minuti: 17.2
+    natprevari: 2
+    starter_pct: 0.0
+  - igrac: Grigonis M. (ZAL)
+    minuti: 16.9
+    natprevari: 9
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Butkevicius A. (ZAL)
+  - Edwards C. (ZAL)
+  - Lee S. (ZAL)
+  - Tubelis A. (ZAL)
+  - Valanciunas J. (ZAL)
+  trener: MASIULIS, TOMAS
+  doma:
+    n: 4
+    poeni: 88.2
+    primeni: 85.8
+  gosti:
+    n: 5
+    poeni: 84.0
+    primeni: 82.6
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 86.6
+    primeni: 84.6
+    neto_rejting: 2.7
+  trojki:
+    3par_napad: 39.4
+    3par_dozvoluva: 37.1
+    3p_pct: 41.2
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 36.1
+    dreb_pct: 72.2
+  igraci_vo_zapisnik:
+  - Akobundu-Ehiogu K. (ZAL)
+  - Blazevic M. (ZAL)
+  - Brown S. (ZAL)
+  - Butkevicius A. (ZAL)
+  - Edwards C. (ZAL)
+  - Evans K. (ZAL)
+  - Giedraitis D. (ZAL)
+  - Grigonis M. (ZAL)
+  - Lee S. (ZAL)
+  - Lo M. (ZAL)
+  - Sirvydis D. (ZAL)
+  - Sleva D. (ZAL)
+  - Tubelis A. (ZAL)
+  - Ulanovas E. (ZAL)
+  - Valanciunas J. (ZAL)
+  - Williams-Goss N. (ZAL)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 74.7
+      rang: 12
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 117.1
+      surov: 115.0
+      rang: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 114.9
+      surov: 112.5
+      rang: 8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 39.4
+      rang: 15
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 39.4
+      ftr: 32.2
+      2p_pct: 50.0
+      3p_pct: 41.2
+      efg: 54.7
+      rang_efg: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 37.1
+      ftr: 26.3
+      2p_pct: 56.4
+      3p_pct: 31.5
+      efg: 53.0
+      rang_efg: 8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -11.6
+        ast_pct: -2.3
+        skok_pct: -11.7
+        trojki_pct: -40.4
+      крила:
+        poeni_pct: 7.7
+        ast_pct: -17.8
+        skok_pct: -5.0
+        trojki_pct: -7.2
+      бекови:
+        poeni_pct: -6.7
+        ast_pct: 5.8
+        skok_pct: 3.7
+        trojki_pct: -20.4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 36.1
+      rang_oreb: 4
+      dreb_pct: 72.2
+      rang_dreb: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 20.1
+      rang_najmalku: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 17.4
+      ftr_dozvoluva: 26.3
+      rang_najmalku: 6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.2
+      rang_blk: 14
+      2p_pct_protivnik: 56.4
+      rang_2p_odbrana: 14
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 22.4
+        n: 3
+      top3:
+        min: 23.7
+        n: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 19.9
+        n: 4
+      top3:
+        min: 21.2
+        n: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.7
+      top3_min_razlika: 21.2
+      razlika_min: 2.5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Lee S. (ZAL)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 1
+      pogodok_pct: 0.0
+      ochekuvano_pct: 57.3
+      razlika_pp: -57.3
+      po_pazar:
+        asistencii: 0/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 74.7
+          rang: 12
+          od: 20
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 39.4
+          rang: 15
+          od: 20
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 52.1
+            крила: 31.3
+            центри: 16.6
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 36.1
+          rang: 4
+          od: 20
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 7
+          rang: 4
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 2.5
+          rang: 13
+          od: 19
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 20.1
+          rang: 17
+          ftr_protivnik: 26.3
+          rang_ftr: 15
+          od: 20
+      dozvoluva:
+        oznaka: ги брани тројките; средна заштита на кош; пушта над лигата на крила
+          (+8% поени)
+        brojki:
+          3par_protivnik: 37.1
+          rang_3par: 17
+          2p_pct_protivnik: 56.4
+          rang_2p: 7
+          od: 20
+          dvp_poeni_pct:
+            центри: -11.6
+            крила: 7.7
+            бекови: -6.7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

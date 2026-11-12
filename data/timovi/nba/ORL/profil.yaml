@@ -1,0 +1,423 @@
+tim: ORL
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 100.1
+    rang: 25
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 105.6
+    drtg_surov: 114.6
+    ortg_prilagoden: 109.3
+    drtg_prilagoden: 113.5
+    rang_napad: 20
+    rang_odbrana: 25
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -0.3
+      ast_pct: 11.4
+      skok_pct: 1.7
+      trojki_pct: -35.4
+    крила:
+      poeni_pct: 16.2
+      ast_pct: 25.9
+      skok_pct: -3.9
+      trojki_pct: -8.7
+    бекови:
+      poeni_pct: -10.4
+      ast_pct: 1.2
+      skok_pct: 4.0
+      trojki_pct: -2.0
+  nositeli:
+  - igrac: Wagner F. (ORL)
+    minuti: 35.8
+    usg_pct: 30.1
+    ast_pct: 37.7
+    poeni: 20.3
+    ast: 7.6
+  - igrac: Bane D. (ORL)
+    minuti: 34.8
+    usg_pct: 23.9
+    ast_pct: 12.1
+    poeni: 17.9
+    ast: 2.6
+  - igrac: Black A. (ORL)
+    minuti: 27.9
+    usg_pct: 23.1
+    ast_pct: 30.1
+    poeni: 16.5
+    ast: 4.8
+  - igrac: da Silva T. (ORL)
+    minuti: 29.4
+    usg_pct: 18.5
+    ast_pct: 10.0
+    poeni: 14.1
+    ast: 1.7
+  rotacija:
+  - igrac: Wagner F. (ORL)
+    minuti: 35.8
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Bane D. (ORL)
+    minuti: 34.8
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Banchero P. (ORL)
+    minuti: 33.8
+    natprevari: 2
+    starter_pct: 100.0
+  - igrac: Suggs J. (ORL)
+    minuti: 33.4
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Carter Jr. W. (ORL)
+    minuti: 32.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: da Silva T. (ORL)
+    minuti: 29.4
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Black A. (ORL)
+    minuti: 27.9
+    natprevari: 4
+    starter_pct: 75.0
+  - igrac: Richardson J. (ORL)
+    minuti: 21.2
+    natprevari: 7
+    starter_pct: 71.0
+  - igrac: Carter J. (ORL)
+    minuti: 17.6
+    natprevari: 3
+    starter_pct: 0.0
+  - igrac: Cain J. (ORL)
+    minuti: 16.5
+    natprevari: 7
+    starter_pct: 14.0
+  startna_petorka_posledni_5:
+  - Bane D. (ORL)
+  - Black A. (ORL)
+  - Carter Jr. W. (ORL)
+  - Richardson J. (ORL)
+  - Wagner F. (ORL)
+  trener: null
+  doma:
+    n: 4
+    poeni: 102.2
+    primeni: 114.5
+  gosti:
+    n: 3
+    poeni: 110.3
+    primeni: 115.0
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 104.4
+    primeni: 111.2
+    neto_rejting: -7.0
+  trojki:
+    3par_napad: 46.9
+    3par_dozvoluva: 38.9
+    3p_pct: 34.3
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 22.9
+    dreb_pct: 70.2
+  igraci_vo_zapisnik:
+  - Banchero P. (ORL)
+  - Bane D. (ORL)
+  - Bitadze G. (ORL)
+  - Black A. (ORL)
+  - Cain J. (ORL)
+  - Carter J. (ORL)
+  - Carter Jr. W. (ORL)
+  - Castleton C. (ORL)
+  - Isaac J. (ORL)
+  - Morales A. (ORL)
+  - Nelson I. (ORL)
+  - Penda N. (ORL)
+  - Richardson J. (ORL)
+  - Suggs J. (ORL)
+  - Vučević N. (ORL)
+  - Wagner F. (ORL)
+  - da Silva T. (ORL)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 100.1
+      rang: 23
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 109.3
+      surov: 105.6
+      rang: 20
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 113.5
+      surov: 114.6
+      rang: 25
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 46.9
+      rang: 6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 46.9
+      ftr: 29.0
+      2p_pct: 54.9
+      3p_pct: 34.3
+      efg: 53.3
+      rang_efg: 16
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 38.9
+      ftr: 29.1
+      2p_pct: 54.8
+      3p_pct: 34.9
+      efg: 53.8
+      rang_efg: 17
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -0.3
+        ast_pct: 11.4
+        skok_pct: 1.7
+        trojki_pct: -35.4
+      крила:
+        poeni_pct: 16.2
+        ast_pct: 25.9
+        skok_pct: -3.9
+        trojki_pct: -8.7
+      бекови:
+        poeni_pct: -10.4
+        ast_pct: 1.2
+        skok_pct: 4.0
+        trojki_pct: -2.0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 22.9
+      rang_oreb: 27
+      dreb_pct: 70.2
+      rang_dreb: 23
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 23.7
+      rang_najmalku: 24
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 25.7
+      ftr_dozvoluva: 29.1
+      rang_najmalku: 15
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.7
+      rang_blk: 27
+      2p_pct_protivnik: 54.8
+      rang_2p_odbrana: 18
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: null
+        n: 0
+      top3:
+        min: null
+        n: 0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 30.3
+        n: 2
+      top3:
+        min: 30.8
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: null
+      top3_min_razlika: 30.8
+      razlika_min: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Banchero P. (ORL)
+        propushteni: 5
+        prichini:
+          Inactive - Injury/Illness: 1
+          не е во записник: 4
+      - igrac: Suggs J. (ORL)
+        propushteni: 4
+        prichini:
+          не е во записник: 4
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 20
+      pogodok_pct: 45.0
+      ochekuvano_pct: 61.1
+      razlika_pp: -21.1
+      po_pazar:
+        1x2: 0/1
+        asistencii: 3/4
+        poeni: 1/3
+        skokovi: 2/5
+        tim_vkupno: 1/1
+        trojki: 1/3
+        vkupno: 1/3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 100.1
+          rang: 23
+          od: 30
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 46.9
+          rang: 6
+          od: 30
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 36.8
+            крила: 44.9
+            центри: 18.4
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 22.9
+          rang: 27
+          od: 30
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 7
+          rang: 22
+          od: 30
+      vadenje_zvezdi:
+        oznaka: null
+        brojki:
+          top3_min_pomalku: null
+          rang: null
+          od: 23
+      fauli:
+        oznaka: фаулира многу; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 23.7
+          rang: 7
+          ftr_protivnik: 29.1
+          rang_ftr: 16
+          od: 30
+      dozvoluva:
+        oznaka: ги брани тројките; средна заштита на кош; пушта над лигата на крила
+          (+16% поени)
+        brojki:
+          3par_protivnik: 38.9
+          rang_3par: 29
+          2p_pct_protivnik: 54.8
+          rang_2p: 13
+          od: 30
+          dvp_poeni_pct:
+            центри: -0.3
+            крила: 16.2
+            бекови: -10.4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

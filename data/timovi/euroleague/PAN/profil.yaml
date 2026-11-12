@@ -1,0 +1,418 @@
+tim: PAN
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 73.3
+    rang: 17
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 115.4
+    drtg_surov: 102.4
+    ortg_prilagoden: 114.2
+    drtg_prilagoden: 109.5
+    rang_napad: 13
+    rang_odbrana: 3
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: -8.3
+      ast_pct: 9.9
+      skok_pct: -5.6
+      trojki_pct: -29.5
+    крила:
+      poeni_pct: -10.3
+      ast_pct: 12.9
+      skok_pct: 1.9
+      trojki_pct: -6.4
+    бекови:
+      poeni_pct: -12.2
+      ast_pct: -0.9
+      skok_pct: -11.5
+      trojki_pct: -19.6
+  nositeli:
+  - igrac: Nunn K. (PAN)
+    minuti: 22.9
+    usg_pct: 34.2
+    ast_pct: 39.3
+    poeni: 16.0
+    ast: 4.0
+  - igrac: Francisco S. (PAN)
+    minuti: 23.0
+    usg_pct: 31.9
+    ast_pct: 37.3
+    poeni: 13.2
+    ast: 4.8
+  - igrac: Hayes-Davis N. (PAN)
+    minuti: 26.5
+    usg_pct: 22.2
+    ast_pct: 5.1
+    poeni: 12.9
+    ast: 0.7
+  - igrac: Lessort M. (PAN)
+    minuti: 22.5
+    usg_pct: 22.0
+    ast_pct: 11.4
+    poeni: 11.8
+    ast: 1.4
+  rotacija:
+  - igrac: Hayes-Davis N. (PAN)
+    minuti: 26.5
+    natprevari: 7
+    starter_pct: 29.0
+  - igrac: Francisco S. (PAN)
+    minuti: 23.0
+    natprevari: 9
+    starter_pct: 22.0
+  - igrac: Nunn K. (PAN)
+    minuti: 22.9
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Yabusele G. (PAN)
+    minuti: 22.9
+    natprevari: 9
+    starter_pct: 89.0
+  - igrac: Lessort M. (PAN)
+    minuti: 22.5
+    natprevari: 9
+    starter_pct: 0.0
+  - igrac: Badio B. (PAN)
+    minuti: 19.3
+    natprevari: 9
+    starter_pct: 22.0
+  - igrac: Bonga I. (PAN)
+    minuti: 18.5
+    natprevari: 7
+    starter_pct: 14.0
+  - igrac: Sloukas K. (PAN)
+    minuti: 18.5
+    natprevari: 1
+    starter_pct: 0.0
+  - igrac: Hernangomez J. (PAN)
+    minuti: 16.4
+    natprevari: 6
+    starter_pct: 17.0
+  - igrac: Mantzoukas E. (PAN)
+    minuti: 15.3
+    natprevari: 6
+    starter_pct: 100.0
+  startna_petorka_posledni_5:
+  - Badio B. (PAN)
+  - Grant J. (PAN)
+  - Mantzoukas E. (PAN)
+  - Mitoglou K. (PAN)
+  - Yabusele G. (PAN)
+  trener: OBRADOVIC, ZELJKO
+  doma:
+    n: 7
+    poeni: 88.7
+    primeni: 76.7
+  gosti:
+    n: 2
+    poeni: 70.0
+    primeni: 69.0
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 77.2
+    primeni: 76.6
+    neto_rejting: 0.8
+  trojki:
+    3par_napad: 42.4
+    3par_dozvoluva: 43.6
+    3p_pct: 34.0
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 36.5
+    dreb_pct: 66.8
+  igraci_vo_zapisnik:
+  - Badio B. (PAN)
+  - Bonga I. (PAN)
+  - Fall M. (PAN)
+  - Francisco S. (PAN)
+  - Grant J. (PAN)
+  - Hayes-Davis N. (PAN)
+  - Hernangomez J. (PAN)
+  - Kalaitzakis P. (PAN)
+  - Lessort M. (PAN)
+  - Mantzoukas E. (PAN)
+  - Mitoglou K. (PAN)
+  - Moraitis D. (PAN)
+  - Nunn K. (PAN)
+  - Rogkavopoulos N. (PAN)
+  - Sloukas K. (PAN)
+  - Yabusele G. (PAN)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 73.3
+      rang: 16
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 114.2
+      surov: 115.4
+      rang: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.5
+      surov: 102.4
+      rang: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 42.4
+      rang: 8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 42.4
+      ftr: 35.5
+      2p_pct: 57.6
+      3p_pct: 34.0
+      efg: 54.8
+      rang_efg: 12
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 43.6
+      ftr: 26.3
+      2p_pct: 54.6
+      3p_pct: 28.4
+      efg: 49.4
+      rang_efg: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -8.3
+        ast_pct: 9.9
+        skok_pct: -5.6
+        trojki_pct: -29.5
+      крила:
+        poeni_pct: -10.3
+        ast_pct: 12.9
+        skok_pct: 1.9
+        trojki_pct: -6.4
+      бекови:
+        poeni_pct: -12.2
+        ast_pct: -0.9
+        skok_pct: -11.5
+        trojki_pct: -19.6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 36.5
+      rang_oreb: 3
+      dreb_pct: 66.8
+      rang_dreb: 11
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 19.6
+      rang_najmalku: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 16.8
+      ftr_dozvoluva: 26.3
+      rang_najmalku: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.6
+      rang_blk: 1
+      2p_pct_protivnik: 54.6
+      rang_2p_odbrana: 8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 24.3
+        n: 2
+      top3:
+        min: 24.2
+        n: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 22.7
+        n: 6
+      top3:
+        min: 23.9
+        n: 6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 24.2
+      top3_min_razlika: 23.9
+      razlika_min: 0.3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Hayes-Davis N. (PAN)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      - igrac: Nunn K. (PAN)
+        propushteni: 6
+        prichini:
+          не е на листата / не играл: 6
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 8
+      pogodok_pct: 62.5
+      ochekuvano_pct: 56.5
+      razlika_pp: 6.0
+      po_pazar:
+        hendikep: 1/1
+        poeni: 3/4
+        skokovi: 0/2
+        tim_vkupno: 1/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 73.3
+          rang: 16
+          od: 20
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 42.4
+          rang: 8
+          od: 20
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 38.0
+            крила: 46.1
+            центри: 15.9
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 36.5
+          rang: 3
+          od: 20
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 5
+          rang: 17
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 0.3
+          rang: 15
+          od: 19
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 19.6
+          rang: 18
+          ftr_protivnik: 26.3
+          rang_ftr: 14
+          od: 20
+      dozvoluva:
+        oznaka: пушта многу тројки; средна заштита на кош; под или околу лигата на
+          сите позиции
+        brojki:
+          3par_protivnik: 43.6
+          rang_3par: 4
+          2p_pct_protivnik: 54.6
+          rang_2p: 13
+          od: 20
+          dvp_poeni_pct:
+            центри: -8.3
+            крила: -10.3
+            бекови: -12.2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

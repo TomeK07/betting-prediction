@@ -1,0 +1,431 @@
+tim: PHI
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 8
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 102.1
+    rang: 18
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 108.6
+    drtg_surov: 103.0
+    ortg_prilagoden: 108.1
+    drtg_prilagoden: 109.2
+    rang_napad: 25
+    rang_odbrana: 8
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: 4.6
+      ast_pct: -5.4
+      skok_pct: 5.4
+      trojki_pct: 25.3
+    крила:
+      poeni_pct: -9.8
+      ast_pct: -20.2
+      skok_pct: 9.4
+      trojki_pct: -16.6
+    бекови:
+      poeni_pct: -5.9
+      ast_pct: -4.1
+      skok_pct: 9.5
+      trojki_pct: -16.0
+  nositeli:
+  - igrac: Maxey T. (PHI)
+    minuti: 37.4
+    usg_pct: 29.9
+    ast_pct: 25.0
+    poeni: 29.1
+    ast: 5.2
+  - igrac: Embiid J. (PHI)
+    minuti: 33.4
+    usg_pct: 27.1
+    ast_pct: 22.1
+    poeni: 18.5
+    ast: 4.8
+  - igrac: Brown J. (PHI)
+    minuti: 36.1
+    usg_pct: 24.8
+    ast_pct: 18.9
+    poeni: 20.6
+    ast: 4.3
+  - igrac: James L. (PHI)
+    minuti: 33.1
+    usg_pct: 23.6
+    ast_pct: 34.4
+    poeni: 16.2
+    ast: 7.3
+  rotacija:
+  - igrac: Maxey T. (PHI)
+    minuti: 37.4
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Brown J. (PHI)
+    minuti: 36.1
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Embiid J. (PHI)
+    minuti: 33.4
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Edgecombe V. (PHI)
+    minuti: 33.3
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: James L. (PHI)
+    minuti: 33.1
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Wade D. (PHI)
+    minuti: 26.9
+    natprevari: 6
+    starter_pct: 67.0
+  - igrac: Simons A. (PHI)
+    minuti: 24.5
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: Caldwell-Pope K. (PHI)
+    minuti: 22.9
+    natprevari: 8
+    starter_pct: 12.0
+  - igrac: Bona A. (PHI)
+    minuti: 14.2
+    natprevari: 8
+    starter_pct: 12.0
+  - igrac: Walker J. (PHI)
+    minuti: 8.1
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Brown J. (PHI)
+  - Edgecombe V. (PHI)
+  - Embiid J. (PHI)
+  - James L. (PHI)
+  - Maxey T. (PHI)
+  trener: null
+  doma:
+    n: 5
+    poeni: 111.6
+    primeni: 105.6
+  gosti:
+    n: 3
+    poeni: 109.7
+    primeni: 104.3
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 108.0
+    primeni: 103.8
+    neto_rejting: 4.3
+  trojki:
+    3par_napad: 38.8
+    3par_dozvoluva: 40.8
+    3p_pct: 34.2
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 21.2
+    dreb_pct: 71.0
+  igraci_vo_zapisnik:
+  - Barlow D. (PHI)
+  - Bona A. (PHI)
+  - Brown J. (PHI)
+  - Caldwell-Pope K. (PHI)
+  - Edgecombe V. (PHI)
+  - Edwards J. (PHI)
+  - Embiid J. (PHI)
+  - Fall T. (PHI)
+  - Hukporti A. (PHI)
+  - James L. (PHI)
+  - Love C. (PHI)
+  - Maxey T. (PHI)
+  - Philon Jr. L. (PHI)
+  - Rupert R. (PHI)
+  - Simons A. (PHI)
+  - Wade D. (PHI)
+  - Walker J. (PHI)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 102.1
+      rang: 12
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 108.1
+      surov: 108.6
+      rang: 25
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.2
+      surov: 103.0
+      rang: 8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 38.8
+      rang: 24
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 38.8
+      ftr: 28.8
+      2p_pct: 52.2
+      3p_pct: 34.2
+      efg: 51.8
+      rang_efg: 22
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 40.8
+      ftr: 29.5
+      2p_pct: 51.5
+      3p_pct: 31.3
+      efg: 49.6
+      rang_efg: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 4.6
+        ast_pct: -5.4
+        skok_pct: 5.4
+        trojki_pct: 25.3
+      крила:
+        poeni_pct: -9.8
+        ast_pct: -20.2
+        skok_pct: 9.4
+        trojki_pct: -16.6
+      бекови:
+        poeni_pct: -5.9
+        ast_pct: -4.1
+        skok_pct: 9.5
+        trojki_pct: -16.0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 21.2
+      rang_oreb: 29
+      dreb_pct: 71.0
+      rang_dreb: 21
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.4
+      rang_najmalku: 17
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 25.6
+      ftr_dozvoluva: 29.5
+      rang_najmalku: 18
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 5.0
+      rang_blk: 14
+      2p_pct_protivnik: 51.5
+      rang_2p_odbrana: 5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 35.4
+        n: 4
+      top3:
+        min: 36.4
+        n: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 31.6
+        n: 1
+      top3:
+        min: 31.3
+        n: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 36.4
+      top3_min_razlika: 31.3
+      razlika_min: 5.1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Brown J. (PHI)
+        propushteni: 1
+        prichini:
+          не е во записник: 1
+      - igrac: Embiid J. (PHI)
+        propushteni: 2
+        prichini:
+          Inactive - Injury/Illness: 1
+          не е во записник: 1
+      - igrac: Edgecombe V. (PHI)
+        propushteni: 1
+        prichini:
+          DNP - Coach's Decision: 1
+      - igrac: James L. (PHI)
+        propushteni: 2
+        prichini:
+          Inactive - Injury/Illness: 1
+          не е во записник: 1
+      b2b_natprevari: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 2
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 23
+      pogodok_pct: 60.9
+      ochekuvano_pct: 60.9
+      razlika_pp: -7.0
+      po_pazar:
+        asistencii: 3/3
+        hendikep: 0/2
+        poeni: 3/6
+        skokovi: 2/5
+        tim_vkupno: 1/1
+        trojki: 3/4
+        vkupno: 2/2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 102.1
+          rang: 12
+          od: 30
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 38.8
+          rang: 24
+          od: 30
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 69.6
+            крила: 17.9
+            центри: 12.5
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 21.2
+          rang: 29
+          od: 30
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 8
+          rang: 12
+          od: 30
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 5.1
+          rang: 13
+          od: 23
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 22.4
+          rang: 14
+          ftr_protivnik: 29.5
+          rang_ftr: 13
+          od: 30
+      dozvoluva:
+        oznaka: ги брани тројките; силна заштита на кош
+        brojki:
+          3par_protivnik: 40.8
+          rang_3par: 24
+          2p_pct_protivnik: 51.5
+          rang_2p: 26
+          od: 30
+          dvp_poeni_pct:
+            центри: 4.6
+            крила: -9.8
+            бекови: -5.9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

@@ -1,0 +1,397 @@
+tim: LKB
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-27'
+  tempo:
+    poseda_po_natprevar: 72.6
+    rang: 30
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 107.2
+    drtg_surov: 108.3
+    ortg_prilagoden: 108.0
+    drtg_prilagoden: 110.8
+    rang_napad: 22
+    rang_odbrana: 19
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: -3.3
+      ast_pct: -26.0
+      skok_pct: 2.2
+      trojki_pct: -19.2
+    крила:
+      poeni_pct: -9.9
+      ast_pct: 4.7
+      skok_pct: -12.9
+      trojki_pct: -20.8
+    бекови:
+      poeni_pct: -1.5
+      ast_pct: -10.8
+      skok_pct: 15.5
+      trojki_pct: 2.7
+  nositeli:
+  - igrac: Valinskas M. (LKB)
+    minuti: 16.2
+    usg_pct: 28.8
+    ast_pct: 18.9
+    poeni: 10.4
+    ast: 1.4
+  - igrac: Jaramaz O. (LKB)
+    minuti: 28.3
+    usg_pct: 24.7
+    ast_pct: 24.1
+    poeni: 10.4
+    ast: 3.8
+  - igrac: Schumacher A. (LKB)
+    minuti: 27.8
+    usg_pct: 24.2
+    ast_pct: 21.6
+    poeni: 12.4
+    ast: 3.2
+  - igrac: Fevrier I. (LKB)
+    minuti: 23.0
+    usg_pct: 23.8
+    ast_pct: 3.5
+    poeni: 13.2
+    ast: 0.4
+  rotacija:
+  - igrac: Jaramaz O. (LKB)
+    minuti: 28.3
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Schumacher A. (LKB)
+    minuti: 27.8
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Kennedy K. (LKB)
+    minuti: 24.8
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Fevrier I. (LKB)
+    minuti: 23.0
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Maldunas G. (LKB)
+    minuti: 21.4
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Baslyk D. (LKB)
+    minuti: 20.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Ilic M. (LKB)
+    minuti: 18.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Valinskas M. (LKB)
+    minuti: 16.2
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Radzius N. (LKB)
+    minuti: 11.6
+    natprevari: 4
+    starter_pct: 0.0
+  - igrac: Nemeiksa G. (LKB)
+    minuti: 9.0
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Baslyk D. (LKB)
+  - Fevrier I. (LKB)
+  - Ilic M. (LKB)
+  - Jaramaz O. (LKB)
+  - Schumacher A. (LKB)
+  trener: CANAK, NENAD
+  doma:
+    n: 3
+    poeni: 79.3
+    primeni: 81.3
+  gosti:
+    n: 2
+    poeni: 75.5
+    primeni: 74.5
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 77.8
+    primeni: 78.6
+    neto_rejting: -1.1
+  trojki:
+    3par_napad: 39.9
+    3par_dozvoluva: 38.6
+    3p_pct: 36.5
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 34.6
+    dreb_pct: 65.4
+  igraci_vo_zapisnik:
+  - Baslyk D. (LKB)
+  - Fevrier I. (LKB)
+  - Ilic M. (LKB)
+  - Jaramaz O. (LKB)
+  - Kennedy K. (LKB)
+  - Maldunas G. (LKB)
+  - Nemeiksa G. (LKB)
+  - Radzius N. (LKB)
+  - Schumacher A. (LKB)
+  - Simonis Z. (LKB)
+  - Valinskas M. (LKB)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 72.6
+      rang: 31
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 108.0
+      surov: 107.2
+      rang: 22
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 110.8
+      surov: 108.3
+      rang: 19
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 39.9
+      rang: 16
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 39.9
+      ftr: 32.3
+      2p_pct: 47.4
+      3p_pct: 36.5
+      efg: 50.3
+      rang_efg: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 38.6
+      ftr: 30.8
+      2p_pct: 55.2
+      3p_pct: 36.0
+      efg: 54.7
+      rang_efg: 24
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -3.3
+        ast_pct: -26.0
+        skok_pct: 2.2
+        trojki_pct: -19.2
+      крила:
+        poeni_pct: -9.9
+        ast_pct: 4.7
+        skok_pct: -12.9
+        trojki_pct: -20.8
+      бекови:
+        poeni_pct: -1.5
+        ast_pct: -10.8
+        skok_pct: 15.5
+        trojki_pct: 2.7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 34.6
+      rang_oreb: 10
+      dreb_pct: 65.4
+      rang_dreb: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.6
+      rang_najmalku: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 18.2
+      ftr_dozvoluva: 30.8
+      rang_najmalku: 13
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 1.8
+      rang_blk: 27
+      2p_pct_protivnik: 55.2
+      rang_2p_odbrana: 21
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 26.0
+        n: 2
+      top3:
+        min: 26.5
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 21.1
+        n: 1
+      top3:
+        min: 27.5
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 26.5
+      top3_min_razlika: 27.5
+      razlika_min: -1.0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni: []
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 72.6
+          rang: 31
+          od: 32
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 39.9
+          rang: 16
+          od: 32
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 46.5
+            крила: 48.1
+            центри: 5.4
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 34.6
+          rang: 10
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 8
+          rang: 4
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -1.0
+          rang: 23
+          od: 25
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 21.6
+          rang: 20
+          ftr_protivnik: 30.8
+          rang_ftr: 20
+          od: 32
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош; под или околу лигата на сите
+          позиции
+        brojki:
+          3par_protivnik: 38.6
+          rang_3par: 19
+          2p_pct_protivnik: 55.2
+          rang_2p: 12
+          od: 32
+          dvp_poeni_pct:
+            центри: -3.3
+            крила: -9.9
+            бекови: -1.5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

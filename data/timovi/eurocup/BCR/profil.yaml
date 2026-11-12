@@ -1,0 +1,404 @@
+tim: BCR
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-27'
+  tempo:
+    poseda_po_natprevar: 77.4
+    rang: 7
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 104.8
+    drtg_surov: 111.8
+    ortg_prilagoden: 106.8
+    drtg_prilagoden: 112.2
+    rang_napad: 25
+    rang_odbrana: 25
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 29.9
+      ast_pct: 24.4
+      skok_pct: 5.9
+      trojki_pct: 69.7
+    крила:
+      poeni_pct: -14.6
+      ast_pct: -21.2
+      skok_pct: -19.7
+      trojki_pct: -5.9
+    бекови:
+      poeni_pct: -0.6
+      ast_pct: 5.2
+      skok_pct: 21.7
+      trojki_pct: 2.2
+  nositeli:
+  - igrac: Olynyk K. (BCR)
+    minuti: 22.7
+    usg_pct: 29.9
+    ast_pct: 18.3
+    poeni: 14.3
+    ast: 2.0
+  - igrac: Mannion N. (BCR)
+    minuti: 27.5
+    usg_pct: 27.3
+    ast_pct: 43.3
+    poeni: 20.2
+    ast: 5.4
+  - igrac: Simonovic M. (BCR)
+    minuti: 21.7
+    usg_pct: 21.8
+    ast_pct: 9.0
+    poeni: 11.8
+    ast: 1.0
+  - igrac: Stevenson E. (BCR)
+    minuti: 22.2
+    usg_pct: 20.5
+    ast_pct: 8.1
+    poeni: 9.0
+    ast: 1.0
+  rotacija:
+  - igrac: Ayayi G. (BCR)
+    minuti: 27.6
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Mannion N. (BCR)
+    minuti: 27.5
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Strautins A. (BCR)
+    minuti: 27.0
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Olynyk K. (BCR)
+    minuti: 22.7
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Watson Jr P. (BCR)
+    minuti: 22.3
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Stevenson E. (BCR)
+    minuti: 22.2
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Davis Jr. C. (BCR)
+    minuti: 22.1
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Simonovic M. (BCR)
+    minuti: 21.7
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Flowers T. (BCR)
+    minuti: 11.6
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Mezzanotte A. (BCR)
+    minuti: 9.9
+    natprevari: 4
+    starter_pct: 50.0
+  startna_petorka_posledni_5:
+  - Ayayi G. (BCR)
+  - Mannion N. (BCR)
+  - Simonovic M. (BCR)
+  - Strautins A. (BCR)
+  - Watson Jr P. (BCR)
+  trener: MAGRO, ALESSANDRO
+  doma:
+    n: 3
+    poeni: 83.0
+    primeni: 81.3
+  gosti:
+    n: 2
+    poeni: 83.0
+    primeni: 99.5
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 83.0
+    primeni: 88.6
+    neto_rejting: -7.1
+  trojki:
+    3par_napad: 45.4
+    3par_dozvoluva: 41.0
+    3p_pct: 29.3
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 34.1
+    dreb_pct: 65.5
+  igraci_vo_zapisnik:
+  - Ayayi G. (BCR)
+  - Davis Jr. C. (BCR)
+  - Emejuru G. (BCR)
+  - Flowers T. (BCR)
+  - Iuzzolino M. (BCR)
+  - Mannion N. (BCR)
+  - Mezzanotte A. (BCR)
+  - Odzebe G. (BCR)
+  - Olynyk K. (BCR)
+  - Simonovic M. (BCR)
+  - Stevenson E. (BCR)
+  - Strautins A. (BCR)
+  - Tavernelli R. (BCR)
+  - Watson Jr P. (BCR)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 77.4
+      rang: 9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 106.8
+      surov: 104.8
+      rang: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 112.2
+      surov: 111.8
+      rang: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 45.4
+      rang: 4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 45.4
+      ftr: 33.0
+      2p_pct: 56.5
+      3p_pct: 29.3
+      efg: 50.8
+      rang_efg: 22
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 41.0
+      ftr: 30.7
+      2p_pct: 54.4
+      3p_pct: 32.9
+      efg: 52.3
+      rang_efg: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 29.9
+        ast_pct: 24.4
+        skok_pct: 5.9
+        trojki_pct: 69.7
+      крила:
+        poeni_pct: -14.6
+        ast_pct: -21.2
+        skok_pct: -19.7
+        trojki_pct: -5.9
+      бекови:
+        poeni_pct: -0.6
+        ast_pct: 5.2
+        skok_pct: 21.7
+        trojki_pct: 2.2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 34.1
+      rang_oreb: 11
+      dreb_pct: 65.5
+      rang_dreb: 24
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 23.2
+      rang_najmalku: 24
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 21.4
+      ftr_dozvoluva: 30.7
+      rang_najmalku: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.4
+      rang_blk: 5
+      2p_pct_protivnik: 54.4
+      rang_2p_odbrana: 19
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 25.5
+        n: 3
+      top3:
+        min: 26.3
+        n: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 24.8
+        n: 1
+      top3:
+        min: 26.9
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 26.3
+      top3_min_razlika: 26.9
+      razlika_min: -0.6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Olynyk K. (BCR)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 77.4
+          rang: 9
+          od: 32
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 45.4
+          rang: 4
+          od: 32
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 54.0
+            крила: 21.4
+            центри: 24.6
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 34.1
+          rang: 11
+          od: 32
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 7
+          rang: 12
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -0.6
+          rang: 21
+          od: 25
+      fauli:
+        oznaka: фаулира многу; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 23.2
+          rang: 9
+          ftr_protivnik: 30.7
+          rang_ftr: 21
+          od: 32
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош; пушта над лигата на центри (+30%
+          поени)
+        brojki:
+          3par_protivnik: 41.0
+          rang_3par: 13
+          2p_pct_protivnik: 54.4
+          rang_2p: 14
+          od: 32
+          dvp_poeni_pct:
+            центри: 29.9
+            крила: -14.6
+            бекови: -0.6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

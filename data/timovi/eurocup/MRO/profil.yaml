@@ -1,0 +1,412 @@
+tim: MRO
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 76.3
+    rang: 16
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 110.1
+    drtg_surov: 110.1
+    ortg_prilagoden: 110.1
+    drtg_prilagoden: 110.9
+    rang_napad: 17
+    rang_odbrana: 21
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 8.8
+      ast_pct: 25.0
+      skok_pct: 1.4
+      trojki_pct: 44.6
+    крила:
+      poeni_pct: -7.7
+      ast_pct: -12.6
+      skok_pct: -4.9
+      trojki_pct: 0.8
+    бекови:
+      poeni_pct: 2.7
+      ast_pct: 15.3
+      skok_pct: -0.7
+      trojki_pct: 10.4
+  nositeli:
+  - igrac: Bilan M. (MRO)
+    minuti: 22.7
+    usg_pct: 24.9
+    ast_pct: 14.0
+    poeni: 13.2
+    ast: 1.6
+  - igrac: Holiday A. (MRO)
+    minuti: 21.7
+    usg_pct: 24.1
+    ast_pct: 38.0
+    poeni: 9.5
+    ast: 4.8
+  - igrac: Alibegovic M. (MRO)
+    minuti: 18.0
+    usg_pct: 22.7
+    ast_pct: 10.4
+    poeni: 7.0
+    ast: 1.2
+  - igrac: Moon X. (MRO)
+    minuti: 22.6
+    usg_pct: 21.7
+    ast_pct: 47.5
+    poeni: 10.5
+    ast: 6.2
+  rotacija:
+  - igrac: Ryan M. (MRO)
+    minuti: 25.9
+    natprevari: 1
+    starter_pct: 100.0
+  - igrac: Bilan M. (MRO)
+    minuti: 22.7
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Moon X. (MRO)
+    minuti: 22.6
+    natprevari: 4
+    starter_pct: 50.0
+  - igrac: Tyson H. (MRO)
+    minuti: 22.1
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Holiday A. (MRO)
+    minuti: 21.7
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Lemar B. (MRO)
+    minuti: 21.3
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Veronesi G. (MRO)
+    minuti: 21.2
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Wheatle C. (MRO)
+    minuti: 19.6
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Brown III J. (MRO)
+    minuti: 18.9
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Alibegovic M. (MRO)
+    minuti: 18.0
+    natprevari: 5
+    starter_pct: 20.0
+  startna_petorka_posledni_5:
+  - Bilan M. (MRO)
+  - Holiday A. (MRO)
+  - Tyson H. (MRO)
+  - Veronesi G. (MRO)
+  - Wheatle C. (MRO)
+  trener: COTELLI, MATTEO
+  doma:
+    n: 2
+    poeni: 89.5
+    primeni: 67.0
+  gosti:
+    n: 3
+    poeni: 80.3
+    primeni: 95.3
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 84.0
+    primeni: 84.0
+    neto_rejting: 0.0
+  trojki:
+    3par_napad: 41.4
+    3par_dozvoluva: 41.9
+    3p_pct: 38.8
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 29.8
+    dreb_pct: 73.1
+  igraci_vo_zapisnik:
+  - Alibegovic M. (MRO)
+  - Bilan M. (MRO)
+  - Bonacini F. (MRO)
+  - Brown III J. (MRO)
+  - Camara G. (MRO)
+  - Carnevale F. (MRO)
+  - Dozic A. (MRO)
+  - Holiday A. (MRO)
+  - Lemar B. (MRO)
+  - Moon X. (MRO)
+  - Ryan M. (MRO)
+  - Tyson H. (MRO)
+  - Veronesi G. (MRO)
+  - Wheatle C. (MRO)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 76.3
+      rang: 16
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 110.1
+      surov: 110.1
+      rang: 17
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 110.9
+      surov: 110.1
+      rang: 21
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.4
+      rang: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.4
+      ftr: 27.5
+      2p_pct: 51.6
+      3p_pct: 38.8
+      efg: 54.3
+      rang_efg: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 41.9
+      ftr: 23.8
+      2p_pct: 54.9
+      3p_pct: 35.3
+      efg: 54.1
+      rang_efg: 23
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 8.8
+        ast_pct: 25.0
+        skok_pct: 1.4
+        trojki_pct: 44.6
+      крила:
+        poeni_pct: -7.7
+        ast_pct: -12.6
+        skok_pct: -4.9
+        trojki_pct: 0.8
+      бекови:
+        poeni_pct: 2.7
+        ast_pct: 15.3
+        skok_pct: -0.7
+        trojki_pct: 10.4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 29.8
+      rang_oreb: 23
+      dreb_pct: 73.1
+      rang_dreb: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 20.8
+      rang_najmalku: 6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 15.8
+      ftr_dozvoluva: 23.8
+      rang_najmalku: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 1.6
+      rang_blk: 30
+      2p_pct_protivnik: 54.9
+      rang_2p_odbrana: 20
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 21.7
+        n: 1
+      top3:
+        min: 21.6
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 21.2
+        n: 3
+      top3:
+        min: 21.4
+        n: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 21.6
+      top3_min_razlika: 21.4
+      razlika_min: 0.2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Ryan M. (MRO)
+        propushteni: 4
+        prichini:
+          не е на листата / не играл: 4
+      - igrac: Moon X. (MRO)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Holiday A. (MRO)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 76.3
+          rang: 16
+          od: 32
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.4
+          rang: 12
+          od: 32
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 40.7
+            крила: 32.9
+            центри: 26.4
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 29.8
+          rang: 23
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 0.2
+          rang: 19
+          od: 25
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 20.8
+          rang: 27
+          ftr_protivnik: 23.8
+          rang_ftr: 32
+          od: 32
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош; пушта над лигата на центри (+9%
+          поени)
+        brojki:
+          3par_protivnik: 41.9
+          rang_3par: 12
+          2p_pct_protivnik: 54.9
+          rang_2p: 13
+          od: 32
+          dvp_poeni_pct:
+            центри: 8.8
+            крила: -7.7
+            бекови: 2.7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

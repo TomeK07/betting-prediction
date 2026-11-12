@@ -1,0 +1,76 @@
+datum,liga,natprevar_ili_igrac,tim,pazar,linija,strana,kvota,p_model,p_pazar,rezultat,pogodok,minuti,zabeleska
+16.10 19:00,Euroleague,J. Valanciunas,Zalgiris,asistencii,1.5,poveke,1.5,65,61,4,DA,18:41,
+16.10 19:00,Euroleague,M. Strazel,Anadolu Efes,trojki,0.5,poveke,1.45,67,65,2,DA,24:05,
+16.10 19:00,Euroleague,D. Sleva,Zalgiris,trojki,0.5,poveke,1.45,63,65,1,DA,23:46,
+16.10 19:00,Euroleague,C. Morgan,Besiktas,trojki,0.5,poveke,1.45,74,65,2,DA,29:08,nema lanska statistika
+16.10 19:00,Euroleague,S. Wilbekin,Besiktas,asistencii,3.5,pomalku,1.52,65,61,5,NE,24:22,nema lanska statistika
+16.10 19:00,Euroleague,M. Beauchamp,Bayern,trojki,0.5,poveke,1.47,64,64,0,NE,16:37,malku minuti
+16.10 20:30,Euroleague,DJ Stewart,Baskonia,trojki,1.5,pomalku,1.47,80,64,0,DA,24:38,
+16.10 20:30,Euroleague,K. Simmons,Baskonia,trojki,1.5,pomalku,1.5,81,62,0,DA,17:54,
+16.10 20:15,Euroleague,Z. LeDay,Hapoel TA,trojki,0.5,poveke,1.48,70,64,1,DA,30:29,
+16.10 20:30,Euroleague,D. Brizuela,Barcelona,trojki,0.5,poveke,1.53,67,62,3,DA,20:43,
+16.10 20:00,Euroleague,J. Rhoden,Paris,trojki,0.5,poveke,1.5,70,63,0,NE,19:49,
+16.10 20:15,Euroleague,B. Badio,Panathinaikos,trojki,0.5,poveke,1.55,67,61,0,NE,27:27,"igral mnogu, 0 trojki - varijansa"
+16.10 20:15,Euroleague,A. Blakeney,Hapoel TA,trojki,1.5,poveke,1.55,66,61,1,NE,21:36,
+16.10 20:30,Euroleague,C. Duarte,Baskonia,skokovi,3.5,poveke,1.45,67,63,2,NE,14:42,"malku minuti, nema lani"
+16.10 20:30,Euroleague,D. Alston Jr,Virtus,asistencii,1.5,pomalku,1.4,61,66,2,NE,14:55,malku minuti
+16.10 20:00,Euroleague,TJ Warren,Paris,trojki,1.5,pomalku,1.52,62,62,,VOID,DNP,ne igral - nema vo zapisnik
+16.10 20:30,Euroleague,K. Edwards,Virtus,poeni,5.5,poveke,,84,50,0,NE,20:25,ODBIEN (nesoglasuvanje). GRESKA VO PODATOCI: model zel lanska statistika od Carsen Edwards
+16.10 20:30,Euroleague,W. Moore Jr.,Virtus,poeni,14.5,pomalku,,77,49,12,DA,24:26,ODBIEN (nesoglasuvanje) - modelot bil vo pravo
+16.10 19:00,Euroleague,A. Brown,Besiktas,poeni,8.5,poveke,,70,50,8,NE,29:43,ODBIEN (nesoglasuvanje) - promasen za 1 poen
+16.10 20:15,Euroleague,Z. LeDay,Hapoel TA,poeni,8.5,poveke,,70,50,17,DA,30:29,ODBIEN (nesoglasuvanje) - modelot bil vo pravo
+21.10 18:00,Evroliga,Hapoel - Virtus,,hendikep,7.5,Virtus +7.5,2.15,58,45,90-81,NE,,neutralen teren Sofija; neto/natp. HAP +3.3 VIR +1.2 (6 kola); Ennis OUT (HAP)
+21.10 18:00,Evroliga,V. Micic,Hapoel,asistencii,4.5,under,2.00,61,46,3,DA,27,sezona 4.0 ast; Satoransky isto vodi
+21.10 18:00,Evroliga,E. Bryant,Hapoel,skokovi,5.5,over,1.85,60,50,5,NE,30,sezona 6.8 skok
+21.10 18:00,Evroliga,K. Edwards,Virtus,poeni,5.5,under,1.90,61,50,3,DA,22,sezona 4.0 pts (Kessler Edwards - proveren tim i ime)
+21.10 18:00,Evroliga,W. Moore Jr.,Virtus,skokovi,4.5,over,2.00,56,46,2,NE,24,sezona 5.3 skok
+21.10 18:00,Evroliga,A. Blakeney,Hapoel,poeni,12.5,over,1.90,59,50,0 (7 min),NE,25,sezona 14.8 | poeni = pazar 50/50 (lekcija 16.10) -> pomala doverba
+22.10 20:45,Evroliga,Partizan - Crvena zvezda,,total,163.5,under,1.85,59,49,85-82 OT (167),NE,,"proekcija 156.6 od sezona (Partizan 77.7/78.5, Zvezda 80.8/76.2); derbi; Jekiri OUT | OT go presudi"
+23.10 19:00,Evroliga,Zalgiris - ASVEL,,hendikep,11.5,ASVEL +11.5,2.05,62,47,Zalgiris 105-85,NE,,Zalgiris bez Tubelis i Williams-Goss (RotoWire 20.10); model Zal +5 | 23.10 Megawin linija padna na 7.5 (pazarot se pomesti kon ASVEL)
+22.10 20:30,Evroliga,Olimpia Milano - Barcelona,,1X2,,2,2.25,48,44,81-89,DA,,"Milano 1-5 (-9.2/natp.), Barca 3-3 (+1.5); Brizuela OUT"
+22.10 20:00,Evroliga,Bayern - Dubai,,hendikep,2.5,Bayern +2.5,2.15,56,45,91-107,NE,,model Bayern +1 doma; Prepelic (DUB) se vraka
+23.10 20:15,Evroliga,Olympiacos - Fenerbahce,,1X2,,2,2.35,45,42,OLY 61-64 FEN,DA,,"Fournier OUT ~20 dena, Montero ? (OLY); FEN 5-1 najdobra odbrana 74.5 | 23.10 kvota padna na 2.12 Megawin"
+22.10 19:30,Evroliga,Anadolu Efes - Besiktas,,total,173.5,over,1.92,55,49,89-80 (169),NE,,proekcija 176; Besiktas 92 dava/92.5 prima; Dozier OUT (Efes)
+21.10 18:00,Evroliga,A. Blakeney,Hapoel,poeni (Mozzart kupeno),9.5,over,1.50,74,67,0 (7 min),NE,25,Mozzart mbpi; sezona 14.8 pts; mu 14 sigma 7.1
+21.10 18:00,Evroliga,W. Moore Jr.,Virtus,poeni (Mozzart kupeno),9.5,over,1.50,69,67,11,DA,24,Mozzart mbpi; sezona 13.2 pts
+22.10 20:00,Evroliga,Bayern - Dubai,,hendikep,1.5,Bayern +1.5,1.90,58,50,91-107,NE,,Mozzart; Dubai bez Prepelic Musa Anderson Jaiteh (RotoWire) | 18:05 PROVERKA: nitu eden od 4-te ne igral ovaa sezona -> otsustvoto e STARO, vekje vo prosecite; logikata slaba
+22.10 19:30,Evroliga,Anadolu Efes - Besiktas,,hendikep,4.5,Besiktas +4.5,1.90,58,50,89-80,NE,,Mozzart; Efes bez Dozier M.James Cordinier Papagiannis | 18:05 PROVERKA: samo Dozier (13 min) igral ovaa sezona; ostanatite stari otsustva -> pomal efekt
+22.10 20:30,Evroliga,Olimpia Milano - Barcelona,,dvoen sans,,X2,1.96,53,51,81-89,DA,,Mozzart regularen del; Milano 1-5
+22.10 19:30,Evroliga,D. Dotson,Besiktas,poeni,6.5,over,1.90,60,50,9 (16 min),DA,22,Mozzart; sezona 9.8 (kalibrirano -8pp)
+22.10 19:30,Evroliga,C. Malcolm,Efes,skokovi,3.5,under,2.30,56,40,5,NE,23,Mozzart; sezona 3.2
+22.10 20:15,Evroliga,N. Hayes-Davis,PAO,skokovi,3.5,under,1.85,59,50,7,NE,26,Mozzart; sezona 2.8
+22.10 19:30,Evroliga,B. Fernando,Efes,poeni,7.5,under,1.90,57,50,4,DA,21,Mozzart; sezona 5.7
+22.10 19:30,Evroliga,S. Wilbekin,Besiktas,poeni,13.5,over,1.90,58,50,10,NE,24,Mozzart; sezona 17.0
+22.10 19:30,Evroliga,M. Strazel,Efes,asistencii,4.5,under,1.85,,50,6,ODBIEN,,model 63% no Dozier OUT -> Strazel poveke topka | posle: tocno odbien
+23.10 20:45,Evroliga,Paris - Valencia,,total,186.5,under,1.90,57,50,93-104 = 197,NE,,Mozzart; proekcija 181 (sezona); Paris bez Hifi i Ntilikina
+23.10 20:15,Evroliga,Olympiacos - Fenerbahce,,hendikep,2.5,Fener +2.5,1.90,55,50,FEN +3,DA,,Mozzart; Fournier OUT, Montero ?; Fener najdobra odbrana
+22.10 20:00,Evroliga,D. Bacon,Dubai,skokovi,3.5,over,2.30,47,42,1,NE,27,Mozzart; Dubai bez 4 igraci -> povekje minuti/uloga; sezona 3.5 | 18:05: otsustvata stari - nema dopolnitelni minuti
+22.10 20:05,Evroliga,F. Campazzo,Real,asistencii,4.5,under,2.10,54,44,5,NE,20,Mozzart; sezona 4.3; Maledon glaven organizator (5.8)
+22.10 20:15,Evroliga,K. Faried,Baskonia,poeni,6.5,over,1.90,55,50,6,NE,20,Mozzart; sezona 8.0; PAO -15.5 -> rezervi igraat povekje
+22.10 20:45,Evroliga,J. Nwora,Zvezda,poeni,15.5,under,1.95,54,49,16 (OT),NE,22,Mozzart; sezona 14.0; derbi so niska proekcija 157
+22.10 20:45,Evroliga,C. Moneke,Zvezda,skokovi,4.5,under,2.30,51,42,2,DA,21,Mozzart; sezona 4.7 - samo vrednost na kvota
+22.10 20:30,Evroliga,L. Bolmaro,Milano,asistencii,2.5,under,1.85,57,50,4,NE,22,Mozzart; sezona 2.2
+22.10 20:30,Evroliga,M. Guduric,Milano,asistencii,2.5,under,2.03,55,46,0,DA,22,Mozzart; sezona 2.4
+22.10 20:05,Evroliga,J. Clark III,Maccabi,asistencii,3.5,over,1.65,68,58,3,NE,24,METOD MINUTI: Lundberg OUT (novo; 23 min 3 ast) -> Clark 19.4->~24 min; 4.0 ast -> ~5.0 | igral 22 min
+22.10 20:05,Evroliga,J. Clark III,Maccabi,poeni,10.5,over,1.90,62,50,20,DA,24,METOD MINUTI: 11.0 pts/19.4 min -> ~13.5 so 24 min; Maccabi 2-4 mora da dobie
+22.10 20:45,Evroliga,K. Hayes,Partizan,poeni,8.5,over,1.85,62,50,13 (33 min),DA,25,METOD MINUTI: Jekiri OUT (novo; 17.4 min 10.2 pts) -> Hayes 17.9->~25 min; 7.7 -> ~10.5; Zvezda bez Motley
+22.10 20:45,Evroliga,N. Tanaskovic,Partizan,skokovi,3.5,over,1.70,62,56,4,DA,23,METOD MINUTI: Jekiri OUT -> 3.8 skok/18 min -> ~4.8
+22.10 20:30,Evroliga,K. Punter,Barcelona,poeni,15.5,over,1.90,60,50,17,DA,27,METOD MINUTI: Brizuela OUT (novo; 19 min 8.2 pts) -> Punter 23.8->~27 min; 15.3 -> ~17.5
+22.10 20:30,Evroliga,U. Gibson,Barcelona,poeni,8.5,over,1.90,62,50,13 (15 min),DA,21,METOD MINUTI: Brizuela OUT -> 10.7 pts/18 min; povekje minuti za bekovi
+23.10 20:15,Evroliga,M. Ndiaye,Olympiacos,poeni,9.5,over,1.87,60,53,"0p, 8 min",NE,~26,MEGAWIN | METOD MINUTI: Montero+Fournier+Dorsey OUT (site novi; ~67 min) | 12.2 pts/18.8 min; posl.4: 23 9 11 17 | Fener def 74.5 (x0.89) | eksperti: nema
+23.10 20:45,Evroliga,J. Rhoden,Paris,poeni,12.5,under,1.80,58,55,"20p, 24 min (19 FGA)",NE,~20,MEGAWIN | posl.5: 11 14 9 9 9; bez Hifi 9 i 9 - Etienne ja zema topkata
+23.10 20:45,Evroliga,T. Etienne,Paris,poeni,16.5,over,1.85,62,53,"9p, 13 min, 5 PF (Hifi OUT)",NE,~28,MEGAWIN | USLOV: Hifi OUT (ne e na Megawin listata) | bez Hifi: 28m/23p i 29m/24p
+23.10 20:45,Evroliga,T. Etienne,Paris,asistencii,3.5,over,2.22,55,45,1 ast,NE,~28,MEGAWIN | USLOV: Hifi OUT | bez Hifi 7 i 7 ast (so Hifi 1-2) - primerok 2 natp.
+23.10 20:45,Evroliga,Paris - Valencia,,total,187.5,under,1.87,56,53,197,NE,,MEGAWIN | proekcija ~182 (Paris 84 dava / Valencia 91.5 prima; bez Hifi i Warren); drugi kladilnici 188.5-190
+23.10 20:15,Evroliga,Olympiacos - Fenerbahce,,hendikep,2.5,Fener +2.5,1.86,57,52,FEN +3,DA,,MEGAWIN | OLY bez Montero/Fournier/Dorsey; dvata 5-1 (+8/+9); FEN ML 2.35->2.12
+23.10 20:45,Evroliga,J. Puerto,Valencia,poeni,5.5,over,1.88,58,53,5p,NE,~15,MEGAWIN | posl.4: 9 11 6 8; 2.0 trojki/natp.; Paris prima 91
+23.10 19:00,Evroliga,Zalgiris - ASVEL,,site pazari,,,,,,,ODBIEN,,Tubelis fraktura na lice (20.10) ?; Williams-Goss OUT 4 ned.; ASVEL Mills/Waters ? - premnogu nepoznati
+23.10 20:15,Evroliga,S. Vezenkov / C. Miller-McIntyre,Olympiacos,poeni,17.5 / 12.5,,,,,,ODBIEN,,pazarot vekje ja pomesti linijata (CMM 12.5 pri prosek 5.7)
+23.10 20:45,Evroliga,A. Johnson,Paris,poeni,7.5,under,1.55,72,65,,ODBIEN,,posl.4: 6 6 3 2 - vrednost no niska kvota
+27.10 20:15,Evroliga,Panathinaikos - Milan,,hendikep,-13.5,PAO,,56,50,,CEKA,,"PAO 6-1 (marzi +17..+23 vo pobedite), Milan 1-6 (prosek -8.6), Mathews doubtful; pazar 1.10/9.00; eksperti: nema preview (basketballsphere 'soon')"
+27.10 21:00,Evroliga,Baskonia - Real Madrid,,hendikep,-8.5,MAD,,55,50,,CEKA,,"PRAVILO hendikep protiv osakaten tim: Baskonia bez Sedekerskis (NOVO), Duarte, Simmons; 1-6; Real 4 pobedi po red (+10..+19); pazar 1.26"
+27.10 17:00,Evroliga,Dubai - Paris,,hendikep,-9.5,DUB,,53,50,,CEKA,,"Paris bez Hifi, Warren, Ntilikina (vtor natp. bez niv: -11 vo Valencia); Dubai 5-2, Walkup doubtful (mal); pazar 1.20 -> mala vrednost, lean"
+27.10 21:00,Evroliga,S. Baugh,Baskonia,asistencii,4.5,nad,,62,,,CEKA,~30,"METOD MINUTI: bez Simmons i Duarte -> Baugh 31 min 7 ast i 8 ast vo poslednite 2; USLOV linija 4.5; rizik Real razlika"
+27.10 17:00,Evroliga,J. Rhoden,Paris,poeni,12.5,nad,,56,,,CEKA,~24,"METOD MINUTI: bez Hifi i Warren -> 24 min 19 shuta 20p; USLOV linija <=12.5; samo eden igrach od Paris (pravilo soigrachi)"
+27.10 ,Evroliga,Etienne / Real igrachi / Valencia-Fener / totali,,,,,,,,,ODBIEN,,"Etienne: 6.5 fauli na 36 min (pravilo); Real: minutite rasporedeni (nikoj >24m); Valencia-Fener: 50/50 bez novo otsustvo; totali STOP (pravilo)"
+27.10 11:30,Evroliga,REVIZIJA,,,,,,,,,BELESKA,,"Eksperti (basketballsphere): Baskonia +10.5 i Milan +15.5 -> KONFLIKT so Real -8.5 i PAO -13.5 (liniite se pomestija na -10.5/-15.5) -> ostanuvaat lean, NE vo tiket. Simmons/Duarte questionable (mozhe da se vratat) -> Baugh o4.5 ast samo ako dvajcata OUT. Hifi questionable -> Rhoden o12.5 samo ako Hifi OUT. Novo: Valencia bez Reuvers; PAO so Sloukas i Nunn nazad. Ekspert: Dubai tim pod 95.5 (najbavno tempo)."

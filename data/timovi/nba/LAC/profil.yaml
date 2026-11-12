@@ -1,0 +1,423 @@
+tim: LAC
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 101.7
+    rang: 19
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 106.4
+    drtg_surov: 113.5
+    ortg_prilagoden: 109.7
+    drtg_prilagoden: 111.2
+    rang_napad: 18
+    rang_odbrana: 19
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -4.3
+      ast_pct: -12.1
+      skok_pct: -2.3
+      trojki_pct: 2.1
+    крила:
+      poeni_pct: -8.6
+      ast_pct: -1.1
+      skok_pct: 3.3
+      trojki_pct: -22.3
+    бекови:
+      poeni_pct: 11.7
+      ast_pct: 0.2
+      skok_pct: -3.7
+      trojki_pct: 4.9
+  nositeli:
+  - igrac: Garland D. (LAC)
+    minuti: 32.9
+    usg_pct: 30.3
+    ast_pct: 34.5
+    poeni: 20.1
+    ast: 6.6
+  - igrac: Wagler K. (LAC)
+    minuti: 24.9
+    usg_pct: 23.8
+    ast_pct: 21.1
+    poeni: 12.1
+    ast: 3.6
+  - igrac: Hachimura R. (LAC)
+    minuti: 30.0
+    usg_pct: 23.0
+    ast_pct: 3.0
+    poeni: 13.4
+    ast: 0.6
+  - igrac: Lopez B. (LAC)
+    minuti: 21.9
+    usg_pct: 21.7
+    ast_pct: 8.0
+    poeni: 12.6
+    ast: 1.0
+  rotacija:
+  - igrac: Garland D. (LAC)
+    minuti: 32.9
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Hachimura R. (LAC)
+    minuti: 30.0
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Dunn K. (LAC)
+    minuti: 29.7
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Jones Jr. D. (LAC)
+    minuti: 28.7
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Sanders K. (LAC)
+    minuti: 25.2
+    natprevari: 7
+    starter_pct: 29.0
+  - igrac: Wagler K. (LAC)
+    minuti: 24.9
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Strus M. (LAC)
+    minuti: 23.4
+    natprevari: 1
+    starter_pct: 0.0
+  - igrac: Jackson I. (LAC)
+    minuti: 22.1
+    natprevari: 7
+    starter_pct: 86.0
+  - igrac: Lopez B. (LAC)
+    minuti: 21.9
+    natprevari: 7
+    starter_pct: 14.0
+  - igrac: Dick G. (LAC)
+    minuti: 15.9
+    natprevari: 7
+    starter_pct: 14.0
+  startna_petorka_posledni_5:
+  - Dunn K. (LAC)
+  - Garland D. (LAC)
+  - Hachimura R. (LAC)
+  - Jackson I. (LAC)
+  - Jones Jr. D. (LAC)
+  trener: null
+  doma:
+    n: 3
+    poeni: 108.7
+    primeni: 108.0
+  gosti:
+    n: 4
+    poeni: 107.8
+    primeni: 121.0
+  forma_posledni_5:
+    pobedi: 0
+    porazi: 5
+    poeni: 103.8
+    primeni: 117.4
+    neto_rejting: -13.5
+  trojki:
+    3par_napad: 41.7
+    3par_dozvoluva: 39.1
+    3p_pct: 38.4
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 26.5
+    dreb_pct: 70.5
+  igraci_vo_zapisnik:
+  - Beal B. (LAC)
+  - Christie C. (LAC)
+  - Dick G. (LAC)
+  - Dunn K. (LAC)
+  - Garland D. (LAC)
+  - Hachimura R. (LAC)
+  - Ingram B. (LAC)
+  - Jackson I. (LAC)
+  - Jones Jr. D. (LAC)
+  - Lopez B. (LAC)
+  - Martinelli N. (LAC)
+  - Miller B. (LAC)
+  - Miller J. (LAC)
+  - Niederhäuser Y. (LAC)
+  - Pickett J. (LAC)
+  - Sanders K. (LAC)
+  - Strus M. (LAC)
+  - Wagler K. (LAC)
+  - Wesley B. (LAC)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 101.7
+      rang: 16
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 109.7
+      surov: 106.4
+      rang: 18
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 111.2
+      surov: 113.5
+      rang: 19
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.7
+      rang: 20
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.7
+      ftr: 28.3
+      2p_pct: 49.7
+      3p_pct: 38.4
+      efg: 53.0
+      rang_efg: 19
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 39.1
+      ftr: 29.3
+      2p_pct: 57.9
+      3p_pct: 37.0
+      efg: 57.0
+      rang_efg: 27
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -4.3
+        ast_pct: -12.1
+        skok_pct: -2.3
+        trojki_pct: 2.1
+      крила:
+        poeni_pct: -8.6
+        ast_pct: -1.1
+        skok_pct: 3.3
+        trojki_pct: -22.3
+      бекови:
+        poeni_pct: 11.7
+        ast_pct: 0.2
+        skok_pct: -3.7
+        trojki_pct: 4.9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 26.5
+      rang_oreb: 18
+      dreb_pct: 70.5
+      rang_dreb: 22
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.1
+      rang_najmalku: 14
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 25.1
+      ftr_dozvoluva: 29.3
+      rang_najmalku: 16
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 4.1
+      rang_blk: 24
+      2p_pct_protivnik: 57.9
+      rang_2p_odbrana: 27
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: null
+        n: 0
+      top3:
+        min: null
+        n: 0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 27.3
+        n: 3
+      top3:
+        min: 29.1
+        n: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: null
+      top3_min_razlika: 29.1
+      razlika_min: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Hachimura R. (LAC)
+        propushteni: 2
+        prichini:
+          не е во записник: 2
+      - igrac: Jones Jr. D. (LAC)
+        propushteni: 1
+        prichini:
+          не е во записник: 1
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 13
+      pogodok_pct: 69.2
+      ochekuvano_pct: 58.9
+      razlika_pp: 4.7
+      po_pazar:
+        asistencii: 4/4
+        hendikep: 1/1
+        poeni: 2/2
+        skokovi: 1/3
+        trojki: 0/1
+        vkupno: 1/2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 101.7
+          rang: 16
+          od: 30
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.7
+          rang: 20
+          od: 30
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 57.7
+            крила: 30.6
+            центри: 11.6
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 26.5
+          rang: 18
+          od: 30
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 30
+      vadenje_zvezdi:
+        oznaka: null
+        brojki:
+          top3_min_pomalku: null
+          rang: null
+          od: 23
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 22.1
+          rang: 16
+          ftr_protivnik: 29.3
+          rang_ftr: 15
+          od: 30
+      dozvoluva:
+        oznaka: ги брани тројките; слаба заштита на кош; пушта над лигата на бекови
+          (+12% поени)
+        brojki:
+          3par_protivnik: 39.1
+          rang_3par: 28
+          2p_pct_protivnik: 57.9
+          rang_2p: 4
+          od: 30
+          dvp_poeni_pct:
+            центри: -4.3
+            крила: -8.6
+            бекови: 11.7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

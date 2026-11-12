@@ -1,0 +1,412 @@
+tim: MAD
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-29'
+  tempo:
+    poseda_po_natprevar: 77.9
+    rang: 1
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 123.6
+    drtg_surov: 113.0
+    ortg_prilagoden: 120.3
+    drtg_prilagoden: 114.9
+    rang_napad: 1
+    rang_odbrana: 7
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: -5.3
+      ast_pct: -6.7
+      skok_pct: -7.9
+      trojki_pct: 77.5
+    крила:
+      poeni_pct: -4.4
+      ast_pct: 14.3
+      skok_pct: -5.1
+      trojki_pct: 7.4
+    бекови:
+      poeni_pct: 8.5
+      ast_pct: -8.5
+      skok_pct: 6.3
+      trojki_pct: -23.8
+  nositeli:
+  - igrac: Maledon T. (MAD)
+    minuti: 23.2
+    usg_pct: 30.2
+    ast_pct: 35.4
+    poeni: 16.3
+    ast: 5.2
+  - igrac: Luwawu-Cabarrot T. (MAD)
+    minuti: 17.6
+    usg_pct: 28.9
+    ast_pct: 7.0
+    poeni: 9.1
+    ast: 0.8
+  - igrac: Feliz A. (MAD)
+    minuti: 20.3
+    usg_pct: 24.3
+    ast_pct: 28.1
+    poeni: 12.1
+    ast: 3.6
+  - igrac: Campazzo F. (MAD)
+    minuti: 19.9
+    usg_pct: 22.2
+    ast_pct: 36.0
+    poeni: 9.7
+    ast: 4.9
+  rotacija:
+  - igrac: Maledon T. (MAD)
+    minuti: 23.2
+    natprevari: 9
+    starter_pct: 78.0
+  - igrac: Tavares W. (MAD)
+    minuti: 21.1
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Feliz A. (MAD)
+    minuti: 20.3
+    natprevari: 9
+    starter_pct: 44.0
+  - igrac: Campazzo F. (MAD)
+    minuti: 19.9
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Luwawu-Cabarrot T. (MAD)
+    minuti: 17.6
+    natprevari: 9
+    starter_pct: 22.0
+  - igrac: Abalde A. (MAD)
+    minuti: 17.5
+    natprevari: 9
+    starter_pct: 22.0
+  - igrac: Jantunen M. (MAD)
+    minuti: 17.5
+    natprevari: 9
+    starter_pct: 56.0
+  - igrac: Okeke C. (MAD)
+    minuti: 17.1
+    natprevari: 8
+    starter_pct: 38.0
+  - igrac: Deck G. (MAD)
+    minuti: 17.1
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Smith Jr N. (MAD)
+    minuti: 13.8
+    natprevari: 6
+    starter_pct: 50.0
+  startna_petorka_posledni_5:
+  - Feliz A. (MAD)
+  - Jantunen M. (MAD)
+  - Maledon T. (MAD)
+  - Procida G. (MAD)
+  - Tavares W. (MAD)
+  trener: MARTINEZ, PEDRO
+  doma:
+    n: 3
+    poeni: 97.3
+    primeni: 81.3
+  gosti:
+    n: 6
+    poeni: 95.7
+    primeni: 91.3
+  forma_posledni_5:
+    pobedi: 5
+    porazi: 0
+    poeni: 104.2
+    primeni: 88.4
+    neto_rejting: 20.0
+  trojki:
+    3par_napad: 44.8
+    3par_dozvoluva: 38.6
+    3p_pct: 39.9
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 34.5
+    dreb_pct: 69.6
+  igraci_vo_zapisnik:
+  - Abalde A. (MAD)
+  - Campazzo F. (MAD)
+  - Deck G. (MAD)
+  - Feliz A. (MAD)
+  - Jantunen M. (MAD)
+  - Jones D. (MAD)
+  - Llull S. (MAD)
+  - Luwawu-Cabarrot T. (MAD)
+  - Maledon T. (MAD)
+  - Okeke C. (MAD)
+  - Pradilla J. (MAD)
+  - Procida G. (MAD)
+  - Sarr O. (MAD)
+  - Shulga M. (MAD)
+  - Smith Jr N. (MAD)
+  - Tavares W. (MAD)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 77.9
+      rang: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 120.3
+      surov: 123.6
+      rang: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 114.9
+      surov: 113.0
+      rang: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 44.8
+      rang: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 44.8
+      ftr: 31.2
+      2p_pct: 55.0
+      3p_pct: 39.9
+      efg: 57.1
+      rang_efg: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 38.6
+      ftr: 33.3
+      2p_pct: 52.0
+      3p_pct: 35.0
+      efg: 52.2
+      rang_efg: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -5.3
+        ast_pct: -6.7
+        skok_pct: -7.9
+        trojki_pct: 77.5
+      крила:
+        poeni_pct: -4.4
+        ast_pct: 14.3
+        skok_pct: -5.1
+        trojki_pct: 7.4
+      бекови:
+        poeni_pct: 8.5
+        ast_pct: -8.5
+        skok_pct: 6.3
+        trojki_pct: -23.8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 34.5
+      rang_oreb: 9
+      dreb_pct: 69.6
+      rang_dreb: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.3
+      rang_najmalku: 9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 22.4
+      ftr_dozvoluva: 33.3
+      rang_najmalku: 14
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.1
+      rang_blk: 4
+      2p_pct_protivnik: 52.0
+      rang_2p_odbrana: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 21.7
+        n: 2
+      top3:
+        min: 22.1
+        n: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 19.8
+        n: 3
+      top3:
+        min: 21.8
+        n: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 22.1
+      top3_min_razlika: 21.8
+      razlika_min: 0.3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni: []
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 10
+      pogodok_pct: 70.0
+      ochekuvano_pct: 54.7
+      razlika_pp: 15.3
+      po_pazar:
+        asistencii: 2/2
+        poeni: 2/3
+        skokovi: 0/1
+        tim_vkupno: 0/1
+        trojki: 2/2
+        vkupno: 1/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 77.9
+          rang: 1
+          od: 20
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 44.8
+          rang: 2
+          od: 20
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 39.6
+            крила: 35.5
+            центри: 24.9
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 34.5
+          rang: 9
+          od: 20
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 8
+          rang: 2
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 0.3
+          rang: 15
+          od: 19
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 21.3
+          rang: 12
+          ftr_protivnik: 33.3
+          rang_ftr: 7
+          od: 20
+      dozvoluva:
+        oznaka: ги брани тројките; силна заштита на кош; пушта над лигата на бекови
+          (+8% поени)
+        brojki:
+          3par_protivnik: 38.6
+          rang_3par: 16
+          2p_pct_protivnik: 52.0
+          rang_2p: 16
+          od: 20
+          dvp_poeni_pct:
+            центри: -5.3
+            крила: -4.4
+            бекови: 8.5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

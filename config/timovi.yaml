@@ -1,0 +1,47 @@
+# Team aliases used in hand-written picks -> official team code per league.
+# Anything not listed is matched automatically against the official code and team name
+# (word-prefix match, must be unique). Add an alias here only when the automatic match fails.
+euroleague:
+  pao: PAN
+  panathinaikos: PAN
+  real: MAD
+  zvezda: RED
+  crvena zvezda: RED
+  efes: IST
+  anadolu efes: IST
+  fener: ULK
+  fenerbahce: ULK
+  olympiacos: OLY
+  maccabi: TEL
+  hapoel: HTA
+  hapoel ta: HTA
+  milano: MIL
+  olympiakos: OLY
+  asvel lyon: ASV
+  asvel: ASV
+  bayern munchen: MUN
+  maccabi t a: TEL
+  mac telaviv: TEL
+  partizan mozzartbet: PAR
+  zalgiris: ZAL
+  hapoel tel aviv: HTA
+  dubai: DUB
+  bayern: MUN
+  barca: BAR
+  virtus: VIR
+  milan: MIL
+  valencia: PAM        # official code of Valencia Basket is PAM
+eurocup:
+  ced: LJU             # Cedevita Olimpija Ljubljana
+  cedevita: LJU
+  cedevita olimpija: LJU
+nba:
+  "no": NOP
+  nop: NOP
+  utah: UTA
+  sa: SAS
+  gs: GSW
+  ny: NYK
+  wsh: WAS
+  pho: PHX
+  bkn: BKN

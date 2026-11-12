@@ -1,0 +1,422 @@
+tim: LAL
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 8
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 102.4
+    rang: 16
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 119.6
+    drtg_surov: 112.5
+    ortg_prilagoden: 115.2
+    drtg_prilagoden: 110.8
+    rang_napad: 3
+    rang_odbrana: 17
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -1.0
+      ast_pct: -9.0
+      skok_pct: -4.9
+      trojki_pct: 17.6
+    крила:
+      poeni_pct: -0.6
+      ast_pct: 7.7
+      skok_pct: -3.7
+      trojki_pct: 4.0
+    бекови:
+      poeni_pct: 3.9
+      ast_pct: 3.3
+      skok_pct: -2.6
+      trojki_pct: 9.1
+  nositeli:
+  - igrac: Dončić L. (LAL)
+    minuti: 35.7
+    usg_pct: 39.7
+    ast_pct: 39.7
+    poeni: 38.3
+    ast: 8.1
+  - igrac: Reaves A. (LAL)
+    minuti: 35.8
+    usg_pct: 26.2
+    ast_pct: 21.5
+    poeni: 23.6
+    ast: 5.1
+  - igrac: Sexton C. (LAL)
+    minuti: 17.4
+    usg_pct: 26.0
+    ast_pct: 22.6
+    poeni: 9.7
+    ast: 2.6
+  - igrac: Kessler W. (LAL)
+    minuti: 30.8
+    usg_pct: 16.4
+    ast_pct: 5.9
+    poeni: 14.4
+    ast: 1.2
+  rotacija:
+  - igrac: Reaves A. (LAL)
+    minuti: 35.8
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Dončić L. (LAL)
+    minuti: 35.7
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Kessler W. (LAL)
+    minuti: 30.8
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Grimes Q. (LAL)
+    minuti: 26.2
+    natprevari: 8
+    starter_pct: 12.0
+  - igrac: Williams Z. (LAL)
+    minuti: 25.8
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Thybulle M. (LAL)
+    minuti: 24.4
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Mamukelashvili S. (LAL)
+    minuti: 24.0
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: LaRavia J. (LAL)
+    minuti: 23.7
+    natprevari: 7
+    starter_pct: 57.0
+  - igrac: Sexton C. (LAL)
+    minuti: 17.4
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Vanderbilt J. (LAL)
+    minuti: 13.1
+    natprevari: 4
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Dončić L. (LAL)
+  - Kessler W. (LAL)
+  - LaRavia J. (LAL)
+  - Reaves A. (LAL)
+  - Thybulle M. (LAL)
+  trener: null
+  doma:
+    n: 5
+    poeni: 130.0
+    primeni: 120.0
+  gosti:
+    n: 3
+    poeni: 110.0
+    primeni: 107.3
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 119.2
+    primeni: 115.4
+    neto_rejting: 3.7
+  trojki:
+    3par_napad: 46.0
+    3par_dozvoluva: 45.7
+    3p_pct: 39.7
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 27.1
+    dreb_pct: 68.8
+  igraci_vo_zapisnik:
+  - Carr C. (LAL)
+  - Dončić L. (LAL)
+  - Grimes Q. (LAL)
+  - Hardy J. (LAL)
+  - James B. (LAL)
+  - Kaluma A. (LAL)
+  - Kessler W. (LAL)
+  - LaRavia J. (LAL)
+  - Looney K. (LAL)
+  - Lovering L. (LAL)
+  - Mamukelashvili S. (LAL)
+  - Mañon C. (LAL)
+  - Okereke A. (LAL)
+  - Reaves A. (LAL)
+  - Sexton C. (LAL)
+  - Thiero A. (LAL)
+  - Thybulle M. (LAL)
+  - Vanderbilt J. (LAL)
+  - Williams Z. (LAL)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 102.4
+      rang: 10
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 115.2
+      surov: 119.6
+      rang: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 110.8
+      surov: 112.5
+      rang: 17
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 46.0
+      rang: 9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 46.0
+      ftr: 35.7
+      2p_pct: 62.5
+      3p_pct: 39.7
+      efg: 61.1
+      rang_efg: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 45.7
+      ftr: 32.4
+      2p_pct: 53.6
+      3p_pct: 37.0
+      efg: 54.5
+      rang_efg: 20
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -1.0
+        ast_pct: -9.0
+        skok_pct: -4.9
+        trojki_pct: 17.6
+      крила:
+        poeni_pct: -0.6
+        ast_pct: 7.7
+        skok_pct: -3.7
+        trojki_pct: 4.0
+      бекови:
+        poeni_pct: 3.9
+        ast_pct: 3.3
+        skok_pct: -2.6
+        trojki_pct: 9.1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 27.1
+      rang_oreb: 16
+      dreb_pct: 68.8
+      rang_dreb: 28
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 23.9
+      rang_najmalku: 25
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 28.0
+      ftr_dozvoluva: 32.4
+      rang_najmalku: 24
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 6.4
+      rang_blk: 4
+      2p_pct_protivnik: 53.6
+      rang_2p_odbrana: 15
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 32.7
+        n: 1
+      top3:
+        min: 35.0
+        n: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 30.0
+        n: 4
+      top3:
+        min: 32.4
+        n: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 35.0
+      top3_min_razlika: 32.4
+      razlika_min: 2.6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Dončić L. (LAL)
+        propushteni: 1
+        prichini:
+          не е во записник: 1
+      - igrac: Williams Z. (LAL)
+        propushteni: 3
+        prichini:
+          не е во записник: 3
+      b2b_natprevari: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 2
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 18
+      pogodok_pct: 66.7
+      ochekuvano_pct: 60.2
+      razlika_pp: -3.1
+      po_pazar:
+        asistencii: 4/7
+        hendikep: 1/1
+        poeni: 3/6
+        skokovi: 2/2
+        trojki: 1/1
+        vkupno: 1/1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 102.4
+          rang: 10
+          od: 30
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 46.0
+          rang: 9
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 41.6
+            крила: 46.6
+            центри: 11.7
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 27.1
+          rang: 16
+          od: 30
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 2.6
+          rang: 20
+          od: 23
+      fauli:
+        oznaka: фаулира многу; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 23.9
+          rang: 6
+          ftr_protivnik: 32.4
+          rang_ftr: 7
+          od: 30
+      dozvoluva:
+        oznaka: пушта многу тројки; средна заштита на кош
+        brojki:
+          3par_protivnik: 45.7
+          rang_3par: 6
+          2p_pct_protivnik: 53.6
+          rang_2p: 16
+          od: 30
+          dvp_poeni_pct:
+            центри: -1.0
+            крила: -0.6
+            бекови: 3.9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

@@ -1,0 +1,415 @@
+tim: MIL
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 73.2
+    rang: 16
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 112.0
+    drtg_surov: 123.3
+    ortg_prilagoden: 114.0
+    drtg_prilagoden: 120.5
+    rang_napad: 14
+    rang_odbrana: 18
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: 6.1
+      ast_pct: -29.5
+      skok_pct: -10.1
+      trojki_pct: 27.5
+    крила:
+      poeni_pct: 8.0
+      ast_pct: -16.6
+      skok_pct: -7.8
+      trojki_pct: 17.7
+    бекови:
+      poeni_pct: -1.9
+      ast_pct: 17.2
+      skok_pct: 8.1
+      trojki_pct: -9.8
+  nositeli:
+  - igrac: Wright M. (MIL)
+    minuti: 22.7
+    usg_pct: 24.1
+    ast_pct: 7.9
+    poeni: 12.8
+    ast: 0.9
+  - igrac: Guduric M. (MIL)
+    minuti: 19.2
+    usg_pct: 23.9
+    ast_pct: 17.3
+    poeni: 8.2
+    ast: 1.9
+  - igrac: Cole R. (MIL)
+    minuti: 18.9
+    usg_pct: 22.8
+    ast_pct: 29.7
+    poeni: 9.3
+    ast: 2.9
+  - igrac: Booker D. (MIL)
+    minuti: 15.6
+    usg_pct: 20.9
+    ast_pct: 11.9
+    poeni: 6.1
+    ast: 1.1
+  rotacija:
+  - igrac: Hall D. (MIL)
+    minuti: 25.8
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Bolmaro L. (MIL)
+    minuti: 23.8
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Peters A. (MIL)
+    minuti: 22.9
+    natprevari: 8
+    starter_pct: 88.0
+  - igrac: Wright M. (MIL)
+    minuti: 22.7
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Guduric M. (MIL)
+    minuti: 19.2
+    natprevari: 8
+    starter_pct: 38.0
+  - igrac: Cole R. (MIL)
+    minuti: 18.9
+    natprevari: 9
+    starter_pct: 56.0
+  - igrac: Thompson D. (MIL)
+    minuti: 17.2
+    natprevari: 9
+    starter_pct: 44.0
+  - igrac: Mathews G. (MIL)
+    minuti: 16.8
+    natprevari: 8
+    starter_pct: 38.0
+  - igrac: Burnell J. (MIL)
+    minuti: 16.5
+    natprevari: 9
+    starter_pct: 22.0
+  - igrac: Booker D. (MIL)
+    minuti: 15.6
+    natprevari: 9
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Bolmaro L. (MIL)
+  - Cole R. (MIL)
+  - Hall D. (MIL)
+  - Peters A. (MIL)
+  - Wright M. (MIL)
+  trener: POETA, GIUSEPPE
+  doma:
+    n: 4
+    poeni: 88.5
+    primeni: 93.2
+  gosti:
+    n: 5
+    poeni: 76.8
+    primeni: 87.8
+  forma_posledni_5:
+    pobedi: 0
+    porazi: 5
+    poeni: 84.0
+    primeni: 90.4
+    neto_rejting: -8.7
+  trojki:
+    3par_napad: 44.4
+    3par_dozvoluva: 40.6
+    3p_pct: 34.5
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 34.9
+    dreb_pct: 67.1
+  igraci_vo_zapisnik:
+  - Bolmaro L. (MIL)
+  - Booker D. (MIL)
+  - Burnell J. (MIL)
+  - Cole R. (MIL)
+  - Diop O. (MIL)
+  - Flaccadori D. (MIL)
+  - Guduric M. (MIL)
+  - Hall D. (MIL)
+  - Mathews G. (MIL)
+  - Peters A. (MIL)
+  - Ricci G. (MIL)
+  - Thompson D. (MIL)
+  - Tonut S. (MIL)
+  - Wright M. (MIL)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 73.2
+      rang: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 114.0
+      surov: 112.0
+      rang: 14
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 120.5
+      surov: 123.3
+      rang: 18
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 44.4
+      rang: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 44.4
+      ftr: 31.3
+      2p_pct: 52.5
+      3p_pct: 34.5
+      efg: 52.2
+      rang_efg: 16
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 40.6
+      ftr: 34.3
+      2p_pct: 60.4
+      3p_pct: 39.8
+      efg: 60.1
+      rang_efg: 19
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 6.1
+        ast_pct: -29.5
+        skok_pct: -10.1
+        trojki_pct: 27.5
+      крила:
+        poeni_pct: 8.0
+        ast_pct: -16.6
+        skok_pct: -7.8
+        trojki_pct: 17.7
+      бекови:
+        poeni_pct: -1.9
+        ast_pct: 17.2
+        skok_pct: 8.1
+        trojki_pct: -9.8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 34.9
+      rang_oreb: 6
+      dreb_pct: 67.1
+      rang_dreb: 9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.3
+      rang_najmalku: 16
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 21.2
+      ftr_dozvoluva: 34.3
+      rang_najmalku: 19
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 1.7
+      rang_blk: 19
+      2p_pct_protivnik: 60.4
+      rang_2p_odbrana: 19
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 21.7
+        n: 4
+      top3:
+        min: 23.1
+        n: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 25.8
+        n: 2
+      top3:
+        min: 26.1
+        n: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.1
+      top3_min_razlika: 26.1
+      razlika_min: -3.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Peters A. (MIL)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Guduric M. (MIL)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 4
+      pogodok_pct: 25.0
+      ochekuvano_pct: 55.9
+      razlika_pp: -30.9
+      po_pazar:
+        poeni: 1/2
+        tim_vkupno: 0/1
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 73.2
+          rang: 17
+          od: 20
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 44.4
+          rang: 3
+          od: 20
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 57.6
+            крила: 18.7
+            центри: 23.7
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 34.9
+          rang: 6
+          od: 20
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -3.0
+          rang: 18
+          od: 19
+      fauli:
+        oznaka: фаулира многу; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 22.3
+          rang: 5
+          ftr_protivnik: 34.3
+          rang_ftr: 2
+          od: 20
+      dozvoluva:
+        oznaka: средно тројки; слаба заштита на кош; пушта над лигата на крила (+8%
+          поени)
+        brojki:
+          3par_protivnik: 40.6
+          rang_3par: 10
+          2p_pct_protivnik: 60.4
+          rang_2p: 2
+          od: 20
+          dvp_poeni_pct:
+            центри: 6.1
+            крила: 8.0
+            бекови: -1.9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

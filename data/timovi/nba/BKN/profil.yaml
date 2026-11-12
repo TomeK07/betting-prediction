@@ -1,0 +1,419 @@
+tim: BKN
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 100.8
+    rang: 12
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 103.2
+    drtg_surov: 111.6
+    ortg_prilagoden: 105.9
+    drtg_prilagoden: 111.9
+    rang_napad: 29
+    rang_odbrana: 21
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: 0.2
+      ast_pct: 14.8
+      skok_pct: -0.1
+      trojki_pct: 32.3
+    крила:
+      poeni_pct: 2.3
+      ast_pct: -5.8
+      skok_pct: -5.9
+      trojki_pct: 7.3
+    бекови:
+      poeni_pct: -2.2
+      ast_pct: 5.7
+      skok_pct: -7.5
+      trojki_pct: 10.6
+  nositeli:
+  - igrac: Randle J. (BKN)
+    minuti: 34.3
+    usg_pct: 28.8
+    ast_pct: 26.3
+    poeni: 20.9
+    ast: 4.9
+  - igrac: Brown Jr. M. (BKN)
+    minuti: 23.5
+    usg_pct: 26.5
+    ast_pct: 29.1
+    poeni: 10.8
+    ast: 4.0
+  - igrac: Porter Jr. M. (BKN)
+    minuti: 32.5
+    usg_pct: 25.3
+    ast_pct: 8.7
+    poeni: 20.7
+    ast: 1.4
+  - igrac: Traore N. (BKN)
+    minuti: 21.4
+    usg_pct: 23.4
+    ast_pct: 26.2
+    poeni: 11.4
+    ast: 2.9
+  rotacija:
+  - igrac: Randle J. (BKN)
+    minuti: 34.3
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Porter Jr. M. (BKN)
+    minuti: 32.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Ellis K. (BKN)
+    minuti: 24.4
+    natprevari: 7
+    starter_pct: 43.0
+  - igrac: Brown Jr. M. (BKN)
+    minuti: 23.5
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Johnson C. (BKN)
+    minuti: 22.9
+    natprevari: 7
+    starter_pct: 43.0
+  - igrac: Sharpe D. (BKN)
+    minuti: 22.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Dëmin E. (BKN)
+    minuti: 21.8
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Clowney N. (BKN)
+    minuti: 21.6
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Traore N. (BKN)
+    minuti: 21.4
+    natprevari: 7
+    starter_pct: 57.0
+  - igrac: Wagner M. (BKN)
+    minuti: 18.7
+    natprevari: 7
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Johnson C. (BKN)
+  - Porter Jr. M. (BKN)
+  - Randle J. (BKN)
+  - Sharpe D. (BKN)
+  - Traore N. (BKN)
+  trener: null
+  doma:
+    n: 3
+    poeni: 102.0
+    primeni: 118.7
+  gosti:
+    n: 4
+    poeni: 108.2
+    primeni: 110.8
+  forma_posledni_5:
+    pobedi: 1
+    porazi: 4
+    poeni: 103.0
+    primeni: 112.8
+    neto_rejting: -9.7
+  trojki:
+    3par_napad: 48.2
+    3par_dozvoluva: 49.6
+    3p_pct: 35.0
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 25.6
+    dreb_pct: 76.9
+  igraci_vo_zapisnik:
+  - Bilodeau T. (BKN)
+  - Brown Jr. M. (BKN)
+  - Clowney N. (BKN)
+  - Dëmin E. (BKN)
+  - Ellis K. (BKN)
+  - Jefferson J. (BKN)
+  - Johnson C. (BKN)
+  - Mann T. (BKN)
+  - Minott J. (BKN)
+  - Nelson G. (BKN)
+  - Porter Jr. M. (BKN)
+  - Powell D. (BKN)
+  - Randle J. (BKN)
+  - Saraf B. (BKN)
+  - Sharpe D. (BKN)
+  - Traore N. (BKN)
+  - Wagner M. (BKN)
+  - Wolf D. (BKN)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 100.8
+      rang: 21
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 105.9
+      surov: 103.2
+      rang: 29
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 111.9
+      surov: 111.6
+      rang: 21
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 48.2
+      rang: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 48.2
+      ftr: 33.2
+      2p_pct: 48.0
+      3p_pct: 35.0
+      efg: 50.2
+      rang_efg: 25
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 49.6
+      ftr: 34.2
+      2p_pct: 55.6
+      3p_pct: 36.2
+      efg: 55.0
+      rang_efg: 22
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 0.2
+        ast_pct: 14.8
+        skok_pct: -0.1
+        trojki_pct: 32.3
+      крила:
+        poeni_pct: 2.3
+        ast_pct: -5.8
+        skok_pct: -5.9
+        trojki_pct: 7.3
+      бекови:
+        poeni_pct: -2.2
+        ast_pct: 5.7
+        skok_pct: -7.5
+        trojki_pct: 10.6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 25.6
+      rang_oreb: 23
+      dreb_pct: 76.9
+      rang_dreb: 5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 25.6
+      rang_najmalku: 28
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 28.6
+      ftr_dozvoluva: 34.2
+      rang_najmalku: 29
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 5.0
+      rang_blk: 14
+      2p_pct_protivnik: 55.6
+      rang_2p_odbrana: 22
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 30.5
+        n: 2
+      top3:
+        min: 33.4
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 22.5
+        n: 2
+      top3:
+        min: 23.3
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 33.4
+      top3_min_razlika: 23.3
+      razlika_min: 10.1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Brown Jr. M. (BKN)
+        propushteni: 2
+        prichini:
+          Inactive - Injury/Illness: 1
+          не е во записник: 1
+      b2b_natprevari: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 3
+      b2b_sezona: 2
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 15
+      pogodok_pct: 33.3
+      ochekuvano_pct: 58.9
+      razlika_pp: -25.5
+      po_pazar:
+        asistencii: 1/1
+        hendikep: 0/1
+        poeni: 3/4
+        skokovi: 0/3
+        tim_vkupno: 1/4
+        trojki: 0/1
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 100.8
+          rang: 21
+          od: 30
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 48.2
+          rang: 3
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 33.2
+            крила: 59.8
+            центри: 7.0
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 25.6
+          rang: 23
+          od: 30
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 10.1
+          rang: 2
+          od: 23
+      fauli:
+        oznaka: фаулира многу; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 25.6
+          rang: 3
+          ftr_protivnik: 34.2
+          rang_ftr: 2
+          od: 30
+      dozvoluva:
+        oznaka: пушта многу тројки; слаба заштита на кош
+        brojki:
+          3par_protivnik: 49.6
+          rang_3par: 2
+          2p_pct_protivnik: 55.6
+          rang_2p: 9
+          od: 30
+          dvp_poeni_pct:
+            центри: 0.2
+            крила: 2.3
+            бекови: -2.2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

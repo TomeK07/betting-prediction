@@ -1,0 +1,403 @@
+tim: LEM
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 79.3
+    rang: 3
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 102.5
+    drtg_surov: 101.4
+    ortg_prilagoden: 105.8
+    drtg_prilagoden: 104.2
+    rang_napad: 28
+    rang_odbrana: 2
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: -7.7
+      ast_pct: 11.4
+      skok_pct: 9.4
+      trojki_pct: 26.2
+    крила:
+      poeni_pct: 3.2
+      ast_pct: 9.1
+      skok_pct: 18.0
+      trojki_pct: -16.2
+    бекови:
+      poeni_pct: -4.9
+      ast_pct: -6.0
+      skok_pct: 10.4
+      trojki_pct: -20.7
+  nositeli:
+  - igrac: King J. (LEM)
+    minuti: 18.6
+    usg_pct: 29.1
+    ast_pct: 20.1
+    poeni: 14.6
+    ast: 1.8
+  - igrac: Stewart Jr C. (LEM)
+    minuti: 22.6
+    usg_pct: 26.7
+    ast_pct: 12.9
+    poeni: 12.0
+    ast: 1.6
+  - igrac: Penda S. (LEM)
+    minuti: 16.1
+    usg_pct: 22.9
+    ast_pct: 9.9
+    poeni: 4.6
+    ast: 1.0
+  - igrac: Ajinca M. (LEM)
+    minuti: 21.9
+    usg_pct: 21.3
+    ast_pct: 7.3
+    poeni: 7.5
+    ast: 1.0
+  rotacija:
+  - igrac: Wood M. (LEM)
+    minuti: 23.7
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Stewart Jr C. (LEM)
+    minuti: 22.6
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Ajinca M. (LEM)
+    minuti: 21.9
+    natprevari: 4
+    starter_pct: 50.0
+  - igrac: Dufeal L. (LEM)
+    minuti: 21.4
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Grasshoff B. (LEM)
+    minuti: 20.5
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: King J. (LEM)
+    minuti: 18.6
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Yeguete W. (LEM)
+    minuti: 18.4
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Thomas T. (LEM)
+    minuti: 17.4
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Delaunay L. (LEM)
+    minuti: 17.3
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Penda S. (LEM)
+    minuti: 16.1
+    natprevari: 5
+    starter_pct: 40.0
+  startna_petorka_posledni_5:
+  - Ajinca M. (LEM)
+  - Delaunay L. (LEM)
+  - Dufeal L. (LEM)
+  - Stewart Jr C. (LEM)
+  - Wood M. (LEM)
+  trener: VIZADE, GUILLAUME
+  doma:
+    n: 3
+    poeni: 79.7
+    primeni: 82.3
+  gosti:
+    n: 2
+    poeni: 83.5
+    primeni: 77.5
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 81.2
+    primeni: 80.4
+    neto_rejting: 1.0
+  trojki:
+    3par_napad: 41.8
+    3par_dozvoluva: 38.7
+    3p_pct: 30.6
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 30.1
+    dreb_pct: 69.0
+  igraci_vo_zapisnik:
+  - Ajinca M. (LEM)
+  - Beracou T. (LEM)
+  - Cognet A. (LEM)
+  - Delaunay L. (LEM)
+  - Diaby-Cisse M. (LEM)
+  - Doumbia Niang U. (LEM)
+  - Dufeal L. (LEM)
+  - Grasshoff B. (LEM)
+  - King J. (LEM)
+  - Penda S. (LEM)
+  - Stewart Jr C. (LEM)
+  - Thomas T. (LEM)
+  - Wood M. (LEM)
+  - Yeguete W. (LEM)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 79.3
+      rang: 4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 105.8
+      surov: 102.5
+      rang: 28
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 104.2
+      surov: 101.4
+      rang: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.8
+      rang: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.8
+      ftr: 27.6
+      2p_pct: 48.3
+      3p_pct: 30.6
+      efg: 47.3
+      rang_efg: 28
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 38.7
+      ftr: 24.9
+      2p_pct: 52.8
+      3p_pct: 26.1
+      efg: 47.5
+      rang_efg: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -7.7
+        ast_pct: 11.4
+        skok_pct: 9.4
+        trojki_pct: 26.2
+      крила:
+        poeni_pct: 3.2
+        ast_pct: 9.1
+        skok_pct: 18.0
+        trojki_pct: -16.2
+      бекови:
+        poeni_pct: -4.9
+        ast_pct: -6.0
+        skok_pct: 10.4
+        trojki_pct: -20.7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 30.1
+      rang_oreb: 21
+      dreb_pct: 69.0
+      rang_dreb: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 19.8
+      rang_najmalku: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 17.2
+      ftr_dozvoluva: 24.9
+      rang_najmalku: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.0
+      rang_blk: 10
+      2p_pct_protivnik: 52.8
+      rang_2p_odbrana: 15
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 22.4
+        n: 1
+      top3:
+        min: 22.3
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 20.1
+        n: 1
+      top3:
+        min: 20.0
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 22.3
+      top3_min_razlika: 20.0
+      razlika_min: 2.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Ajinca M. (LEM)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 79.3
+          rang: 4
+          od: 32
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.8
+          rang: 11
+          od: 32
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 52.5
+            крила: 39.9
+            центри: 7.6
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 30.1
+          rang: 21
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 8
+          rang: 4
+          od: 32
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 2.3
+          rang: 13
+          od: 25
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 19.8
+          rang: 31
+          ftr_protivnik: 24.9
+          rang_ftr: 31
+          od: 32
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош
+        brojki:
+          3par_protivnik: 38.7
+          rang_3par: 18
+          2p_pct_protivnik: 52.8
+          rang_2p: 18
+          od: 32
+          dvp_poeni_pct:
+            центри: -7.7
+            крила: 3.2
+            бекови: -4.9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

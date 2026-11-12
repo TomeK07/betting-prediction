@@ -1,0 +1,60 @@
+tip: ОПИС
+tim: DEN
+liga: nba
+predlog_datum: '2026-11-11'
+izvor_url: https://www.eurohoops.net/en/nba-news/2014684/nikola-jokic-talks-denver-nuggets-preseason-nba/; https://www.eurohoops.net/en/nba-news/2013232/nikola-jokic-update-denver-nuggets-nba/;
+  https://www.eurohoops.net/en/nba-news/2009741/cam-whitmore-to-denver-nuggets-nba/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: David Adelman
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-01'
+  naslov: 'Nikola Jokic approves new-look Nuggets roster: “Going to be good”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/2014684/nikola-jokic-talks-denver-nuggets-preseason-nba/
+- objaveno: '2026-09-28'
+  naslov: Nuggets must build winner around Nikola Jokic ahead of extension deadline
+  izvor_url: https://www.eurohoops.net/en/nba-news/2013232/nikola-jokic-update-denver-nuggets-nba/
+- objaveno: '2026-09-19'
+  naslov: Cam Whitmore formally joins Nikola Jokic and the Denver Nuggets
+  izvor_url: https://www.eurohoops.net/en/nba-news/2009741/cam-whitmore-to-denver-nuggets-nba/
+- objaveno: '2026-08-20'
+  naslov: Nuggets focus on free agent DeRozan to partner with Jokic
+  izvor_url: https://www.eurohoops.net/en/nba-news/2000106/denver-nuggets-target-demar-derozan-nba/
+- objaveno: '2026-08-17'
+  naslov: Nikola Jokic gets roster optimization boost as Nuggets hire Austin Dufault
+  izvor_url: https://www.eurohoops.net/en/nba-news/1999456/austin-dufault-joins-denver-nuggets-nikola-jokic-nba/
+- objaveno: '2026-07-06'
+  naslov: Nuggets juggle Watson trade rumors amid Jokic extension drama
+  izvor_url: https://www.eurohoops.net/en/nba-news/1988362/peyton-watson-trade-rumors-denver-nuggets-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2014684/nikola-jokic-talks-denver-nuggets-preseason-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2014684/nikola-jokic-talks-denver-nuggets-preseason-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2013232/nikola-jokic-update-denver-nuggets-nba/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2013232/nikola-jokic-update-denver-nuggets-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2009741/cam-whitmore-to-denver-nuggets-nba/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2009741/cam-whitmore-to-denver-nuggets-nba/: LLM qwen3.8-27b не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2000106/denver-nuggets-target-demar-derozan-nba/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2000106/denver-nuggets-target-demar-derozan-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1999456/austin-dufault-joins-denver-nuggets-nikola-jokic-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1999456/austin-dufault-joins-denver-nuggets-nikola-jokic-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1988362/peyton-watson-trade-rumors-denver-nuggets-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1988362/peyton-watson-trade-rumors-denver-nuggets-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+se_kosi_so_brojki: []

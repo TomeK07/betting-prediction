@@ -1,0 +1,398 @@
+tim: KLA
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 76.9
+    rang: 10
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 110.3
+    drtg_surov: 118.6
+    ortg_prilagoden: 110.4
+    drtg_prilagoden: 114.7
+    rang_napad: 16
+    rang_odbrana: 30
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 0.1
+      ast_pct: 6.0
+      skok_pct: -9.4
+      trojki_pct: -58.2
+    крила:
+      poeni_pct: 2.1
+      ast_pct: 38.8
+      skok_pct: -9.4
+      trojki_pct: 16.2
+    бекови:
+      poeni_pct: 15.2
+      ast_pct: 17.6
+      skok_pct: 0.4
+      trojki_pct: -1.8
+  nositeli:
+  - igrac: Drell H. (KLA)
+    minuti: 25.5
+    usg_pct: 28.6
+    ast_pct: 11.1
+    poeni: 15.8
+    ast: 1.4
+  - igrac: Fridriksson E. (KLA)
+    minuti: 26.3
+    usg_pct: 25.0
+    ast_pct: 45.8
+    poeni: 15.4
+    ast: 6.2
+  - igrac: Franke Y. (KLA)
+    minuti: 28.8
+    usg_pct: 22.9
+    ast_pct: 18.0
+    poeni: 15.4
+    ast: 3.0
+  - igrac: Tarolis D. (KLA)
+    minuti: 23.0
+    usg_pct: 18.6
+    ast_pct: 6.2
+    poeni: 9.8
+    ast: 0.8
+  rotacija:
+  - igrac: Franke Y. (KLA)
+    minuti: 28.8
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Fridriksson E. (KLA)
+    minuti: 26.3
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Drell H. (KLA)
+    minuti: 25.5
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Tubutis E. (KLA)
+    minuti: 23.9
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Tarolis D. (KLA)
+    minuti: 23.0
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Echodas M. (KLA)
+    minuti: 20.8
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Girdziunas M. (KLA)
+    minuti: 17.9
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Berucka A. (KLA)
+    minuti: 17.6
+    natprevari: 1
+    starter_pct: 100.0
+  - igrac: Zemaitis K. (KLA)
+    minuti: 13.5
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Kreismontas L. (KLA)
+    minuti: 11.9
+    natprevari: 5
+    starter_pct: 40.0
+  startna_petorka_posledni_5:
+  - Drell H. (KLA)
+  - Echodas M. (KLA)
+  - Franke Y. (KLA)
+  - Fridriksson E. (KLA)
+  - Tarolis D. (KLA)
+  trener: PETRAUSKAS, GEDIMINAS
+  doma:
+    n: 3
+    poeni: 83.7
+    primeni: 86.3
+  gosti:
+    n: 2
+    poeni: 86.5
+    primeni: 98.5
+  forma_posledni_5:
+    pobedi: 1
+    porazi: 4
+    poeni: 84.8
+    primeni: 91.2
+    neto_rejting: -8.3
+  trojki:
+    3par_napad: 38.7
+    3par_dozvoluva: 37.5
+    3p_pct: 34.6
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 36.0
+    dreb_pct: 70.9
+  igraci_vo_zapisnik:
+  - Berucka A. (KLA)
+  - Drell H. (KLA)
+  - Echodas M. (KLA)
+  - Franke Y. (KLA)
+  - Fridriksson E. (KLA)
+  - Girdziunas M. (KLA)
+  - Kreismontas L. (KLA)
+  - Sarakauskas S. (KLA)
+  - Somerville R. (KLA)
+  - Tarolis D. (KLA)
+  - Tubutis E. (KLA)
+  - Zemaitis K. (KLA)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 76.9
+      rang: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 110.4
+      surov: 110.3
+      rang: 16
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 114.7
+      surov: 118.6
+      rang: 30
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 38.7
+      rang: 23
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 38.7
+      ftr: 34.8
+      2p_pct: 48.8
+      3p_pct: 34.6
+      efg: 50.0
+      rang_efg: 26
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 37.5
+      ftr: 26.4
+      2p_pct: 60.6
+      3p_pct: 34.4
+      efg: 57.2
+      rang_efg: 31
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 0.1
+        ast_pct: 6.0
+        skok_pct: -9.4
+        trojki_pct: -58.2
+      крила:
+        poeni_pct: 2.1
+        ast_pct: 38.8
+        skok_pct: -9.4
+        trojki_pct: 16.2
+      бекови:
+        poeni_pct: 15.2
+        ast_pct: 17.6
+        skok_pct: 0.4
+        trojki_pct: -1.8
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 36.0
+      rang_oreb: 6
+      dreb_pct: 70.9
+      rang_dreb: 7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.6
+      rang_najmalku: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 18.0
+      ftr_dozvoluva: 26.4
+      rang_najmalku: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.8
+      rang_blk: 12
+      2p_pct_protivnik: 60.6
+      rang_2p_odbrana: 31
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 23.8
+        n: 2
+      top3:
+        min: 25.4
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 26.5
+        n: 1
+      top3:
+        min: 27.0
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 25.4
+      top3_min_razlika: 27.0
+      razlika_min: -1.6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni: []
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 76.9
+          rang: 12
+          od: 32
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 38.7
+          rang: 23
+          od: 32
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 48.3
+            крила: 43.9
+            центри: 7.8
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 36.0
+          rang: 6
+          od: 32
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 7
+          rang: 12
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -1.6
+          rang: 24
+          od: 25
+      fauli:
+        oznaka: средно; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 21.6
+          rang: 20
+          ftr_protivnik: 26.4
+          rang_ftr: 30
+          od: 32
+      dozvoluva:
+        oznaka: ги брани тројките; слаба заштита на кош; пушта над лигата на бекови
+          (+15% поени)
+        brojki:
+          3par_protivnik: 37.5
+          rang_3par: 26
+          2p_pct_protivnik: 60.6
+          rang_2p: 2
+          od: 32
+          dvp_poeni_pct:
+            центри: 0.1
+            крила: 2.1
+            бекови: 15.2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

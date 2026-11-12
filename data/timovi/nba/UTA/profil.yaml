@@ -1,0 +1,423 @@
+tim: UTA
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 102.0
+    rang: 15
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 103.5
+    drtg_surov: 115.0
+    ortg_prilagoden: 108.7
+    drtg_prilagoden: 109.3
+    rang_napad: 23
+    rang_odbrana: 11
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -13.8
+      ast_pct: -25.1
+      skok_pct: -0.9
+      trojki_pct: 0.9
+    крила:
+      poeni_pct: 8.4
+      ast_pct: -20.1
+      skok_pct: -3.4
+      trojki_pct: 24.4
+    бекови:
+      poeni_pct: 4.4
+      ast_pct: 0.1
+      skok_pct: 4.2
+      trojki_pct: -12.0
+  nositeli:
+  - igrac: George K. (UTA)
+    minuti: 30.8
+    usg_pct: 29.1
+    ast_pct: 31.2
+    poeni: 19.6
+    ast: 5.4
+  - igrac: Jackson Jr. J. (UTA)
+    minuti: 26.1
+    usg_pct: 25.8
+    ast_pct: 12.0
+    poeni: 16.2
+    ast: 2.0
+  - igrac: Collier I. (UTA)
+    minuti: 17.6
+    usg_pct: 24.6
+    ast_pct: 46.8
+    poeni: 7.4
+    ast: 5.1
+  - igrac: Sensabaugh B. (UTA)
+    minuti: 15.3
+    usg_pct: 24.2
+    ast_pct: 13.1
+    poeni: 9.3
+    ast: 1.1
+  rotacija:
+  - igrac: George K. (UTA)
+    minuti: 30.8
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Peterson D. (UTA)
+    minuti: 30.3
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Bailey A. (UTA)
+    minuti: 30.0
+    natprevari: 7
+    starter_pct: 86.0
+  - igrac: Markkanen L. (UTA)
+    minuti: 29.0
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Jackson Jr. J. (UTA)
+    minuti: 26.1
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Hayes J. (UTA)
+    minuti: 25.2
+    natprevari: 6
+    starter_pct: 67.0
+  - igrac: Bamba M. (UTA)
+    minuti: 18.2
+    natprevari: 4
+    starter_pct: 0.0
+  - igrac: Collier I. (UTA)
+    minuti: 17.6
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Mykhailiuk S. (UTA)
+    minuti: 16.5
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Okogie J. (UTA)
+    minuti: 16.4
+    natprevari: 6
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Bailey A. (UTA)
+  - George K. (UTA)
+  - Hayes J. (UTA)
+  - Markkanen L. (UTA)
+  - Peterson D. (UTA)
+  trener: null
+  doma:
+    n: 5
+    poeni: 109.8
+    primeni: 118.0
+  gosti:
+    n: 2
+    poeni: 100.0
+    primeni: 121.0
+  forma_posledni_5:
+    pobedi: 0
+    porazi: 5
+    poeni: 105.2
+    primeni: 118.0
+    neto_rejting: -12.4
+  trojki:
+    3par_napad: 40.5
+    3par_dozvoluva: 42.0
+    3p_pct: 33.1
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 26.3
+    dreb_pct: 77.6
+  igraci_vo_zapisnik:
+  - Alexander T. (UTA)
+  - Bailey A. (UTA)
+  - Bamba M. (UTA)
+  - Bradley T. (UTA)
+  - Bufkin K. (UTA)
+  - Collier I. (UTA)
+  - Filipowski K. (UTA)
+  - George K. (UTA)
+  - Green J. (UTA)
+  - Hayes J. (UTA)
+  - Hinson B. (UTA)
+  - Ingram H. (UTA)
+  - Jackson Jr. J. (UTA)
+  - Markkanen L. (UTA)
+  - Mykhailiuk S. (UTA)
+  - Nurkić J. (UTA)
+  - Okogie J. (UTA)
+  - Peterson D. (UTA)
+  - Sensabaugh B. (UTA)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 102.0
+      rang: 13
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 108.7
+      surov: 103.5
+      rang: 23
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.3
+      surov: 115.0
+      rang: 11
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 40.5
+      rang: 21
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 40.5
+      ftr: 30.2
+      2p_pct: 49.5
+      3p_pct: 33.1
+      efg: 49.5
+      rang_efg: 27
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 42.0
+      ftr: 33.7
+      2p_pct: 52.1
+      3p_pct: 37.2
+      efg: 53.7
+      rang_efg: 16
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -13.8
+        ast_pct: -25.1
+        skok_pct: -0.9
+        trojki_pct: 0.9
+      крила:
+        poeni_pct: 8.4
+        ast_pct: -20.1
+        skok_pct: -3.4
+        trojki_pct: 24.4
+      бекови:
+        poeni_pct: 4.4
+        ast_pct: 0.1
+        skok_pct: 4.2
+        trojki_pct: -12.0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 26.3
+      rang_oreb: 19
+      dreb_pct: 77.6
+      rang_dreb: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.7
+      rang_najmalku: 20
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 29.6
+      ftr_dozvoluva: 33.7
+      rang_najmalku: 28
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 6.6
+      rang_blk: 2
+      2p_pct_protivnik: 52.1
+      rang_2p_odbrana: 9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 27.9
+        n: 3
+      top3:
+        min: 31.1
+        n: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 29.9
+        n: 3
+      top3:
+        min: 29.4
+        n: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 31.1
+      top3_min_razlika: 29.4
+      razlika_min: 1.7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Markkanen L. (UTA)
+        propushteni: 1
+        prichini:
+          не е во записник: 1
+      - igrac: Jackson Jr. J. (UTA)
+        propushteni: 3
+        prichini:
+          не е во записник: 3
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 3
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 13
+      pogodok_pct: 53.8
+      ochekuvano_pct: 59.8
+      razlika_pp: -1.5
+      po_pazar:
+        asistencii: 0/1
+        poeni: 1/3
+        skokovi: 4/4
+        tim_vkupno: 1/3
+        trojki: 1/1
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 102.0
+          rang: 13
+          od: 30
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 40.5
+          rang: 21
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 45.0
+            крила: 41.9
+            центри: 13.1
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 26.3
+          rang: 19
+          od: 30
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 8
+          rang: 12
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 1.7
+          rang: 22
+          od: 23
+      fauli:
+        oznaka: средно; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 22.7
+          rang: 11
+          ftr_protivnik: 33.7
+          rang_ftr: 3
+          od: 30
+      dozvoluva:
+        oznaka: средно тројки; силна заштита на кош; пушта над лигата на крила (+8%
+          поени)
+        brojki:
+          3par_protivnik: 42.0
+          rang_3par: 19
+          2p_pct_protivnik: 52.1
+          rang_2p: 22
+          od: 30
+          dvp_poeni_pct:
+            центри: -13.8
+            крила: 8.4
+            бекови: 4.4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

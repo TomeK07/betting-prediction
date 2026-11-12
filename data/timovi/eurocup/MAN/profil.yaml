@@ -1,0 +1,415 @@
+tim: MAN
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-27'
+  tempo:
+    poseda_po_natprevar: 79.5
+    rang: 6
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 113.4
+    drtg_surov: 109.4
+    ortg_prilagoden: 111.9
+    drtg_prilagoden: 109.5
+    rang_napad: 9
+    rang_odbrana: 14
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: -4.4
+      ast_pct: -29.6
+      skok_pct: 1.8
+      trojki_pct: 9.3
+    крила:
+      poeni_pct: -11.2
+      ast_pct: -28.6
+      skok_pct: -12.7
+      trojki_pct: -32.8
+    бекови:
+      poeni_pct: 15.9
+      ast_pct: 4.1
+      skok_pct: 12.0
+      trojki_pct: 19.7
+  nositeli:
+  - igrac: Allen T. (MAN)
+    minuti: 26.8
+    usg_pct: 31.0
+    ast_pct: 12.0
+    poeni: 22.0
+    ast: 1.7
+  - igrac: Notae J. (MAN)
+    minuti: 23.0
+    usg_pct: 30.5
+    ast_pct: 29.5
+    poeni: 15.6
+    ast: 3.6
+  - igrac: Oriola P. (MAN)
+    minuti: 17.0
+    usg_pct: 23.7
+    ast_pct: 26.0
+    poeni: 13.7
+    ast: 2.3
+  - igrac: Ongenda N. (MAN)
+    minuti: 22.5
+    usg_pct: 21.8
+    ast_pct: 8.7
+    poeni: 11.6
+    ast: 1.2
+  rotacija:
+  - igrac: Allen T. (MAN)
+    minuti: 26.8
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Benitez H. (MAN)
+    minuti: 23.1
+    natprevari: 2
+    starter_pct: 100.0
+  - igrac: Notae J. (MAN)
+    minuti: 23.0
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Ongenda N. (MAN)
+    minuti: 22.5
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Agbo C. (MAN)
+    minuti: 18.9
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Villar R. (MAN)
+    minuti: 18.8
+    natprevari: 3
+    starter_pct: 67.0
+  - igrac: Bassas F. (MAN)
+    minuti: 17.4
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Vila E. (MAN)
+    minuti: 17.1
+    natprevari: 4
+    starter_pct: 50.0
+  - igrac: Oriola P. (MAN)
+    minuti: 17.0
+    natprevari: 3
+    starter_pct: 0.0
+  - igrac: Kolenda L. (MAN)
+    minuti: 16.6
+    natprevari: 5
+    starter_pct: 20.0
+  startna_petorka_posledni_5:
+  - Agbo C. (MAN)
+  - Allen T. (MAN)
+  - Notae J. (MAN)
+  - Ongenda N. (MAN)
+  - Vila E. (MAN)
+  trener: OCAMPO, DIEGO
+  doma:
+    n: 2
+    poeni: 104.5
+    primeni: 88.5
+  gosti:
+    n: 3
+    poeni: 80.7
+    primeni: 86.0
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 90.2
+    primeni: 87.0
+    neto_rejting: 4.0
+  trojki:
+    3par_napad: 43.5
+    3par_dozvoluva: 35.9
+    3p_pct: 34.7
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 32.4
+    dreb_pct: 64.5
+  igraci_vo_zapisnik:
+  - Agbo C. (MAN)
+  - Allen T. (MAN)
+  - Bassas F. (MAN)
+  - Beaufort L. (MAN)
+  - Benitez H. (MAN)
+  - Enabulele M. (MAN)
+  - Erichsen G. (MAN)
+  - Fernandez G. (MAN)
+  - Kolenda L. (MAN)
+  - Minchev Y. (MAN)
+  - Naspler G. (MAN)
+  - Notae J. (MAN)
+  - Ongenda N. (MAN)
+  - Oriola P. (MAN)
+  - Tamba P. (MAN)
+  - Vila E. (MAN)
+  - Villar R. (MAN)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 79.5
+      rang: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 111.9
+      surov: 113.4
+      rang: 9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.5
+      surov: 109.4
+      rang: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 43.5
+      rang: 9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 43.5
+      ftr: 33.2
+      2p_pct: 59.4
+      3p_pct: 34.7
+      efg: 56.2
+      rang_efg: 6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 35.9
+      ftr: 28.5
+      2p_pct: 55.5
+      3p_pct: 37.6
+      efg: 55.8
+      rang_efg: 29
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -4.4
+        ast_pct: -29.6
+        skok_pct: 1.8
+        trojki_pct: 9.3
+      крила:
+        poeni_pct: -11.2
+        ast_pct: -28.6
+        skok_pct: -12.7
+        trojki_pct: -32.8
+      бекови:
+        poeni_pct: 15.9
+        ast_pct: 4.1
+        skok_pct: 12.0
+        trojki_pct: 19.7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 32.4
+      rang_oreb: 15
+      dreb_pct: 64.5
+      rang_dreb: 27
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.4
+      rang_najmalku: 9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 18.6
+      ftr_dozvoluva: 28.5
+      rang_najmalku: 8
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.2
+      rang_blk: 8
+      2p_pct_protivnik: 55.5
+      rang_2p_odbrana: 22
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: null
+        n: 0
+      top3:
+        min: null
+        n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 21.1
+        n: 2
+      top3:
+        min: 21.6
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: null
+      top3_min_razlika: 21.6
+      razlika_min: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Allen T. (MAN)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      - igrac: Benitez H. (MAN)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      - igrac: Agbo C. (MAN)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 79.5
+          rang: 3
+          od: 32
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 43.5
+          rang: 9
+          od: 32
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 45.7
+            крила: 31.5
+            центри: 22.8
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 32.4
+          rang: 15
+          od: 32
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 5
+          rang: 32
+          od: 32
+      vadenje_zvezdi:
+        oznaka: null
+        brojki:
+          top3_min_pomalku: null
+          rang: null
+          od: 25
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 21.4
+          rang: 23
+          ftr_protivnik: 28.5
+          rang_ftr: 25
+          od: 32
+      dozvoluva:
+        oznaka: ги брани тројките; средна заштита на кош; пушта над лигата на бекови
+          (+16% поени)
+        brojki:
+          3par_protivnik: 35.9
+          rang_3par: 30
+          2p_pct_protivnik: 55.5
+          rang_2p: 11
+          od: 32
+          dvp_poeni_pct:
+            центри: -4.4
+            крила: -11.2
+            бекови: 15.9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

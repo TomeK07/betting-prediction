@@ -1,0 +1,32 @@
+tip: ОПИС
+tim: CHI
+liga: nba
+predlog_datum: '2026-11-11'
+izvor_url: https://www.eurohoops.net/en/nba-news/2021482/noa-essengue-talks-chicago-bulls-nba/; https://www.eurohoops.net/en/nba-news/2008076/chicago-bulls-sacramento-kings-announce-coaching-staff-nba/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Tiago Splitter
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-16'
+  naslov: 'Noa Essengue bounces back stronger for the Bulls: “I’m a competitor”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/2021482/noa-essengue-talks-chicago-bulls-nba/
+- objaveno: '2026-09-15'
+  naslov: Tiago Splitter builds European bridge with new Bulls coaching staff
+  izvor_url: https://www.eurohoops.net/en/nba-news/2008076/chicago-bulls-sacramento-kings-announce-coaching-staff-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2021482/noa-essengue-talks-chicago-bulls-nba/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2021482/noa-essengue-talks-chicago-bulls-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2008076/chicago-bulls-sacramento-kings-announce-coaching-staff-nba/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2008076/chicago-bulls-sacramento-kings-announce-coaching-staff-nba/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+se_kosi_so_brojki: []

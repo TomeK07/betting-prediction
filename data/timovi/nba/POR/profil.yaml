@@ -1,0 +1,417 @@
+tim: POR
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 6
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 101.7
+    rang: 9
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 118.2
+    drtg_surov: 107.5
+    ortg_prilagoden: 114.1
+    drtg_prilagoden: 108.0
+    rang_napad: 5
+    rang_odbrana: 4
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: 13.4
+      ast_pct: -0.0
+      skok_pct: -1.8
+      trojki_pct: 36.6
+    крила:
+      poeni_pct: -4.0
+      ast_pct: 5.0
+      skok_pct: -2.8
+      trojki_pct: -4.7
+    бекови:
+      poeni_pct: -6.6
+      ast_pct: -15.4
+      skok_pct: -16.4
+      trojki_pct: -20.8
+  nositeli:
+  - igrac: Avdija D. (POR)
+    minuti: 31.9
+    usg_pct: 29.3
+    ast_pct: 27.9
+    poeni: 23.8
+    ast: 5.5
+  - igrac: Lillard D. (POR)
+    minuti: 29.2
+    usg_pct: 27.1
+    ast_pct: 20.3
+    poeni: 19.3
+    ast: 4.0
+  - igrac: Henderson S. (POR)
+    minuti: 21.9
+    usg_pct: 23.5
+    ast_pct: 9.7
+    poeni: 8.7
+    ast: 1.5
+  - igrac: Morant J. (POR)
+    minuti: 25.9
+    usg_pct: 22.3
+    ast_pct: 32.2
+    poeni: 15.8
+    ast: 5.5
+  rotacija:
+  - igrac: Avdija D. (POR)
+    minuti: 31.9
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Lillard D. (POR)
+    minuti: 29.2
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Camara T. (POR)
+    minuti: 26.9
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Morant J. (POR)
+    minuti: 25.9
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Holiday J. (POR)
+    minuti: 25.7
+    natprevari: 6
+    starter_pct: 0.0
+  - igrac: Clingan D. (POR)
+    minuti: 23.9
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Cissoko S. (POR)
+    minuti: 22.0
+    natprevari: 6
+    starter_pct: 0.0
+  - igrac: Henderson S. (POR)
+    minuti: 21.9
+    natprevari: 6
+    starter_pct: 33.0
+  - igrac: Williams III R. (POR)
+    minuti: 16.7
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Youngblood C. (POR)
+    minuti: 11.0
+    natprevari: 2
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Avdija D. (POR)
+  - Camara T. (POR)
+  - Clingan D. (POR)
+  - Lillard D. (POR)
+  - Morant J. (POR)
+  trener: null
+  doma:
+    n: 2
+    poeni: 113.5
+    primeni: 103.5
+  gosti:
+    n: 4
+    poeni: 123.5
+    primeni: 112.2
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 119.4
+    primeni: 114.6
+    neto_rejting: 4.7
+  trojki:
+    3par_napad: 50.3
+    3par_dozvoluva: 42.0
+    3p_pct: 35.5
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 30.5
+    dreb_pct: 77.4
+  igraci_vo_zapisnik:
+  - Avdija D. (POR)
+  - Camara T. (POR)
+  - Carlson B. (POR)
+  - Cissoko S. (POR)
+  - Clingan D. (POR)
+  - Henderson S. (POR)
+  - Holiday J. (POR)
+  - Kent J. (POR)
+  - Krejčí V. (POR)
+  - Lillard D. (POR)
+  - Morant J. (POR)
+  - Potter M. (POR)
+  - Sharpe S. (POR)
+  - Tonje J. (POR)
+  - Williams III R. (POR)
+  - Yang H. (POR)
+  - Youngblood C. (POR)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 101.7
+      rang: 17
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 114.1
+      surov: 118.2
+      rang: 5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 108.0
+      surov: 107.5
+      rang: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 50.3
+      rang: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 50.3
+      ftr: 33.6
+      2p_pct: 58.8
+      3p_pct: 35.5
+      efg: 56.0
+      rang_efg: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 42.0
+      ftr: 30.3
+      2p_pct: 53.9
+      3p_pct: 32.1
+      efg: 51.5
+      rang_efg: 8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 13.4
+        ast_pct: -0.0
+        skok_pct: -1.8
+        trojki_pct: 36.6
+      крила:
+        poeni_pct: -4.0
+        ast_pct: 5.0
+        skok_pct: -2.8
+        trojki_pct: -4.7
+      бекови:
+        poeni_pct: -6.6
+        ast_pct: -15.4
+        skok_pct: -16.4
+        trojki_pct: -20.8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 30.5
+      rang_oreb: 6
+      dreb_pct: 77.4
+      rang_dreb: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.2
+      rang_najmalku: 9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 25.8
+      ftr_dozvoluva: 30.3
+      rang_najmalku: 20
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 4.5
+      rang_blk: 20
+      2p_pct_protivnik: 53.9
+      rang_2p_odbrana: 17
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: null
+        n: 0
+      top3:
+        min: null
+        n: 0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 25.6
+        n: 3
+      top3:
+        min: 27.3
+        n: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: null
+      top3_min_razlika: 27.3
+      razlika_min: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Morant J. (POR)
+        propushteni: 2
+        prichini:
+          не е во записник: 2
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 3
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 22
+      pogodok_pct: 54.5
+      ochekuvano_pct: 63.4
+      razlika_pp: -8.4
+      po_pazar:
+        asistencii: 1/3
+        poeni: 2/2
+        skokovi: 3/6
+        tim_vkupno: 1/2
+        trojki: 2/6
+        vkupno: 3/3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 101.7
+          rang: 17
+          od: 30
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 50.3
+          rang: 2
+          od: 30
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 52.1
+            крила: 31.6
+            центри: 16.2
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 30.5
+          rang: 6
+          od: 30
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 8
+          rang: 12
+          od: 30
+      vadenje_zvezdi:
+        oznaka: null
+        brojki:
+          top3_min_pomalku: null
+          rang: null
+          od: 23
+      fauli:
+        oznaka: фаулира малку; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 21.2
+          rang: 22
+          ftr_protivnik: 30.3
+          rang_ftr: 11
+          od: 30
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош; пушта над лигата на центри (+13%
+          поени)
+        brojki:
+          3par_protivnik: 42.0
+          rang_3par: 18
+          2p_pct_protivnik: 53.9
+          rang_2p: 14
+          od: 30
+          dvp_poeni_pct:
+            центри: 13.4
+            крила: -4.0
+            бекови: -6.6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

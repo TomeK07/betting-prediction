@@ -1,0 +1,54 @@
+tip: ОПИС
+tim: MIN
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/nba-news/2014674/rudy-gobert-talks-minnesota-timberwolves-joan-beringer-nba/; https://www.eurohoops.net/en/nba-news/2010464/pablo-prigioni-lead-assistant-minnesota-timberwolves-nba/;
+  https://www.eurohoops.net/en/nba-news/2005607/timberwolves-reportedly-eyed-sasha-vezenkov-this-summer-never-say-never/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Chris Finch
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-01'
+  naslov: Gobert unites Timberwolves in Paris, Lyles adds EuroLeague flavor
+  izvor_url: https://www.eurohoops.net/en/nba-news/2014674/rudy-gobert-talks-minnesota-timberwolves-joan-beringer-nba/
+- objaveno: '2026-09-21'
+  naslov: Pablo Prigioni takes over as Minnesota Timberwolves lead assistant
+  izvor_url: https://www.eurohoops.net/en/nba-news/2010464/pablo-prigioni-lead-assistant-minnesota-timberwolves-nba/
+- objaveno: '2026-09-08'
+  naslov: 'Timberwolves reportedly eyed Sasha Vezenkov this summer: “Never say never”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/2005607/timberwolves-reportedly-eyed-sasha-vezenkov-this-summer-never-say-never/
+- objaveno: '2026-08-21'
+  naslov: Marc Stad takes control of Timberwolves in $4.5 billion deal
+  izvor_url: https://www.eurohoops.net/en/nba-news/2000594/marc-stad-takes-control-of-timberwolves-in-4-5-billion-deal/
+- objaveno: '2026-07-01'
+  naslov: Minnesota governor Tim Walz recruits LeBron James to the Timberwolves
+  izvor_url: https://www.eurohoops.net/en/nba-news/1986505/lebron-james-minnesota-timberwolves-rumors-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2014674/rudy-gobert-talks-minnesota-timberwolves-joan-beringer-nba/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2014674/rudy-gobert-talks-minnesota-timberwolves-joan-beringer-nba/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2010464/pablo-prigioni-lead-assistant-minnesota-timberwolves-nba/: LLM gpt-oss-120b не
+  одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2010464/pablo-prigioni-lead-assistant-minnesota-timberwolves-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2005607/timberwolves-reportedly-eyed-sasha-vezenkov-this-summer-never-say-never/: LLM
+  gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2005607/timberwolves-reportedly-eyed-sasha-vezenkov-this-summer-never-say-never/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2000594/marc-stad-takes-control-of-timberwolves-in-4-5-billion-deal/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2000594/marc-stad-takes-control-of-timberwolves-in-4-5-billion-deal/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1986505/lebron-james-minnesota-timberwolves-rumors-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1986505/lebron-james-minnesota-timberwolves-rumors-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+se_kosi_so_brojki: []

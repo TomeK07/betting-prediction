@@ -1,0 +1,110 @@
+"""Player props doc for NBA tonight — reuses pregled/picks internals; numbers only from the project's model."""
+import sys
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
+
+sys.path.insert(0, r"C:\Users\tomek\OneDrive\Desktop\betting-prediction")
+import pandas as pd
+
+from core.config import load_settings
+import pipeline.pregled_cmd as pg
+from model.lines import build_day
+from pipeline.injuries_cmd import league_absences
+from pipeline.lines_cmd import attach_team_codes
+from pipeline.picks_cmd import BLOWOUT_WARN, build_candidates, player_projections, team_projections
+
+pg.PLAYERS_PER_TEAM = 6
+PROPS = {"poeni", "skokovi", "asistencii", "trojki"}
+day = date.fromisoformat(sys.argv[1])
+out_path = sys.argv[2]
+
+settings = load_settings()
+league = "nba"
+cfg = settings.league(league)
+folder = settings.paths.processed / league / cfg.season
+read = lambda n: pd.read_csv(folder / n, dtype={"game_code": str, "player_code": str})
+schedule, logs, roster = read("schedule.csv"), read("player_logs.csv"), read("roster.csv")
+games = schedule[schedule["game_date"] == day.isoformat()]
+lines = build_day(settings.paths.raw, datetime.now(ZoneInfo(settings.timezone)).date().isoformat())
+lines = attach_team_codes(lines, settings)
+absent, _ = league_absences(settings, league, day)
+teamp = team_projections(settings, league, day, games)
+players = player_projections(settings, league, day, games, absent, logs, roster)
+cands = build_candidates(settings, league, day, games, teamp, players, lines.assign(glavna=True))
+last = lines.groupby("kladilnica")["snimka"].transform("max")
+snap = ", ".join(f"{b} {s[11:16]}" for b, s in lines[lines["snimka"] == last].groupby("kladilnica")["snimka"].max().items())
+fav8 = frozenset((gc, t["home"] if t["mu_home"] > t["mu_away"] else t["away"]) for gc, t in teamp.items()
+                 if abs(t["mu_home"] - t["mu_away"]) >= BLOWOUT_WARN)
+
+MK = {"poeni": "поени", "skokovi": "скокови", "asistencii": "асистенции", "trojki": "тројки"}
+S = {"nad": "НАД", "pod": "ПОД"}
+
+
+STAT = {"poeni": "pts", "skokovi": "reb", "asistencii": "ast", "trojki": "fgm3"}
+played = logs[(logs["dnp"] != True) & (logs["minutes"] > 0)]
+AVG = played.groupby("player_code").agg(n=("pts", "size"), min=("minutes", "mean"), pts=("pts", "mean"),
+                                        reb=("reb", "mean"), ast=("ast", "mean"), fgm3=("fgm3", "mean"))
+
+
+def avg(c):
+    a = AVG.loc[str(c.player_code)] if str(c.player_code) in AVG.index else None
+    if a is None:
+        return "нема", False
+    v = a[STAT[c.pazar]]
+    low = v > 0 and c.mu < 0.85 * v
+    return f"{v:.1f} ({a['min']:.0f} мин, n={a['n']:.0f})", low
+
+
+def why(c):
+    s = [x.text_mk for x in (c.scenarija or []) if getattr(x, "side", c.strana) == c.strana]
+    return "; ".join(s) if s else "без посебен мечап-сигнал"
+
+
+def row(o):
+    c = o["c"]
+    odds = f"{o['kvota']:.2f}" if o["kvota"] else "—"
+    if o["evrotip"]:
+        odds += f" (evrotip {o['evrotip']:.2f})"
+    src = "" if o["book_p"] == "mozzart" else " ev"
+    av, low = avg(c)
+    risks = o["risks"] + (["⚠️ проекција >15% под просекот (сомнително)"] if low else [])
+    return (f"| {c.igrac} | {MK[c.pazar]} **{S[c.strana]} {c.linija:g}** | {odds} | {c.mu:.1f} | {av} | "
+            f"{o['p'] * 100:.0f}%{src} | {c.p_kal * 100:.0f}% {o['model']} | "
+            f"{c.min_proj:.0f} | {why(c)} | {' '.join(risks) or '—'} |")
+
+
+HDR = ["| Играч | Избор | Квота | Проекција | Просек сезона | Пазар % | Модел % | Мин. | Мечап / зошто | Ризик |",
+       "|---|---|---|---|---|---|---|---|---|---|"]
+
+allopts, body = [], []
+for gc, t in sorted(teamp.items(), key=lambda kv: kv[1].get("tip", "")):
+    pc = [c for c in cands if c.game_code == gc and c.pazar in PROPS]
+    opts = pg.options(pc, {}, players[players["game_code"] == gc] if len(players) else players, fav8)
+    allopts += opts
+    body += [f"## {t['home']} – {t['away']}", "",
+             f"Модел: {t['home']} {t['mu_home']:.1f} – {t['away']} {t['mu_away']:.1f} "
+             f"(разлика {t['mu_home'] - t['mu_away']:+.1f})", ""]
+    if opts:
+        body += HDR + [row(o) for o in opts]
+    else:
+        body.append("- нема играчки линии ≥55% на пазарот")
+    body.append("")
+
+agree = [o for o in allopts if o["model"] == "✅" and not o["own_q"] and not any("blowout" in r for r in o["risks"])
+         and (o["c"].min_proj or 0) >= 20 and not avg(o["c"])[1] and not o["c"].zavisi]
+agree.sort(key=lambda o: -(o["c"].p_kal))
+top = ["## ⭐ Модел и пазар се согласуваат — најчисти (модел ≥ пазар, без Q кај него и соиграч, без blowout, ≥20 мин, проекцијата не е >15% под просекот)", "",
+       "*Сортирано по модел %. Ова НЕ е доказ за предност — играчките пазари се САМО ХАРТИЈА (backtest 31.10).*", ""]
+top += HDR + [row(o) for o in agree[:25]] if agree else ["- нема"]
+
+head = [f"# Играчи NBA — {day} вечер (освежено {datetime.now().strftime('%H:%M')})", "",
+        "> 📋 Сите бројки се од Python моделот (проекција, модел %) и од линиите на кладилниците (пазар % = de-vig). "
+        "Megawin НЕ е вклучен (нема scraper). Играчки пазари = **САМО ХАРТИЈА**: моделот досега е полош од пазарот. "
+        "Ништо не е уплатено.", "",
+        f"- Снимка на линии: {snap} · повреди: официјален NBA извештај 15:00 ET · главните "
+        f"{pg.PLAYERS_PER_TEAM} по тим · пазар под 55% не е прикажан.",
+        "- Модел: ✅ ≥ пазар · ➖ до 5 pp под · ❌ повеќе од 5 pp под пазарот.",
+        "- ⚠️ **Позната грешка (2.11):** моделот ги потценува минутите (просек 0.90× од вистинското) → ПОД кај ѕвездите изгледа "
+        "„90%“, а не е. Затоа колона *Просек сезона* + ознака кога проекцијата е >15% под просекот; тие се исфрлени од ⭐.", ""]
+open(out_path, "w", encoding="utf-8").write("\n".join(head + top + [""] + body) + "\n")
+print("OK", len(allopts), len(agree))

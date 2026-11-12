@@ -1,0 +1,150 @@
+tip: ОПИС
+tim: DAL
+liga: nba
+predlog_datum: '2026-10-30'
+izvor_url: https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies; https://www.espn.com/nba/story/_/id/50241906/lebron-lamelo-kawhi-newcomer-season-debuts;
+  https://www.espn.com/nba/story/_/id/50216358/nba-espn-disney-schedule-teams-how-watch-nba-australia-2026-27 …
+citat: Mavericks first-year coach Dusty May
+prompt_verzija: t9-v1
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Dusty May
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: 2026-10-26T17:56
+  naslov: 'NBA breakout players: 30 ready for the next step (yes, even Wemby and Luka)'
+  izvor_url: https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies
+- objaveno: 2026-10-23T16:01
+  naslov: 'What worked (and didn''t) in 12 NBA season debuts: LeBron, LaMelo, more stars'
+  izvor_url: https://www.espn.com/nba/story/_/id/50241906/lebron-lamelo-kawhi-newcomer-season-debuts
+- objaveno: 2026-10-19T23:08
+  naslov: How to Watch the NBA in Australia 2026-27 | ESPN on Disney+
+  izvor_url: https://www.espn.com/nba/story/_/id/50216358/nba-espn-disney-schedule-teams-how-watch-nba-australia-2026-27
+- objaveno: 2026-10-19T18:31
+  naslov: '2026-27 NBA season preview: Rankings, predictions, odds'
+  izvor_url: https://www.espn.com/nba/story/_/id/49998634/2026-27-nba-season-preview-rankings-predictions
+- objaveno: 2026-10-16T10:38
+  naslov: 'NBA betting: One bet to make on every team heading into the season'
+  izvor_url: https://www.espn.com/sports-betting/story/_/id/50185247/nba-betting-one-bet-make-every-team-2026-2027
+- objaveno: 2026-10-15T19:26
+  naslov: '10 people who will define the NBA season: Zion, Kawhi, Kyrie'
+  izvor_url: https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season
+- objaveno: 2026-10-15T16:37
+  naslov: What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team
+  izvor_url: https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams
+- objaveno: 2026-10-14T10:58
+  naslov: 'NBA Now or Later rankings: Which teams most need to win immediately?'
+  izvor_url: https://www.espn.com/nba/story/_/id/50167312/2026-27-now-later-rankings-finals
+- objaveno: 2026-10-13T19:51
+  naslov: Which NBA deals will get done? Bobby Marks' biggest extension decisions to watch
+  izvor_url: https://www.espn.com/nba/story/_/id/50166436/rookie-veteran-contract-extensions-towns-giannis-jokic
+- objaveno: 2026-10-12T17:26
+  naslov: 'Windhorst: Why Cooper Flagg''s ascension is starting to feel inevitable'
+  izvor_url: https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china
+- objaveno: 2026-10-08T21:14
+  naslov: Shai Gilgeous-Alexander joins athletes who became owners
+  izvor_url: https://www.espn.com/nfl/story/_/id/29553205/dwyane-wade-tom-brady-lebron-james-athletes-team-owners
+- objaveno: 2026-10-08T16:39
+  naslov: What does your NBA team need? The biggest hole on all 30 rosters
+  izvor_url: https://www.espn.com/nba/story/_/id/50111204/nba-preseason-roster-holes-30-teams
+fakti:
+- pole: analiticari
+  vrednost: Flagg's rapid maturation and leadership are currently underrated despite his obvious growth and impact on the team.
+  citat: it feels possible that Flagg's quickening maturation might be a tad underrated at the moment.
+  izvor_url: https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china
+  objaveno: 2026-10-12T17:26
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: trener
+  vrednost: Dusty May
+  citat: Mavericks first-year coach Dusty May
+  izvor_url: https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china
+  objaveno: 2026-10-12T17:26
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: trener
+  vrednost: Dusty May
+  citat: back for his second season with a new coach in Dusty May
+  izvor_url: https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies
+  objaveno: 2026-10-26T17:56
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+kartichki_igraci:
+- igrac: Flagg C. (DAL)
+  brojki_python:
+    minuti: 30.6
+    natprevari: 4
+    starter_pct: 100.0
+    usg_pct: 31.5
+    ast_pct: 36.1
+    poeni: 25.2
+    ast: 6.8
+  uloga_od_tekstovi:
+  - uloga: Primary scorer, playmaker, and emerging leader who carried the load of a mid-career All-Star.
+    citat: Flagg carried the load of a mid-career All-Star, not that of a rookie on a 26-win team.
+    izvor_url: https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china
+    objaveno: 2026-10-12T17:26
+    proverka: NEPROVERENO
+  - uloga: 2026 Rookie of the Year
+    citat: All signs point up for the 2026 Rookie of the Year, back for his second season with a new coach in Dusty May and a healthy co-star
+      in Irving. Flagg, 19, led Dallas in points, rebounds, assists a
+    izvor_url: https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies
+    objaveno: 2026-10-26T17:56
+    proverka: NEPROVERENO
+- igrac: Irving K. (DAL)
+  brojki_python:
+    minuti: 27.1
+    natprevari: 4
+    starter_pct: 100.0
+    usg_pct: 26.2
+    ast_pct: 21.1
+    poeni: 18.0
+    ast: 3.8
+  uloga_od_tekstovi:
+  - uloga: co-star
+    citat: back for his second season with a new coach in Dusty May and a healthy co-star in Irving
+    izvor_url: https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies
+    objaveno: 2026-10-26T17:56
+    proverka: NEPROVERENO
+- igrac: Lively II D. (DAL)
+  brojki_python: {}
+  uloga_od_tekstovi:
+  - uloga: Rookie extension candidate
+    citat: Dereck Lively II, Dallas Mavericks
+    izvor_url: https://www.espn.com/nba/story/_/id/50166436/rookie-veteran-contract-extensions-towns-giannis-jokic
+    objaveno: 2026-10-13T19:51
+    proverka: NEPROVERENO
+otfrleno_od_python:
+- '2026-10-12 qwen3.8-27b: stil_napad „Versatile scoring ability at three levels and defensive versatility on and off the ball.“ — цитатот го
+  нема во текстот'
+- '2026-10-12 qwen3.8-27b: stil_napad „Leadership and vocal involvement in directing teammates and broadening scope beyond individual play.“ —
+  цитатот го нема во текстот'
+- '2026-10-12 qwen3.8-27b: igrac „Kyrie Irving“ — цитатот го нема во текстот'
+bez_odgovor:
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies: LLM gpt-oss-120b не одговара: Error
+  code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50241906/lebron-lamelo-kawhi-newcomer-season-debuts: LLM gpt-oss-120b не одговара: Error
+  code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50216358/nba-espn-disney-schedule-teams-how-watch-nba-australia-2026-27: LLM gpt-oss-120b
+  не одговара: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/49998634/2026-27-nba-season-preview-rankings-predictions: LLM gpt-oss-120b не одговара:
+  Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/sports-betting/story/_/id/50185247/nba-betting-one-bet-make-every-team-2026-2027: LLM gpt-oss-120b не одговара:
+  Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season: LLM gpt-oss-120b не одговара: Error code: 429
+  - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams: LLM gpt-oss-120b не одговара: Error
+  code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50167312/2026-27-now-later-rankings-finals: LLM gpt-oss-120b не одговара: Error code: 429
+  - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50166436/rookie-veteran-contract-extensions-towns-giannis-jokic: LLM gpt-oss-120b не одговара:
+  Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china: LLM gpt-oss-120b не одговара: Error
+  code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nfl/story/_/id/29553205/dwyane-wade-tom-brady-lebron-james-athletes-team-owners: LLM gpt-oss-120b не одговара:
+  Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+- 'gpt-oss-120b · https://www.espn.com/nba/story/_/id/50111204/nba-preseason-roster-holes-30-teams: LLM gpt-oss-120b не одговара: Error code:
+  429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). A'
+se_kosi_so_brojki: []

@@ -1,0 +1,403 @@
+tim: WRO
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 77.1
+    rang: 12
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 101.7
+    drtg_surov: 117.0
+    ortg_prilagoden: 106.8
+    drtg_prilagoden: 113.7
+    rang_napad: 26
+    rang_odbrana: 27
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: -5.1
+      ast_pct: 37.1
+      skok_pct: 6.2
+      trojki_pct: 4.4
+    крила:
+      poeni_pct: 21.2
+      ast_pct: 41.0
+      skok_pct: 11.5
+      trojki_pct: 42.5
+    бекови:
+      poeni_pct: -0.6
+      ast_pct: 5.3
+      skok_pct: -6.6
+      trojki_pct: 2.3
+  nositeli:
+  - igrac: Robinson D. (WRO)
+    minuti: 29.4
+    usg_pct: 27.7
+    ast_pct: 11.9
+    poeni: 16.0
+    ast: 1.8
+  - igrac: Parsons M. (WRO)
+    minuti: 21.1
+    usg_pct: 23.2
+    ast_pct: 17.3
+    poeni: 11.6
+    ast: 2.0
+  - igrac: Scruggs P. (WRO)
+    minuti: 24.1
+    usg_pct: 21.0
+    ast_pct: 22.1
+    poeni: 10.2
+    ast: 3.2
+  - igrac: Egbunu J. (WRO)
+    minuti: 18.5
+    usg_pct: 20.0
+    ast_pct: 0.0
+    poeni: 7.0
+    ast: 0.0
+  rotacija:
+  - igrac: Robinson D. (WRO)
+    minuti: 29.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Hickey A. (WRO)
+    minuti: 27.2
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Niziol J. (WRO)
+    minuti: 24.6
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Scruggs P. (WRO)
+    minuti: 24.1
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Parsons M. (WRO)
+    minuti: 21.1
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Moore I. (WRO)
+    minuti: 19.8
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Egbunu J. (WRO)
+    minuti: 18.5
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Kulikowski B. (WRO)
+    minuti: 13.5
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Luc K. (WRO)
+    minuti: 11.6
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Sternicki T. (WRO)
+    minuti: 10.0
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Egbunu J. (WRO)
+  - Hickey A. (WRO)
+  - Niziol J. (WRO)
+  - Robinson D. (WRO)
+  - Scruggs P. (WRO)
+  trener: FRANCO, DANNY
+  doma:
+    n: 3
+    poeni: 77.0
+    primeni: 91.7
+  gosti:
+    n: 2
+    poeni: 80.5
+    primeni: 88.0
+  forma_posledni_5:
+    pobedi: 1
+    porazi: 4
+    poeni: 78.4
+    primeni: 90.2
+    neto_rejting: -15.3
+  trojki:
+    3par_napad: 31.3
+    3par_dozvoluva: 49.1
+    3p_pct: 35.7
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 20.8
+    dreb_pct: 64.4
+  igraci_vo_zapisnik:
+  - Czerniewicz B. (WRO)
+  - Dunin-Wasowicz L. (WRO)
+  - Egbunu J. (WRO)
+  - Hickey A. (WRO)
+  - Kulikowski B. (WRO)
+  - Luc K. (WRO)
+  - Moore I. (WRO)
+  - Niziol J. (WRO)
+  - Parsons M. (WRO)
+  - Robinson D. (WRO)
+  - Scruggs P. (WRO)
+  - Sternicki T. (WRO)
+  - Wrzeszcz A. (WRO)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 77.1
+      rang: 10
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 106.8
+      surov: 101.7
+      rang: 26
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 113.7
+      surov: 117.0
+      rang: 27
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 31.3
+      rang: 32
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 31.3
+      ftr: 29.1
+      2p_pct: 53.0
+      3p_pct: 35.7
+      efg: 53.2
+      rang_efg: 16
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 49.1
+      ftr: 36.2
+      2p_pct: 63.0
+      3p_pct: 34.6
+      efg: 57.5
+      rang_efg: 32
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -5.1
+        ast_pct: 37.1
+        skok_pct: 6.2
+        trojki_pct: 4.4
+      крила:
+        poeni_pct: 21.2
+        ast_pct: 41.0
+        skok_pct: 11.5
+        trojki_pct: 42.5
+      бекови:
+        poeni_pct: -0.6
+        ast_pct: 5.3
+        skok_pct: -6.6
+        trojki_pct: 2.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 20.8
+      rang_oreb: 32
+      dreb_pct: 64.4
+      rang_dreb: 28
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.8
+      rang_najmalku: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 23.0
+      ftr_dozvoluva: 36.2
+      rang_najmalku: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 1.8
+      rang_blk: 27
+      2p_pct_protivnik: 63.0
+      rang_2p_odbrana: 32
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 25.9
+        n: 1
+      top3:
+        min: 27.7
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 25.6
+        n: 3
+      top3:
+        min: 28.1
+        n: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 27.7
+      top3_min_razlika: 28.1
+      razlika_min: -0.4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Niziol J. (WRO)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 77.1
+          rang: 10
+          od: 32
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 31.3
+          rang: 32
+          od: 32
+      napad_preku:
+        oznaka: избалансиран
+        brojki:
+          udel_poeni_pct:
+            бекови: 48.2
+            крила: 32.1
+            центри: 19.6
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 20.8
+          rang: 32
+          od: 32
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 6
+          rang: 26
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -0.4
+          rang: 20
+          od: 25
+      fauli:
+        oznaka: средно; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 21.8
+          rang: 17
+          ftr_protivnik: 36.2
+          rang_ftr: 8
+          od: 32
+      dozvoluva:
+        oznaka: пушта многу тројки; слаба заштита на кош; пушта над лигата на крила
+          (+21% поени)
+        brojki:
+          3par_protivnik: 49.1
+          rang_3par: 1
+          2p_pct_protivnik: 63.0
+          rang_2p: 1
+          od: 32
+          dvp_poeni_pct:
+            центри: -5.1
+            крила: 21.2
+            бекови: -0.6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

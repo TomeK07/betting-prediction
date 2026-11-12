@@ -1,0 +1,40 @@
+tip: ОПИС
+tim: BKN
+liga: nba
+predlog_datum: '2026-11-11'
+izvor_url: https://www.eurohoops.net/en/nba-news/2028224/egor-demin-injury-update-contract-status-brooklyn-nets-nba/; https://www.eurohoops.net/en/nba-news/2026247/ivica-zubac-injury-update-indiana-pacers-nba/;
+  https://www.eurohoops.net/en/nba-news/2020005/aday-mara-posts-double-double-nba-preseason-european-recap/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Jordi Fernandez
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-30'
+  naslov: Brooklyn Nets sideline Egor Demin for at least one week
+  izvor_url: https://www.eurohoops.net/en/nba-news/2028224/egor-demin-injury-update-contract-status-brooklyn-nets-nba/
+- objaveno: '2026-10-26'
+  naslov: Ivica Zubac sprains ankle in Pacers blowout win over Nets
+  izvor_url: https://www.eurohoops.net/en/nba-news/2026247/ivica-zubac-injury-update-indiana-pacers-nba/
+- objaveno: '2026-10-13'
+  naslov: Mara posts double-double, Traore sparks Nets, Lions fall in Portland
+  izvor_url: https://www.eurohoops.net/en/nba-news/2020005/aday-mara-posts-double-double-nba-preseason-european-recap/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2028224/egor-demin-injury-update-contract-status-brooklyn-nets-nba/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2028224/egor-demin-injury-update-contract-status-brooklyn-nets-nba/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2026247/ivica-zubac-injury-update-indiana-pacers-nba/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2026247/ivica-zubac-injury-update-indiana-pacers-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2020005/aday-mara-posts-double-double-nba-preseason-european-recap/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2020005/aday-mara-posts-double-double-nba-preseason-european-recap/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+se_kosi_so_brojki: []

@@ -1,0 +1,427 @@
+tim: DAL
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 101.1
+    rang: 20
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 111.0
+    drtg_surov: 111.0
+    ortg_prilagoden: 110.9
+    drtg_prilagoden: 109.3
+    rang_napad: 14
+    rang_odbrana: 9
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -14.8
+      ast_pct: 13.6
+      skok_pct: 9.5
+      trojki_pct: -34.2
+    крила:
+      poeni_pct: -0.3
+      ast_pct: -8.0
+      skok_pct: 1.7
+      trojki_pct: -9.9
+    бекови:
+      poeni_pct: 4.1
+      ast_pct: 4.0
+      skok_pct: -11.2
+      trojki_pct: -5.3
+  nositeli:
+  - igrac: Flagg C. (DAL)
+    minuti: 33.5
+    usg_pct: 31.5
+    ast_pct: 32.7
+    poeni: 25.2
+    ast: 6.5
+  - igrac: Irving K. (DAL)
+    minuti: 28.6
+    usg_pct: 27.0
+    ast_pct: 26.7
+    poeni: 21.4
+    ast: 4.8
+  - igrac: Marshall N. (DAL)
+    minuti: 26.8
+    usg_pct: 23.0
+    ast_pct: 33.8
+    poeni: 11.5
+    ast: 6.0
+  - igrac: Johnson Jr. M. (DAL)
+    minuti: 15.7
+    usg_pct: 19.7
+    ast_pct: 12.1
+    poeni: 7.3
+    ast: 1.3
+  rotacija:
+  - igrac: Washington P. (DAL)
+    minuti: 33.8
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Flagg C. (DAL)
+    minuti: 33.5
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Irving K. (DAL)
+    minuti: 28.6
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Risacher Z. (DAL)
+    minuti: 27.9
+    natprevari: 7
+    starter_pct: 14.0
+  - igrac: Marshall N. (DAL)
+    minuti: 26.8
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Gafford D. (DAL)
+    minuti: 23.8
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Christie M. (DAL)
+    minuti: 23.7
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Martin C. (DAL)
+    minuti: 19.9
+    natprevari: 3
+    starter_pct: 33.0
+  - igrac: Sasser M. (DAL)
+    minuti: 19.4
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Johnson Jr. M. (DAL)
+    minuti: 15.7
+    natprevari: 7
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Christie M. (DAL)
+  - Flagg C. (DAL)
+  - Gafford D. (DAL)
+  - Irving K. (DAL)
+  - Washington P. (DAL)
+  trener: null
+  doma:
+    n: 4
+    poeni: 110.5
+    primeni: 111.0
+  gosti:
+    n: 3
+    poeni: 114.7
+    primeni: 114.0
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 111.0
+    primeni: 110.6
+    neto_rejting: 0.4
+  trojki:
+    3par_napad: 42.5
+    3par_dozvoluva: 40.2
+    3p_pct: 33.1
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 27.3
+    dreb_pct: 69.4
+  igraci_vo_zapisnik:
+  - Aldama S. (DAL)
+  - Biberović T. (DAL)
+  - Christie M. (DAL)
+  - Cissé M. (DAL)
+  - Clayton Jr. W. (DAL)
+  - Flagg C. (DAL)
+  - Gafford D. (DAL)
+  - Howard J. (DAL)
+  - Irving K. (DAL)
+  - Johnson Jr. M. (DAL)
+  - Lawal T. (DAL)
+  - Lively II D. (DAL)
+  - Marshall N. (DAL)
+  - Martin C. (DAL)
+  - Risacher Z. (DAL)
+  - Sasser M. (DAL)
+  - Washington P. (DAL)
+  - de Larrea S. (DAL)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 101.1
+      rang: 18
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 110.9
+      surov: 111.0
+      rang: 14
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.3
+      surov: 111.0
+      rang: 9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 42.5
+      rang: 18
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 42.5
+      ftr: 24.5
+      2p_pct: 59.8
+      3p_pct: 33.1
+      efg: 55.5
+      rang_efg: 5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 40.2
+      ftr: 26.0
+      2p_pct: 55.9
+      3p_pct: 32.2
+      efg: 52.8
+      rang_efg: 13
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -14.8
+        ast_pct: 13.6
+        skok_pct: 9.5
+        trojki_pct: -34.2
+      крила:
+        poeni_pct: -0.3
+        ast_pct: -8.0
+        skok_pct: 1.7
+        trojki_pct: -9.9
+      бекови:
+        poeni_pct: 4.1
+        ast_pct: 4.0
+        skok_pct: -11.2
+        trojki_pct: -5.3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 27.3
+      rang_oreb: 14
+      dreb_pct: 69.4
+      rang_dreb: 25
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.9
+      rang_najmalku: 11
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 23.6
+      ftr_dozvoluva: 26.0
+      rang_najmalku: 8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 6.0
+      rang_blk: 5
+      2p_pct_protivnik: 55.9
+      rang_2p_odbrana: 23
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 34.7
+        n: 2
+      top3:
+        min: 36.8
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 28.8
+        n: 5
+      top3:
+        min: 30.0
+        n: 5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 36.8
+      top3_min_razlika: 30.0
+      razlika_min: 6.8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Flagg C. (DAL)
+        propushteni: 1
+        prichini:
+          не е во записник: 1
+      - igrac: Irving K. (DAL)
+        propushteni: 2
+        prichini:
+          не е во записник: 2
+      - igrac: Marshall N. (DAL)
+        propushteni: 3
+        prichini:
+          Inactive - Injury/Illness: 1
+          DNP - Coach's Decision: 1
+          не е во записник: 1
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 3
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 13
+      pogodok_pct: 38.5
+      ochekuvano_pct: 58.5
+      razlika_pp: -20.0
+      po_pazar:
+        asistencii: 1/1
+        poeni: 2/5
+        skokovi: 1/2
+        tim_vkupno: 1/1
+        trojki: 0/3
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 101.1
+          rang: 18
+          od: 30
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 42.5
+          rang: 18
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 35.0
+            крила: 63.7
+            центри: 1.3
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 27.3
+          rang: 14
+          od: 30
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 30
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 6.8
+          rang: 8
+          od: 23
+      fauli:
+        oznaka: средно; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 21.9
+          rang: 20
+          ftr_protivnik: 26.0
+          rang_ftr: 23
+          od: 30
+      dozvoluva:
+        oznaka: ги брани тројките; слаба заштита на кош
+        brojki:
+          3par_protivnik: 40.2
+          rang_3par: 27
+          2p_pct_protivnik: 55.9
+          rang_2p: 8
+          od: 30
+          dvp_poeni_pct:
+            центри: -14.8
+            крила: -0.3
+            бекови: 4.1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

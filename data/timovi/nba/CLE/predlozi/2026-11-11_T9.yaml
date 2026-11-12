@@ -1,0 +1,54 @@
+tip: ОПИС
+tim: CLE
+liga: nba
+predlog_datum: '2026-11-11'
+izvor_url: https://www.eurohoops.net/en/nba-news/2026277/mario-hezonja-talks-cleveland-cavaliers-nba-return-approach/; https://www.eurohoops.net/en/nba-news/2009472/jose-calderon-has-been-promoted-to-assistant-general-manager-of-the-cleveland-cavaliers/;
+  https://www.eurohoops.net/en/nba-news/2003914/khalifa-diop-is-leaving-baskonia-and-is-set-to-join-the-cavaliers/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Kenny Atkinson
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-26'
+  naslov: 'Hezonja goes viral by waving off Cavaliers play: “I’m here”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/2026277/mario-hezonja-talks-cleveland-cavaliers-nba-return-approach/
+- objaveno: '2026-09-18'
+  naslov: Jose Calderon has been promoted to Assistant General Manager of the Cleveland Cavaliers
+  izvor_url: https://www.eurohoops.net/en/nba-news/2009472/jose-calderon-has-been-promoted-to-assistant-general-manager-of-the-cleveland-cavaliers/
+- objaveno: '2026-09-02'
+  naslov: Khalifa Diop joins the Cleveland Cavaliers after leaving Baskonia
+  izvor_url: https://www.eurohoops.net/en/nba-news/2003914/khalifa-diop-is-leaving-baskonia-and-is-set-to-join-the-cavaliers/
+- objaveno: '2026-08-14'
+  naslov: Cavaliers trade Dennis Schröder to Hornets
+  izvor_url: https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/
+- objaveno: '2026-08-09'
+  naslov: Cavaliers continue to explore Dennis Schroder trades to clear cap space
+  izvor_url: https://www.eurohoops.net/en/nba-news/1997273/dennis-schroder-trade-rumors-update-cleveland-cavaliers-nba-2/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2026277/mario-hezonja-talks-cleveland-cavaliers-nba-return-approach/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2026277/mario-hezonja-talks-cleveland-cavaliers-nba-return-approach/: LLM qwen3.8-27b не
+  одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2009472/jose-calderon-has-been-promoted-to-assistant-general-manager-of-the-cleveland-cavaliers/:
+  LLM gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2009472/jose-calderon-has-been-promoted-to-assistant-general-manager-of-the-cleveland-cavaliers/:
+  LLM qwen3.8-27b не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2003914/khalifa-diop-is-leaving-baskonia-and-is-set-to-join-the-cavaliers/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2003914/khalifa-diop-is-leaving-baskonia-and-is-set-to-join-the-cavaliers/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/: LLM gpt-oss-120b не одговара: Connection
+  error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1998803/cavaliers-trade-dennis-schroder-to-hornets/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1997273/dennis-schroder-trade-rumors-update-cleveland-cavaliers-nba-2/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1997273/dennis-schroder-trade-rumors-update-cleveland-cavaliers-nba-2/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

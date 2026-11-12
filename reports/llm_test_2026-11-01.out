@@ -1,0 +1,168 @@
+18:38:31 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:32 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:37 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:37 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:38 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:39 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:46 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:46 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:50 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:50 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:55 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:38:55 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:02 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:03 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:04 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:04 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:06 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:10 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:39:10 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~10s. 5 models skipped: no key configured for their platform.
+18:39:15 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:17 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:19 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:20 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:21 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:39:21 WARNING LLM gemini-3.5-flash обид 1/3: Error code: 429 - All models rate-limited after 1 attempt. Soonest cooldown reset ~2m. Attempt trail: google/gemini-3.5-flash key1: rate_limited. Last error: Google API error 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: [redacted-url] To monitor your current usage, head to: [redacted-url] * Quota exceeded for me...
+18:39:26 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:39:26 WARNING LLM gemini-3.6-flash обид 1/3: Error code: 429 - All models rate-limited after 1 attempt. Soonest cooldown reset ~86s. Attempt trail: google/gemini-3.6-flash key1: rate_limited. Last error: Google API error 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: [redacted-url] To monitor your current usage, head to: [redacted-url] * Quota exceeded for me...
+18:39:32 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:40 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:43 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:47 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:51 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:52 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:39:52 WARNING LLM gemini-3.5-flash обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~60s.
+18:39:54 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:56 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:39:56 WARNING LLM gemini-3.6-flash обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~56s.
+18:40:00 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:06 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:08 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:11 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:17 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:40:17 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~35s. 5 models skipped: no key configured for their platform.
+18:40:21 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:22 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:36 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:50 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:51 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:52 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:58 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:59 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+18:40:59 WARNING LLM gemini-3.6-flash обид 3/3: Error code: 502 - All 1 routed attempt(s) failed with upstream provider errors (upstream_error ×1). This is a provider-side failure, not a problem with your request; retry, or check provider status. Attempt trail: google/gemini-3.6-flash key1: upstream_error. Last error: Google API error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+18:40:59 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:40:59 WARNING LLM gemini-3.6-flash обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~2m.
+18:41:00 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:04 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:06 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:11 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:13 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:17 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:22 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:26 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:28 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:28 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:41:28 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~61s. 5 models skipped: no key configured for their platform.
+18:41:29 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:41:29 WARNING LLM gemini-3.6-flash обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~60s.
+18:41:34 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:36 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+18:41:36 WARNING LLM gemini-3.5-flash обид 1/3: Error code: 502 - All 1 routed attempt(s) failed with upstream provider errors (upstream_error ×1). This is a provider-side failure, not a problem with your request; retry, or check provider status. Attempt trail: google/gemini-3.5-flash key1: upstream_error. Last error: Google API error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+18:41:41 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:41:41 WARNING LLM gemini-3.5-flash обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~48s.
+18:41:52 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:41:58 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+18:41:58 WARNING LLM gemini-3-flash-preview обид 1/3: Error code: 502 - All 1 routed attempt(s) failed with upstream provider errors (timeout ×1). This is a provider-side failure, not a problem with your request; retry, or check provider status. Attempt trail: google/gemini-3-flash-preview key1: timeout. Last error: The operation was aborted (google, chat, 60s)
+18:42:00 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:03 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:42:03 WARNING LLM gemini-3-flash-preview обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~26s.
+18:42:08 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:08 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:15 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:23 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:23 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:30 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+18:42:30 WARNING LLM gemini-3.5-flash-lite обид 1/3: Error code: 502 - All 1 routed attempt(s) failed with upstream provider errors (upstream_error ×1). This is a provider-side failure, not a problem with your request; retry, or check provider status. Attempt trail: google/gemini-3.5-flash-lite key1: upstream_error. Last error: Google API error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+18:42:31 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:35 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:42:35 WARNING LLM gemini-3.5-flash-lite обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~31s. 1 model skipped: no key configured for their platform.
+18:42:36 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:40 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:42:41 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:42:41 WARNING LLM gemini-3.5-flash обид 3/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~25s.
+18:42:46 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:42:46 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~21s. 5 models skipped: no key configured for their platform.
+18:42:49 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:03 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:43:03 WARNING LLM gemini-3-flash-preview обид 3/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~3s.
+18:43:05 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:18 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:20 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:26 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:31 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:34 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:35 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:43:35 WARNING LLM gemini-3.5-flash-lite обид 3/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~25s. 1 model skipped: no key configured for their platform.
+18:43:39 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+18:43:39 WARNING LLM gemini-3.6-flash обид 1/3: Error code: 502 - All 1 routed attempt(s) failed with upstream provider errors (upstream_error ×1). This is a provider-side failure, not a problem with your request; retry, or check provider status. Attempt trail: google/gemini-3.6-flash key1: upstream_error. Last error: Google API error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+18:43:42 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:44 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:43:44 WARNING LLM gemini-3.6-flash обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~16s.
+18:43:50 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:43:56 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:43:56 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~4s. 5 models skipped: no key configured for their platform.
+18:44:27 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:44:35 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:44:44 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:44:44 WARNING LLM gemini-3.6-flash обид 3/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~25s.
+18:44:47 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:44:55 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:45:01 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:45:01 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. Soonest reset ~8s. 5 models skipped: no key configured for their platform.
+18:45:31 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:45:31 WARNING LLM gpt-oss-120b обид 2/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. 5 models skipped: no key configured for their platform.
+18:46:33 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:46:41 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:46:49 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:46:57 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:47:06 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:47:13 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:47:13 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. 5 models skipped: no key configured for their platform.
+18:47:45 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:47:52 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:47:59 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:48:09 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:48:15 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:48:15 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. 5 models skipped: no key configured for their platform.
+18:48:47 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:48:54 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:49:03 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:49:09 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:49:09 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. 5 models skipped: no key configured for their platform.
+18:49:41 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:49:50 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:49:58 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:50:05 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:50:11 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:50:11 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. 5 models skipped: no key configured for their platform.
+18:50:42 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:50:48 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+18:50:48 WARNING LLM gpt-oss-120b обид 1/3: Error code: 429 - All models exhausted: 1 route checked (1 rate-limited or on cooldown). Add more API keys or wait for rate limits to reset. 5 models skipped: no key configured for their platform.
+18:51:19 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+18:51:27 INFO    HTTP Request: POST http://127.0.0.1:31415/v1/chat/completions "HTTP/1.1 200 OK"
+Модели (5): gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-3.5-flash-lite, gpt-oss-120b
+| Модел | Задача | Провајдер | одговори | точност | (блиску) | измислени цитати | пропуштени | сек (медијана) | Поминува |
+|---|---|---|---|---|---|---|---|---|---|
+| gemini-3.5-flash | T1 | google | 4/50 | 100.0% (4/4) | 0 | 0.0% (0/4) | 0 | 6.0 | ❌ |
+| gemini-3-flash-preview | T1 | google | 13/50 | 100.0% (13/13) | 0 | 0.0% (0/18) | 0 | 4.0 | ❌ |
+| gemini-3.5-flash-lite | T1 | google | 15/50 | 100.0% (15/15) | 0 | 0.0% (0/17) | 0 | 1.6 | ❌ |
+| gemini-3.6-flash | T1 | google | 3/50 | 100.0% (3/3) | 0 | 0.0% (0/3) | 0 | 5.2 | ❌ |
+| gpt-oss-120b | T1 | groq | 50/50 | 93.0% (66/71) | 1 | 2.4% (2/83) | 0 | 1.8 | ❌ |
+| gemini-3.5-flash | T10 | google | 7/50 | 94.7% (18/19) | 1 | 0.0% (0/27) | 0 | 7.3 | ❌ |
+| gemini-3.5-flash-lite | T10 | google | 17/50 | 93.9% (31/33) | 2 | 0.0% (0/67) | 0 | 8.8 | ❌ |
+| gemini-3-flash-preview | T10 | google | 9/50 | 91.7% (22/24) | 2 | 0.0% (0/47) | 0 | 8.0 | ❌ |
+| gpt-oss-120b | T10 | groq | 50/50 | 90.9% (60/66) | 3 | 0.6% (1/156) | 3 | 1.9 | ✅ |
+| gemini-3.6-flash | T10 | google | 9/50 | 90.9% (20/22) | 2 | 0.0% (0/39) | 0 | 7.8 | ❌ |
+
+Прагови: T1 ≥ 95%, T9 ≥ 90% и T10 ≥ 90% (предлог), измислени цитати < 5%, одговорени ≥ 90% од примерите.
+Поминуваат: T10: gpt-oss-120b

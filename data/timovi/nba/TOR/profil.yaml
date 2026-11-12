@@ -1,0 +1,416 @@
+tim: TOR
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 104.8
+    rang: 5
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 113.7
+    drtg_surov: 106.4
+    ortg_prilagoden: 111.6
+    drtg_prilagoden: 110.3
+    rang_napad: 12
+    rang_odbrana: 13
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -8.6
+      ast_pct: -14.2
+      skok_pct: 0.3
+      trojki_pct: -21.3
+    крила:
+      poeni_pct: 2.6
+      ast_pct: -11.7
+      skok_pct: -6.6
+      trojki_pct: -0.3
+    бекови:
+      poeni_pct: -0.8
+      ast_pct: 0.2
+      skok_pct: -3.8
+      trojki_pct: 1.8
+  nositeli:
+  - igrac: Barnes S. (TOR)
+    minuti: 33.5
+    usg_pct: 32.2
+    ast_pct: 24.4
+    poeni: 24.4
+    ast: 5.0
+  - igrac: Barrett R. (TOR)
+    minuti: 32.5
+    usg_pct: 25.1
+    ast_pct: 19.1
+    poeni: 20.7
+    ast: 4.0
+  - igrac: Quickley I. (TOR)
+    minuti: 31.7
+    usg_pct: 21.4
+    ast_pct: 24.4
+    poeni: 18.0
+    ast: 5.6
+  - igrac: Murray-Boyles C. (TOR)
+    minuti: 20.3
+    usg_pct: 18.9
+    ast_pct: 7.7
+    poeni: 9.1
+    ast: 1.1
+  rotacija:
+  - igrac: Barnes S. (TOR)
+    minuti: 33.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Barrett R. (TOR)
+    minuti: 32.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Quickley I. (TOR)
+    minuti: 31.7
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Walter J. (TOR)
+    minuti: 29.4
+    natprevari: 7
+    starter_pct: 71.0
+  - igrac: Leonard K. (TOR)
+    minuti: 25.8
+    natprevari: 2
+    starter_pct: 100.0
+  - igrac: Shead J. (TOR)
+    minuti: 21.8
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Murray-Boyles C. (TOR)
+    minuti: 20.3
+    natprevari: 7
+    starter_pct: 14.0
+  - igrac: Poeltl J. (TOR)
+    minuti: 20.2
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Battle J. (TOR)
+    minuti: 16.1
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Graves A. (TOR)
+    minuti: 12.8
+    natprevari: 7
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Barnes S. (TOR)
+  - Barrett R. (TOR)
+  - Poeltl J. (TOR)
+  - Quickley I. (TOR)
+  - Walter J. (TOR)
+  trener: null
+  doma:
+    n: 3
+    poeni: 126.0
+    primeni: 104.0
+  gosti:
+    n: 4
+    poeni: 114.0
+    primeni: 117.0
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 117.4
+    primeni: 117.2
+    neto_rejting: 0.2
+  trojki:
+    3par_napad: 37.7
+    3par_dozvoluva: 43.3
+    3p_pct: 31.5
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 32.5
+    dreb_pct: 73.5
+  igraci_vo_zapisnik:
+  - Anderson K. (TOR)
+  - Barnes S. (TOR)
+  - Barrett R. (TOR)
+  - Battle J. (TOR)
+  - Bittle N. (TOR)
+  - Bradley J. (TOR)
+  - Graves A. (TOR)
+  - Jackson-Davis T. (TOR)
+  - Leonard K. (TOR)
+  - Martin A. (TOR)
+  - Murray-Boyles C. (TOR)
+  - Poeltl J. (TOR)
+  - Quickley I. (TOR)
+  - Shead J. (TOR)
+  - Smith M. (TOR)
+  - Walter J. (TOR)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 104.8
+      rang: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 111.6
+      surov: 113.7
+      rang: 12
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 110.3
+      surov: 106.4
+      rang: 13
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 37.7
+      rang: 27
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 37.7
+      ftr: 31.5
+      2p_pct: 54.5
+      3p_pct: 31.5
+      efg: 51.8
+      rang_efg: 23
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 43.3
+      ftr: 39.6
+      2p_pct: 52.0
+      3p_pct: 36.7
+      efg: 53.4
+      rang_efg: 15
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -8.6
+        ast_pct: -14.2
+        skok_pct: 0.3
+        trojki_pct: -21.3
+      крила:
+        poeni_pct: 2.6
+        ast_pct: -11.7
+        skok_pct: -6.6
+        trojki_pct: -0.3
+      бекови:
+        poeni_pct: -0.8
+        ast_pct: 0.2
+        skok_pct: -3.8
+        trojki_pct: 1.8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 32.5
+      rang_oreb: 2
+      dreb_pct: 73.5
+      rang_dreb: 11
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 27.9
+      rang_najmalku: 30
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 32.0
+      ftr_dozvoluva: 39.6
+      rang_najmalku: 30
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 4.3
+      rang_blk: 22
+      2p_pct_protivnik: 52.0
+      rang_2p_odbrana: 7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 33.5
+        n: 1
+      top3:
+        min: 33.8
+        n: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 28.2
+        n: 3
+      top3:
+        min: 29.0
+        n: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 33.8
+      top3_min_razlika: 29.0
+      razlika_min: 4.8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Leonard K. (TOR)
+        propushteni: 5
+        prichini:
+          DNP - Coach's Decision: 1
+          не е во записник: 4
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 18
+      pogodok_pct: 50.0
+      ochekuvano_pct: 58.9
+      razlika_pp: -5.0
+      po_pazar:
+        asistencii: 3/4
+        hendikep: 0/1
+        poeni: 2/5
+        skokovi: 1/3
+        trojki: 1/3
+        vkupno: 2/2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 104.8
+          rang: 4
+          od: 30
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 37.7
+          rang: 27
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 33.1
+            крила: 64.1
+            центри: 2.8
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 32.5
+          rang: 2
+          od: 30
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 7
+          rang: 22
+          od: 30
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 4.8
+          rang: 15
+          od: 23
+      fauli:
+        oznaka: фаулира многу; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 27.9
+          rang: 1
+          ftr_protivnik: 39.6
+          rang_ftr: 1
+          od: 30
+      dozvoluva:
+        oznaka: средно тројки; силна заштита на кош
+        brojki:
+          3par_protivnik: 43.3
+          rang_3par: 14
+          2p_pct_protivnik: 52.0
+          rang_2p: 24
+          od: 30
+          dvp_poeni_pct:
+            центри: -8.6
+            крила: 2.6
+            бекови: -0.8
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

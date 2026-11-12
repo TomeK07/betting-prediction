@@ -1,0 +1,403 @@
+tim: LLI
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 72.2
+    rang: 32
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 111.9
+    drtg_surov: 101.1
+    ortg_prilagoden: 109.1
+    drtg_prilagoden: 104.2
+    rang_napad: 19
+    rang_odbrana: 1
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 13.7
+      ast_pct: 7.1
+      skok_pct: -3.9
+      trojki_pct: -0.3
+    крила:
+      poeni_pct: -10.7
+      ast_pct: -21.2
+      skok_pct: -17.2
+      trojki_pct: -10.6
+    бекови:
+      poeni_pct: -19.5
+      ast_pct: 7.1
+      skok_pct: -12.1
+      trojki_pct: -24.2
+  nositeli:
+  - igrac: Phillip T. (LLI)
+    minuti: 24.7
+    usg_pct: 25.6
+    ast_pct: 29.8
+    poeni: 10.4
+    ast: 4.2
+  - igrac: Jones D. (LLI)
+    minuti: 21.3
+    usg_pct: 24.8
+    ast_pct: 22.4
+    poeni: 12.0
+    ast: 2.6
+  - igrac: Evans K. (LLI)
+    minuti: 24.9
+    usg_pct: 23.2
+    ast_pct: 18.8
+    poeni: 11.8
+    ast: 2.8
+  - igrac: Kennedy T. (LLI)
+    minuti: 21.2
+    usg_pct: 20.8
+    ast_pct: 8.7
+    poeni: 13.2
+    ast: 0.8
+  rotacija:
+  - igrac: Scott J. (LLI)
+    minuti: 28.9
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Evans K. (LLI)
+    minuti: 24.9
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Phillip T. (LLI)
+    minuti: 24.7
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Horton L. (LLI)
+    minuti: 23.4
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Jones D. (LLI)
+    minuti: 21.3
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Kennedy T. (LLI)
+    minuti: 21.2
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Soluade M. (LLI)
+    minuti: 19.0
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Williams D. (LLI)
+    minuti: 18.6
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Rai A. (LLI)
+    minuti: 16.2
+    natprevari: 1
+    starter_pct: 100.0
+  - igrac: Price E. (LLI)
+    minuti: 11.3
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Evans K. (LLI)
+  - Kennedy T. (LLI)
+  - Phillip T. (LLI)
+  - Scott J. (LLI)
+  - Soluade M. (LLI)
+  trener: SABONIS, TAUTVYDAS
+  doma:
+    n: 3
+    poeni: 81.3
+    primeni: 73.0
+  gosti:
+    n: 2
+    poeni: 80.0
+    primeni: 73.0
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 80.8
+    primeni: 73.0
+    neto_rejting: 10.8
+  trojki:
+    3par_napad: 36.9
+    3par_dozvoluva: 36.4
+    3p_pct: 24.1
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 36.5
+    dreb_pct: 72.2
+  igraci_vo_zapisnik:
+  - Evans K. (LLI)
+  - Horton L. (LLI)
+  - Jones D. (LLI)
+  - Kennedy T. (LLI)
+  - Lewis III M. (LLI)
+  - O'Garro J. (LLI)
+  - Phillip T. (LLI)
+  - Price E. (LLI)
+  - Rai A. (LLI)
+  - Scott J. (LLI)
+  - Soluade M. (LLI)
+  - Williams D. (LLI)
+  - Zibuda E. (LLI)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 72.2
+      rang: 32
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 109.1
+      surov: 111.9
+      rang: 19
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 104.2
+      surov: 101.1
+      rang: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 36.9
+      rang: 26
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 36.9
+      ftr: 39.5
+      2p_pct: 58.6
+      3p_pct: 24.1
+      efg: 50.3
+      rang_efg: 24
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 36.4
+      ftr: 39.4
+      2p_pct: 56.7
+      3p_pct: 32.7
+      efg: 53.9
+      rang_efg: 20
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 13.7
+        ast_pct: 7.1
+        skok_pct: -3.9
+        trojki_pct: -0.3
+      крила:
+        poeni_pct: -10.7
+        ast_pct: -21.2
+        skok_pct: -17.2
+        trojki_pct: -10.6
+      бекови:
+        poeni_pct: -19.5
+        ast_pct: 7.1
+        skok_pct: -12.1
+        trojki_pct: -24.2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 36.5
+      rang_oreb: 5
+      dreb_pct: 72.2
+      rang_dreb: 5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.8
+      rang_najmalku: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 21.2
+      ftr_dozvoluva: 39.4
+      rang_najmalku: 29
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.6
+      rang_blk: 17
+      2p_pct_protivnik: 56.7
+      rang_2p_odbrana: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 24.3
+        n: 2
+      top3:
+        min: 27.8
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 25.2
+        n: 2
+      top3:
+        min: 25.2
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 27.8
+      top3_min_razlika: 25.2
+      razlika_min: 2.6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Evans K. (LLI)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 72.2
+          rang: 32
+          od: 32
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 36.9
+          rang: 26
+          od: 32
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 39.1
+            крила: 44.6
+            центри: 16.3
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 36.5
+          rang: 5
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 8
+          rang: 4
+          od: 32
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 2.6
+          rang: 12
+          od: 25
+      fauli:
+        oznaka: средно; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 21.8
+          rang: 17
+          ftr_protivnik: 39.4
+          rang_ftr: 4
+          od: 32
+      dozvoluva:
+        oznaka: ги брани тројките; слаба заштита на кош; пушта над лигата на центри
+          (+14% поени)
+        brojki:
+          3par_protivnik: 36.4
+          rang_3par: 29
+          2p_pct_protivnik: 56.7
+          rang_2p: 8
+          od: 32
+          dvp_poeni_pct:
+            центри: 13.7
+            крила: -10.7
+            бекови: -19.5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

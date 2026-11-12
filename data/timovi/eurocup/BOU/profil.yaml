@@ -1,0 +1,410 @@
+tim: BOU
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 76.6
+    rang: 18
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 108.1
+    drtg_surov: 115.1
+    ortg_prilagoden: 111.1
+    drtg_prilagoden: 113.5
+    rang_napad: 15
+    rang_odbrana: 26
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: -6.3
+      ast_pct: -14.1
+      skok_pct: -8.0
+      trojki_pct: 16.2
+    крила:
+      poeni_pct: 4.6
+      ast_pct: 19.0
+      skok_pct: 19.1
+      trojki_pct: -2.7
+    бекови:
+      poeni_pct: 9.1
+      ast_pct: 3.2
+      skok_pct: -6.9
+      trojki_pct: 12.5
+  nositeli:
+  - igrac: Moulare A. (BOU)
+    minuti: 24.8
+    usg_pct: 27.1
+    ast_pct: 22.6
+    poeni: 11.4
+    ast: 3.4
+  - igrac: Woodbury T. (BOU)
+    minuti: 26.2
+    usg_pct: 23.7
+    ast_pct: 18.8
+    poeni: 10.4
+    ast: 3.2
+  - igrac: Soliman N. (BOU)
+    minuti: 16.7
+    usg_pct: 20.8
+    ast_pct: 5.3
+    poeni: 6.8
+    ast: 0.6
+  - igrac: Jordan Jr K. (BOU)
+    minuti: 25.4
+    usg_pct: 18.1
+    ast_pct: 2.5
+    poeni: 11.0
+    ast: 0.4
+  rotacija:
+  - igrac: Walker T. (BOU)
+    minuti: 34.8
+    natprevari: 1
+    starter_pct: 100.0
+  - igrac: Robineau H. (BOU)
+    minuti: 26.5
+    natprevari: 1
+    starter_pct: 0.0
+  - igrac: Woodbury T. (BOU)
+    minuti: 26.2
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Jordan Jr K. (BOU)
+    minuti: 25.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Moulare A. (BOU)
+    minuti: 24.8
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Gaudoux L. (BOU)
+    minuti: 24.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Campbell T. (BOU)
+    minuti: 21.2
+    natprevari: 2
+    starter_pct: 100.0
+  - igrac: Nelson A. (BOU)
+    minuti: 20.0
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Soliman N. (BOU)
+    minuti: 16.7
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Berhanemeskel J. (BOU)
+    minuti: 15.4
+    natprevari: 2
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Campbell T. (BOU)
+  - Gaudoux L. (BOU)
+  - Jordan Jr K. (BOU)
+  - Samuel T. (BOU)
+  - Woodbury T. (BOU)
+  trener: FAUTHOUX, FREDERIC
+  doma:
+    n: 2
+    poeni: 86.0
+    primeni: 84.0
+  gosti:
+    n: 3
+    poeni: 80.7
+    primeni: 91.0
+  forma_posledni_5:
+    pobedi: 1
+    porazi: 4
+    poeni: 82.8
+    primeni: 88.2
+    neto_rejting: -7.0
+  trojki:
+    3par_napad: 33.2
+    3par_dozvoluva: 38.0
+    3p_pct: 29.5
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 37.1
+    dreb_pct: 63.8
+  igraci_vo_zapisnik:
+  - Berhanemeskel J. (BOU)
+  - Campbell T. (BOU)
+  - Gaudoux L. (BOU)
+  - Jordan Jr K. (BOU)
+  - Labanca A. (BOU)
+  - Monnet L. (BOU)
+  - Moulare A. (BOU)
+  - Nelson A. (BOU)
+  - Robineau H. (BOU)
+  - Samuel T. (BOU)
+  - Selebangue M. (BOU)
+  - Shedrick K. (BOU)
+  - Soliman N. (BOU)
+  - Taponat J. (BOU)
+  - Walker T. (BOU)
+  - Woodbury T. (BOU)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 76.6
+      rang: 15
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 111.1
+      surov: 108.1
+      rang: 15
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 113.5
+      surov: 115.1
+      rang: 26
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 33.2
+      rang: 30
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 33.2
+      ftr: 30.9
+      2p_pct: 54.7
+      3p_pct: 29.5
+      efg: 51.2
+      rang_efg: 21
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 38.0
+      ftr: 26.7
+      2p_pct: 53.3
+      3p_pct: 36.6
+      efg: 53.9
+      rang_efg: 21
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -6.3
+        ast_pct: -14.1
+        skok_pct: -8.0
+        trojki_pct: 16.2
+      крила:
+        poeni_pct: 4.6
+        ast_pct: 19.0
+        skok_pct: 19.1
+        trojki_pct: -2.7
+      бекови:
+        poeni_pct: 9.1
+        ast_pct: 3.2
+        skok_pct: -6.9
+        trojki_pct: 12.5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 37.1
+      rang_oreb: 3
+      dreb_pct: 63.8
+      rang_dreb: 30
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 20.6
+      rang_najmalku: 5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 18.4
+      ftr_dozvoluva: 26.7
+      rang_najmalku: 5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 4.2
+      rang_blk: 1
+      2p_pct_protivnik: 53.3
+      rang_2p_odbrana: 16
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 27.6
+        n: 1
+      top3:
+        min: 34.4
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 24.5
+        n: 1
+      top3:
+        min: 26.1
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 34.4
+      top3_min_razlika: 26.1
+      razlika_min: 8.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Walker T. (BOU)
+        propushteni: 4
+        prichini:
+          не е на листата / не играл: 4
+      - igrac: Robineau H. (BOU)
+        propushteni: 4
+        prichini:
+          не е на листата / не играл: 4
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 76.6
+          rang: 15
+          od: 32
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 33.2
+          rang: 30
+          od: 32
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 59.9
+            крила: 26.1
+            центри: 14.0
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 37.1
+          rang: 3
+          od: 32
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 6
+          rang: 26
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 8.3
+          rang: 1
+          od: 25
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 20.6
+          rang: 28
+          ftr_protivnik: 26.7
+          rang_ftr: 28
+          od: 32
+      dozvoluva:
+        oznaka: ги брани тројките; средна заштита на кош; пушта над лигата на бекови
+          (+9% поени)
+        brojki:
+          3par_protivnik: 38.0
+          rang_3par: 25
+          2p_pct_protivnik: 53.3
+          rang_2p: 17
+          od: 32
+          dvp_poeni_pct:
+            центри: -6.3
+            крила: 4.6
+            бекови: 9.1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

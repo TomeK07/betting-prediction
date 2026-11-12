@@ -1,0 +1,32 @@
+tip: ОПИС
+tim: LAC
+liga: nba
+predlog_datum: '2026-11-10'
+izvor_url: https://www.eurohoops.net/en/nba-news/2004073/nba-strongly-punishes-clippers-in-kawhi-leonard-salary-cap-investigation/; https://www.eurohoops.net/en/nba-news/1998589/bradley-beal-signs-contract-extension-los-angeles-clippers-nba/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Tyronn Lue
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-09-02'
+  naslov: NBA strongly punishes Clippers in Kawhi Leonard salary-cap investigation
+  izvor_url: https://www.eurohoops.net/en/nba-news/2004073/nba-strongly-punishes-clippers-in-kawhi-leonard-salary-cap-investigation/
+- objaveno: '2026-08-14'
+  naslov: Bradley Beal returns to Clippers on two-year, $13.2 million deal
+  izvor_url: https://www.eurohoops.net/en/nba-news/1998589/bradley-beal-signs-contract-extension-los-angeles-clippers-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2004073/nba-strongly-punishes-clippers-in-kawhi-leonard-salary-cap-investigation/: LLM
+  gpt-oss-120b не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2004073/nba-strongly-punishes-clippers-in-kawhi-leonard-salary-cap-investigation/: LLM
+  qwen3.8-27b не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1998589/bradley-beal-signs-contract-extension-los-angeles-clippers-nba/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1998589/bradley-beal-signs-contract-extension-los-angeles-clippers-nba/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+se_kosi_so_brojki: []

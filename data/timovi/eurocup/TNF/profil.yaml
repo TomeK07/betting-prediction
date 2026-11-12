@@ -1,0 +1,400 @@
+tim: TNF
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 73.6
+    rang: 26
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 119.8
+    drtg_surov: 111.1
+    ortg_prilagoden: 116.9
+    drtg_prilagoden: 111.6
+    rang_napad: 1
+    rang_odbrana: 23
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 15.1
+      ast_pct: 6.2
+      skok_pct: -3.7
+      trojki_pct: 3.5
+    крила:
+      poeni_pct: 0.4
+      ast_pct: -27.8
+      skok_pct: -9.3
+      trojki_pct: 31.8
+    бекови:
+      poeni_pct: -11.3
+      ast_pct: 1.4
+      skok_pct: -8.7
+      trojki_pct: -6.4
+  nositeli:
+  - igrac: Guy K. (TNF)
+    minuti: 21.3
+    usg_pct: 31.2
+    ast_pct: 35.8
+    poeni: 13.2
+    ast: 4.0
+  - igrac: Hunter V. (TNF)
+    minuti: 15.4
+    usg_pct: 31.0
+    ast_pct: 2.9
+    poeni: 13.2
+    ast: 0.2
+  - igrac: Huertas M. (TNF)
+    minuti: 19.0
+    usg_pct: 25.8
+    ast_pct: 44.9
+    poeni: 7.2
+    ast: 5.4
+  - igrac: Fernandez J. (TNF)
+    minuti: 16.2
+    usg_pct: 20.8
+    ast_pct: 15.2
+    poeni: 6.6
+    ast: 1.6
+  rotacija:
+  - igrac: Cisse B. (TNF)
+    minuti: 27.9
+    natprevari: 1
+    starter_pct: 100.0
+  - igrac: Abromaitis T. (TNF)
+    minuti: 22.3
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Guy K. (TNF)
+    minuti: 21.3
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Fitipaldo B. (TNF)
+    minuti: 20.6
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Tijani B. (TNF)
+    minuti: 20.2
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Huertas M. (TNF)
+    minuti: 19.0
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Fernandez J. (TNF)
+    minuti: 16.2
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Hunter V. (TNF)
+    minuti: 15.4
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Doornekamp A. (TNF)
+    minuti: 14.9
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Happ E. (TNF)
+    minuti: 14.4
+    natprevari: 5
+    starter_pct: 80.0
+  startna_petorka_posledni_5:
+  - Abromaitis T. (TNF)
+  - Fitipaldo B. (TNF)
+  - Guy K. (TNF)
+  - Happ E. (TNF)
+  - Tijani B. (TNF)
+  trener: LAKOVIC, JAKA
+  doma:
+    n: 3
+    poeni: 86.7
+    primeni: 75.3
+  gosti:
+    n: 2
+    poeni: 90.5
+    primeni: 91.5
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 88.2
+    primeni: 81.8
+    neto_rejting: 8.7
+  trojki:
+    3par_napad: 44.3
+    3par_dozvoluva: 40.9
+    3p_pct: 38.7
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 31.1
+    dreb_pct: 64.3
+  igraci_vo_zapisnik:
+  - Abromaitis T. (TNF)
+  - Alderete H. (TNF)
+  - Cisse B. (TNF)
+  - Doornekamp A. (TNF)
+  - Fernandez J. (TNF)
+  - Fitipaldo B. (TNF)
+  - Guy K. (TNF)
+  - Happ E. (TNF)
+  - Huertas M. (TNF)
+  - Hunter V. (TNF)
+  - Kurucs A. (TNF)
+  - Shermadini G. (TNF)
+  - Tijani B. (TNF)
+  - Van Beck W. (TNF)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 73.6
+      rang: 29
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 116.9
+      surov: 119.8
+      rang: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 111.6
+      surov: 111.1
+      rang: 23
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 44.3
+      rang: 7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 44.3
+      ftr: 34.3
+      2p_pct: 58.7
+      3p_pct: 38.7
+      efg: 58.4
+      rang_efg: 3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 40.9
+      ftr: 34.9
+      2p_pct: 52.3
+      3p_pct: 39.3
+      efg: 55.0
+      rang_efg: 26
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 15.1
+        ast_pct: 6.2
+        skok_pct: -3.7
+        trojki_pct: 3.5
+      крила:
+        poeni_pct: 0.4
+        ast_pct: -27.8
+        skok_pct: -9.3
+        trojki_pct: 31.8
+      бекови:
+        poeni_pct: -11.3
+        ast_pct: 1.4
+        skok_pct: -8.7
+        trojki_pct: -6.4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 31.1
+      rang_oreb: 20
+      dreb_pct: 64.3
+      rang_dreb: 29
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.8
+      rang_najmalku: 20
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 20.8
+      ftr_dozvoluva: 34.9
+      rang_najmalku: 22
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 1.6
+      rang_blk: 30
+      2p_pct_protivnik: 52.3
+      rang_2p_odbrana: 14
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 22.2
+        n: 1
+      top3:
+        min: 23.1
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 17.8
+        n: 1
+      top3:
+        min: 16.3
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.1
+      top3_min_razlika: 16.3
+      razlika_min: 6.8
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni: []
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 73.6
+          rang: 29
+          od: 32
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 44.3
+          rang: 7
+          od: 32
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 20.6
+            крила: 37.6
+            центри: 41.7
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 31.1
+          rang: 20
+          od: 32
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 7
+          rang: 12
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 6.8
+          rang: 2
+          od: 25
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 22.8
+          rang: 11
+          ftr_protivnik: 34.9
+          rang_ftr: 11
+          od: 32
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош; пушта над лигата на центри (+15%
+          поени)
+        brojki:
+          3par_protivnik: 40.9
+          rang_3par: 14
+          2p_pct_protivnik: 52.3
+          rang_2p: 19
+          od: 32
+          dvp_poeni_pct:
+            центри: 15.1
+            крила: 0.4
+            бекови: -11.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

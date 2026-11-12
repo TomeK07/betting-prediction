@@ -1,0 +1,419 @@
+tim: MUN
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-29'
+  tempo:
+    poseda_po_natprevar: 75.1
+    rang: 7
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 113.8
+    drtg_surov: 125.8
+    ortg_prilagoden: 116.4
+    drtg_prilagoden: 122.4
+    rang_napad: 8
+    rang_odbrana: 20
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: 14.7
+      ast_pct: -19.0
+      skok_pct: -3.8
+      trojki_pct: 49.4
+    крила:
+      poeni_pct: -0.1
+      ast_pct: 4.6
+      skok_pct: -15.8
+      trojki_pct: 5.6
+    бекови:
+      poeni_pct: 7.3
+      ast_pct: 17.5
+      skok_pct: 0.1
+      trojki_pct: 10.7
+  nositeli:
+  - igrac: Washington D. (MUN)
+    minuti: 19.8
+    usg_pct: 33.4
+    ast_pct: 30.2
+    poeni: 15.2
+    ast: 2.9
+  - igrac: Jokubaitis R. (MUN)
+    minuti: 17.1
+    usg_pct: 23.2
+    ast_pct: 32.4
+    poeni: 8.0
+    ast: 3.5
+  - igrac: Beauchamp M. (MUN)
+    minuti: 19.6
+    usg_pct: 22.7
+    ast_pct: 14.5
+    poeni: 6.9
+    ast: 1.9
+  - igrac: Thiemann J. (MUN)
+    minuti: 19.4
+    usg_pct: 21.1
+    ast_pct: 12.1
+    poeni: 8.8
+    ast: 1.4
+  rotacija:
+  - igrac: Obst A. (MUN)
+    minuti: 24.3
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Washington D. (MUN)
+    minuti: 19.8
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: Beauchamp M. (MUN)
+    minuti: 19.6
+    natprevari: 7
+    starter_pct: 86.0
+  - igrac: Thiemann J. (MUN)
+    minuti: 19.4
+    natprevari: 9
+    starter_pct: 44.0
+  - igrac: Norris M. (MUN)
+    minuti: 18.2
+    natprevari: 7
+    starter_pct: 71.0
+  - igrac: Lucic V. (MUN)
+    minuti: 17.4
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Jokubaitis R. (MUN)
+    minuti: 17.1
+    natprevari: 8
+    starter_pct: 25.0
+  - igrac: Da Silva O. (MUN)
+    minuti: 16.9
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: Jensen T. (MUN)
+    minuti: 15.8
+    natprevari: 3
+    starter_pct: 0.0
+  - igrac: Wiley A. (MUN)
+    minuti: 14.7
+    natprevari: 9
+    starter_pct: 89.0
+  startna_petorka_posledni_5:
+  - Baldwin K. (MUN)
+  - Beauchamp M. (MUN)
+  - Norris M. (MUN)
+  - Obst A. (MUN)
+  - Wiley A. (MUN)
+  trener: GAVEL, ANTON
+  doma:
+    n: 4
+    poeni: 86.5
+    primeni: 93.8
+  gosti:
+    n: 5
+    poeni: 84.6
+    primeni: 95.0
+  forma_posledni_5:
+    pobedi: 1
+    porazi: 4
+    poeni: 87.2
+    primeni: 97.2
+    neto_rejting: -13.3
+  trojki:
+    3par_napad: 41.2
+    3par_dozvoluva: 43.3
+    3p_pct: 36.8
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 31.7
+    dreb_pct: 64.7
+  igraci_vo_zapisnik:
+  - Baldwin K. (MUN)
+  - Beauchamp M. (MUN)
+  - Da Silva O. (MUN)
+  - Giffey N. (MUN)
+  - Hollatz J. (MUN)
+  - Jensen T. (MUN)
+  - Jessup J. (MUN)
+  - Jokubaitis R. (MUN)
+  - Lucic V. (MUN)
+  - Norris M. (MUN)
+  - Obst A. (MUN)
+  - Thiemann J. (MUN)
+  - Voigtmann J. (MUN)
+  - Washington D. (MUN)
+  - Wiley A. (MUN)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 75.1
+      rang: 11
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 116.4
+      surov: 113.8
+      rang: 8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 122.4
+      surov: 125.8
+      rang: 20
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.2
+      rang: 12
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.2
+      ftr: 29.9
+      2p_pct: 55.7
+      3p_pct: 36.8
+      efg: 55.5
+      rang_efg: 10
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 43.3
+      ftr: 28.8
+      2p_pct: 61.6
+      3p_pct: 38.1
+      efg: 59.7
+      rang_efg: 18
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 14.7
+        ast_pct: -19.0
+        skok_pct: -3.8
+        trojki_pct: 49.4
+      крила:
+        poeni_pct: -0.1
+        ast_pct: 4.6
+        skok_pct: -15.8
+        trojki_pct: 5.6
+      бекови:
+        poeni_pct: 7.3
+        ast_pct: 17.5
+        skok_pct: 0.1
+        trojki_pct: 10.7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 31.7
+      rang_oreb: 14
+      dreb_pct: 64.7
+      rang_dreb: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 20.9
+      rang_najmalku: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 19.0
+      ftr_dozvoluva: 28.8
+      rang_najmalku: 8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.1
+      rang_blk: 16
+      2p_pct_protivnik: 61.6
+      rang_2p_odbrana: 20
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 21.1
+        n: 3
+      top3:
+        min: 22.6
+        n: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 18.7
+        n: 3
+      top3:
+        min: 19.6
+        n: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 22.6
+      top3_min_razlika: 19.6
+      razlika_min: 3.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Washington D. (MUN)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Beauchamp M. (MUN)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      - igrac: Norris M. (MUN)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 2
+      pogodok_pct: 50.0
+      ochekuvano_pct: 59.9
+      razlika_pp: -9.9
+      po_pazar:
+        poeni: 1/1
+        skokovi: 0/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 75.1
+          rang: 11
+          od: 20
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.2
+          rang: 12
+          od: 20
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 50.3
+            крила: 28.6
+            центри: 21.1
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 31.7
+          rang: 14
+          od: 20
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 7
+          rang: 4
+          od: 20
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 3.0
+          rang: 9
+          od: 19
+      fauli:
+        oznaka: фаулира малку; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 20.9
+          rang: 14
+          ftr_protivnik: 28.8
+          rang_ftr: 13
+          od: 20
+      dozvoluva:
+        oznaka: пушта многу тројки; слаба заштита на кош; пушта над лигата на центри
+          (+15% поени)
+        brojki:
+          3par_protivnik: 43.3
+          rang_3par: 5
+          2p_pct_protivnik: 61.6
+          rang_2p: 1
+          od: 20
+          dvp_poeni_pct:
+            центри: 14.7
+            крила: -0.1
+            бекови: 7.3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

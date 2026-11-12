@@ -1,0 +1,11 @@
+datum,liga,natprevar_ili_igrac,tim,pazar,linija,strana,kvota,p_model,p_pazar,rezultat,pogodok,minuti,zabeleska
+25.10 ~16:30,NBA,REVIZIJA (ne menuva p_model),,,,,,,,,BELESKA,,"ZA SPOJUVANJE so nba-rezultati.csv pri migracija vo SQLite. Novi vesti 24.10 (Pickswise): VanVleet verojatno ne igra (B2B posle ACL), Sheppard OUT -> A. Thompson stanuva glaven nositel na topka -> pravilo 'ast pod samo kaj ne-nositel' vise ne vazi -> A. Thompson u5.5 ast POVLECEN (ostanuva zapisan p 64). N. Powell o20.5: Dimers proekcija 20.7 (bez prednost) + sprotivno na WAS-CHI pod -> POVLECEN od tiket. Wemby u28.5 POTVRDEN: Flagg NE igra (novo, B2B), Spurs -12.5, Dimers 27.0."
+25.10 02:00,NBA,WAS - CHI,,vkupno,243.5,pod,1.90,56,50,,CEKA,,"Dimers pod 54.3%; WAS vtora vecer B2B (Covers); arhiva total pod 8/9 rana sezona; 11 od 16 timovi B2B vecerva | kvota orientaciona (Megawin neprovereno)"
+25.10 01:30,NBA,Don. Mitchell,CLE,asistencii,4.5,pod,1.90,60,50,,CEKA,~32,"USLOV: linijata 4.5 da postoi na Megawin | PRAVILO ast pod ne-nositel 11/12; Harden ja nosi topkata (Mitchell 3 ast vo prv natp.); CLE -10.5 rizik golema razlika = ushte pomalku minuti"
+25.10 00:00,NBA,MIA - CHA,,hendikep,-3.5,MIA,1.90,56,50,,CEKA,,"HIPOTEZA 'protiv osakaten tim, mal hendikep' 4/4; CHA izgubi 128-81 vcera, bez White/Knueppel; Pickswise MIA -3.5 (10 od 12 posledni megjusebni MIA) | rizik: MIA 0-2, odbrana 124 primeni"
+25.10 01:30,NBA,J. Brown,PHI,poeni,,nad,,,,,ODBIEN,,"USLOV ne e ispolnet: LeBron samo 'verojatno' ne igra (Lineups) - nepotvrdeno; ako zvanicno OUT -> edinstven NAD kandidat (metod novo otsustvo)"
+25.10 02:00,NBA,D. Fox,SAS,poeni,14.5,nad,,,,,ODBIEN,,"FanDuel nad; pravilo: NAD ne vo scenario golema razlika (SAS -12.5) + zglob"
+25.10 03:00,NBA,PHX - GSW,,hendikep,-9.5,PHX,,,,,ODBIEN,,"Pickswise PHX; GSW bez Curry (B2B), Butler, Porzingis, Moody - no hendikepot vekje golem (pazarot go vgradil) -> nema prednost po pravilo 24.10"
+25.10 01:30,NBA,Don. Mitchell,CLE,poeni,26.5,nad,,,,,ODBIEN,,"Lineups nad; pravilo: NAD kaj zvezda vo golema razlika (CLE -10.5) -> pas"
+25.10 02:00,NBA,SAS - DAL,,hendikep,12.5,,,,,,ODBIEN,,"KONFLIKT: Dimers DAL +12.5 (55.8%) / UltimateCapper SAS -12.5 / Covers SAS 78% ML"
+25.10 03:00,NBA,D. Booker,PHX,poeni,19.5,nad,,,,,ODBIEN,,"Dimers 62% no NAD vo golema razlika (GSW osakaten)"

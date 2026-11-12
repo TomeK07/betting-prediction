@@ -1,0 +1,88 @@
+# Search names for the news agents (T9/T10), per league and our team code (= schedule.csv).
+# prebaruvanje = queries sent to Eurohoops (no sponsors); zborovi = a title must contain one of these (whole word);
+# espn = ESPN team abbreviation (NBA only). Written from schedule.csv names on 31.10.2026 — fix here, not in code.
+euroleague:
+  ASV: {ime: LDLC ASVEL Villeurbanne, prebaruvanje: [ASVEL], zborovi: [ASVEL, Villeurbanne]}
+  BAR: {ime: FC Barcelona, prebaruvanje: [Barcelona], zborovi: [Barcelona, Barca, Barça]}
+  BAS: {ime: Baskonia Vitoria-Gasteiz, prebaruvanje: [Baskonia], zborovi: [Baskonia]}
+  BES: {ime: Besiktas Istanbul, prebaruvanje: [Besiktas], zborovi: [Besiktas, Beşiktaş]}
+  DUB: {ime: Dubai Basketball, prebaruvanje: [Dubai Basketball], zborovi: [Dubai]}
+  HTA: {ime: Hapoel Tel Aviv, prebaruvanje: [Hapoel Tel Aviv], zborovi: [Hapoel Tel Aviv, Hapoel]}
+  IST: {ime: Anadolu Efes Istanbul, prebaruvanje: [Anadolu Efes], zborovi: [Efes]}
+  MAD: {ime: Real Madrid, prebaruvanje: [Real Madrid], zborovi: [Real Madrid, Real]}
+  MIL: {ime: Olimpia Milan, prebaruvanje: [Olimpia Milano, Armani Milan], zborovi: [Milan, Milano, Olimpia]}
+  MUN: {ime: FC Bayern Munich, prebaruvanje: [Bayern Munich], zborovi: [Bayern]}
+  OLY: {ime: Olympiacos Piraeus, prebaruvanje: [Olympiacos], zborovi: [Olympiacos]}
+  PAM: {ime: Valencia Basket, prebaruvanje: [Valencia Basket], zborovi: [Valencia]}
+  PAN: {ime: Panathinaikos Athens, prebaruvanje: [Panathinaikos], zborovi: [Panathinaikos]}
+  PAR: {ime: Partizan Belgrade, prebaruvanje: [Partizan], zborovi: [Partizan]}
+  PRS: {ime: Paris Basketball, prebaruvanje: [Paris Basketball], zborovi: [Paris]}
+  RED: {ime: Crvena Zvezda, prebaruvanje: [Crvena Zvezda], zborovi: [Zvezda, Crvena]}
+  TEL: {ime: Maccabi Tel Aviv, prebaruvanje: [Maccabi Tel Aviv], zborovi: [Maccabi]}
+  ULK: {ime: Fenerbahce Istanbul, prebaruvanje: [Fenerbahce], zborovi: [Fenerbahce, Fenerbahçe, Fener]}
+  VIR: {ime: Virtus Bologna, prebaruvanje: [Virtus Bologna], zborovi: [Virtus]}
+  ZAL: {ime: Zalgiris Kaunas, prebaruvanje: [Zalgiris], zborovi: [Zalgiris, Žalgiris]}
+eurocup:
+  ARI: {ime: Aris Thessaloniki, prebaruvanje: [Aris Thessaloniki], zborovi: [Aris]}
+  BAH: {ime: Bahcesehir College Istanbul, prebaruvanje: [Bahcesehir], zborovi: [Bahcesehir, Bahçeşehir]}
+  BCR: {ime: Roma Basketball, prebaruvanje: [Roma Basketball], zborovi: [Roma]}
+  BGS: {ime: San Pablo Burgos, prebaruvanje: [San Pablo Burgos], zborovi: [Burgos]}
+  BLK: {ime: Balkan Botevgrad, prebaruvanje: [Balkan Botevgrad], zborovi: [Balkan, Botevgrad]}
+  BOS: {ime: Bosna Sarajevo, prebaruvanje: [Bosna], zborovi: [Bosna]}
+  BOU: {ime: JL Bourg-en-Bresse, prebaruvanje: [Bourg], zborovi: [Bourg]}
+  BUD: {ime: Buducnost Podgorica, prebaruvanje: [Buducnost], zborovi: [Buducnost, Budućnost]}
+  BUR: {ime: Tofas Bursa, prebaruvanje: [Tofas], zborovi: [Tofas, Tofaş]}
+  CLU: {ime: U-BT Cluj-Napoca, prebaruvanje: [Cluj], zborovi: [Cluj]}
+  FRA: {ime: Skyliners Frankfurt, prebaruvanje: [Frankfurt Skyliners], zborovi: [Skyliners, Frankfurt]}
+  JER: {ime: Hapoel Jerusalem, prebaruvanje: [Hapoel Jerusalem], zborovi: [Jerusalem]}
+  KLA: {ime: Neptunas Klaipeda, prebaruvanje: [Neptunas], zborovi: [Neptunas]}
+  LEM: {ime: Le Mans Sarthe Basket, prebaruvanje: [Le Mans], zborovi: [Le Mans]}
+  LJU: {ime: Cedevita Olimpija Ljubljana, prebaruvanje: [Cedevita Olimpija], zborovi: [Olimpija, Cedevita]}
+  LKB: {ime: Lietkabelis Panevezys, prebaruvanje: [Lietkabelis], zborovi: [Lietkabelis]}
+  LLI: {ime: London Lions, prebaruvanje: [London Lions], zborovi: [London Lions]}
+  MAN: {ime: Manresa, prebaruvanje: [Manresa], zborovi: [Manresa]}
+  MRO: {ime: Maxima Roma, prebaruvanje: [Maxima Roma], zborovi: [Maxima]}
+  NAP: {ime: Napoli Basketball, prebaruvanje: [Napoli Basketball], zborovi: [Napoli]}
+  NIN: {ime: NINERS Chemnitz, prebaruvanje: [Chemnitz], zborovi: [Chemnitz, NINERS]}
+  PAO: {ime: PAOK Thessaloniki, prebaruvanje: [PAOK], zborovi: [PAOK]}
+  RIG: {ime: Riga Zelli, prebaruvanje: [Riga], zborovi: [Riga]}
+  RTK: {ime: Rostock Seawolves, prebaruvanje: [Rostock], zborovi: [Rostock, Seawolves]}
+  SIA: {ime: Siauliai Basketball, prebaruvanje: [Siauliai], zborovi: [Siauliai, Šiauliai]}
+  TNF: {ime: La Laguna Tenerife, prebaruvanje: [Tenerife], zborovi: [Tenerife]}
+  TRN: {ime: Dolomiti Energia Trento, prebaruvanje: [Trento], zborovi: [Trento]}
+  TRT: {ime: Derthona Tortona, prebaruvanje: [Tortona], zborovi: [Tortona, Derthona]}
+  TTK: {ime: Turk Telekom Ankara, prebaruvanje: [Turk Telekom], zborovi: [Telekom]}
+  ULM: {ime: ratiopharm ulm, prebaruvanje: [ratiopharm Ulm], zborovi: [Ulm]}
+  VNC: {ime: Reyer Venice, prebaruvanje: [Reyer Venezia], zborovi: [Reyer, Venezia, Venice]}
+  WRO: {ime: Slask Wroclaw, prebaruvanje: [Slask Wroclaw], zborovi: [Slask, Śląsk, Wroclaw]}
+nba:
+  ATL: {ime: Atlanta Hawks, prebaruvanje: [Hawks], zborovi: [Hawks, Atlanta], espn: atl}
+  BKN: {ime: Brooklyn Nets, prebaruvanje: [Nets], zborovi: [Nets, Brooklyn], espn: bkn}
+  BOS: {ime: Boston Celtics, prebaruvanje: [Celtics], zborovi: [Celtics, Boston], espn: bos}
+  CHA: {ime: Charlotte Hornets, prebaruvanje: [Hornets], zborovi: [Hornets, Charlotte], espn: cha}
+  CHI: {ime: Chicago Bulls, prebaruvanje: [Bulls], zborovi: [Bulls, Chicago], espn: chi}
+  CLE: {ime: Cleveland Cavaliers, prebaruvanje: [Cavaliers], zborovi: [Cavaliers, Cavs, Cleveland], espn: cle}
+  DAL: {ime: Dallas Mavericks, prebaruvanje: [Mavericks, Dallas], zborovi: [Mavericks, Dallas, Mavs], espn: dal}
+  DEN: {ime: Denver Nuggets, prebaruvanje: [Nuggets], zborovi: [Nuggets, Denver], espn: den}
+  DET: {ime: Detroit Pistons, prebaruvanje: [Pistons], zborovi: [Pistons, Detroit], espn: det}
+  GSW: {ime: Golden State Warriors, prebaruvanje: [Warriors], zborovi: [Warriors, Golden State], espn: gs}
+  HOU: {ime: Houston Rockets, prebaruvanje: [Rockets], zborovi: [Rockets, Houston], espn: hou}
+  IND: {ime: Indiana Pacers, prebaruvanje: [Pacers], zborovi: [Pacers, Indiana], espn: ind}
+  LAC: {ime: LA Clippers, prebaruvanje: [Clippers], zborovi: [Clippers], espn: lac}
+  LAL: {ime: Los Angeles Lakers, prebaruvanje: [Lakers], zborovi: [Lakers], espn: lal}
+  MEM: {ime: Memphis Grizzlies, prebaruvanje: [Grizzlies], zborovi: [Grizzlies, Memphis], espn: mem}
+  MIA: {ime: Miami Heat, prebaruvanje: [Miami Heat], zborovi: [Heat, Miami], espn: mia}
+  MIL: {ime: Milwaukee Bucks, prebaruvanje: [Bucks], zborovi: [Bucks, Milwaukee], espn: mil}
+  MIN: {ime: Minnesota Timberwolves, prebaruvanje: [Timberwolves], zborovi: [Timberwolves, Wolves, Minnesota], espn: min}
+  NOP: {ime: New Orleans Pelicans, prebaruvanje: [Pelicans], zborovi: [Pelicans, New Orleans], espn: no}
+  NYK: {ime: New York Knicks, prebaruvanje: [Knicks], zborovi: [Knicks], espn: ny}
+  OKC: {ime: Oklahoma City Thunder, prebaruvanje: [Thunder], zborovi: [Thunder, Oklahoma City, OKC], espn: okc}
+  ORL: {ime: Orlando Magic, prebaruvanje: [Orlando Magic], zborovi: [Magic, Orlando], espn: orl}
+  PHI: {ime: Philadelphia 76ers, prebaruvanje: [76ers], zborovi: [76ers, Sixers, Philadelphia], espn: phi}
+  PHX: {ime: Phoenix Suns, prebaruvanje: [Suns], zborovi: [Suns, Phoenix], espn: phx}
+  POR: {ime: Portland Trail Blazers, prebaruvanje: [Trail Blazers], zborovi: [Blazers, Portland], espn: por}
+  SAC: {ime: Sacramento Kings, prebaruvanje: [Sacramento Kings], zborovi: [Kings, Sacramento], espn: sac}
+  SAS: {ime: San Antonio Spurs, prebaruvanje: [Spurs], zborovi: [Spurs, San Antonio], espn: sa}
+  TOR: {ime: Toronto Raptors, prebaruvanje: [Raptors], zborovi: [Raptors, Toronto], espn: tor}
+  UTA: {ime: Utah Jazz, prebaruvanje: [Utah Jazz], zborovi: [Jazz, Utah], espn: utah}
+  WAS: {ime: Washington Wizards, prebaruvanje: [Wizards], zborovi: [Wizards, Washington], espn: wsh}

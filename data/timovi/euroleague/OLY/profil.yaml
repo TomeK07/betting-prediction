@@ -1,0 +1,419 @@
+tim: OLY
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 73.9
+    rang: 15
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 119.1
+    drtg_surov: 110.2
+    ortg_prilagoden: 117.5
+    drtg_prilagoden: 112.5
+    rang_napad: 5
+    rang_odbrana: 6
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: -16.1
+      ast_pct: 34.2
+      skok_pct: -11.0
+      trojki_pct: -8.4
+    крила:
+      poeni_pct: -0.3
+      ast_pct: 15.8
+      skok_pct: 3.1
+      trojki_pct: 14.6
+    бекови:
+      poeni_pct: -3.3
+      ast_pct: -1.5
+      skok_pct: -19.3
+      trojki_pct: 26.5
+  nositeli:
+  - igrac: Montero J. (OLY)
+    minuti: 24.0
+    usg_pct: 29.4
+    ast_pct: 29.9
+    poeni: 15.5
+    ast: 4.5
+  - igrac: Dorsey T. (OLY)
+    minuti: 18.4
+    usg_pct: 26.5
+    ast_pct: 11.8
+    poeni: 12.6
+    ast: 1.4
+  - igrac: Fournier E. (OLY)
+    minuti: 24.4
+    usg_pct: 25.9
+    ast_pct: 16.1
+    poeni: 11.3
+    ast: 2.7
+  - igrac: Vezenkov S. (OLY)
+    minuti: 26.6
+    usg_pct: 25.0
+    ast_pct: 6.9
+    poeni: 18.2
+    ast: 1.0
+  rotacija:
+  - igrac: Vezenkov S. (OLY)
+    minuti: 26.6
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Fournier E. (OLY)
+    minuti: 24.4
+    natprevari: 6
+    starter_pct: 50.0
+  - igrac: Montero J. (OLY)
+    minuti: 24.0
+    natprevari: 6
+    starter_pct: 0.0
+  - igrac: Ward T. (OLY)
+    minuti: 23.4
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Miller-Mcintyre C. (OLY)
+    minuti: 22.5
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Dorsey T. (OLY)
+    minuti: 18.4
+    natprevari: 5
+    starter_pct: 60.0
+  - igrac: Ndiaye M. (OLY)
+    minuti: 18.0
+    natprevari: 9
+    starter_pct: 0.0
+  - igrac: Papanikolaou K. (OLY)
+    minuti: 17.5
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Joseph C. (OLY)
+    minuti: 15.7
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: Milutinov N. (OLY)
+    minuti: 14.3
+    natprevari: 5
+    starter_pct: 40.0
+  startna_petorka_posledni_5:
+  - Fournier E. (OLY)
+  - Miller-Mcintyre C. (OLY)
+  - Papanikolaou K. (OLY)
+  - Vezenkov S. (OLY)
+  - Ward T. (OLY)
+  trener: BARTZOKAS, GEORGIOS
+  doma:
+    n: 3
+    poeni: 78.0
+    primeni: 69.3
+  gosti:
+    n: 6
+    poeni: 96.8
+    primeni: 91.0
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 86.6
+    primeni: 82.4
+    neto_rejting: 5.6
+  trojki:
+    3par_napad: 37.4
+    3par_dozvoluva: 49.4
+    3p_pct: 32.7
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 37.4
+    dreb_pct: 67.1
+  igraci_vo_zapisnik:
+  - Bourneles G. (OLY)
+  - Dorsey T. (OLY)
+  - Dunston B. (OLY)
+  - Fournier E. (OLY)
+  - Hall D. (OLY)
+  - Jones T. (OLY)
+  - Joseph C. (OLY)
+  - Karagiannidis A. (OLY)
+  - Konchar J. (OLY)
+  - Miller-Mcintyre C. (OLY)
+  - Milutinov N. (OLY)
+  - Montero J. (OLY)
+  - Ndiaye M. (OLY)
+  - Netzipoglou O. (OLY)
+  - Papanikolaou K. (OLY)
+  - Plotas N. (OLY)
+  - Vezenkov S. (OLY)
+  - Ward T. (OLY)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 73.9
+      rang: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 117.5
+      surov: 119.1
+      rang: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 112.5
+      surov: 110.2
+      rang: 6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 37.4
+      rang: 19
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 37.4
+      ftr: 32.9
+      2p_pct: 60.2
+      3p_pct: 32.7
+      efg: 56.0
+      rang_efg: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 49.4
+      ftr: 21.3
+      2p_pct: 51.9
+      3p_pct: 36.3
+      efg: 53.1
+      rang_efg: 9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -16.1
+        ast_pct: 34.2
+        skok_pct: -11.0
+        trojki_pct: -8.4
+      крила:
+        poeni_pct: -0.3
+        ast_pct: 15.8
+        skok_pct: 3.1
+        trojki_pct: 14.6
+      бекови:
+        poeni_pct: -3.3
+        ast_pct: -1.5
+        skok_pct: -19.3
+        trojki_pct: 26.5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 37.4
+      rang_oreb: 1
+      dreb_pct: 67.1
+      rang_dreb: 10
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 19.2
+      rang_najmalku: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 14.7
+      ftr_dozvoluva: 21.3
+      rang_najmalku: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.4
+      rang_blk: 13
+      2p_pct_protivnik: 51.9
+      rang_2p_odbrana: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 25.5
+        n: 6
+      top3:
+        min: 26.7
+        n: 6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 20.3
+        n: 2
+      top3:
+        min: 22.0
+        n: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 26.7
+      top3_min_razlika: 22.0
+      razlika_min: 4.7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Fournier E. (OLY)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      - igrac: Montero J. (OLY)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 4
+      pogodok_pct: 25.0
+      ochekuvano_pct: 55.9
+      razlika_pp: -30.9
+      po_pazar:
+        poeni: 1/2
+        tim_vkupno: 0/1
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 73.9
+          rang: 13
+          od: 20
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 37.4
+          rang: 19
+          od: 20
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 32.8
+            крила: 52.9
+            центри: 14.4
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 37.4
+          rang: 1
+          od: 20
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 7
+          rang: 4
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 4.7
+          rang: 4
+          od: 19
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 19.2
+          rang: 20
+          ftr_protivnik: 21.3
+          rang_ftr: 20
+          od: 20
+      dozvoluva:
+        oznaka: пушта многу тројки; силна заштита на кош; под или околу лигата на
+          сите позиции
+        brojki:
+          3par_protivnik: 49.4
+          rang_3par: 2
+          2p_pct_protivnik: 51.9
+          rang_2p: 17
+          od: 20
+          dvp_poeni_pct:
+            центри: -16.1
+            крила: -0.3
+            бекови: -3.3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

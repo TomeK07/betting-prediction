@@ -1,0 +1,430 @@
+tim: IND
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 8
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 102.4
+    rang: 23
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 109.1
+    drtg_surov: 112.9
+    ortg_prilagoden: 108.8
+    drtg_prilagoden: 113.7
+    rang_napad: 22
+    rang_odbrana: 26
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: 18.3
+      ast_pct: 8.2
+      skok_pct: 18.8
+      trojki_pct: -37.3
+    крила:
+      poeni_pct: 1.3
+      ast_pct: 12.4
+      skok_pct: 2.9
+      trojki_pct: 16.3
+    бекови:
+      poeni_pct: -2.6
+      ast_pct: -4.3
+      skok_pct: 3.7
+      trojki_pct: 10.2
+  nositeli:
+  - igrac: Siakam P. (IND)
+    minuti: 32.2
+    usg_pct: 29.2
+    ast_pct: 21.7
+    poeni: 21.4
+    ast: 4.0
+  - igrac: Haliburton T. (IND)
+    minuti: 33.0
+    usg_pct: 24.5
+    ast_pct: 43.4
+    poeni: 21.8
+    ast: 9.5
+  - igrac: Nesmith A. (IND)
+    minuti: 23.1
+    usg_pct: 23.5
+    ast_pct: 12.5
+    poeni: 12.2
+    ast: 1.8
+  - igrac: Nembhard A. (IND)
+    minuti: 32.7
+    usg_pct: 23.3
+    ast_pct: 34.4
+    poeni: 18.5
+    ast: 7.3
+  rotacija:
+  - igrac: Haliburton T. (IND)
+    minuti: 33.0
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Nembhard A. (IND)
+    minuti: 32.7
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Siakam P. (IND)
+    minuti: 32.2
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Walker J. (IND)
+    minuti: 24.6
+    natprevari: 8
+    starter_pct: 25.0
+  - igrac: Oubre Jr. K. (IND)
+    minuti: 23.2
+    natprevari: 7
+    starter_pct: 71.0
+  - igrac: Nesmith A. (IND)
+    minuti: 23.1
+    natprevari: 6
+    starter_pct: 83.0
+  - igrac: Toppin O. (IND)
+    minuti: 22.9
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Jackson Q. (IND)
+    minuti: 21.7
+    natprevari: 8
+    starter_pct: 12.0
+  - igrac: Zubac I. (IND)
+    minuti: 21.4
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Huff J. (IND)
+    minuti: 20.0
+    natprevari: 7
+    starter_pct: 71.0
+  startna_petorka_posledni_5:
+  - Huff J. (IND)
+  - Nembhard A. (IND)
+  - Nesmith A. (IND)
+  - Oubre Jr. K. (IND)
+  - Siakam P. (IND)
+  trener: null
+  doma:
+    n: 4
+    poeni: 102.0
+    primeni: 110.2
+  gosti:
+    n: 4
+    poeni: 121.5
+    primeni: 121.0
+  forma_posledni_5:
+    pobedi: 0
+    porazi: 5
+    poeni: 106.0
+    primeni: 115.0
+    neto_rejting: -8.9
+  trojki:
+    3par_napad: 42.9
+    3par_dozvoluva: 43.8
+    3p_pct: 32.9
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 22.4
+    dreb_pct: 71.6
+  igraci_vo_zapisnik:
+  - Brown K. (IND)
+  - Furphy J. (IND)
+  - Haliburton T. (IND)
+  - Huff J. (IND)
+  - Jackson Q. (IND)
+  - McConnell T. (IND)
+  - Nance Jr. L. (IND)
+  - Nembhard A. (IND)
+  - Nesmith A. (IND)
+  - Oubre Jr. K. (IND)
+  - Sheppard B. (IND)
+  - Siakam P. (IND)
+  - Slawson J. (IND)
+  - Smith B. (IND)
+  - Toppin O. (IND)
+  - Walker J. (IND)
+  - Zubac I. (IND)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 102.4
+      rang: 11
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 108.8
+      surov: 109.1
+      rang: 22
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 113.7
+      surov: 112.9
+      rang: 26
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 42.9
+      rang: 17
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 42.9
+      ftr: 30.9
+      2p_pct: 56.9
+      3p_pct: 32.9
+      efg: 53.6
+      rang_efg: 15
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 43.8
+      ftr: 28.6
+      2p_pct: 51.1
+      3p_pct: 37.4
+      efg: 53.3
+      rang_efg: 14
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 18.3
+        ast_pct: 8.2
+        skok_pct: 18.8
+        trojki_pct: -37.3
+      крила:
+        poeni_pct: 1.3
+        ast_pct: 12.4
+        skok_pct: 2.9
+        trojki_pct: 16.3
+      бекови:
+        poeni_pct: -2.6
+        ast_pct: -4.3
+        skok_pct: 3.7
+        trojki_pct: 10.2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 22.4
+      rang_oreb: 28
+      dreb_pct: 71.6
+      rang_dreb: 19
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.4
+      rang_najmalku: 10
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 25.5
+      ftr_dozvoluva: 28.6
+      rang_najmalku: 14
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 4.5
+      rang_blk: 20
+      2p_pct_protivnik: 51.1
+      rang_2p_odbrana: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 31.4
+        n: 3
+      top3:
+        min: 34.4
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 26.0
+        n: 3
+      top3:
+        min: 29.9
+        n: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 34.4
+      top3_min_razlika: 29.9
+      razlika_min: 4.5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Haliburton T. (IND)
+        propushteni: 4
+        prichini:
+          не е во записник: 4
+      - igrac: Nembhard A. (IND)
+        propushteni: 2
+        prichini:
+          DND - Injury/Illness: 2
+      - igrac: Siakam P. (IND)
+        propushteni: 1
+        prichini:
+          DND - Rest: 1
+      - igrac: Oubre Jr. K. (IND)
+        propushteni: 1
+        prichini:
+          DNP - Coach's Decision: 1
+      b2b_natprevari: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 2
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 12
+      pogodok_pct: 25.0
+      ochekuvano_pct: 57.5
+      razlika_pp: -32.5
+      po_pazar:
+        asistencii: 2/3
+        hendikep: 0/2
+        poeni: 0/1
+        skokovi: 0/2
+        tim_vkupno: 1/2
+        trojki: 0/1
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 102.4
+          rang: 11
+          od: 30
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 42.9
+          rang: 17
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 41.9
+            крила: 48.5
+            центри: 9.5
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 22.4
+          rang: 28
+          od: 30
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 8
+          rang: 12
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 4.5
+          rang: 16
+          od: 23
+      fauli:
+        oznaka: фаулира малку; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 21.4
+          rang: 21
+          ftr_protivnik: 28.6
+          rang_ftr: 17
+          od: 30
+      dozvoluva:
+        oznaka: средно тројки; силна заштита на кош; пушта над лигата на центри (+18%
+          поени)
+        brojki:
+          3par_protivnik: 43.8
+          rang_3par: 12
+          2p_pct_protivnik: 51.1
+          rang_2p: 27
+          od: 30
+          dvp_poeni_pct:
+            центри: 18.3
+            крила: 1.3
+            бекови: -2.6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

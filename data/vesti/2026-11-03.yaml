@@ -1,0 +1,143 @@
+- liga: nba
+  tim: Wizards
+  igrac: Tristan Vukcevic
+  status: OUT
+  prichina: hip
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Tristan Vukcevic: out (hip)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Wizards
+  igrac: Anthony Gill
+  status: OUT
+  prichina: back
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Anthony Gill: out (back)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Wizards
+  igrac: Alex Sarr
+  status: OUT
+  prichina: knee
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Alex Sarr: out (knee)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Wizards
+  igrac: Jamir Watkins
+  status: OUT
+  prichina: acl
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Jamir Watkins: out for season (acl)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Wizards
+  igrac: Justin Champagnie
+  status: OUT
+  prichina: foot
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Justin Champagnie: out (foot)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Hawks
+  igrac: Jock Landale
+  status: OUT
+  prichina: hip
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Jock Landale: out (hip)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Hawks
+  igrac: Henri Veesaar
+  status: OUT
+  prichina: acl
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Henri Veesaar: out for season (acl)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Hawks
+  igrac: Mouhamed Gueye
+  status: OUT
+  prichina: foot
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Mouhamed Gueye: out (foot)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Hawks
+  igrac: Jalen Johnson
+  status: OUT
+  prichina: ankle
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909923
+  citat: 'Jalen Johnson: out (ankle)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Nets
+  igrac: Egor Demin
+  status: OUT
+  prichina: leg
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909925
+  citat: 'Nets: Egor Demin: out (leg).'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Hornets
+  igrac: Grant Williams
+  status: OUT
+  prichina: hamstring
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909925
+  citat: 'Hornets: Grant Williams: out (hamstring)'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Hornets
+  igrac: Kon Knueppel
+  status: OUT
+  prichina: hamstring
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909925
+  citat: 'Kon Knueppel: out (hamstring).'
+  objaveno: '2026-11-03T07:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Bulls
+  igrac: Nic Claxton
+  status: OUT
+  prichina: hamstring
+  izvor_url: http://www.espn.com/nba/preview?gameId=401909926
+  citat: 'Bulls: Nic Claxton: out (hamstring).'
+  objaveno: '2026-11-03T07:02:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)

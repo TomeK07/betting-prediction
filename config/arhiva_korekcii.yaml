@@ -1,0 +1,32 @@
+# Manual corrections applied during the one-off migration of data/archive/*.csv.
+# Source CSVs are never edited; every correction here is logged in archive/izbori.db (log_izmeni).
+# Key = "<file>:<line>" exactly as reported by `python main.py migrate`.
+# Decisions by Tome, 29.10.2026.
+
+korekcii:
+  # 27.10 EL: morning candidates (no price) replaced by the later revisions in the dodatok file
+  "evroliga-rezultati.csv:70":
+    set: {status: POVLECEN}
+    prichina: "заменет со ревизија (REVIZIJA 27.10 11:30 / REVIZIJA 2): хендикеп lean, НЕ во тикет"
+  "evroliga-rezultati.csv:71":
+    set: {status: POVLECEN}
+    prichina: "заменет со ревизија (REVIZIJA 27.10 11:30 / REVIZIJA 2): хендикеп lean, НЕ во тикет"
+  "evroliga-rezultati.csv:72":
+    set: {status: POVLECEN}
+    prichina: "заменет со ревизија (REVIZIJA 2): Dubai хендикеп ОДБИЕН"
+  "evroliga-rezultati.csv:73":
+    set: {status: POVLECEN}
+    prichina: "заменет со ревизија: Baugh линијата била 5.5 (не 4.5) → нов запис во додатокот. Иницијалот „S.“ е погрешен — играчот е D. Baugh (BAS)"
+  "evroliga-rezultati.csv:74":
+    set: {status: POVLECEN}
+    prichina: "заменет со ревизија: Rhoden ОДБИЕН (старо отсуство на Hifi)"
+
+  # NBA 25.10 Towns ast: VOID was unverified ("ako se potvrdi deka igral -> ispravi") → re-grade from box score
+  "nba-rezultati.csv:114":
+    set: {status: CEKA}
+    prichina: "VOID беше непроверен; одлука на Томе: провери во box score — играл → оцени, не играл → VOID"
+
+  # NBA 20.10 Tatum: market was rebounds (line 8.5, result "4 sk"), mislabeled poeni_skok
+  "nba-rezultati.csv:2":
+    set: {pazar: skokovi}
+    prichina: "пазарот бил СКОКОВИ (линија 8.5, резултат 4 ск), погрешно запишан како poeni_skok"

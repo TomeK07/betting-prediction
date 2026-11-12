@@ -1,0 +1,424 @@
+tim: PRS
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-29'
+  tempo:
+    poseda_po_natprevar: 77.2
+    rang: 2
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 114.5
+    drtg_surov: 120.4
+    ortg_prilagoden: 115.7
+    drtg_prilagoden: 118.8
+    rang_napad: 11
+    rang_odbrana: 16
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: 14.7
+      ast_pct: -13.7
+      skok_pct: 20.1
+      trojki_pct: -45.6
+    крила:
+      poeni_pct: 1.7
+      ast_pct: 7.4
+      skok_pct: 4.7
+      trojki_pct: -8.7
+    бекови:
+      poeni_pct: 6.0
+      ast_pct: 9.7
+      skok_pct: -0.6
+      trojki_pct: 11.0
+  nositeli:
+  - igrac: Hifi N. (PRS)
+    minuti: 24.8
+    usg_pct: 41.3
+    ast_pct: 19.9
+    poeni: 21.2
+    ast: 2.7
+  - igrac: Rhoden J. (PRS)
+    minuti: 21.4
+    usg_pct: 33.1
+    ast_pct: 20.1
+    poeni: 13.1
+    ast: 2.4
+  - igrac: Etienne T. (PRS)
+    minuti: 19.8
+    usg_pct: 31.2
+    ast_pct: 24.4
+    poeni: 15.0
+    ast: 2.8
+  - igrac: Warren T. (PRS)
+    minuti: 20.3
+    usg_pct: 24.6
+    ast_pct: 9.3
+    poeni: 13.0
+    ast: 1.0
+  rotacija:
+  - igrac: Hifi N. (PRS)
+    minuti: 24.8
+    natprevari: 6
+    starter_pct: 83.0
+  - igrac: Rhoden J. (PRS)
+    minuti: 21.4
+    natprevari: 7
+    starter_pct: 43.0
+  - igrac: Warren T. (PRS)
+    minuti: 20.3
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Herrera S. (PRS)
+    minuti: 20.3
+    natprevari: 9
+    starter_pct: 78.0
+  - igrac: Etienne T. (PRS)
+    minuti: 19.8
+    natprevari: 8
+    starter_pct: 38.0
+  - igrac: Dokossi A. (PRS)
+    minuti: 19.3
+    natprevari: 9
+    starter_pct: 22.0
+  - igrac: Tarpey T. (PRS)
+    minuti: 17.2
+    natprevari: 8
+    starter_pct: 75.0
+  - igrac: Faye M. (PRS)
+    minuti: 16.5
+    natprevari: 9
+    starter_pct: 78.0
+  - igrac: Johnson A. (PRS)
+    minuti: 15.6
+    natprevari: 7
+    starter_pct: 29.0
+  - igrac: Ayayi J. (PRS)
+    minuti: 15.4
+    natprevari: 7
+    starter_pct: 14.0
+  startna_petorka_posledni_5:
+  - Etienne T. (PRS)
+  - Faye M. (PRS)
+  - Herrera S. (PRS)
+  - Johnson A. (PRS)
+  - Tarpey T. (PRS)
+  trener: LEFEVRE, MAXIME
+  doma:
+    n: 5
+    poeni: 88.8
+    primeni: 93.6
+  gosti:
+    n: 4
+    poeni: 87.8
+    primeni: 92.0
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 93.2
+    primeni: 95.4
+    neto_rejting: -2.8
+  trojki:
+    3par_napad: 48.3
+    3par_dozvoluva: 39.5
+    3p_pct: 34.5
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 35.8
+    dreb_pct: 61.9
+  igraci_vo_zapisnik:
+  - Ayayi J. (PRS)
+  - Cavaliere L. (PRS)
+  - Dokossi A. (PRS)
+  - Etienne T. (PRS)
+  - Faye M. (PRS)
+  - Herrera S. (PRS)
+  - Hifi N. (PRS)
+  - Hommes D. (PRS)
+  - Johnson A. (PRS)
+  - Morgan J. (PRS)
+  - Ntilikina F. (PRS)
+  - Pereira M. (PRS)
+  - Rhoden J. (PRS)
+  - Tarpey T. (PRS)
+  - Warren T. (PRS)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 77.2
+      rang: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 115.7
+      surov: 114.5
+      rang: 11
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 118.8
+      surov: 120.4
+      rang: 16
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 48.3
+      rang: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 48.3
+      ftr: 21.1
+      2p_pct: 58.5
+      3p_pct: 34.5
+      efg: 55.3
+      rang_efg: 11
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 39.5
+      ftr: 32.5
+      2p_pct: 56.4
+      3p_pct: 37.3
+      efg: 56.2
+      rang_efg: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 14.7
+        ast_pct: -13.7
+        skok_pct: 20.1
+        trojki_pct: -45.6
+      крила:
+        poeni_pct: 1.7
+        ast_pct: 7.4
+        skok_pct: 4.7
+        trojki_pct: -8.7
+      бекови:
+        poeni_pct: 6.0
+        ast_pct: 9.7
+        skok_pct: -0.6
+        trojki_pct: 11.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 35.8
+      rang_oreb: 5
+      dreb_pct: 61.9
+      rang_dreb: 19
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 23.0
+      rang_najmalku: 19
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 22.0
+      ftr_dozvoluva: 32.5
+      rang_najmalku: 12
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.0
+      rang_blk: 6
+      2p_pct_protivnik: 56.4
+      rang_2p_odbrana: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 21.7
+        n: 5
+      top3:
+        min: 23.2
+        n: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 19.9
+        n: 1
+      top3:
+        min: 20.4
+        n: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.2
+      top3_min_razlika: 20.4
+      razlika_min: 2.8
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Hifi N. (PRS)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      - igrac: Rhoden J. (PRS)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      - igrac: Warren T. (PRS)
+        propushteni: 4
+        prichini:
+          не е на листата / не играл: 4
+      - igrac: Etienne T. (PRS)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 3
+      pogodok_pct: 33.3
+      ochekuvano_pct: 56.2
+      razlika_pp: -22.9
+      po_pazar:
+        asistencii: 0/1
+        poeni: 1/1
+        skokovi: 0/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 77.2
+          rang: 3
+          od: 20
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 48.3
+          rang: 1
+          od: 20
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 61.1
+            крила: 25.4
+            центри: 13.5
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 35.8
+          rang: 5
+          od: 20
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 7
+          rang: 4
+          od: 20
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 2.8
+          rang: 10
+          od: 19
+      fauli:
+        oznaka: фаулира многу; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 23.0
+          rang: 2
+          ftr_protivnik: 32.5
+          rang_ftr: 9
+          od: 20
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош; пушта над лигата на центри (+15%
+          поени)
+        brojki:
+          3par_protivnik: 39.5
+          rang_3par: 13
+          2p_pct_protivnik: 56.4
+          rang_2p: 8
+          od: 20
+          dvp_poeni_pct:
+            центри: 14.7
+            крила: 1.7
+            бекови: 6.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

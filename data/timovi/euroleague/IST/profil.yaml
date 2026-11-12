@@ -1,0 +1,413 @@
+tim: IST
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 76.5
+    rang: 5
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 109.3
+    drtg_surov: 112.8
+    ortg_prilagoden: 112.9
+    drtg_prilagoden: 112.4
+    rang_napad: 18
+    rang_odbrana: 5
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: -5.1
+      ast_pct: 9.5
+      skok_pct: -1.3
+      trojki_pct: 37.6
+    крила:
+      poeni_pct: -9.7
+      ast_pct: 2.9
+      skok_pct: 1.0
+      trojki_pct: -5.5
+    бекови:
+      poeni_pct: 8.3
+      ast_pct: -5.0
+      skok_pct: 8.2
+      trojki_pct: 11.1
+  nositeli:
+  - igrac: Payne C. (IST)
+    minuti: 20.2
+    usg_pct: 33.3
+    ast_pct: 38.7
+    poeni: 15.0
+    ast: 4.0
+  - igrac: James M. (IST)
+    minuti: 28.6
+    usg_pct: 28.7
+    ast_pct: 28.3
+    poeni: 15.0
+    ast: 4.3
+  - igrac: Strazel M. (IST)
+    minuti: 22.7
+    usg_pct: 25.9
+    ast_pct: 28.5
+    poeni: 11.6
+    ast: 4.0
+  - igrac: Saric D. (IST)
+    minuti: 25.7
+    usg_pct: 22.3
+    ast_pct: 11.6
+    poeni: 11.6
+    ast: 1.8
+  rotacija:
+  - igrac: James M. (IST)
+    minuti: 28.6
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Saric D. (IST)
+    minuti: 25.7
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Malcolm C. (IST)
+    minuti: 25.2
+    natprevari: 9
+    starter_pct: 78.0
+  - igrac: Loyd J. (IST)
+    minuti: 24.6
+    natprevari: 9
+    starter_pct: 44.0
+  - igrac: Strazel M. (IST)
+    minuti: 22.7
+    natprevari: 9
+    starter_pct: 56.0
+  - igrac: Payne C. (IST)
+    minuti: 20.2
+    natprevari: 6
+    starter_pct: 83.0
+  - igrac: Fernando B. (IST)
+    minuti: 19.2
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Jones K. (IST)
+    minuti: 16.6
+    natprevari: 9
+    starter_pct: 0.0
+  - igrac: Osmani E. (IST)
+    minuti: 14.6
+    natprevari: 9
+    starter_pct: 0.0
+  - igrac: Dozier P. (IST)
+    minuti: 13.3
+    natprevari: 6
+    starter_pct: 50.0
+  startna_petorka_posledni_5:
+  - Fernando B. (IST)
+  - Loyd J. (IST)
+  - Malcolm C. (IST)
+  - Payne C. (IST)
+  - Saric D. (IST)
+  trener: LASO, PABLO
+  doma:
+    n: 4
+    poeni: 89.8
+    primeni: 83.2
+  gosti:
+    n: 5
+    poeni: 78.6
+    primeni: 88.6
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 87.6
+    primeni: 87.4
+    neto_rejting: 0.3
+  trojki:
+    3par_napad: 38.8
+    3par_dozvoluva: 43.0
+    3p_pct: 32.1
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 27.8
+    dreb_pct: 68.4
+  igraci_vo_zapisnik:
+  - Dozier P. (IST)
+  - Fernando B. (IST)
+  - James M. (IST)
+  - Jones K. (IST)
+  - Loyd J. (IST)
+  - Malcolm C. (IST)
+  - Mutaf D. (IST)
+  - Osmani E. (IST)
+  - Papagiannis G. (IST)
+  - Payne C. (IST)
+  - Russell D. (IST)
+  - Saric D. (IST)
+  - Strazel M. (IST)
+  - Yilmaz E. (IST)
+  - Yusta S. (IST)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 76.5
+      rang: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 112.9
+      surov: 109.3
+      rang: 18
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 112.4
+      surov: 112.8
+      rang: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 38.8
+      rang: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 38.8
+      ftr: 32.8
+      2p_pct: 55.3
+      3p_pct: 32.1
+      efg: 52.5
+      rang_efg: 14
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 43.0
+      ftr: 25.2
+      2p_pct: 55.6
+      3p_pct: 36.7
+      efg: 55.4
+      rang_efg: 11
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -5.1
+        ast_pct: 9.5
+        skok_pct: -1.3
+        trojki_pct: 37.6
+      крила:
+        poeni_pct: -9.7
+        ast_pct: 2.9
+        skok_pct: 1.0
+        trojki_pct: -5.5
+      бекови:
+        poeni_pct: 8.3
+        ast_pct: -5.0
+        skok_pct: 8.2
+        trojki_pct: 11.1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 27.8
+      rang_oreb: 20
+      dreb_pct: 68.4
+      rang_dreb: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 20.3
+      rang_najmalku: 5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 16.7
+      ftr_dozvoluva: 25.2
+      rang_najmalku: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.7
+      rang_blk: 11
+      2p_pct_protivnik: 55.6
+      rang_2p_odbrana: 11
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 23.5
+        n: 1
+      top3:
+        min: 23.6
+        n: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 25.0
+        n: 4
+      top3:
+        min: 26.3
+        n: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.6
+      top3_min_razlika: 26.3
+      razlika_min: -2.7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: James M. (IST)
+        propushteni: 6
+        prichini:
+          не е на листата / не играл: 6
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 8
+      pogodok_pct: 62.5
+      ochekuvano_pct: 56.5
+      razlika_pp: 6.0
+      po_pazar:
+        hendikep: 1/1
+        poeni: 3/4
+        skokovi: 0/2
+        tim_vkupno: 1/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 76.5
+          rang: 5
+          od: 20
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 38.8
+          rang: 17
+          od: 20
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 51.1
+            крила: 36.2
+            центри: 12.8
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 27.8
+          rang: 20
+          od: 20
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 6
+          rang: 14
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -2.7
+          rang: 17
+          od: 19
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 20.3
+          rang: 16
+          ftr_protivnik: 25.2
+          rang_ftr: 19
+          od: 20
+      dozvoluva:
+        oznaka: пушта многу тројки; средна заштита на кош; пушта над лигата на бекови
+          (+8% поени)
+        brojki:
+          3par_protivnik: 43.0
+          rang_3par: 6
+          2p_pct_protivnik: 55.6
+          rang_2p: 10
+          od: 20
+          dvp_poeni_pct:
+            центри: -5.1
+            крила: -9.7
+            бекови: 8.3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

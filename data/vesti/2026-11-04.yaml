@@ -1,0 +1,102 @@
+- liga: nba
+  tim: Atlanta Hawks
+  igrac: Johnson
+  status: QUESTIONABLE
+  prichina: ankle
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Jalen_Johnson
+  citat: Johnson (ankle) is listed as questionable for Wednesday's game in Washington
+  objaveno: '2026-11-03T22:06:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Boston Celtics
+  igrac: Jayson Tatum
+  status: QUESTIONABLE
+  prichina: rest
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Payton_Pritchard
+  citat: With Jayson Tatum (rest) also questionable
+  objaveno: '2026-11-03T21:12:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Boston Celtics
+  igrac: Devin Carter
+  status: OUT
+  prichina: illness
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Payton_Pritchard
+  citat: Devin Carter (illness) ruled out
+  objaveno: '2026-11-03T21:12:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Boston Celtics
+  igrac: Tatum
+  status: QUESTIONABLE
+  prichina: rest
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Jayson_Tatum
+  citat: Tatum (rest) is questionable for Wednesday against the Bucks
+  objaveno: '2026-11-03T21:10:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Charlotte Hornets
+  igrac: Knueppel
+  status: PROBABLE
+  prichina: hamstring
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Kon_Knueppel
+  citat: Knueppel (hamstring) is listed as probable for Wednesday's game against the
+    Nets.
+  objaveno: '2026-11-03T22:13:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Chicago Bulls
+  igrac: Smith
+  status: PROBABLE
+  prichina: left finger sprain
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Jalen_Smith
+  citat: Smith is probable for Wednesday's game against the Knicks with a left finger
+    sprain.
+  objaveno: '2026-11-03T21:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Chicago Bulls
+  igrac: Nic Claxton
+  status: QUESTIONABLE
+  prichina: hamstring
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Jalen_Smith
+  citat: Nic Claxton (hamstring) is questionable to make his season debut
+  objaveno: '2026-11-03T21:03:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Cleveland Cavaliers
+  igrac: Tyson
+  status: OUT
+  prichina: right ankle sprain
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Jaylon_Tyson
+  citat: Tyson is out for Wednesday's game against the Thunder due to a right ankle
+    sprain.
+  objaveno: '2026-11-03T22:11:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Cleveland Cavaliers
+  igrac: Watson
+  status: OUT
+  prichina: hamstring
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Peyton_Watson
+  citat: Watson (hamstring) is out for Wednesday's game in Oklahoma City.
+  objaveno: '2026-11-03T22:09:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)

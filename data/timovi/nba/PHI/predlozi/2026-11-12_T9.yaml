@@ -1,0 +1,25 @@
+tip: ОПИС
+tim: PHI
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/nba-news/2021486/adem-bona-injury-update-philadelphia-76ers-nba/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Nick Nurse
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-16'
+  naslov: Adem Bona progresses but sidelined for 76ers preseason finale
+  izvor_url: https://www.eurohoops.net/en/nba-news/2021486/adem-bona-injury-update-philadelphia-76ers-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2021486/adem-bona-injury-update-philadelphia-76ers-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2021486/adem-bona-injury-update-philadelphia-76ers-nba/: LLM qwen3.8-27b не одговара: Connection
+  error.'
+se_kosi_so_brojki: []

@@ -1,0 +1,423 @@
+tim: OKC
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 7
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 100.0
+    rang: 21
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 108.0
+    drtg_surov: 107.7
+    ortg_prilagoden: 109.3
+    drtg_prilagoden: 108.0
+    rang_napad: 19
+    rang_odbrana: 3
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: 2.7
+      ast_pct: 20.3
+      skok_pct: -18.4
+      trojki_pct: 4.2
+    крила:
+      poeni_pct: -2.6
+      ast_pct: -1.5
+      skok_pct: 11.1
+      trojki_pct: 18.2
+    бекови:
+      poeni_pct: -6.4
+      ast_pct: -1.7
+      skok_pct: 8.3
+      trojki_pct: 5.2
+  nositeli:
+  - igrac: Gilgeous-Alexander S. (OKC)
+    minuti: 33.5
+    usg_pct: 34.9
+    ast_pct: 22.9
+    poeni: 28.4
+    ast: 4.0
+  - igrac: Mitchell A. (OKC)
+    minuti: 26.9
+    usg_pct: 25.6
+    ast_pct: 21.8
+    poeni: 17.0
+    ast: 3.4
+  - igrac: McCain J. (OKC)
+    minuti: 24.9
+    usg_pct: 22.6
+    ast_pct: 12.5
+    poeni: 10.3
+    ast: 2.1
+  - igrac: Williams Jal. (OKC)
+    minuti: 31.6
+    usg_pct: 20.8
+    ast_pct: 15.5
+    poeni: 13.7
+    ast: 3.3
+  rotacija:
+  - igrac: Gilgeous-Alexander S. (OKC)
+    minuti: 33.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Williams Jal. (OKC)
+    minuti: 31.6
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Holmgren C. (OKC)
+    minuti: 29.9
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Mitchell A. (OKC)
+    minuti: 26.9
+    natprevari: 7
+    starter_pct: 57.0
+  - igrac: McCain J. (OKC)
+    minuti: 24.9
+    natprevari: 7
+    starter_pct: 43.0
+  - igrac: Hartenstein I. (OKC)
+    minuti: 24.5
+    natprevari: 7
+    starter_pct: 100.0
+  - igrac: Caruso A. (OKC)
+    minuti: 18.9
+    natprevari: 4
+    starter_pct: 0.0
+  - igrac: Williams Jay. (OKC)
+    minuti: 18.5
+    natprevari: 7
+    starter_pct: 14.0
+  - igrac: Mara A. (OKC)
+    minuti: 18.1
+    natprevari: 7
+    starter_pct: 0.0
+  - igrac: Dix J. (OKC)
+    minuti: 16.6
+    natprevari: 4
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Gilgeous-Alexander S. (OKC)
+  - Hartenstein I. (OKC)
+  - McCain J. (OKC)
+  - Mitchell A. (OKC)
+  - Williams K. (OKC)
+  trener: null
+  doma:
+    n: 3
+    poeni: 109.7
+    primeni: 99.7
+  gosti:
+    n: 4
+    poeni: 106.8
+    primeni: 113.8
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 108.8
+    primeni: 113.2
+    neto_rejting: -4.4
+  trojki:
+    3par_napad: 35.2
+    3par_dozvoluva: 46.5
+    3p_pct: 32.0
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 28.8
+    dreb_pct: 72.4
+  igraci_vo_zapisnik:
+  - Barnhizer B. (OKC)
+  - Caruso A. (OKC)
+  - Dix J. (OKC)
+  - Gilgeous-Alexander S. (OKC)
+  - Hartenstein I. (OKC)
+  - Holmgren C. (OKC)
+  - Mara A. (OKC)
+  - McCain J. (OKC)
+  - Mitchell A. (OKC)
+  - Oweh O. (OKC)
+  - Peavy M. (OKC)
+  - Sorber T. (OKC)
+  - Stirtz B. (OKC)
+  - Topić N. (OKC)
+  - Wallace C. (OKC)
+  - Williams Jal. (OKC)
+  - Williams Jay. (OKC)
+  - Williams K. (OKC)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 100.0
+      rang: 24
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 109.3
+      surov: 108.0
+      rang: 19
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 108.0
+      surov: 107.7
+      rang: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 35.2
+      rang: 29
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 35.2
+      ftr: 22.0
+      2p_pct: 50.1
+      3p_pct: 32.0
+      efg: 49.4
+      rang_efg: 28
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 46.5
+      ftr: 23.9
+      2p_pct: 50.0
+      3p_pct: 35.5
+      efg: 51.5
+      rang_efg: 9
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 2.7
+        ast_pct: 20.3
+        skok_pct: -18.4
+        trojki_pct: 4.2
+      крила:
+        poeni_pct: -2.6
+        ast_pct: -1.5
+        skok_pct: 11.1
+        trojki_pct: 18.2
+      бекови:
+        poeni_pct: -6.4
+        ast_pct: -1.7
+        skok_pct: 8.3
+        trojki_pct: 5.2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 28.8
+      rang_oreb: 12
+      dreb_pct: 72.4
+      rang_dreb: 14
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 19.7
+      rang_najmalku: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 21.3
+      ftr_dozvoluva: 23.9
+      rang_najmalku: 6
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 6.0
+      rang_blk: 5
+      2p_pct_protivnik: 50.0
+      rang_2p_odbrana: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 33.5
+        n: 1
+      top3:
+        min: 38.6
+        n: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 28.4
+        n: 2
+      top3:
+        min: 29.4
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 38.6
+      top3_min_razlika: 29.4
+      razlika_min: 9.2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Williams Jal. (OKC)
+        propushteni: 4
+        prichini:
+          Inactive - Injury/Illness: 1
+          не е во записник: 3
+      - igrac: Holmgren C. (OKC)
+        propushteni: 4
+        prichini:
+          Inactive - Injury/Illness: 1
+          не е во записник: 3
+      b2b_natprevari: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 3
+      b2b_sezona: 1
+      najdolga_gostinska_serija: 3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 14
+      pogodok_pct: 57.1
+      ochekuvano_pct: 59.5
+      razlika_pp: -4.0
+      po_pazar:
+        asistencii: 1/3
+        hendikep: 1/1
+        poeni: 1/2
+        skokovi: 2/4
+        tim_vkupno: 2/2
+        vkupno: 1/2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 100.0
+          rang: 24
+          od: 30
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 35.2
+          rang: 29
+          od: 30
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 78.4
+            крила: 2.6
+            центри: 18.9
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 28.8
+          rang: 12
+          od: 30
+      rotacija:
+        oznaka: средна
+        brojki:
+          igraci_15_min: 8
+          rang: 12
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 9.2
+          rang: 4
+          od: 23
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 19.7
+          rang: 30
+          ftr_protivnik: 23.9
+          rang_ftr: 25
+          od: 30
+      dozvoluva:
+        oznaka: пушта многу тројки; силна заштита на кош
+        brojki:
+          3par_protivnik: 46.5
+          rang_3par: 3
+          2p_pct_protivnik: 50.0
+          rang_2p: 28
+          od: 30
+          dvp_poeni_pct:
+            центри: 2.7
+            крила: -2.6
+            бекови: -6.4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

@@ -1,0 +1,511 @@
+tip: ОПИС
+tim: RED
+liga: euroleague
+predlog_datum: '2026-10-30'
+izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/; https://www.eurohoops.net/en/euroleague/2022725/bodiroga-sees-partizan-and-crvena-zvezda-as-long-term-euroleague-partners/;
+  https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/ …
+citat: under the leadership of newly appointed head coach Ibon Navarro.
+prompt_verzija: t9-v1
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Ibon Navarro
+  izvor: box score Евролига
+napisi:
+- objaveno: '2026-10-18'
+  naslov: Partizan and Crvena Zvezda win ahead of derby, Jekiri layoff confirmed
+  izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+- objaveno: '2026-10-18'
+  naslov: Bodiroga sees Partizan and Crvena Zvezda as long-term EuroLeague partners
+  izvor_url: https://www.eurohoops.net/en/euroleague/2022725/bodiroga-sees-partizan-and-crvena-zvezda-as-long-term-euroleague-partners/
+- objaveno: '2026-10-04'
+  naslov: FMP stuns sluggish Crvena Zvezda to open ABA League season
+  izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+- objaveno: '2026-10-03'
+  naslov: Motley suffers an injury, Baldwin Jr. set to debut for Crvena zvezda
+  izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+- objaveno: '2026-09-18'
+  naslov: Crvena Zvezda names practice center after club giant Vladimir Cvetkovic
+  izvor_url: https://www.eurohoops.net/en/euroleague/2009399/crvena-zvezda-names-practice-center-after-vladimir-cvetkovic-euroleague/
+- objaveno: '2026-09-04'
+  naslov: Crvena zvezda and Olympiacos make it to Crete Tournament final
+  izvor_url: https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/
+- objaveno: '2026-09-01'
+  naslov: Crvena zvezda opens preseason with win over Mladost, Milan beats Verona
+  izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+- objaveno: '2026-08-17'
+  naslov: Nikola Kalinic retires to join Crvena Zvezda coaching staff
+  izvor_url: https://www.eurohoops.net/en/euroleague/1999433/nikola-kalinic-retires-joins-crvena-zvezda-coaching-staff-euroleague/
+- objaveno: '2026-08-09'
+  naslov: Nick Weiler-Babb joins Crvena Zvezda, one month after ASVEL signing
+  izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+- objaveno: '2026-08-02'
+  naslov: 'Crvena Zvezda president Zeljko Drcelic: “We had a gentleman’s agreement with Nikola Vucevic”'
+  izvor_url: https://www.eurohoops.net/en/euroleague/1995829/crvena-zvezda-president-zeljko-drcelic-we-had-a-gentlemans-agreement-with-nikola-vucevic/
+- objaveno: '2026-07-18'
+  naslov: Patrick Baldwin Jr. officially moves to Crvena Zvezda and EuroLeague
+  izvor_url: https://www.eurohoops.net/en/euroleague/1992234/patrick-baldwin-jr-close-to-deal-with-crvena-zvezda-euroleague/
+- objaveno: '2026-07-17'
+  naslov: Johnathan Motley completes move from Hapoel to Crvena Zvezda
+  izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+fakti:
+- pole: analiticari
+  vrednost: Zvezda signals fierce intentions for the upcoming 2026–27 EuroLeague campaign by signing Motley.
+  citat: Zvezda signals their fierce intentions for the upcoming 2026–27 EuroLeague campaign.
+  izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+  objaveno: '2026-07-17'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: analiticari
+  vrednost: The team is considered good, but management is still looking for opportunities to strengthen the roster further.
+  citat: We have a good team. If an opportunity arises to strengthen it further, we will certainly take advantage of it.
+  izvor_url: https://www.eurohoops.net/en/euroleague/1995829/crvena-zvezda-president-zeljko-drcelic-we-had-a-gentlemans-agreement-with-nikola-vucevic/
+  objaveno: '2026-08-02'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: analiticari
+  vrednost: Analysts noted that despite missing six players, Navarro’s team controlled the game and secured a comfortable win.
+  citat: who controlled the contest and secured a comfortable win despite missing six players
+  izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+  objaveno: '2026-09-01'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: analiticari
+  vrednost: The win was described as a hard‑fought victory in an entertaining preseason clash
+  citat: securing a hard-fought victory in an entertaining preseason clash
+  izvor_url: https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/
+  objaveno: '2026-09-04'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: analiticari
+  vrednost: The defeat increases early pressure on Crvena Zvezda.
+  citat: The loss adds early pressure
+  izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+  objaveno: '2026-10-04'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: analiticari
+  vrednost: Zvezda comfortably defeated Krka, showing strong performance.
+  citat: Crvena Zvezda cruises past Krka
+  izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+  objaveno: '2026-10-18'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: analiticari
+  vrednost: Dejan Bodiroga sees Crvena Zvezda as a long-term EuroLeague partner with good chances of becoming a franchise.
+  citat: I see them as long-term EuroLeague partners.
+  izvor_url: https://www.eurohoops.net/en/euroleague/2022725/bodiroga-sees-partizan-and-crvena-zvezda-as-long-term-euroleague-partners/
+  objaveno: '2026-10-18'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: protiv_kogo_ne_odi
+  vrednost: Lack of defensive effort allowed FMP to punish them for three quarters and reach a double-digit lead.
+  citat: The visitors lacked defensive effort. FMP punished them for three quarters, reaching a double-digit lead, and held on down the stretch.
+  izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+  objaveno: '2026-10-04'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: protiv_kogo_odi
+  vrednost: beat Mladost 102–68
+  citat: convincing 102–68 victory over Mladost
+  izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+  objaveno: '2026-09-01'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: protiv_kogo_odi
+  vrednost: defeated EA7 Emporio Armani Milan 91–85 in the opening semifinal
+  citat: Crvena zvezda Meridianbet defeated EA7 Emporio Armani Milan 91–85 on Friday in the opening semifinal of the Crete International Basketball
+    Tournament
+  izvor_url: https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/
+  objaveno: '2026-09-04'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: protiv_kogo_odi
+  vrednost: FMP
+  citat: Crvena zvezda will visit FMP on Sunday
+  izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+  objaveno: '2026-10-03'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: protiv_kogo_odi
+  vrednost: Dubai
+  citat: it will host Dubai in the fourth round of the EuroLeague
+  izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+  objaveno: '2026-10-03'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: protiv_kogo_odi
+  vrednost: beat Krka 97-78
+  citat: Crvena Zvezda beat Krka 97-78
+  izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+  objaveno: '2026-10-18'
+  model: gpt-oss-120b
+  proverka: NEPROVERENO
+- pole: stil_napad
+  vrednost: Aggressive offseason recruitment drive
+  citat: aggressive offseason recruitment drive
+  izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+  objaveno: '2026-07-17'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: stil_napad
+  vrednost: Shared the ball effectively throughout the game
+  citat: Crvena zvezda shared the ball effectively throughout the game
+  izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+  objaveno: '2026-09-01'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: stil_napad
+  vrednost: Led the offensive effort with 22 points
+  citat: Moses Wright led Red Star’s offensive effort with 22 points
+  izvor_url: https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/
+  objaveno: '2026-09-04'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: stil_napad
+  vrednost: Finished with a team-high 23 points
+  citat: Jordan Nwora finished with a team-high 23 points
+  izvor_url: https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/
+  objaveno: '2026-09-04'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: stil_napad
+  vrednost: Svi igrači koji su izašli na teren postigli su poene.
+  citat: Every Zvezda player who took the court scored.
+  izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+  objaveno: '2026-10-18'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+- pole: trener
+  vrednost: Ibon Navarro
+  citat: under the leadership of newly appointed head coach Ibon Navarro.
+  od_koga: ''
+  izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+  objaveno: '2026-07-17'
+  model: gpt-oss-120b+qwen3.8-27b
+  proverka: PROVERENO
+- pole: trener
+  vrednost: Ibon Navarro
+  citat: upon hiring Ibon Navarro as the new head coach
+  izvor_url: https://www.eurohoops.net/en/euroleague/1992234/patrick-baldwin-jr-close-to-deal-with-crvena-zvezda-euroleague/
+  objaveno: '2026-07-18'
+  model: gpt-oss-120b+qwen3.8-27b
+  proverka: PROVERENO
+- pole: trener
+  vrednost: Ibon Navarro
+  citat: all signings and departures were agreed with the new head coach Ibon Navarro
+  od_koga: ''
+  izvor_url: https://www.eurohoops.net/en/euroleague/1995829/crvena-zvezda-president-zeljko-drcelic-we-had-a-gentlemans-agreement-with-nikola-vucevic/
+  objaveno: '2026-08-02'
+  model: gpt-oss-120b+qwen3.8-27b
+  proverka: PROVERENO
+- pole: trener
+  vrednost: Navarro
+  citat: coach Navarro’s team
+  izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+  objaveno: '2026-09-01'
+  model: gpt-oss-120b+qwen3.8-27b
+  proverka: PROVERENO
+- pole: trener
+  vrednost: Ibon Navarro
+  citat: head coach Ibon Navarro
+  izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+  objaveno: '2026-10-03'
+  model: gpt-oss-120b+qwen3.8-27b
+  proverka: PROVERENO
+- pole: trener
+  vrednost: Ibon Navarro
+  citat: Zvezda’s head coach Ibon Navarro
+  izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+  objaveno: '2026-10-04'
+  model: gpt-oss-120b+qwen3.8-27b
+  proverka: PROVERENO
+- pole: trener
+  vrednost: Ibon Navarro
+  citat: Ibon Navarro gave minutes to all available players.
+  izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+  objaveno: '2026-10-18'
+  model: qwen3.8-27b
+  proverka: NEPROVERENO
+kartichki_igraci:
+- igrac: Ojeleye S. (RED)
+  brojki_python:
+    minuti: 23.9
+    natprevari: 9
+    starter_pct: 67.0
+  uloga_od_tekstovi:
+  - uloga: scorer (18 points)
+    citat: Semi Ojeleye added 18
+    izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+    objaveno: '2026-09-01'
+    proverka: PROVERENO
+- igrac: Nwora J. (RED)
+  brojki_python:
+    minuti: 22.7
+    natprevari: 9
+    starter_pct: 56.0
+    usg_pct: 28.7
+    ast_pct: 10.6
+    poeni: 14.7
+    ast: 1.2
+  uloga_od_tekstovi:
+  - uloga: scorer (16 points)
+    citat: Nwora contributed 16 points
+    izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+    objaveno: '2026-09-01'
+    proverka: PROVERENO
+  - uloga: Team-high scorer
+    citat: Jordan Nwora finished with a team-high 23 points
+    izvor_url: https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/
+    objaveno: '2026-09-04'
+    proverka: NEPROVERENO
+- igrac: Weiler-Babb N. (RED)
+  brojki_python:
+    minuti: 20.5
+    natprevari: 9
+    starter_pct: 33.0
+  uloga_od_tekstovi:
+  - uloga: player
+    citat: Nick Weiler-Babb has pivoted to join Crvena Zvezda Meridianbet.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: PROVERENO
+  - uloga: playmaker (8 assists)
+    citat: Wailer-Babb also made significant contributions, recording eight assists each
+    izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+    objaveno: '2026-09-01'
+    proverka: PROVERENO
+- igrac: Jones C. (RED)
+  brojki_python:
+    minuti: 19.4
+    natprevari: 9
+    starter_pct: 67.0
+    usg_pct: 22.5
+    ast_pct: 53.9
+    poeni: 8.8
+    ast: 5.9
+  uloga_od_tekstovi:
+  - uloga: ''
+    citat: Chris Jones
+    izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+    objaveno: '2026-07-17'
+    proverka: PROVERENO
+  - uloga: null
+    citat: high-profile commitments from Chris Jones
+    izvor_url: https://www.eurohoops.net/en/euroleague/1992234/patrick-baldwin-jr-close-to-deal-with-crvena-zvezda-euroleague/
+    objaveno: '2026-07-18'
+    proverka: PROVERENO
+  - uloga: arrival
+    citat: arrivals of Chris Jones
+    izvor_url: https://www.eurohoops.net/en/euroleague/1995829/crvena-zvezda-president-zeljko-drcelic-we-had-a-gentlemans-agreement-with-nikola-vucevic/
+    objaveno: '2026-08-02'
+    proverka: NEPROVERENO
+  - uloga: player
+    citat: the newcomer joins a revamped squad that already features summer signings Chris Jones, Johnathan Motley, Patrick Baldwin Jr., David
+      Kramer, and Vojin Medarevic, alongside recently extended core pieces Dejan Davidovac and Jared Butler.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: PROVERENO
+  - uloga: Recorded eight assists
+    citat: Jones and Wailer-Babb also made significant contributions, recording eight assists each
+    izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+    objaveno: '2026-09-01'
+    proverka: NEPROVERENO
+  - uloga: team-high scorer
+    citat: Chris Jones Jr. had a team-high 19 points
+    izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+    objaveno: '2026-10-04'
+    proverka: PROVERENO
+  - uloga: scored nine points
+    citat: Chris Jones scored nine
+    izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+    objaveno: '2026-10-18'
+    proverka: PROVERENO
+- igrac: Carter T. (RED)
+  brojki_python:
+    minuti: 17.4
+    natprevari: 9
+    starter_pct: 67.0
+    usg_pct: 21.8
+    ast_pct: 19.6
+    poeni: 8.8
+    ast: 2.0
+  uloga_od_tekstovi:
+  - uloga: scorer (12 points)
+    citat: Carter finishing the game with 12
+    izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+    objaveno: '2026-09-01'
+    proverka: PROVERENO
+- igrac: Butler J. (RED)
+  brojki_python:
+    minuti: 16.8
+    natprevari: 9
+    starter_pct: 33.0
+    usg_pct: 30.0
+    ast_pct: 27.5
+    poeni: 10.3
+    ast: 2.4
+  uloga_od_tekstovi:
+  - uloga: contract extension
+    citat: extension of Jared Butler’s contract
+    izvor_url: https://www.eurohoops.net/en/euroleague/1995829/crvena-zvezda-president-zeljko-drcelic-we-had-a-gentlemans-agreement-with-nikola-vucevic/
+    objaveno: '2026-08-02'
+    proverka: NEPROVERENO
+  - uloga: player
+    citat: the newcomer joins a revamped squad that already features summer signings Chris Jones, Johnathan Motley, Patrick Baldwin Jr., David
+      Kramer, and Vojin Medarevic, alongside recently extended core pieces Dejan Davidovac and Jared Butler.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: NEPROVERENO
+  - uloga: led Zvezda with 21 points
+    citat: Jared Butler led Zvezda with 21 points in just 15 minutes
+    izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+    objaveno: '2026-10-18'
+    proverka: PROVERENO
+- igrac: Kramer D. (RED)
+  brojki_python:
+    minuti: 14.5
+    natprevari: 9
+    starter_pct: 0.0
+  uloga_od_tekstovi:
+  - uloga: ''
+    citat: David Kramer
+    izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+    objaveno: '2026-07-17'
+    proverka: PROVERENO
+  - uloga: player
+    citat: David Kramer
+    izvor_url: https://www.eurohoops.net/en/euroleague/1992234/patrick-baldwin-jr-close-to-deal-with-crvena-zvezda-euroleague/
+    objaveno: '2026-07-18'
+    proverka: NEPROVERENO
+  - uloga: player
+    citat: the newcomer joins a revamped squad that already features summer signings Chris Jones, Johnathan Motley, Patrick Baldwin Jr., David
+      Kramer, and Vojin Medarevic, alongside recently extended core pieces Dejan Davidovac and Jared Butler.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: NEPROVERENO
+  - uloga: added 13 points
+    citat: Vojin Medarevic and David Kramer added 13 points apiece
+    izvor_url: https://www.eurohoops.net/en/aba/2022674/partizan-holds-off-bosna-confirms-jekiri-injury-layoff/
+    objaveno: '2026-10-18'
+    proverka: PROVERENO
+- igrac: Motley J. (RED)
+  brojki_python: {}
+  uloga_od_tekstovi:
+  - uloga: versatile American frontcourt star
+    citat: versatile American frontcourt star
+    izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+    objaveno: '2026-07-17'
+    proverka: PROVERENO
+  - uloga: player
+    citat: Johnathan Motley
+    izvor_url: https://www.eurohoops.net/en/euroleague/1992234/patrick-baldwin-jr-close-to-deal-with-crvena-zvezda-euroleague/
+    objaveno: '2026-07-18'
+    proverka: NEPROVERENO
+  - uloga: player
+    citat: the newcomer joins a revamped squad that already features summer signings Chris Jones, Johnathan Motley, Patrick Baldwin Jr., David
+      Kramer, and Vojin Medarevic, alongside recently extended core pieces Dejan Davidovac and Jared Butler.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: NEPROVERENO
+  - uloga: center
+    citat: our center, Johnathan Motley
+    izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+    objaveno: '2026-10-03'
+    proverka: PROVERENO
+- igrac: Djurisic N. (RED)
+  brojki_python: {}
+  uloga_od_tekstovi:
+  - uloga: ''
+    citat: Nikola Djurisic
+    izvor_url: https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/
+    objaveno: '2026-07-17'
+    proverka: PROVERENO
+  - uloga: player
+    citat: Nikola Djurisic
+    izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+    objaveno: '2026-10-03'
+    proverka: PROVERENO
+  - uloga: returning player
+    citat: Nikola Djurisic returned from injury for six points
+    izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+    objaveno: '2026-10-04'
+    proverka: PROVERENO
+- igrac: Baldwin P. (RED)
+  brojki_python: {}
+  uloga_od_tekstovi:
+  - uloga: frontcourt player
+    citat: The 23-year-old frontcourt player was active as an unrestricted free agent
+    izvor_url: https://www.eurohoops.net/en/euroleague/1992234/patrick-baldwin-jr-close-to-deal-with-crvena-zvezda-euroleague/
+    objaveno: '2026-07-18'
+    proverka: PROVERENO
+  - uloga: player
+    citat: the newcomer joins a revamped squad that already features summer signings Chris Jones, Johnathan Motley, Patrick Baldwin Jr., David
+      Kramer, and Vojin Medarevic, alongside recently extended core pieces Dejan Davidovac and Jared Butler.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: NEPROVERENO
+  - uloga: leading scorer (23 points)
+    citat: Baldwin led Crvena zvezda’s scoring with 23 points
+    izvor_url: https://www.eurohoops.net/en/euroleague/2003816/crvena-zvezda-open-preseason-with-convincing-win-over-mladost/
+    objaveno: '2026-09-01'
+    proverka: PROVERENO
+  - uloga: player
+    citat: Patrick Baldwin Jr.
+    izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+    objaveno: '2026-10-03'
+    proverka: PROVERENO
+  - uloga: debutant
+    citat: Patrick Baldwin Jr. made his brief debut
+    izvor_url: https://www.eurohoops.net/en/aba/2016226/crvena-zvezda-dubai-partizan-aba-round-2-recap/
+    objaveno: '2026-10-04'
+    proverka: PROVERENO
+- igrac: Davidovac D. (RED)
+  brojki_python: {}
+  uloga_od_tekstovi:
+  - uloga: player
+    citat: the newcomer joins a revamped squad that already features summer signings Chris Jones, Johnathan Motley, Patrick Baldwin Jr., David
+      Kramer, and Vojin Medarevic, alongside recently extended core pieces Dejan Davidovac and Jared Butler.
+    izvor_url: https://www.eurohoops.net/en/euroleague/1997353/nick-weiler-babb-to-crvena-zvezda-euroleague/
+    objaveno: '2026-08-09'
+    proverka: PROVERENO
+  - uloga: player
+    citat: Dejan Davidovac
+    izvor_url: https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/
+    objaveno: '2026-10-03'
+    proverka: PROVERENO
+- igrac: Dobric O. (RED)
+  brojki_python: {}
+  uloga_od_tekstovi:
+  - uloga: captain
+    citat: President Zeljko Drcelic, general manager Milan Tomic, sporting director Milos Teodosic, and captain Ognjen Dobric were among several
+      team members attending the ceremony.
+    izvor_url: https://www.eurohoops.net/en/euroleague/2009399/crvena-zvezda-names-practice-center-after-vladimir-cvetkovic-euroleague/
+    objaveno: '2026-09-18'
+    proverka: PROVERENO
+otfrleno_od_python:
+- '2026-10-18 gpt-oss-120b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-10-18 qwen3.8-27b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-09-04 gpt-oss-120b: играч „Moses Wright“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-09-04 gpt-oss-120b: igrac „Jordan Nwora“ — цитатот го нема во текстот'
+- '2026-09-04 qwen3.8-27b: играч „Moses Wright“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-09-01 gpt-oss-120b: igrac „Jones“ — цитатот го нема во текстот'
+- '2026-08-17 gpt-oss-120b: играч „Nikola Kalinic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-08-17 qwen3.8-27b: играч „Nikola Kalinic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-08-09 gpt-oss-120b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-08-09 qwen3.8-27b: igrac „Johnathan Motley“ — цитатот го нема во текстот'
+- '2026-08-09 qwen3.8-27b: igrac „Patrick Baldwin Jr.“ — цитатот го нема во текстот'
+- '2026-08-09 qwen3.8-27b: igrac „David Kramer“ — цитатот го нема во текстот'
+- '2026-08-09 qwen3.8-27b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-08-09 qwen3.8-27b: igrac „Jared Butler“ — цитатот го нема во текстот'
+- '2026-08-02 qwen3.8-27b: igrac „David Kramer“ — цитатот го нема во текстот'
+- '2026-08-02 qwen3.8-27b: igrac „Johnathan Motley“ — цитатот го нема во текстот'
+- '2026-08-02 qwen3.8-27b: igrac „Patrick Baldwin Jr.“ — цитатот го нема во текстот'
+- '2026-08-02 qwen3.8-27b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-07-18 gpt-oss-120b: igrac „David Kramer“ — цитатот го нема во текстот'
+- '2026-07-18 gpt-oss-120b: igrac „Johnathan Motley“ — цитатот го нема во текстот'
+- '2026-07-18 gpt-oss-120b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+- '2026-07-18 qwen3.8-27b: играч „Vojin Medarevic“ не е во официјалниот состав (поранешен / друг тим)'
+bez_odgovor: []
+se_kosi_so_brojki: []

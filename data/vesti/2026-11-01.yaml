@@ -1,0 +1,103 @@
+- liga: nba
+  tim: Boston Celtics
+  igrac: Robinson
+  status: OUT
+  prichina: rest
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Mitchell_Robinson
+  citat: Robinson (rest) has been ruled out for Sunday's game against the Magic.
+  objaveno: '2026-11-01T15:05:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Golden State Warriors
+  igrac: Santos
+  status: PROBABLE
+  prichina: knee
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Gui_Santos
+  citat: Santos (knee) is probable for Sunday's game against the Clippers.
+  objaveno: '2026-10-31T19:54:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Golden State Warriors
+  igrac: Green
+  status: OUT
+  prichina: back
+  izvor_url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries#Draymond_Green
+  citat: Green (back) is out for Sunday's game against the Clippers.
+  objaveno: '2026-10-31T19:51:00+00:00'
+  model: qwen3.8-27b+gpt-oss-120b
+  prompt_verzija: t1-v1
+  vnesol: T1 агенти (2 модела, PROVERENO)
+- liga: nba
+  tim: Los Angeles Lakers
+  igrac: Adou Thiero
+  status: OUT
+  prichina: left knee
+  izvor_url: https://basketnews.com/news-258623-lakers-latest-injury-report-vs-raptors-sunday.html
+  citat: second-year forward Adou Thiero has been ruled out once again for the Lakers
+    with a left knee injury
+  objaveno: '2026-11-01T00:00:00+00:00'
+  model: claude-nitro
+  prompt_verzija: nitro-v1
+  vnesol: IZVOR=CLAUDE_NITRO
+- liga: nba
+  tim: Los Angeles Lakers
+  igrac: Ziaire Williams
+  status: QUESTIONABLE
+  prichina: left foot
+  izvor_url: https://basketnews.com/news-258623-lakers-latest-injury-report-vs-raptors-sunday.html
+  citat: Ziaire Williams has been listed as questionable for tonight's game
+  objaveno: '2026-11-01T00:00:00+00:00'
+  model: claude-nitro
+  prompt_verzija: nitro-v1
+  vnesol: IZVOR=CLAUDE_NITRO
+- liga: nba
+  tim: Los Angeles Lakers
+  igrac: Walker Kessler
+  status: AVAILABLE
+  prichina: left finger splint
+  izvor_url: https://basketnews.com/news-258623-lakers-latest-injury-report-vs-raptors-sunday.html
+  citat: Lakers center Walker Kessler has been listed as available, despite dealing
+    with a left finger splint
+  objaveno: '2026-11-01T00:00:00+00:00'
+  model: claude-nitro
+  prompt_verzija: nitro-v1
+  vnesol: IZVOR=CLAUDE_NITRO
+- liga: nba
+  tim: Los Angeles Lakers
+  igrac: Cameron Carr
+  status: AVAILABLE
+  prichina: oblique
+  izvor_url: https://sports.yahoo.com/articles/lakers-guard-cameron-carr-cleared-000859337.html
+  citat: removed Cameron Carr (oblique) from the availability report, clearing him
+    to make his NBA debut Sunday vs Raptors
+  objaveno: '2026-11-01T00:08:00+00:00'
+  model: claude-nitro
+  prompt_verzija: nitro-v1
+  vnesol: IZVOR=CLAUDE_NITRO
+- liga: nba
+  tim: Toronto Raptors
+  igrac: Kawhi Leonard
+  status: OUT
+  prichina: left knee
+  izvor_url: https://basketnews.com/news-258623-lakers-latest-injury-report-vs-raptors-sunday.html
+  citat: For the Raptors, Kawhi Leonard is set to miss multiple weeks due to a left
+    knee injury.
+  objaveno: '2026-11-01T00:00:00+00:00'
+  model: claude-nitro
+  prompt_verzija: nitro-v1
+  vnesol: IZVOR=CLAUDE_NITRO
+- liga: nba
+  tim: Toronto Raptors
+  igrac: Nate Bittle
+  status: OUT
+  prichina: foot
+  izvor_url: https://sportssd.iheart.com/content/2026-11-01-raptors-vs-lakers-injury-report-nov-1/
+  citat: 'Nate Bittle: Out (Foot)'
+  objaveno: '2026-11-01T00:00:00+00:00'
+  model: claude-nitro
+  prompt_verzija: nitro-v1
+  vnesol: IZVOR=CLAUDE_NITRO

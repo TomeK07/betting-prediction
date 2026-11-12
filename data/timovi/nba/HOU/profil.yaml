@@ -1,0 +1,421 @@
+tim: HOU
+liga: NBA
+azurirano: '2026-11-04'
+brojki:
+  natprevari: 8
+  do_datum: '2026-11-02'
+  tempo:
+    poseda_po_natprevar: 99.7
+    rang: 26
+    liga: 101.9
+  efikasnost:
+    ortg_surov: 119.6
+    drtg_surov: 106.7
+    ortg_prilagoden: 116.4
+    drtg_prilagoden: 109.3
+    rang_napad: 1
+    rang_odbrana: 10
+    liga_ortg: 110.8
+  dvp:
+    центри:
+      poeni_pct: -7.4
+      ast_pct: -18.4
+      skok_pct: -11.0
+      trojki_pct: -5.2
+    крила:
+      poeni_pct: -7.3
+      ast_pct: 3.1
+      skok_pct: -5.7
+      trojki_pct: -31.9
+    бекови:
+      poeni_pct: -2.1
+      ast_pct: -15.5
+      skok_pct: -6.0
+      trojki_pct: 1.3
+  nositeli:
+  - igrac: Sengun A. (HOU)
+    minuti: 34.4
+    usg_pct: 27.2
+    ast_pct: 36.6
+    poeni: 23.3
+    ast: 7.8
+  - igrac: Durant K. (HOU)
+    minuti: 33.6
+    usg_pct: 23.9
+    ast_pct: 13.4
+    poeni: 20.8
+    ast: 3.1
+  - igrac: Sheppard R. (HOU)
+    minuti: 22.0
+    usg_pct: 22.2
+    ast_pct: 24.0
+    poeni: 10.0
+    ast: 4.0
+  - igrac: Thompson A. (HOU)
+    minuti: 32.8
+    usg_pct: 20.1
+    ast_pct: 15.9
+    poeni: 16.0
+    ast: 3.6
+  rotacija:
+  - igrac: Smith Jr. J. (HOU)
+    minuti: 34.6
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Sengun A. (HOU)
+    minuti: 34.4
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Durant K. (HOU)
+    minuti: 33.6
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Thompson A. (HOU)
+    minuti: 32.8
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: VanVleet F. (HOU)
+    minuti: 29.8
+    natprevari: 6
+    starter_pct: 100.0
+  - igrac: Eason T. (HOU)
+    minuti: 24.4
+    natprevari: 8
+    starter_pct: 12.0
+  - igrac: Smart M. (HOU)
+    minuti: 24.1
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Sheppard R. (HOU)
+    minuti: 22.0
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Capela C. (HOU)
+    minuti: 14.2
+    natprevari: 6
+    starter_pct: 17.0
+  - igrac: Bogdanović B. (HOU)
+    minuti: 13.2
+    natprevari: 8
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Durant K. (HOU)
+  - Sengun A. (HOU)
+  - Smith Jr. J. (HOU)
+  - Thompson A. (HOU)
+  - VanVleet F. (HOU)
+  trener: null
+  doma:
+    n: 4
+    poeni: 119.0
+    primeni: 102.8
+  gosti:
+    n: 4
+    poeni: 119.5
+    primeni: 110.0
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 118.2
+    primeni: 103.4
+    neto_rejting: 15.0
+  trojki:
+    3par_napad: 38.8
+    3par_dozvoluva: 44.2
+    3p_pct: 39.1
+    liga_3par: 42.9
+  skokovi:
+    oreb_pct: 31.7
+    dreb_pct: 72.3
+  igraci_vo_zapisnik:
+  - Adams S. (HOU)
+  - Bogdanović B. (HOU)
+  - Capela C. (HOU)
+  - Copeland Q. (HOU)
+  - Crawford I. (HOU)
+  - Durant K. (HOU)
+  - Eason T. (HOU)
+  - Phillips J. (HOU)
+  - Sengun A. (HOU)
+  - Sheppard R. (HOU)
+  - Smart M. (HOU)
+  - Smith Jr. J. (HOU)
+  - Tate J. (HOU)
+  - Thompson A. (HOU)
+  - Thornton B. (HOU)
+  - Tshiebwe O. (HOU)
+  - VanVleet F. (HOU)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 99.7
+      rang: 26
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 116.4
+      surov: 119.6
+      rang: 1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 109.3
+      surov: 106.7
+      rang: 10
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 38.8
+      rang: 25
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 38.8
+      ftr: 30.1
+      2p_pct: 56.6
+      3p_pct: 39.1
+      efg: 57.4
+      rang_efg: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 44.2
+      ftr: 24.6
+      2p_pct: 56.4
+      3p_pct: 29.9
+      efg: 51.3
+      rang_efg: 7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -7.4
+        ast_pct: -18.4
+        skok_pct: -11.0
+        trojki_pct: -5.2
+      крила:
+        poeni_pct: -7.3
+        ast_pct: 3.1
+        skok_pct: -5.7
+        trojki_pct: -31.9
+      бекови:
+        poeni_pct: -2.1
+        ast_pct: -15.5
+        skok_pct: -6.0
+        trojki_pct: 1.3
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 31.7
+      rang_oreb: 4
+      dreb_pct: 72.3
+      rang_dreb: 16
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 19.8
+      rang_najmalku: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 21.6
+      ftr_dozvoluva: 24.6
+      rang_najmalku: 7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 5.6
+      rang_blk: 9
+      2p_pct_protivnik: 56.4
+      rang_2p_odbrana: 24
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 35.5
+        n: 2
+      top3:
+        min: 35.8
+        n: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 31.7
+        n: 4
+      top3:
+        min: 33.1
+        n: 4
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 35.8
+      top3_min_razlika: 33.1
+      razlika_min: 2.7
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Sengun A. (HOU)
+        propushteni: 2
+        prichini:
+          DND - Injury/Illness: 1
+          DNP - Coach's Decision: 1
+      - igrac: VanVleet F. (HOU)
+        propushteni: 2
+        prichini:
+          Inactive - Injury/Illness: 1
+          DNP - Coach's Decision: 1
+      b2b_natprevari: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 4
+      b2b_sezona: 2
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 22
+      pogodok_pct: 54.5
+      ochekuvano_pct: 60.0
+      razlika_pp: -5.0
+      po_pazar:
+        asistencii: 5/7
+        poeni: 3/7
+        skokovi: 2/3
+        trojki: 2/5
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 99.7
+          rang: 26
+          od: 30
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 38.8
+          rang: 25
+          od: 30
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 38.6
+            крила: 44.3
+            центри: 17.1
+          liga_pct:
+            бекови: 49.5
+            крила: 38.8
+            центри: 11.7
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 31.7
+          rang: 4
+          od: 30
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 7
+          rang: 22
+          od: 30
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: 2.7
+          rang: 19
+          od: 23
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 19.8
+          rang: 29
+          ftr_protivnik: 24.6
+          rang_ftr: 24
+          od: 30
+      dozvoluva:
+        oznaka: средно тројки; слаба заштита на кош; под или околу лигата на сите
+          позиции
+        brojki:
+          3par_protivnik: 44.2
+          rang_3par: 11
+          2p_pct_protivnik: 56.4
+          rang_2p: 7
+          od: 30
+          dvp_poeni_pct:
+            центри: -7.4
+            крила: -7.3
+            бекови: -2.1
+    izvor: python
+    datum: '2026-11-04'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-04'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

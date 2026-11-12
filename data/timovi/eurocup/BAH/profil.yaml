@@ -1,0 +1,403 @@
+tim: BAH
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-27'
+  tempo:
+    poseda_po_natprevar: 75.5
+    rang: 19
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 119.8
+    drtg_surov: 104.4
+    ortg_prilagoden: 115.7
+    drtg_prilagoden: 108.5
+    rang_napad: 2
+    rang_odbrana: 12
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 5.1
+      ast_pct: -1.3
+      skok_pct: -5.8
+      trojki_pct: -25.5
+    крила:
+      poeni_pct: -10.9
+      ast_pct: -16.5
+      skok_pct: -16.1
+      trojki_pct: 15.4
+    бекови:
+      poeni_pct: -5.3
+      ast_pct: -10.5
+      skok_pct: -13.2
+      trojki_pct: -11.2
+  nositeli:
+  - igrac: Reed M. (BAH)
+    minuti: 22.5
+    usg_pct: 29.0
+    ast_pct: 15.3
+    poeni: 17.2
+    ast: 1.8
+  - igrac: Flynn M. (BAH)
+    minuti: 25.4
+    usg_pct: 27.0
+    ast_pct: 23.4
+    poeni: 15.6
+    ast: 3.6
+  - igrac: Avramovic A. (BAH)
+    minuti: 19.1
+    usg_pct: 22.8
+    ast_pct: 15.4
+    poeni: 9.6
+    ast: 1.8
+  - igrac: Inglis D. (BAH)
+    minuti: 17.0
+    usg_pct: 22.3
+    ast_pct: 16.3
+    poeni: 8.4
+    ast: 1.8
+  rotacija:
+  - igrac: Flynn M. (BAH)
+    minuti: 25.4
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Reed M. (BAH)
+    minuti: 22.5
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Cavanaugh T. (BAH)
+    minuti: 22.0
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Ponitka M. (BAH)
+    minuti: 21.5
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Williams T. (BAH)
+    minuti: 20.0
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Mike I. (BAH)
+    minuti: 19.8
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Sipahi K. (BAH)
+    minuti: 19.3
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Avramovic A. (BAH)
+    minuti: 19.1
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Inglis D. (BAH)
+    minuti: 17.0
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Haltali F. (BAH)
+    minuti: 13.8
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Cavanaugh T. (BAH)
+  - Flynn M. (BAH)
+  - Mike I. (BAH)
+  - Sipahi K. (BAH)
+  - Williams T. (BAH)
+  trener: DJORDJEVIC, SASA
+  doma:
+    n: 3
+    poeni: 91.7
+    primeni: 82.3
+  gosti:
+    n: 2
+    poeni: 88.5
+    primeni: 73.5
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 90.4
+    primeni: 78.8
+    neto_rejting: 15.4
+  trojki:
+    3par_napad: 34.4
+    3par_dozvoluva: 45.6
+    3p_pct: 38.5
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 36.8
+    dreb_pct: 73.6
+  igraci_vo_zapisnik:
+  - Akpinar I. (BAH)
+  - Avramovic A. (BAH)
+  - Cavanaugh T. (BAH)
+  - Dileo D. (BAH)
+  - Flynn M. (BAH)
+  - Haltali F. (BAH)
+  - Inglis D. (BAH)
+  - Mike I. (BAH)
+  - Mitrovic L. (BAH)
+  - Ponitka M. (BAH)
+  - Reed M. (BAH)
+  - Sipahi K. (BAH)
+  - Williams T. (BAH)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 75.5
+      rang: 19
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 115.7
+      surov: 119.8
+      rang: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 108.5
+      surov: 104.4
+      rang: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 34.4
+      rang: 29
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 34.4
+      ftr: 36.6
+      2p_pct: 58.2
+      3p_pct: 38.5
+      efg: 58.0
+      rang_efg: 4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 45.6
+      ftr: 29.8
+      2p_pct: 58.3
+      3p_pct: 29.8
+      efg: 52.1
+      rang_efg: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 5.1
+        ast_pct: -1.3
+        skok_pct: -5.8
+        trojki_pct: -25.5
+      крила:
+        poeni_pct: -10.9
+        ast_pct: -16.5
+        skok_pct: -16.1
+        trojki_pct: 15.4
+      бекови:
+        poeni_pct: -5.3
+        ast_pct: -10.5
+        skok_pct: -13.2
+        trojki_pct: -11.2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 36.8
+      rang_oreb: 4
+      dreb_pct: 73.6
+      rang_dreb: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.0
+      rang_najmalku: 7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 18.4
+      ftr_dozvoluva: 29.8
+      rang_najmalku: 9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 3.2
+      rang_blk: 8
+      2p_pct_protivnik: 58.3
+      rang_2p_odbrana: 29
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 25.3
+        n: 1
+      top3:
+        min: 27.3
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 19.4
+        n: 1
+      top3:
+        min: 22.0
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 27.3
+      top3_min_razlika: 22.0
+      razlika_min: 5.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Reed M. (BAH)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 75.5
+          rang: 19
+          od: 32
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 34.4
+          rang: 29
+          od: 32
+      napad_preku:
+        oznaka: преку центри
+        brojki:
+          udel_poeni_pct:
+            бекови: 48.9
+            крила: 29.4
+            центри: 21.7
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: напаѓа офанзивен скок
+        brojki:
+          oreb_pct: 36.8
+          rang: 4
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 8
+          rang: 4
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 5.3
+          rang: 4
+          od: 25
+      fauli:
+        oznaka: фаулира малку; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 21.0
+          rang: 25
+          ftr_protivnik: 29.8
+          rang_ftr: 24
+          od: 32
+      dozvoluva:
+        oznaka: пушта многу тројки; слаба заштита на кош; пушта над лигата на центри
+          (+5% поени)
+        brojki:
+          3par_protivnik: 45.6
+          rang_3par: 2
+          2p_pct_protivnik: 58.3
+          rang_2p: 4
+          od: 32
+          dvp_poeni_pct:
+            центри: 5.1
+            крила: -10.9
+            бекови: -5.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

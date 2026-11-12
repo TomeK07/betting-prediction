@@ -1,0 +1,424 @@
+tim: ASV
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 76.1
+    rang: 8
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 115.0
+    drtg_surov: 121.3
+    ortg_prilagoden: 116.2
+    drtg_prilagoden: 119.3
+    rang_napad: 10
+    rang_odbrana: 17
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: 13.7
+      ast_pct: 33.3
+      skok_pct: 17.6
+      trojki_pct: -14.5
+    крила:
+      poeni_pct: 11.8
+      ast_pct: 2.5
+      skok_pct: 2.7
+      trojki_pct: 23.8
+    бекови:
+      poeni_pct: -3.5
+      ast_pct: 13.5
+      skok_pct: 5.7
+      trojki_pct: 16.0
+  nositeli:
+  - igrac: Mills P. (ASV)
+    minuti: 20.9
+    usg_pct: 27.1
+    ast_pct: 19.9
+    poeni: 15.1
+    ast: 2.2
+  - igrac: Crowder J. (ASV)
+    minuti: 23.2
+    usg_pct: 27.0
+    ast_pct: 22.7
+    poeni: 10.9
+    ast: 3.4
+  - igrac: Waters T. (ASV)
+    minuti: 19.4
+    usg_pct: 25.3
+    ast_pct: 28.8
+    poeni: 9.8
+    ast: 3.5
+  - igrac: Besson H. (ASV)
+    minuti: 19.2
+    usg_pct: 24.3
+    ast_pct: 26.9
+    poeni: 11.7
+    ast: 3.0
+  rotacija:
+  - igrac: Jackson E. (ASV)
+    minuti: 25.9
+    natprevari: 1
+    starter_pct: 0.0
+  - igrac: Crowder J. (ASV)
+    minuti: 23.2
+    natprevari: 8
+    starter_pct: 100.0
+  - igrac: Gach B. (ASV)
+    minuti: 21.2
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Mills P. (ASV)
+    minuti: 20.9
+    natprevari: 8
+    starter_pct: 38.0
+  - igrac: Washington Jr T. (ASV)
+    minuti: 20.8
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Waters T. (ASV)
+    minuti: 19.4
+    natprevari: 8
+    starter_pct: 62.0
+  - igrac: Besson H. (ASV)
+    minuti: 19.2
+    natprevari: 9
+    starter_pct: 56.0
+  - igrac: Bolomboy J. (ASV)
+    minuti: 18.3
+    natprevari: 9
+    starter_pct: 89.0
+  - igrac: Cale M. (ASV)
+    minuti: 15.9
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Sestina N. (ASV)
+    minuti: 14.4
+    natprevari: 9
+    starter_pct: 11.0
+  startna_petorka_posledni_5:
+  - Besson H. (ASV)
+  - Bolomboy J. (ASV)
+  - Crowder J. (ASV)
+  - Gach B. (ASV)
+  - Waters T. (ASV)
+  trener: PARKER, TONY
+  doma:
+    n: 5
+    poeni: 86.8
+    primeni: 83.4
+  gosti:
+    n: 4
+    poeni: 88.5
+    primeni: 103.5
+  forma_posledni_5:
+    pobedi: 2
+    porazi: 3
+    poeni: 87.0
+    primeni: 90.8
+    neto_rejting: -5.1
+  trojki:
+    3par_napad: 41.5
+    3par_dozvoluva: 45.0
+    3p_pct: 41.5
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 29.7
+    dreb_pct: 59.0
+  igraci_vo_zapisnik:
+  - Besson H. (ASV)
+  - Bolomboy J. (ASV)
+  - Cale M. (ASV)
+  - Crowder J. (ASV)
+  - Fodzo Dada M. (ASV)
+  - Gach B. (ASV)
+  - Jackson E. (ASV)
+  - Lighty D. (ASV)
+  - Massa B. (ASV)
+  - Mills P. (ASV)
+  - Pons Y. (ASV)
+  - Sanz L. (ASV)
+  - Sestina N. (ASV)
+  - Washington Jr T. (ASV)
+  - Waters T. (ASV)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 76.1
+      rang: 7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 116.2
+      surov: 115.0
+      rang: 10
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 119.3
+      surov: 121.3
+      rang: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.5
+      rang: 10
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.5
+      ftr: 28.1
+      2p_pct: 54.4
+      3p_pct: 41.5
+      efg: 57.7
+      rang_efg: 3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 45.0
+      ftr: 29.7
+      2p_pct: 56.3
+      3p_pct: 39.9
+      efg: 57.9
+      rang_efg: 16
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 13.7
+        ast_pct: 33.3
+        skok_pct: 17.6
+        trojki_pct: -14.5
+      крила:
+        poeni_pct: 11.8
+        ast_pct: 2.5
+        skok_pct: 2.7
+        trojki_pct: 23.8
+      бекови:
+        poeni_pct: -3.5
+        ast_pct: 13.5
+        skok_pct: 5.7
+        trojki_pct: 16.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 29.7
+      rang_oreb: 16
+      dreb_pct: 59.0
+      rang_dreb: 20
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.0
+      rang_najmalku: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 20.0
+      ftr_dozvoluva: 29.7
+      rang_najmalku: 10
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.8
+      rang_blk: 10
+      2p_pct_protivnik: 56.3
+      rang_2p_odbrana: 12
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 23.3
+        n: 2
+      top3:
+        min: 26.0
+        n: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 20.0
+        n: 4
+      top3:
+        min: 19.8
+        n: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 26.0
+      top3_min_razlika: 19.8
+      razlika_min: 6.2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Jackson E. (ASV)
+        propushteni: 8
+        prichini:
+          не е на листата / не играл: 8
+      - igrac: Crowder J. (ASV)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Mills P. (ASV)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Washington Jr T. (ASV)
+        propushteni: 4
+        prichini:
+          не е на листата / не играл: 4
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 5
+      pogodok_pct: 40.0
+      ochekuvano_pct: 57.6
+      razlika_pp: -17.6
+      po_pazar:
+        asistencii: 0/1
+        poeni: 1/2
+        trojki: 1/2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: средно
+        brojki:
+          poseda: 76.1
+          rang: 7
+          od: 20
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.5
+          rang: 10
+          od: 20
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 51.3
+            крила: 41.8
+            центри: 7.0
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 29.7
+          rang: 16
+          od: 20
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 6
+          rang: 14
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 6.2
+          rang: 1
+          od: 19
+      fauli:
+        oznaka: фаулира многу; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 22.0
+          rang: 6
+          ftr_protivnik: 29.7
+          rang_ftr: 11
+          od: 20
+      dozvoluva:
+        oznaka: пушта многу тројки; средна заштита на кош; пушта над лигата на центри
+          (+14% поени)
+        brojki:
+          3par_protivnik: 45.0
+          rang_3par: 3
+          2p_pct_protivnik: 56.3
+          rang_2p: 9
+          od: 20
+          dvp_poeni_pct:
+            центри: 13.7
+            крила: 11.8
+            бекови: -3.5
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

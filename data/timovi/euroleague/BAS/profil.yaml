@@ -1,0 +1,416 @@
+tim: BAS
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 77.2
+    rang: 3
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 107.6
+    drtg_surov: 121.9
+    ortg_prilagoden: 110.5
+    drtg_prilagoden: 118.5
+    rang_napad: 20
+    rang_odbrana: 15
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: 17.1
+      ast_pct: -10.6
+      skok_pct: 5.0
+      trojki_pct: -24.1
+    крила:
+      poeni_pct: 1.0
+      ast_pct: 18.1
+      skok_pct: 4.8
+      trojki_pct: -15.3
+    бекови:
+      poeni_pct: 5.4
+      ast_pct: 6.6
+      skok_pct: -1.0
+      trojki_pct: 10.0
+  nositeli:
+  - igrac: Duarte C. (BAS)
+    minuti: 20.2
+    usg_pct: 25.2
+    ast_pct: 15.5
+    poeni: 10.7
+    ast: 1.8
+  - igrac: Simmons K. (BAS)
+    minuti: 21.0
+    usg_pct: 24.4
+    ast_pct: 21.7
+    poeni: 7.6
+    ast: 2.6
+  - igrac: Lawson A. (BAS)
+    minuti: 24.0
+    usg_pct: 23.6
+    ast_pct: 15.6
+    poeni: 12.9
+    ast: 2.1
+  - igrac: Baugh D. (BAS)
+    minuti: 19.9
+    usg_pct: 20.8
+    ast_pct: 40.4
+    poeni: 7.1
+    ast: 4.7
+  rotacija:
+  - igrac: Lawson A. (BAS)
+    minuti: 24.0
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Stewart D. (BAS)
+    minuti: 23.3
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Simmons K. (BAS)
+    minuti: 21.0
+    natprevari: 8
+    starter_pct: 75.0
+  - igrac: Faried K. (BAS)
+    minuti: 21.0
+    natprevari: 9
+    starter_pct: 67.0
+  - igrac: Duarte C. (BAS)
+    minuti: 20.2
+    natprevari: 6
+    starter_pct: 50.0
+  - igrac: Baugh D. (BAS)
+    minuti: 19.9
+    natprevari: 9
+    starter_pct: 33.0
+  - igrac: Kurucs R. (BAS)
+    minuti: 18.9
+    natprevari: 7
+    starter_pct: 43.0
+  - igrac: Sedekerskis T. (BAS)
+    minuti: 18.5
+    natprevari: 7
+    starter_pct: 71.0
+  - igrac: Santos M. (BAS)
+    minuti: 16.4
+    natprevari: 7
+    starter_pct: 14.0
+  - igrac: Spagnolo M. (BAS)
+    minuti: 14.6
+    natprevari: 9
+    starter_pct: 22.0
+  startna_petorka_posledni_5:
+  - Baugh D. (BAS)
+  - Faried K. (BAS)
+  - Joksimovic S. (BAS)
+  - Simmons K. (BAS)
+  - Stewart D. (BAS)
+  trener: PERASOVIC, VELIMIR
+  doma:
+    n: 5
+    poeni: 84.8
+    primeni: 94.2
+  gosti:
+    n: 4
+    poeni: 81.0
+    primeni: 94.0
+  forma_posledni_5:
+    pobedi: 0
+    porazi: 5
+    poeni: 80.2
+    primeni: 92.4
+    neto_rejting: -16.0
+  trojki:
+    3par_napad: 41.7
+    3par_dozvoluva: 36.7
+    3p_pct: 29.7
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 34.0
+    dreb_pct: 65.4
+  igraci_vo_zapisnik:
+  - Alves De Souza T. (BAS)
+  - Baugh D. (BAS)
+  - Duarte C. (BAS)
+  - Faried K. (BAS)
+  - Frisch C. (BAS)
+  - Howard M. (BAS)
+  - Joksimovic S. (BAS)
+  - Kurucs R. (BAS)
+  - Lawson A. (BAS)
+  - Santos M. (BAS)
+  - Sedekerskis T. (BAS)
+  - Simmons K. (BAS)
+  - Souza P. (BAS)
+  - Spagnolo M. (BAS)
+  - Stewart D. (BAS)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 77.2
+      rang: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 110.5
+      surov: 107.6
+      rang: 20
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 118.5
+      surov: 121.9
+      rang: 15
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.7
+      rang: 9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.7
+      ftr: 32.9
+      2p_pct: 54.7
+      3p_pct: 29.7
+      efg: 50.4
+      rang_efg: 20
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 36.7
+      ftr: 33.3
+      2p_pct: 58.3
+      3p_pct: 38.7
+      efg: 58.2
+      rang_efg: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 17.1
+        ast_pct: -10.6
+        skok_pct: 5.0
+        trojki_pct: -24.1
+      крила:
+        poeni_pct: 1.0
+        ast_pct: 18.1
+        skok_pct: 4.8
+        trojki_pct: -15.3
+      бекови:
+        poeni_pct: 5.4
+        ast_pct: 6.6
+        skok_pct: -1.0
+        trojki_pct: 10.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 34.0
+      rang_oreb: 10
+      dreb_pct: 65.4
+      rang_dreb: 15
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.6
+      rang_najmalku: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 21.9
+      ftr_dozvoluva: 33.3
+      rang_najmalku: 15
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.2
+      rang_blk: 14
+      2p_pct_protivnik: 58.3
+      rang_2p_odbrana: 17
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 18.0
+        n: 1
+      top3:
+        min: 17.3
+        n: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 22.7
+        n: 4
+      top3:
+        min: 23.3
+        n: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 17.3
+      top3_min_razlika: 23.3
+      razlika_min: -6.0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Simmons K. (BAS)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Duarte C. (BAS)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 5
+      pogodok_pct: 40.0
+      ochekuvano_pct: 57.6
+      razlika_pp: -17.6
+      po_pazar:
+        asistencii: 0/1
+        poeni: 1/2
+        trojki: 1/2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: брзо
+        brojki:
+          poseda: 77.2
+          rang: 2
+          od: 20
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.7
+          rang: 9
+          od: 20
+      napad_preku:
+        oznaka: преку крила
+        brojki:
+          udel_poeni_pct:
+            бекови: 24.5
+            крила: 57.4
+            центри: 18.2
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 34.0
+          rang: 10
+          od: 20
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 5
+          rang: 17
+          od: 20
+      vadenje_zvezdi:
+        oznaka: ги држи ѕвездите
+        brojki:
+          top3_min_pomalku: -6.0
+          rang: 19
+          od: 19
+      fauli:
+        oznaka: фаулира многу; праќа многу на линија
+        brojki:
+          pf_po_natprevar: 22.6
+          rang: 4
+          ftr_protivnik: 33.3
+          rang_ftr: 6
+          od: 20
+      dozvoluva:
+        oznaka: ги брани тројките; слаба заштита на кош; пушта над лигата на центри
+          (+17% поени)
+        brojki:
+          3par_protivnik: 36.7
+          rang_3par: 19
+          2p_pct_protivnik: 58.3
+          rang_2p: 4
+          od: 20
+          dvp_poeni_pct:
+            центри: 17.1
+            крила: 1.0
+            бекови: 5.4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

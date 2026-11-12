@@ -1,0 +1,403 @@
+tim: FRA
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-27'
+  tempo:
+    poseda_po_natprevar: 75.2
+    rang: 20
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 116.8
+    drtg_surov: 120.2
+    ortg_prilagoden: 115.1
+    drtg_prilagoden: 115.8
+    rang_napad: 4
+    rang_odbrana: 32
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 18.8
+      ast_pct: 25.6
+      skok_pct: 4.6
+      trojki_pct: 71.3
+    крила:
+      poeni_pct: 1.9
+      ast_pct: 22.1
+      skok_pct: 1.2
+      trojki_pct: 20.7
+    бекови:
+      poeni_pct: 1.8
+      ast_pct: 0.5
+      skok_pct: -0.8
+      trojki_pct: 1.3
+  nositeli:
+  - igrac: Mintz J. (FRA)
+    minuti: 20.2
+    usg_pct: 40.1
+    ast_pct: 31.5
+    poeni: 16.6
+    ast: 3.2
+  - igrac: Swope I. (FRA)
+    minuti: 18.3
+    usg_pct: 33.0
+    ast_pct: 9.6
+    poeni: 11.2
+    ast: 1.0
+  - igrac: Thompson R. (FRA)
+    minuti: 22.1
+    usg_pct: 22.8
+    ast_pct: 9.7
+    poeni: 11.2
+    ast: 1.2
+  - igrac: Bedime R. (FRA)
+    minuti: 15.4
+    usg_pct: 22.6
+    ast_pct: 5.4
+    poeni: 7.8
+    ast: 0.5
+  rotacija:
+  - igrac: Thompson R. (FRA)
+    minuti: 22.1
+    natprevari: 4
+    starter_pct: 100.0
+  - igrac: Caisin R. (FRA)
+    minuti: 20.8
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Pape T. (FRA)
+    minuti: 20.6
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Mintz J. (FRA)
+    minuti: 20.2
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Christmas W. (FRA)
+    minuti: 19.1
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Swope I. (FRA)
+    minuti: 18.3
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Alleyne N. (FRA)
+    minuti: 17.6
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Klepeisz T. (FRA)
+    minuti: 17.1
+    natprevari: 5
+    starter_pct: 40.0
+  - igrac: Bedime R. (FRA)
+    minuti: 15.4
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Arcidiacono R. (FRA)
+    minuti: 15.0
+    natprevari: 5
+    starter_pct: 0.0
+  startna_petorka_posledni_5:
+  - Caisin R. (FRA)
+  - Christmas W. (FRA)
+  - Mintz J. (FRA)
+  - Pape T. (FRA)
+  - Thompson R. (FRA)
+  trener: PERWAS, KLAUS
+  doma:
+    n: 3
+    poeni: 95.3
+    primeni: 90.7
+  gosti:
+    n: 2
+    poeni: 76.5
+    primeni: 90.0
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 87.8
+    primeni: 90.4
+    neto_rejting: -3.5
+  trojki:
+    3par_napad: 41.1
+    3par_dozvoluva: 42.6
+    3p_pct: 38.7
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 27.8
+    dreb_pct: 65.2
+  igraci_vo_zapisnik:
+  - Alleyne N. (FRA)
+  - Arcidiacono R. (FRA)
+  - Bedime R. (FRA)
+  - Caisin R. (FRA)
+  - Christmas W. (FRA)
+  - Crnjac I. (FRA)
+  - Edoka J. (FRA)
+  - Klepeisz T. (FRA)
+  - Knauf J. (FRA)
+  - Mintz J. (FRA)
+  - Pape T. (FRA)
+  - Swope I. (FRA)
+  - Thompson R. (FRA)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 75.2
+      rang: 22
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 115.1
+      surov: 116.8
+      rang: 4
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 115.8
+      surov: 120.2
+      rang: 32
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 41.1
+      rang: 13
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 41.1
+      ftr: 28.2
+      2p_pct: 52.6
+      3p_pct: 38.7
+      efg: 54.8
+      rang_efg: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 42.6
+      ftr: 27.2
+      2p_pct: 59.3
+      3p_pct: 35.4
+      efg: 56.7
+      rang_efg: 30
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 18.8
+        ast_pct: 25.6
+        skok_pct: 4.6
+        trojki_pct: 71.3
+      крила:
+        poeni_pct: 1.9
+        ast_pct: 22.1
+        skok_pct: 1.2
+        trojki_pct: 20.7
+      бекови:
+        poeni_pct: 1.8
+        ast_pct: 0.5
+        skok_pct: -0.8
+        trojki_pct: 1.3
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 27.8
+      rang_oreb: 29
+      dreb_pct: 65.2
+      rang_dreb: 26
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.6
+      rang_najmalku: 11
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 18.4
+      ftr_dozvoluva: 27.2
+      rang_najmalku: 6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.6
+      rang_blk: 17
+      2p_pct_protivnik: 59.3
+      rang_2p_odbrana: 30
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 21.5
+        n: 1
+      top3:
+        min: 23.1
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 19.4
+        n: 2
+      top3:
+        min: 19.4
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.1
+      top3_min_razlika: 19.4
+      razlika_min: 3.7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Thompson R. (FRA)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 75.2
+          rang: 22
+          od: 32
+      trojki:
+        oznaka: просечно тројки
+        brojki:
+          3par_pct: 41.1
+          rang: 13
+          od: 32
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 59.2
+            крила: 20.5
+            центри: 20.3
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 27.8
+          rang: 29
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 9
+          rang: 1
+          od: 32
+      vadenje_zvezdi:
+        oznaka: ги вади ѕвездите при голема разлика
+        brojki:
+          top3_min_pomalku: 3.7
+          rang: 8
+          od: 25
+      fauli:
+        oznaka: средно; праќа малку на линија
+        brojki:
+          pf_po_natprevar: 21.6
+          rang: 20
+          ftr_protivnik: 27.2
+          rang_ftr: 27
+          od: 32
+      dozvoluva:
+        oznaka: пушта многу тројки; слаба заштита на кош; пушта над лигата на центри
+          (+19% поени)
+        brojki:
+          3par_protivnik: 42.6
+          rang_3par: 8
+          2p_pct_protivnik: 59.3
+          rang_2p: 3
+          od: 32
+          dvp_poeni_pct:
+            центри: 18.8
+            крила: 1.9
+            бекови: 1.8
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

@@ -1,0 +1,148 @@
+datum,liga,natprevar_ili_igrac,tim,pazar,linija,strana,kvota,p_model,p_pazar,rezultat,pogodok,minuti,zabeleska
+20.10 21:10,NBA,J. Tatum,BOS,poeni_skok,8.5,over,1.85,55,50,4 sk,NE,~36,Covers Oldfield: 10.0 rpg po povreda; korelacija so Under
+20.10 21:10,NBA,BOS - DET,,total,222.5,under,1.93,54,50,234 (121-113 DET),NE,,Covers+TheRX Under; Under 5/6 posledni megjusebni | 14:55 linijata padna na 219.5 (pazarot se soglasi)
+20.10 01:10,NBA,T. Maxey,PHI,poeni,21.5,over,1.92,55,50,28,DA,~36,SI Maxey O21.5; rizik: Brown/Embiid/LeBron upotreba
+20.10 03:40,NBA,OKC - SAS,,total,232.5,under,1.92,54,50,220 (116-104 OKC),DA,,Dimers 52.9% na 231.5; TheRX Under
+20.10 01:10,NBA,PHI - NYK,,hendikep,4.5,,,50,50,PHI 106-100,ODBIEN,,eksperti podeleni (SI NYK / Pickswise PHI) | posle: PHI pobedi 106-100
+20.10 01:10,NBA,J. Hart,NYK,props,,,,,,-,ODBIEN,,ISPRAVKA 14:45: Hart NE e na ESPN listata za povredi - igra; odbien poradi linii ~50/50 bez prednost | posle: PHI pobedi 106-100
+21.10 03:40,NBA,C. Holmgren,OKC,poeni,12.5,over,1.85,62,49,14,DA,~28,"lani 16.3 pts; L15 10/15; ista uloga | 14:55 RIZIK: kvadriceps, 0 preseason natp. (RotoWire 19.10 dozvolen) - povlecheno od preporaka"
+21.10 03:40,NBA,D. Vassell,SA,poeni,11.5,over,1.90,62,50,7,NE,~32,lani 13.6; L15 10/15; Harris OUT = poveke minuti
+21.10 03:40,NBA,D. Harper,SA,trojki,1.5,under,1.68,66,56,0,DA,~24,"lani 1.0 3PM; L15 over 4/15 | 14:55 PROTIV: preseason 8/14 trojki, Rotogrinders OVER 1.5 - povlecheno od preporaka"
+21.10 03:40,NBA,I. Hartenstein,OKC,poeni,7.5,over,1.98,60,48,4,NE,~24,lani 9.2; L15 11/15
+21.10 01:10,NBA,L. James,PHI,asistencii,7.5,under,1.70,62,54,7,DA,~32,lani 7.0 vo LAL; vo PHI so Maxey+Brown pomalku topka | 14:55 PROTIV: preseason 7a/25min - toj e plejmejker; povlecheno od preporaka
+21.10 03:40,NBA,Jalen Williams,OKC,trojki,0.5,under,2.75,50,34,1,ODBIEN,,vrednost no golema varijansa - ne za tiket | posle: tocno odbien
+21.10 01:10,NBA,K. A. Towns,NYK,asistencii,4.5,under,2.05,,45,1,ODBIEN,,model 72% no L15 8/15 over - pazarot znae za nova uloga | posle: bi pominal
+21.10 21:10,NBA,J. Tatum,BOS,poeni,27.5,under,1.87,58,51,13,ODBIEN,,lani samo 22 natp. po Ahil - sega moze da e potpolno zdrav; nesigurno | posle: bi pominal
+21.10 01:10,NBA,L. James,PHI,poeni,15.5,under,1.96,56,49,14,DA,~30,ideja korisnik; lani 20.6 vo LAL; preseason 8 i 10 pts; PHI ierarhija Maxey/Brown/Embiid
+21.10 01:10,NBA,L. James,PHI,trojki,1.5,under,1.55,70,61,0,DA,~30,lani 1.3 3PM; preseason 0/2; pomalku sutevi vo PHI
+21.10 01:10,NBA,J. Embiid,PHI,asistencii,3.5,over,2.20,55,42,6,DA,~31,SBD: 4+ ast vo 5/6 vs NYK (dupli blokadi); lani 4.2; L15 10/15
+20.10 21:10,NBA,A. Thompson,DET,poeni_skok,6.5,over,1.85,55,50,11 sk,DA,~27,CBS (Prop Bet Guy Doug) over; L15 12/15; BOS mnogu trojki = dolgi skokovi
+21.10 01:10,NBA,L. James,PHI,skokovi,6.5,under,1.90,,49,9,ODBIEN,,preseason 8r/25min; PHI bez centri pokraj Embiid - skokovi mozat da RASTAT | posle: tocno odbien
+22.10 04:10,NBA,POR - PHX,,total,233.5,under,1.85,57,49,207,DA,,DRatings proekcija 224.3 (9 pod linija); POR bez Sharpe; Holiday ?
+22.10 04:10,NBA,LAL - GSW,,total,234.5,under,1.92,55,50,232,DA,,DRatings 228.9; GSW bez Porzingis/Butler/Moody; Podziemski ?
+22.10 02:10,NBA,MEM - UTA,,total,242.5,over,1.90,54,49,226,NE,,"DRatings 245.8; Nurkic OUT (UTA), Stewart OUT (MEM) - pomalku centri"
+22.10 01:40,NBA,BKN - CHA,,1X2,,2,2.40,,41,CHA 110-103,ODBIEN,,DRatings CHA 63% no Hornets bez White/Knueppel/Allen/Diabate (?) - modelot verojatno ne gi znae povredite | posle: bi pominal
+21.10 03:40,NBA,V. Wembanyama,SAS,poeni,26.5,under,1.90,55,50,12,DA,~30,Dimers proekcija 24.9; lani 24.4; L15 over 6/15; otvoranja 40/17/15
+21.10 03:40,NBA,S. Gilgeous-Alexander,OKC,poeni,29.5,over,1.90,,50,32,ODBIEN,,ideja korisnik (prv natp.); Dimers 27.1; otvoranja 35/28/31; nema prednost | posle: bi pominal
+20.10 21:10,NBA,C. Cunningham,DET,poeni,23.5,over,1.82,52,52,22,ODBIEN,,ideja korisnik; otvoranja 23/28/30; BOS najdobra odbrana lani - 50/50 | posle: tocno odbien
+22.10 01:10,NBA,F. Wagner,ORL,asistencii,5.5,under,1.62,70,56,5,DA,~30,lani 3.4 ast; L15 under 13/15; ramo ? (day-to-day)
+22.10 01:10,NBA,T. Young,WAS,asistencii,9.5,under,1.95,63,47,13,NE,~32,lani 8.0 (15 natp.); L15 under 10/15; AD i Sarr zemaat topki | 15:30 POVLECHEN: logikata pogresna (korisnik: AD/Sarr davaat kos = povekje ast); eksperti (Lineups) Trae P+A OVER
+22.10 01:40,NBA,La. Ball,MIN,asistencii,8.5,under,1.70,68,54,6,DA,~30,nov tim - so Edwards ne e glaven plejmejker; lani 7.1 vo CHA
+22.10 04:40,NBA,K. Murray,SAC,trojki,1.5,under,2.25,60,41,0,DA,~33,lani 1.3 3PM; L15 under 11/15
+22.10 01:40,NBA,G. Antetokounmpo,MIA,asistencii,6.5,under,2.00,57,45,1,DA,~34,lani 5.4 ast; vo MIA glaven strelec (SI) ne plejmejker
+22.10 01:40,NBA,J. Giddey,CHI,asistencii,8.5,under,2.00,53,50,6,DA,~32,SI under 9.5: TOR vtori najmalku asistencii lani; Giddey 5 i 3 vs TOR
+22.10 04:10,NBA,W. Kessler,LAL,poeni,11.5,over,1.95,56,49,26,DA,~30,SI over: Luka pick-and-roll; GSW bez centri (Porzingis OUT)
+22.10 04:10,NBA,K. Maluach,PHO,poeni+skok,9.5,under,1.85,,51,2 pts,ODBIEN,,model 94% no lani bil rezerva 9 min - sega starter (MODEL ne gleda uloga) | posle: bi pominal
+22.10 04:40,NBA,R. Hachimura,LAC,poeni,19.5,under,1.90,,50,10,ODBIEN,,nov tim LAC - pogolema uloga; pazarot znae | posle: bi pominal
+22.10 04:10,NBA,J. Holiday,POR,pra,20.5,over,1.92,,48,13,ODBIEN,,POR dodade Morant i Lillard - pomala uloga | posle: tocno odbien
+22.10 02:10,NBA,I. Collier,UTA,asistencii,4.5,over,2.05,,44,3,ODBIEN,,Peterson (rookie) i George - Collier verojatno rezerva | posle: tocno odbien
+22.10 01:10,NBA,MIL - WAS,,hendikep,4.5,MIL +4.5,2.15,55,45,WAS 128-116,NE,,konsenzus: SI + TheSpread + Sportsmole MIL +4.5; linija 6.5->4.5 iako 53% tiketi na WAS (ostri pari MIL); Dybantsa OUT
+22.10 01:40,NBA,K. Leonard,TOR,poeni,24.5,over,1.90,60,50,"23 (24 min, 135-92)",NE,~31,Dimers 57.5% + lani 27.1 + L15 13/15
+22.10 04:10,NBA,D. Avdija,POR,asistencii,4.5,over,1.92,60,48,"4 (23 min, 124-83)",NE,~33,Dimers 61% + moj model; lani 6.5 ast; rizik: Morant/Lillard
+22.10 04:40,NBA,R. Hachimura,LAC,poeni,19.5,under,1.90,57,50,10,DA,~30,Dimers 57% + moj model (lani 12.2 pts); rizik: nova uloga vo LAC
+22.10 01:10,NBA,A. Davis,WAS,skokovi,11.5,over,2.00,53,45,12,DA,~32,FanDuel Research 12+ skokovi; lani 11.1; L15 8/15
+22.10 01:40,NBA,G. Antetokounmpo,MIA,poeni,28.5,over,1.96,,49,35,ODBIEN,,SI over no lani 27.6 i L15 samo 5/15 nad - ekspert vs podatoci | posle: bi pominal
+22.10 04:40,NBA,D. Garland,LAC,asistencii,7.5,over,1.70,,56,4,ODBIEN,,Pickswise over no L15 samo 4/15 nad 7.5 | posle: tocno odbien
+22.10 04:10,NBA,W. Kessler,LAL,poeni (Mozzart kupeno),9.5,over,1.50,69,67,26,DA,~30,Mozzart mbpi; SI over 11.5
+22.10 01:40,NBA,K. Leonard,TOR,poeni (Mozzart kupeno),22.5,over,1.60,62,62,23,DA,~31,Mozzart mbpi; L15 12/15 nad 22.5
+23.10 01:10,NBA,Don. Mitchell,CLE,asistencii,4.5,under,2.03,65,46,3,DA,~34,Mozzart; FanDuel under; L15 under 14/15; Harden go zema plejmejkerstvoto
+23.10 03:40,NBA,N. Jokic,DEN,skokovi,12.5,over,1.88,60,49,7,NE,35,evrotip (Mozzart 1.80); SI x2 over; L15 11/15; 13.5 vs OKC posl. 10 | 5-19 sut, OKC 96-84
+23.10 03:40,NBA,N. Jokic,DEN,asistencii,9.5,over,2.05,57,45,5,NE,35,evrotip (Mozzart 1.75); SBD 11+; L15 10/15
+23.10 01:10,NBA,L. James,PHI,poeni,15.5,under,1.85,55,50,17,NE,~32,prv natp. 14 poeni 13 suta; Maxey/Brown/Embiid prvi
+23.10 01:10,NBA,L. James,PHI,poeni (Mozzart kupeno),17.5,under,1.55,66,65,17,DA,~32,Mozzart vbpi
+23.10 01:10,NBA,L. James,PHI,trojki,1.5,under,1.65,68,58,1,DA,~32,evrotip; prv natp. 0/3; lani 1.3
+23.10 03:40,NBA,D. DeRozan,DEN,pra,17.5,over,1.93,60,49,15 (13/2/0),NE,~26,evrotip (Mozzart 1.85); Lineups over 19.5; L15 11/15; nova uloga klupa - linija vekje namalena
+23.10 01:10,NBA,A. Simons,PHI,poeni,8.5,over,1.85,58,50,2,NE,~22,Mozzart (evrotip 9.5); FanDuel 10+; prv natp. 13 poeni 10 suta
+23.10 01:10,NBA,CLE - PHI,,hendikep,2.5,CLE +2.5,1.90,54,50,PHI 114-106,NE,,Mozzart; Sportsmole + DocSports + TheSpread CLE; lani CLE 4-0 vs PHI; RIZIK: Allen ? | CLE vodese +29 pa izgubi
+23.10 03:40,NBA,S. Gilgeous Alexander,OKC,poeni,31.5,over,1.85,,50,17,ODBIEN,,SI+FanDuel+SBD over 30.5 no L15 samo 7/15 nad 29.5 - eksperti vs podatoci | posle: tocno odbien (podatocite vo pravo)
+23.10 01:10,NBA,Don. Mitchell,CLE,poeni,26.5,over,1.82,,52,32,ODBIEN,,SBD 27+ no L15 5/15 | posle: bi pominal (ekspertot vo pravo)
+23.10 01:10,NBA,T. Maxey,PHI,trojki,2.5,over,1.80,,53,2,ODBIEN,,SI over (7/9 traka) no L15 7/15 i 2/9 vo prv natp. | posle: tocno odbien
+23.10 01:10,NBA,L. James,PHI,pra,29.5,over,1.85,,50,32 (17/10/5),ODBIEN,,SI over 29.5 (Mozzart); prv natp. 30 - na granica | posle: bi pominal (SI vo pravo)
+24.10 01:00,NBA,NY - BOS,,total,223.5,under,1.91,57,50,BOS 107-103 NY = 210,DA,,ESPN linija (evrotip/Mozzart jos ne); DRatings 217.0; NY-PHI 206 vo prv natp. | 23.10 Megawin 222.5
+24.10 01:00,NBA,MIN - ORL,,total,239.5,under,1.91,56,50,MIN 115-93 ORL = 208,DA,,DRatings 230.7; rizik ORL-ATL 257 | 23.10 Megawin 234.5 (pazarot se soglasi, -5)
+24.10 04:00,NBA,LAC - LAL,,hendikep,10.5,LAC +10.5,1.91,58,50,LAL +8,DA,,DRatings LAL za 5.1; pravilo blowout - ne golemi hendikepi za favorit
+24.10 02:00,NBA,DET - MIA,,hendikep,1.5,DET +1.5,1.91,56,50,DET +17,DA,,DRatings DET 56%; MIA izgubi za 25 doma | 23.10 Megawin DET favorit 1.85
+24.10 03:30,NBA,NO - UTAH,,hendikep,4.5,NO +4.5,1.91,56,50,NO -1,DA,,DRatings UTAH samo za 1.1; NO -3 vs IND, UTAH -20 vs MEM | 23.10 Megawin NOP 1.94 / UTA 1.86 (linijata ~1.5)
+24.10 01:00,NBA,K. A. Towns,NYK,asistencii,3.5,under,2.12,56,47,3 ast,DA,~31,MEGAWIN | CBS (Konarski): protiv BOS nad 4 ast samo 1 od 10; otvoranje 1 ast; lani 3.0
+24.10 01:00,NBA,La. Ball,MIN,asistencii,7.5,under,1.85,60,52,5 ast,DA,~30,MEGAWIN | otvoranje 6 ast (Edwards 29 sut); lani 7.1 vo CHA; obrazec 'pod ast ne-glaven nositel' 5/5 | eksperti: nema
+24.10 02:00,NBA,G. Antetokounmpo,MIA,asistencii,5.5,under,2.05,58,47,5 ast (36p 12r),DA,~34,MEGAWIN | otvoranje 1 ast (D. Mitchell 11 ast e plejmejker); lani 5.4 vo MIL; obrazec 5/5 | eksperti: nema
+24.10 01:00,NBA,K. Leonard,TOR,poeni,24.5,over,1.84,57,52,"16p 7-20 FG, 5 PF, 28 min",NE,~32,MEGAWIN | Dimers proekcija 28.7 (60% na 23.5); lani 27.9; otvoranje 23 vo 24 min (blowout); TOR -8.5 rizik
+24.10 01:00,NBA,N. Alexander-Walker,ATL,poeni,18.5,over,1.91,57,51,"14p, 27 min, ATL +47",NE,~33,MEGAWIN | Lineups PRA over (38 PRA vo otvoranje); lani 20.8; bez Trae -> glaven strelec; CHA bez White/Knueppel
+23.10 22:00,NBA,J. Giddey,CHI,asistencii,9.5,under,1.77,58,55,9 ast,DA,~32,MEGAWIN | otvoranje 6 ast; lani 9.1; arhiva Giddey pod ast 1/1 | eksperti: nema
+24.10 03:30,NBA,K. Durant,HOU,poeni,23.5,over,1.84,56,53,20p na 10 shuta,NE,~36,MEGAWIN | otvoranje 30; lani 26.0; rizik: SAS odbrana (Wemby)
+24.10 01:00,NBA,J. Johnson,ATL,poeni,20.5,over,1.86,55,52,"19p, 29 min blowout",NE,~35,MEGAWIN | CBS PRA 37.5 over; lani 22.5; bez Trae -> povekje upotreba; otvoranje 20/14/6
+24.10 01:00,NBA,NYK - BOS,,total,222.5,under,1.90,56,51,210,DA,,MEGAWIN (ESPN 223.5 vo arhiva vcera) | DRatings 217
+24.10 01:00,NBA,A. Edwards,MIN,trojki,4+,over,1.66,50,60,,ODBIEN,,SI over 3.5 (-136 DK) no Megawin 4+ 1.66 = polosa kvota; mu ~3.6-4.0
+24.10 03:30,NBA,A. Sengun,HOU,asistencii,5.5,over,2.12,53,47,,ODBIEN,,lani 6.2 no VanVleet se vrati (11 ast) - Sengun 5 ast vo otvoranje
+24.10 04:00,NBA,D. Garland,LAC,poeni,24.5,,,,,,ODBIEN,,KONFLIKT: Dimers under 24.5 / Lineups over 22.5
+24.10 04:00,NBA,MEM - GSW,,hendikep,,,,,,,ODBIEN,,KONFLIKT: SI MEM +3.5 / Dimers GSW -4.5
+24.10 03:30,NBA,HOU - SAS,,hendikep,,,,,,,ODBIEN,,KONFLIKT: SI HOU +6.5 / CBS SAS -5.5 / Dimers SAS ML
+24.10 ~17:05,NBA,REVIZIJA (ne menuva p_model),,,,,,,,,BELESKA,,"Preispituvanje: Giannis u5.5 ast realno ~53% (pazar 1.69 over = 56% over; preseason 7ast/14min, Spoelstra point-forward, kariera 5.0-6.5; Dru Smith dostapen) -> samo mal single, NE vo tiket. LaMelo u7.5 kvota 1.92 (pazar se pomesti kon over) ~55%. KAT u3.5 1.98 ~56%. NAW o18.5 1.77 (vrednosta pomala). Giddey u9.5 1.77 ~55%. Kawhi o24.5 1.85 ~56%. Durant o23.5 1.83 ~55%. JJ o20.5 1.85 ~55%. Nov tiket: KAT u3.5 + Kawhi o24.5"
+24.10 ~17:40,NBA,REVIZIJA 2 - nov proces (nba-proces.md),,,,,,,,,BELESKA,,"Po noviot proces (timski total + minuti + DvP + 60/40 model/pazar): Giddey u9.5 ast, Durant o23.5, J.Johnson o20.5 NEMAAT predpost (52-54%) -> POVLECENI (p_model ostanuva zapishan). KAT u3.5 ast potvrden (proek 2.1). Kawhi o24.5 potvrden (17 FGA za 24 min = uloga gore)"
+24.10 22:00,NBA,T. Jaquez Jr.,MIL,poeni,15.5,nad,1.84,58,50,19p 35 min,DA,29,"PROCES: nov tim, starter 31min 12FGA; CHI prima +5% SF; MIL 120.5 tim. total"
+24.10 22:00,NBA,R. Rollins,MIL,poeni,17.5,pod,1.77,57,52,11p,DA,29,PROCES: Herro/Jaquez/Jakucionis mu gi zedoa shutevite; opener 9p
+24.10 22:00,NBA,M. Turner,MIL,poeni,11.5,nad,1.91,55,48,12p,DA,29,PROCES lean: CHI prima +10% C; nema Giannis
+24.10 01:00,NBA,J. Brunson,NYK,poeni,25.5,pod,1.80,56,51,19p,DA,35,"PROCES: BOS -8% PG, total 221.5 najnizok; Sportsmole o20.5 (21.10) -> blag konflikt, samo single"
+24.10 01:00,NBA,P. Banchero,ORL,poeni,22.5,nad,1.87,56,49,"14p, 26 min, ORL -22",NE,36,"PROCES: Black i Isaac out, toplata kaj nego; opener 35p"
+24.10 01:00,NBA,G. Allen,CHA,poeni,14.5,nad,1.88,57,49,"11p, 20 min, CHA -47",NE,29,"PROCES minuti: White+Knueppel out, opener 21p; rizik vrel shut 5-8 3p"
+24.10 02:00,NBA,G. Antetokounmpo,MIA,asistencii,5.5,pod,2.06,55,45,5 ast,DA,29,PROCES: proek 4.5; eksperti protiv -> samo mal single (prethodno zapishan 58 @2.05)
+24.10 03:30,NBA,Z. Williamson,NOP,poeni,19.5,nad,1.83,58,50,23p,DA,31,"PROCES: UTA najlosha odbrana (PF +13%), total 240.5, NOP 121; rizik minuti/zdravje"
+24.10 04:00,NBA,J. Grant,MEM,poeni,14.5,nad,1.89,57,49,6p 2-9; Coward OUT ama Stewart se vrati,NE,28,PROCES minuti (NOVO otsustvo): Coward doubtful -> +4 min; USLOV: Coward OUT
+24.10 01:00,NBA,S. Siakam,IND,poeni,23.5,nad,,,,,ODBIEN,,model 60% no Haliburton se vrati -> uloga dolu (pravilo uloga)
+24.10 01:00,NBA,B. Miller,CHA,poeni,25.5,pod,,,,,ODBIEN,,model 66% no White+Knueppel out -> uloga gore (sprotivno)
+24.10 01:00,NBA,J. Tatum,BOS,poeni,25.5,pod,,,,,ODBIEN,,baza pogreshna (16 nat. po Ahil)
+24.10 03:30,NBA,L. Markkanen / K. George,UTA,poeni,,nad,,,,,ODBIEN,,JJJ dojde -> uloga dolu
+24.10 03:30,NBA,D. Fox / D. Harper,SAS,poeni,,,,,,,ODBIEN,,Fox questionable - chekaj status
+24.10 01:00,NBA,BOS - NYK,,vkupno,221.5,pod,1.91,55,50,210,DA,,"PROCES timski: model total 217.7, tempo 94 (najbavno), dve elitni odbrani"
+24.10 01:00,NBA,ORL - MIN,,vkupno,234.5,nad,1.92,56,50,208,NE,,"PROCES timski: model 239.2, tempo 104, ORL bez Black/Isaac (odbrana)"
+24.10 01:00,NBA,WAS - TOR,,hendikep,+8.5,WAS,1.91,55,50,TOR +10,NE,,PROCES timski lean: model TOR -4.5; nisko doverba (sostavi smeneti)
+24.10 04:00,NBA,GSW - MEM,,vkupno,237.5,pod,1.86,56,50,219,DA,,"PROCES timski: model 232.4; GSW bez Butler/Porzingis/Moody, Podziemski Q; MEM bez Coward"
+24.10 ,NBA,IND-DAL / LAL-LAC / SAC-POR / SAS-HOU,,timski,,,,,,,ODBIEN,,"model se razminuva so pazar poradi smeneti sostavi (Haliburton, LAC povredi, Fox Q) -> greshka na model, ne predpost"
+25.10 02:00,NBA,V. Wembanyama,SAS,poeni,28.5,pod,1.81,61,51,"23p, SAS +16",DA,30,"SCENARIO golema razlika (DAL bez Flagg NOVO + Lively/Aldama/Martin, dvata B2B); proek 25.9; linija nad negoviot prosek 25.0"
+25.10 02:30,NBA,A. Thompson,HOU,asistencii,5.5,pod,1.75,64,53,,POVLECEN,35,PRAVILO ast pod ne-glaven nositel (VanVleet/Sengun nosat); 4 i 4 ast ovaa sezona; proek 4.6
+25.10 02:00,NBA,N. Powell,CHI,poeni,20.5,nad,1.86,56,50,18p,NE,32,"SCENARIO blizok/brz (CHI-WAS 243.5, -1.5); WAS najlosha odbrana lani; proek 24.8; edinstven NAD"
+25.10 02:00,NBA,D. Fox,SAS,poeni,14.5,nad,1.85,59,50,19p (bi pominal - praviloto kosta),ODBIEN,,model 59% no SCENARIO golema razlika -> pravilo: NAD ne vo blowout (test na praviloto)
+25.10 01:30,NBA,PHI-MIL igrachi (Maxey/Embiid pod),,poeni,,,,,,,ODBIEN,,"model ~49-54%: Maxey igra 40+ min, MIL losha odbrana na PG -> scenarioto blowout ne e dovolno"
+25.10 02:30,NBA,Durant/J.Johnson/AD/Booker,,poeni,,,,,,,ODBIEN,,50-57% bez predpost (Booker zavisi od Curry status)
+25.10 ~17:35,NBA,REVIZIJA,,,,,,,,,BELESKA,,Amen Thompson pod 5.5 ast POVLECEN: VanVleet (odmor) ne igra -> Amen stanuva nositel na topka (pravilo samo ne-glaven); kvota padna 1.75->1.53. Wemby liniјa padna 28.5->27.5 (nov red).
+25.10 02:00,NBA,V. Wembanyama,SAS,poeni,27.5,pod,1.85,59,50,"23p, SAS +16",DA,30,isto scenario; nova linija Megawin 17:35
+25.10 00:00,NBA,G. Antetokounmpo,MIA,asistencii,5.5,pod,2.15,59,43,3 ast (6 PF),DA,32,PRAVILO ast pod ne-glaven (D. Mitchell); ovaa sezona 1 i 5; proek 4.8; Giannis ast pod 2/2 vo arhiva
+25.10 00:00,NBA,B. Miller,CHA,poeni,22.5,pod,1.82,62,51,34p na 29 shuta (CHA bez White/Knueppel),NE,33,lani 20.2; ovaa sezona 18 i 6 (21/14 shuta); ako White/Knueppel se vratat -> ushte podobro
+25.10 04:00,NBA,J. Green,PHX,poeni,18.5,pod,1.92,60,48,12p,DA,27,"SCENARIO golema razlika: GSW bez Curry ('probably not') i Podziemski, B2B; Green lani 17.8, opener 10"
+25.10 03:00,NBA,N. Jokic,DEN,poeni,27.5,pod,1.77,59,52,"35p (OT, DEN se vrati od -23)",NE,31,"SCENARIO golema razlika (NO B2B, bez Missi); lani 27.7 = linija; sezona 13 (otezhnato samo 15%)"
+25.10 ,NBA,Mitchell CLE / Randle / Zion / Booker / Jokic ast,,,,,,,,,ODBIEN,,50-57% ili linija ~ proekcija; Booker EV 1.00
+26.10 00:00,NBA,K. A. Towns,NYK,asistencii,3.5,pod,,65,,ne e vo box score (verojatno ne igral) - neprovereno,VOID,32,"USLOV: linija 3.5 (ne 2.5). Proek 2.7; ovaa sezona 1,3,3 ast; NY vs ORL bez Banchero (NOVO) -> razlika -> pomalku minuti. Megawin linii nedostapni (vrska so kompjuter prekinata) | 27.10: ako se potvrdi deka igral -> ispravi"
+26.10 00:00,NBA,La. Ball,MIN,asistencii,7.5,pod,,58,,8 ast,NE,30,"USLOV: linija 7.5 (6.5 = pas). Proek 6.8; 6 i 5 ast; TOR elitna odbrana, bavno"
+26.10 00:00,NBA,J. Brunson,NYK,poeni,24.5,pod,,58,,28p (ORL pobedi 111-102 bez Banchero!),NE,32,"USLOV: linija >=24.5 (25.5 -> ~62%). Proek 22.6; ovaa sezona 21,19; scenario NY zdrav vs ORL bez Banchero (NOVO)"
+26.10 00:00,NBA,TOR - MIN,,vkupno,231.5,pod,,56,51,117-94 = 211,DA,,"dve elitni odbrani (TOR DRtg 90, MIN 97); 4 natp. prosek 221.5; Dimers under 51%"
+26.10 ,NBA,SGA pod / Reaves ast / Wagner / Nembhard ast,,,,,,,,,ODBIEN,,"SGA: LAC otsustva se STARI (pravilo); Reaves: UTA losha odbrana -> proek 5.9; Wagner: prv strelec na osakaten tim -> ne pod, a NAD ne vo razlika; Nembhard: nejasna uloga"
+27.10 00:30,NBA,G. Antetokounmpo,MIA,asistencii,5.5,pod,,60,,"11 ast (29p 14r, triple-double; D. Mitchell samo 2 ast)",NE,32,"USLOV linija 5.5. Ovaa sezona 1,5,3 ast (Giannis pod 3/3); D. Mitchell nositel. Profil: MIA (A) vs DAL osakaten (Marshall OUT novo, Flagg Q) | Flagg IGRAL (29p 11a)"
+27.10 01:30,NBA,A. Thompson,HOU,asistencii,5.5,pod,,58,,"2 ast (15p, 27 min)",DA,35,"USLOV: VanVleet igra (TheSpread: off report) + linija 5.5. Ast pod ne-glaven nositel | VanVleet igral 5 ast, Sengun 9 ast"
+27.10 00:00,NBA,N. Reid,CHA,poeni,19.5,nad,,60,,18p na 22 shuta (Miller 39p na 28),NE,32,"PROFIL: WAS prima +24% od C (najlosho vo ligata); Reid 20,17,23 ovaa sezona; CHA osakaten -> upotreba (lekcija Miller); blizok natp. (CHA -1.5). USLOV linija <=19.5"
+27.10 02:00,NBA,J. Wells,MEM,poeni,9.5,nad,,58,45,14p (Coward IGRAL 16p 11r - argumentot ne vazese),DA,28,"PROFIL: UTA prima +11% od SG; Coward OUT -> minuti; Dimers 58%; blizok natp. (UTA -1.5)"
+27.10 00:30,NBA,CHI @ BOS,,vkupno,233.5,pod,,55,50,134-99 = 233,DA,,"PROFIL B vs A (BOS najbavni, najmalku primeni lani; CHI najbrzi): CHI vs TOR (B) 92 poeni; Bleacher Nation pod; lani BOS natp. nad 233.5 samo 19/82"
+27.10 01:00,NBA,PHX @ OKC,,vkupno,,pod,,56,,125-114 = 239,NE,,"PROFIL B: OKC prima 96, natp. 203. USLOV: linija >=216"
+27.10 00:00,NBA,MIN @ CLE,,vkupno,,pod,,55,,127-125 OT = 252,NE,,"PROFIL B: MIN prima 98 (3-0). USLOV: linija >=224 | Edwards 47p"
+27.10 ,NBA,MIL-IND tot / HOU-ATL tot / DEN-GSW / Irving / Booker,,,,,,,,,ODBIEN,,"MIL-IND: profil nad vs Dimers pod + IND B2B -> konflikt; HOU-ATL: profil pod vs TheSpread nad -> konflikt; DEN-GSW: Curry/Podz se vrakjaat, nejasno; Irving: DAL osakaten no rizik razlika; Booker 43 = eden natp. | posle: MIL-IND 212, HOU-ATL 230, GSW +20"
+27.10 00:00,NBA,R. Gobert,MIN,skokovi,8.5,nad,,64,50,20 sk,DA,33,"EKSPERT SGP (CLE dolna tretina vo skokovi %) + profil MIN #1 skokovi; Gobert 15,13 + prosek 12.3, nikogash pod 8.5"
+27.10 02:00,NBA,T. Jerome,MEM,asistencii,3.5,nad,,66,57,8 ast,DA,32,"EKSPERT Dimers 67.5% + Lineups PRA + SGP; glaven nositel na MEM (5.7 ast); UTA losha odbrana na PG"
+27.10 01:30,NBA,J. Johnson,ATL,skokovi+asistencii,16.5,nad,,57,50,9 sk + 4 ast = 13,NE,34,"EKSPERTI 3 (SI, SBD ast 7.5, Tony's) 10/10 prosek, 15+ vo sekoj natp.; PROTIV: profil HOU dobra odbrana -> namaleno"
+27.10 00:00,NBA,N. Reid,CHA,poeni,18.5,nad,,62,51,,BELESKA,,"Liniјata kaj eksperti 18.5 (SI P+R 26.5, SBD 18.5) -> potvrda na CEKA red (uslov <=19.5); White i Knueppel OUT potvrdeno (SI)"
+27.10 ,NBA,C. Wilson / P. George / Mitchell / Trae / Murray / Sengun nad,,,,,,,,,ODBIEN,,"Eksperti nad, no profil protiv (BOS/MIN zid; CHA dobra na PG) ili rizik golema razlika (BOS -13.5, DEN -7.5) | posle: Mitchell 26p, Sengun 29p"
+27.10 14:30,NBA,ANALIZA noj 26/27.10,,,,,,,,,BELESKA,,"5/10 (ocekuvano 59%). Ekspert-poddrzani props 2/2 (Gobert, Jerome); totali pod 1/3 (profil 'B' od 3 natp. = shum); Giannis ast prv golem promasaj na praviloto ast-pod (MIA 0-4 -> topkata kaj zvezdata)"
+28.10 01:00,NBA,M. Bridges,NYK,poeni,,pod,,62,,12p - linija ne bila ponudena,VOID,~33,"USLOV linija >=9.5 (Mozzart props ushte ne objaveni 16:15). Sezona 4, 0, 6 p; 0 trojki; uloga dolu kraj Brunson/Towns/Anunoby. MATCHAP: DET lani 3-ta odbrana; RIZIK: Ausar (najdobar perimetarski branitel DET) OUT -> polesno"
+28.10 01:00,NBA,K. A. Towns,NYK,skokovi,11.5,nad,,58,,NE IGRAL - linija ne bila ponudena,VOID,~34,"MATCHAP: DET bez Duren (C, hamstring) i Ausar -> pomalku skokachi; Towns 12.0 rpg, posl. 14 sk. EKSPERT: Tony's Picks over 11.5 (1.08u). USLOV linija <=11.5"
+28.10 01:00,NBA,DET @ NYK,,vkupno,218.5,pod,1.90,55,50,111-97 = 208,DA,,"Profil B vs B (dvete odbrani top-10 i lani i sega); NYK 0-3 O/U (site pod); Lineups lean pod. RIZIK: DET bez Duren = poslaba odbrana pod kosh; DET 42% trojki"
+28.10 ,NBA,Wemby pod / Sabonis skok nad / Cunningham ast / POR-LAL pod / BKN-BOS,,,,,,,,,ODBIEN,,"Wemby: blowout (-17.5) vs SAC bez centri -> matchap i minuti se karaat; Sabonis: eksperti nad (Sportsmole, TheSpread) no Wemby + blowout minuti; Cade: primaren nositel, NYK zid PG -9%; POR-LAL: LAL grupa A (ne B vs B); BOS -11.5: golem hendikep vekje vgraden"
+28.10 04:00,NBA,W. Kessler,LAL,skokovi,,nad,,58,,8 sk 13p - linija ne bila ponudena,VOID,~31,"USLOV linija <=8.5 (Mozzart props ushte ne objaveni). Sezona 9, 8, 7 sk (30-35 min); Luka pick-and-roll. MATCHAP: POR lani prima najmnogu od C (+14%), Carlson (C POR) Q-potres; PROTIV: Clingan elitna zastita na kosh. Ideja korisnik"
+28.10 04:00,NBA,W. Kessler,LAL,poeni,,,,,,,ODBIEN,~31,"26, 22, 2 (vs ex-tim UTA, 2 shuta). Linijata ke bide naduena od 2 golemi natp.; Clingan = poteshki lobovi -> poeni ne; samo skokovi"
+28.10 01:00,NBA,NYK (timski),NYK,tim. vkupno,110.5,pod,1.85,60,50,111 (za pola poen),NE,,"SCENARIO: NYK 102 p/natp. (29-ti napad, 32% trojki, Bridges 0 trojki); DET DRtg 105.6 i lani top-3; DET bez Duren/Ausar(Q) no tempo ~100 -> proekcija ~105"
+28.10 01:00,NBA,SAC (timski),SAC,tim. vkupno,107.5,pod,1.85,58,50,103,DA,,"SCENARIO: SAC bez Murray/Raynaud/Cardwell (bez centri), 28% trojki, 109 p/natp.; SAS Wemby zid (4 blk); SAS -17.5 -> SAC klupa vo 4. chetvrtina; proekcija ~103"
+28.10 22:31,NBA,FINALEN IZVESTAJ 22:30,,,,,,,,,BELESKA,,"Mozzart NEMA NBA Players pazari (comp 11940 prazen) -> Bridges/Towns/Kessler ne mozat. Linii: DET-NYK 218.5 (nepromeneto), SAS-SAC 230.5->232.5, LAL-POR 234.5->233.5, LAL -2.5->-1.5 (pari na POR, kako WagerTalk). Ausar/Joe Q bez finalna vest. DET-NYK pod 218.5 ostanuva CEKA no NE vo ist tiket so NYK tim pod (korelirani)"
+
+28.10 09:20,NBA,ANALIZA noj 27/28.10,,,,,,,,,BELESKA,,"Igrani 2/3: SAC pod DA, DET-NYK pod DA, NYK tim pod NE za 0.5. Virtuelni props: Bridges pod 9.5 bi padnal (12), Towns ne igral, Kessler nad 8.5 bi padnal (8). LAL-POR: Luka 41p 9a - scenarioto tocno. LEKCIJA: tim. total so proekcija samo ~5 pod linijata -> dokupi."28.10 23:00,NBA,OKC (timski),OKC,tim. vkupno,104.5,pod,1.85,65,50,CEKA,,,"SCENARIO: OKC bez Caruso/Holmgren/J.Williams/Wallace/Topic/Sorber (6 rotacii OUT!) - samo SGA nositel; lani ORtg 118.9 so celosen sostav, sega napad gol. DAL osakaten pomalku (Kyrie/Martin/Marshall samo Q, Lively OUT)"
+28.10 23:00,NBA,GSW (timski),GSW,tim. vkupno,122.5,pod,1.85,65,50,CEKA,,,"SCENARIO: GSW bez Butler+Moody+Porzingis (3 klucni, site OUT) - ostanati bez 2 najdobri strelci. MIN bez Edwards isto no GSW zagubi povekje ofanzivna mokj (Butler+KP)"
+28.10 23:00,NBA,WAS (timski),WAS,tim. vkupno,119.5,pod,1.85,60,50,CEKA,,,"SCENARIO: WAS bez Watkins(sezona)/Vukcevic/Champagnie + Dybantsa Q (mozhen nositel na mladi) - tenka rotacija protiv CLE (1-1 solid odbrana)"
+28.10 23:00,NBA,ORL (timski),ORL,tim. vkupno,116.5,pod,1.85,62,50,CEKA,,,"SCENARIO: ORL bez Banchero I Suggs (dvata nositeli) OUT - malku ponudi za poeni. TOR bez Kawhi isto no TOR odbrana (Barnes) ostanuva so prisustvo"
+28.10 23:00,NBA,ATL (timski),ATL,tim. vkupno,116.5,nad,1.85,58,50,CEKA,,,"SCENARIO: MIA najlosha odbrana vo ligata (prima 125/natp., Fontecchio samo DTD) - ATL napad (ORtg116) treba da premine linija; umeren rizik od varijansa"
+28.10 ,NBA,HOU tim pod / DAL-OKC total / LAC-LAL / CHI-NYK / IND-PHI / DET-CHA / UTA-SAS,,,,,,,,,ODBIEN,,"HOU bez Sengun+Adams no MIL odbrana najlosha vo ligata - signali se karaat; DAL-OKC total: OKC odbrana osakatena ALI DAL napad isto (Kyrie Q) - konflikt; IND: Zubac 'OUT' za Indiana e nepotvrdeno/verojatna greska vo izvor (Zubac e LAC igrac) - ne se koristi; drugite bez novo otsustvo ili jasen matchap"

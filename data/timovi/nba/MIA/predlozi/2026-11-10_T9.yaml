@@ -1,0 +1,32 @@
+tip: ОПИС
+tim: MIA
+liga: nba
+predlog_datum: '2026-11-10'
+izvor_url: https://www.eurohoops.net/en/nba-news/1994605/antetokounmpo-presents-his-first-day-with-the-miami-heat/; https://www.eurohoops.net/en/nba-news/1991752/giannis-antetokounmpo-talks-miami-heat-move-nba/
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Erik Spoelstra
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-07-28'
+  naslov: Antetokounmpo presents his first day with the Miami Heat
+  izvor_url: https://www.eurohoops.net/en/nba-news/1994605/antetokounmpo-presents-his-first-day-with-the-miami-heat/
+- objaveno: '2026-07-16'
+  naslov: 'Giannis Antetokounmpo meets Miami Heat culture: “All that matters is winning”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/1991752/giannis-antetokounmpo-talks-miami-heat-move-nba/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1994605/antetokounmpo-presents-his-first-day-with-the-miami-heat/: LLM gpt-oss-120b не
+  одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1994605/antetokounmpo-presents-his-first-day-with-the-miami-heat/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1991752/giannis-antetokounmpo-talks-miami-heat-move-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1991752/giannis-antetokounmpo-talks-miami-heat-move-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+se_kosi_so_brojki: []

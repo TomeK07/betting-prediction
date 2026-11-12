@@ -1,0 +1,416 @@
+tim: BAR
+liga: Евролига
+azurirano: '2026-11-01'
+brojki:
+  natprevari: 9
+  do_datum: '2026-10-30'
+  tempo:
+    poseda_po_natprevar: 73.9
+    rang: 13
+    liga: 75.0
+  efikasnost:
+    ortg_surov: 121.1
+    drtg_surov: 118.2
+    ortg_prilagoden: 117.4
+    drtg_prilagoden: 116.7
+    rang_napad: 6
+    rang_odbrana: 13
+    liga_ortg: 115.7
+  dvp:
+    центри:
+      poeni_pct: -3.3
+      ast_pct: 17.6
+      skok_pct: 9.9
+      trojki_pct: 55.5
+    крила:
+      poeni_pct: 4.1
+      ast_pct: -29.4
+      skok_pct: -9.1
+      trojki_pct: 7.8
+    бекови:
+      poeni_pct: -0.7
+      ast_pct: -0.5
+      skok_pct: -9.0
+      trojki_pct: -0.3
+  nositeli:
+  - igrac: Punter K. (BAR)
+    minuti: 24.1
+    usg_pct: 29.3
+    ast_pct: 16.6
+    poeni: 16.7
+    ast: 2.3
+  - igrac: Robinson J. (BAR)
+    minuti: 20.5
+    usg_pct: 27.0
+    ast_pct: 31.3
+    poeni: 13.0
+    ast: 3.9
+  - igrac: Gibson U. (BAR)
+    minuti: 16.4
+    usg_pct: 23.3
+    ast_pct: 29.0
+    poeni: 10.5
+    ast: 2.9
+  - igrac: Brizuela D. (BAR)
+    minuti: 18.6
+    usg_pct: 23.2
+    ast_pct: 12.3
+    poeni: 8.1
+    ast: 1.5
+  rotacija:
+  - igrac: Parra J. (BAR)
+    minuti: 25.0
+    natprevari: 8
+    starter_pct: 88.0
+  - igrac: Punter K. (BAR)
+    minuti: 24.1
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Martin T. (BAR)
+    minuti: 22.8
+    natprevari: 9
+    starter_pct: 56.0
+  - igrac: Nebo J. (BAR)
+    minuti: 21.9
+    natprevari: 6
+    starter_pct: 33.0
+  - igrac: Robinson J. (BAR)
+    minuti: 20.5
+    natprevari: 9
+    starter_pct: 100.0
+  - igrac: Brizuela D. (BAR)
+    minuti: 18.6
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: Balcerowski O. (BAR)
+    minuti: 16.7
+    natprevari: 9
+    starter_pct: 78.0
+  - igrac: Gibson U. (BAR)
+    minuti: 16.4
+    natprevari: 8
+    starter_pct: 0.0
+  - igrac: Evbuomwan T. (BAR)
+    minuti: 15.0
+    natprevari: 6
+    starter_pct: 17.0
+  - igrac: Umude S. (BAR)
+    minuti: 14.1
+    natprevari: 9
+    starter_pct: 11.0
+  startna_petorka_posledni_5:
+  - Balcerowski O. (BAR)
+  - Martin T. (BAR)
+  - Parra J. (BAR)
+  - Punter K. (BAR)
+  - Robinson J. (BAR)
+  trener: SEKULIC, ALEKSANDER
+  doma:
+    n: 5
+    poeni: 91.6
+    primeni: 91.2
+  gosti:
+    n: 4
+    poeni: 89.8
+    primeni: 85.2
+  forma_posledni_5:
+    pobedi: 4
+    porazi: 1
+    poeni: 93.0
+    primeni: 90.2
+    neto_rejting: 3.7
+  trojki:
+    3par_napad: 43.1
+    3par_dozvoluva: 42.8
+    3p_pct: 37.9
+    liga_3par: 41.3
+  skokovi:
+    oreb_pct: 34.5
+    dreb_pct: 65.4
+  igraci_vo_zapisnik:
+  - Balcerowski O. (BAR)
+  - Brizuela D. (BAR)
+  - Evbuomwan T. (BAR)
+  - Gibson U. (BAR)
+  - Martin T. (BAR)
+  - Minaya J. (BAR)
+  - Nebo J. (BAR)
+  - Nkamhoua O. (BAR)
+  - Nunez J. (BAR)
+  - Parra J. (BAR)
+  - Punter K. (BAR)
+  - Robinson J. (BAR)
+  - Ubal A. (BAR)
+  - Umude S. (BAR)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 73.9
+      rang: 14
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 117.4
+      surov: 121.1
+      rang: 6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 116.7
+      surov: 118.2
+      rang: 13
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 43.1
+      rang: 6
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 43.1
+      ftr: 25.8
+      2p_pct: 58.7
+      3p_pct: 37.9
+      efg: 57.9
+      rang_efg: 1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 42.8
+      ftr: 29.2
+      2p_pct: 54.9
+      3p_pct: 38.2
+      efg: 56.0
+      rang_efg: 12
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: -3.3
+        ast_pct: 17.6
+        skok_pct: 9.9
+        trojki_pct: 55.5
+      крила:
+        poeni_pct: 4.1
+        ast_pct: -29.4
+        skok_pct: -9.1
+        trojki_pct: 7.8
+      бекови:
+        poeni_pct: -0.7
+        ast_pct: -0.5
+        skok_pct: -9.0
+        trojki_pct: -0.3
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 34.5
+      rang_oreb: 8
+      dreb_pct: 65.4
+      rang_dreb: 15
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 21.4
+      rang_najmalku: 10
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 19.0
+      ftr_dozvoluva: 29.2
+      rang_najmalku: 9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 2.1
+      rang_blk: 16
+      2p_pct_protivnik: 54.9
+      rang_2p_odbrana: 9
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 22.9
+        n: 4
+      top3:
+        min: 23.9
+        n: 4
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: null
+        n: 0
+      top3:
+        min: null
+        n: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 23.9
+      top3_min_razlika: null
+      razlika_min: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Parra J. (BAR)
+        propushteni: 1
+        prichini:
+          не е на листата / не играл: 1
+      - igrac: Nebo J. (BAR)
+        propushteni: 3
+        prichini:
+          не е на листата / не играл: 3
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 2
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 2
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 9
+      pogodok_pct: 44.4
+      ochekuvano_pct: 57.8
+      razlika_pp: -13.3
+      po_pazar:
+        poeni: 3/4
+        skokovi: 1/1
+        tim_vkupno: 0/1
+        trojki: 0/2
+        vkupno: 0/1
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 73.9
+          rang: 14
+          od: 20
+      trojki:
+        oznaka: многу тројки
+        brojki:
+          3par_pct: 43.1
+          rang: 6
+          od: 20
+      napad_preku:
+        oznaka: преку бекови
+        brojki:
+          udel_poeni_pct:
+            бекови: 54.0
+            крила: 32.8
+            центри: 13.2
+          liga_pct:
+            бекови: 45.8
+            крила: 36.1
+            центри: 18.1
+      ofanziven_skok:
+        oznaka: средно
+        brojki:
+          oreb_pct: 34.5
+          rang: 8
+          od: 20
+      rotacija:
+        oznaka: кратка
+        brojki:
+          igraci_15_min: 6
+          rang: 14
+          od: 20
+      vadenje_zvezdi:
+        oznaka: null
+        brojki:
+          top3_min_pomalku: null
+          rang: null
+          od: 19
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 21.4
+          rang: 11
+          ftr_protivnik: 29.2
+          rang_ftr: 12
+          od: 20
+      dozvoluva:
+        oznaka: средно тројки; средна заштита на кош
+        brojki:
+          3par_protivnik: 42.8
+          rang_3par: 7
+          2p_pct_protivnik: 54.9
+          rang_2p: 12
+          od: 20
+          dvp_poeni_pct:
+            центри: -3.3
+            крила: 4.1
+            бекови: -0.7
+    izvor: python
+    datum: '2026-11-01'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-01'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)

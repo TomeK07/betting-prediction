@@ -1,0 +1,47 @@
+tip: ОПИС
+tim: TOR
+liga: nba
+predlog_datum: '2026-11-12'
+izvor_url: https://www.eurohoops.net/en/nba-news/2028242/darko-rajakovic-talks-kawhi-leonard-jakob-poeltl-toronto-raptors-nba/; https://www.eurohoops.net/en/nba-news/2012019/bobby-webster-talks-jakob-poeltl-toronto-raptors-nba/;
+  https://www.eurohoops.net/en/nba-news/2008079/toronto-raptors-complete-kawhi-leonard-trade-nba/ …
+citat: ''
+prompt_verzija: t9-v2
+modeli:
+- gpt-oss-120b
+- qwen3.8-27b
+oficijalno:
+  trener: Darko Rajakovic
+  izvor: nba_api CommonTeamRoster
+napisi:
+- objaveno: '2026-10-30'
+  naslov: Kawhi Leonard managing left knee injury away from the Toronto Raptors
+  izvor_url: https://www.eurohoops.net/en/nba-news/2028242/darko-rajakovic-talks-kawhi-leonard-jakob-poeltl-toronto-raptors-nba/
+- objaveno: '2026-09-25'
+  naslov: 'Raptors expect big bounce-back from Jakob Poeltl: “Yak looks good”'
+  izvor_url: https://www.eurohoops.net/en/nba-news/2012019/bobby-webster-talks-jakob-poeltl-toronto-raptors-nba/
+- objaveno: '2026-09-15'
+  naslov: Toronto Raptors finalize Kawhi Leonard trade, welcoming back ‘championship mindset’
+  izvor_url: https://www.eurohoops.net/en/nba-news/2008079/toronto-raptors-complete-kawhi-leonard-trade-nba/
+- objaveno: '2026-07-02'
+  naslov: Raptors sign Darko Rajaković to multi-year extension
+  izvor_url: https://www.eurohoops.net/en/nba-news/1987047/raptors-sign-darko-rajakovic-to-multi-year-extension/
+fakti: []
+otfrleno_od_python: []
+bez_odgovor:
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2028242/darko-rajakovic-talks-kawhi-leonard-jakob-poeltl-toronto-raptors-nba/: LLM gpt-oss-120b
+  не одговара: Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2028242/darko-rajakovic-talks-kawhi-leonard-jakob-poeltl-toronto-raptors-nba/: LLM qwen3.8-27b
+  не одговара: Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2012019/bobby-webster-talks-jakob-poeltl-toronto-raptors-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2012019/bobby-webster-talks-jakob-poeltl-toronto-raptors-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/2008079/toronto-raptors-complete-kawhi-leonard-trade-nba/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/2008079/toronto-raptors-complete-kawhi-leonard-trade-nba/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+- 'gpt-oss-120b · https://www.eurohoops.net/en/nba-news/1987047/raptors-sign-darko-rajakovic-to-multi-year-extension/: LLM gpt-oss-120b не одговара:
+  Connection error.'
+- 'qwen3.8-27b · https://www.eurohoops.net/en/nba-news/1987047/raptors-sign-darko-rajakovic-to-multi-year-extension/: LLM qwen3.8-27b не одговара:
+  Connection error.'
+se_kosi_so_brojki: []

@@ -1,0 +1,46 @@
+# --- Secrets / env ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secrets*
+*_api_key*
+*_API_KEY*
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Node (ако се појави) ---
+node_modules/
+
+# --- Project: големи / локални кешови ---
+_to_delete/
+data/raw/
+data/processed/
+
+# --- Локални логови / привремени ---
+*.log
+*.tmp
+*.temp

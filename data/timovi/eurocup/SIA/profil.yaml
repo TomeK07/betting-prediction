@@ -1,0 +1,403 @@
+tim: SIA
+liga: Еврокуп
+azurirano: '2026-11-03'
+brojki:
+  natprevari: 5
+  do_datum: '2026-10-28'
+  tempo:
+    poseda_po_natprevar: 74.1
+    rang: 28
+    liga: 76.2
+  efikasnost:
+    ortg_surov: 111.2
+    drtg_surov: 113.6
+    ortg_prilagoden: 111.2
+    drtg_prilagoden: 113.9
+    rang_napad: 12
+    rang_odbrana: 28
+    liga_ortg: 109.6
+  dvp:
+    центри:
+      poeni_pct: 11.8
+      ast_pct: -18.2
+      skok_pct: 1.9
+      trojki_pct: 10.7
+    крила:
+      poeni_pct: -2.3
+      ast_pct: -19.3
+      skok_pct: 0.7
+      trojki_pct: 5.5
+    бекови:
+      poeni_pct: -2.9
+      ast_pct: 13.9
+      skok_pct: 0.2
+      trojki_pct: -1.9
+  nositeli:
+  - igrac: Henderson Jr C. (SIA)
+    minuti: 25.9
+    usg_pct: 31.9
+    ast_pct: 17.7
+    poeni: 16.7
+    ast: 2.0
+  - igrac: Caffey M. (SIA)
+    minuti: 15.8
+    usg_pct: 25.1
+    ast_pct: 28.7
+    poeni: 7.8
+    ast: 2.6
+  - igrac: Fofana S. (SIA)
+    minuti: 25.0
+    usg_pct: 23.1
+    ast_pct: 16.8
+    poeni: 10.2
+    ast: 2.4
+  - igrac: Mcknight D. (SIA)
+    minuti: 24.6
+    usg_pct: 21.4
+    ast_pct: 38.7
+    poeni: 10.0
+    ast: 5.8
+  rotacija:
+  - igrac: Henderson Jr C. (SIA)
+    minuti: 25.9
+    natprevari: 3
+    starter_pct: 100.0
+  - igrac: Fofana S. (SIA)
+    minuti: 25.0
+    natprevari: 5
+    starter_pct: 20.0
+  - igrac: Mcknight D. (SIA)
+    minuti: 24.6
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Pacevicius M. (SIA)
+    minuti: 21.6
+    natprevari: 5
+    starter_pct: 100.0
+  - igrac: Romancenko D. (SIA)
+    minuti: 19.0
+    natprevari: 5
+    starter_pct: 80.0
+  - igrac: Nicholson K. (SIA)
+    minuti: 18.5
+    natprevari: 4
+    starter_pct: 50.0
+  - igrac: Jarumbauskas S. (SIA)
+    minuti: 17.4
+    natprevari: 4
+    starter_pct: 25.0
+  - igrac: Venskus E. (SIA)
+    minuti: 17.2
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Caffey M. (SIA)
+    minuti: 15.8
+    natprevari: 5
+    starter_pct: 0.0
+  - igrac: Lukosiunas K. (SIA)
+    minuti: 15.6
+    natprevari: 5
+    starter_pct: 60.0
+  startna_petorka_posledni_5:
+  - Henderson Jr C. (SIA)
+  - Lukosiunas K. (SIA)
+  - Mcknight D. (SIA)
+  - Pacevicius M. (SIA)
+  - Romancenko D. (SIA)
+  trener: SONGAILA, DARIUS
+  doma:
+    n: 3
+    poeni: 82.3
+    primeni: 86.0
+  gosti:
+    n: 2
+    poeni: 82.5
+    primeni: 81.5
+  forma_posledni_5:
+    pobedi: 3
+    porazi: 2
+    poeni: 82.4
+    primeni: 84.2
+    neto_rejting: -2.4
+  trojki:
+    3par_napad: 38.7
+    3par_dozvoluva: 42.6
+    3p_pct: 41.5
+    liga_3par: 40.2
+  skokovi:
+    oreb_pct: 27.9
+    dreb_pct: 69.2
+  igraci_vo_zapisnik:
+  - Caffey M. (SIA)
+  - Civilis R. (SIA)
+  - Fofana S. (SIA)
+  - Henderson Jr C. (SIA)
+  - Jarumbauskas S. (SIA)
+  - Jogela T. (SIA)
+  - Lukosiunas K. (SIA)
+  - Mcknight D. (SIA)
+  - Nicholson K. (SIA)
+  - Pacevicius M. (SIA)
+  - Reid E. (SIA)
+  - Romancenko D. (SIA)
+  - Venskus E. (SIA)
+opis: null
+parametri:
+  tempo:
+    vrednost:
+      poseda: 74.1
+      rang: 25
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  ortg:
+    vrednost:
+      prilagoden: 111.2
+      surov: 111.2
+      rang: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  drtg:
+    vrednost:
+      prilagoden: 113.9
+      surov: 113.6
+      rang: 28
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  3par:
+    vrednost:
+      pct: 38.7
+      rang: 24
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut:
+    vrednost:
+      3par: 38.7
+      ftr: 31.1
+      2p_pct: 52.4
+      3p_pct: 41.5
+      efg: 56.2
+      rang_efg: 5
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  profil_sut_dozvoluva:
+    vrednost:
+      3par: 42.6
+      ftr: 34.6
+      2p_pct: 52.2
+      3p_pct: 32.6
+      efg: 50.8
+      rang_efg: 7
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvp:
+    vrednost:
+      центри:
+        poeni_pct: 11.8
+        ast_pct: -18.2
+        skok_pct: 1.9
+        trojki_pct: 10.7
+      крила:
+        poeni_pct: -2.3
+        ast_pct: -19.3
+        skok_pct: 0.7
+        trojki_pct: 5.5
+      бекови:
+        poeni_pct: -2.9
+        ast_pct: 13.9
+        skok_pct: 0.2
+        trojki_pct: -1.9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  oreb_strategija:
+    vrednost:
+      oreb_pct: 27.9
+      rang_oreb: 28
+      dreb_pct: 69.2
+      rang_dreb: 13
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: бројки; „стратегија“ (оди/не оди на скок) = опис од агенти
+  fauli_tim:
+    vrednost:
+      pf_po_natprevar: 22.2
+      rang_najmalku: 17
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  fta_dozvoluva:
+    vrednost:
+      fta_po_natprevar: 22.4
+      ftr_dozvoluva: 34.6
+      rang_najmalku: 21
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  zastitnik_kos:
+    vrednost:
+      blk_po_natprevar: 1.8
+      rang_blk: 27
+      2p_pct_protivnik: 52.2
+      rang_2p_odbrana: 12
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: кој е заштитникот = опис од агенти
+  rotacija_blizok:
+    vrednost:
+      top5:
+        min: 24.1
+        n: 2
+      top3:
+        min: 26.3
+        n: 2
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  rotacija_razlika:
+    vrednost:
+      top5:
+        min: 21.6
+        n: 1
+      top3:
+        min: 22.7
+        n: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  razlika_vadenje_zvezdi:
+    vrednost:
+      top3_min_blizok: 26.3
+      top3_min_razlika: 22.7
+      razlika_min: 3.6
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: блиску = финална разлика ≤ 6, голема ≥ 15; мал примерок на почеток
+      на сезона
+  load_management:
+    vrednost:
+      top5_propushteni:
+      - igrac: Henderson Jr C. (SIA)
+        propushteni: 2
+        prichini:
+          не е на листата / не играл: 2
+      b2b_natprevari: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  patuvanje:
+    vrednost:
+      natprevari_posledni_7_dena: 1
+      b2b_sezona: 0
+      najdolga_gostinska_serija: 1
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  dvizenje_linii:
+    vrednost: null
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: треба ≥ 2 недели снимки (`linii`) по тим — уште нема
+  model_greshki:
+    vrednost:
+      n: 0
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+  stil:
+    vrednost:
+      tempo:
+        oznaka: бавно
+        brojki:
+          poseda: 74.1
+          rang: 25
+          od: 32
+      trojki:
+        oznaka: малку тројки
+        brojki:
+          3par_pct: 38.7
+          rang: 24
+          od: 32
+      napad_preku:
+        oznaka: избалансиран
+        brojki:
+          udel_poeni_pct:
+            бекови: 51.7
+            крила: 34.0
+            центри: 14.3
+          liga_pct:
+            бекови: 49.2
+            крила: 33.6
+            центри: 17.2
+      ofanziven_skok:
+        oznaka: се враќа во одбрана
+        brojki:
+          oreb_pct: 27.9
+          rang: 28
+          od: 32
+      rotacija:
+        oznaka: длабока
+        brojki:
+          igraci_15_min: 8
+          rang: 4
+          od: 32
+      vadenje_zvezdi:
+        oznaka: умерено
+        brojki:
+          top3_min_pomalku: 3.6
+          rang: 10
+          od: 25
+      fauli:
+        oznaka: средно; средно праќа на линија
+        brojki:
+          pf_po_natprevar: 22.2
+          rang: 15
+          ftr_protivnik: 34.6
+          rang_ftr: 12
+          od: 32
+      dozvoluva:
+        oznaka: пушта многу тројки; средна заштита на кош; пушта над лигата на центри
+          (+12% поени)
+        brojki:
+          3par_protivnik: 42.6
+          rang_3par: 9
+          2p_pct_protivnik: 52.2
+          rang_2p: 21
+          od: 32
+          dvp_poeni_pct:
+            центри: 11.8
+            крила: -2.3
+            бекови: -2.9
+    izvor: python
+    datum: '2026-11-03'
+    status: BROJKA
+    zabeleska: ознаки од бројки (терцили од рангот во лигата); зборот е само име за
+      бројката. Позиција = прва буква од официјалниот состав (F-C → крило), иста конвенција
+      како DvP
+  trener_od_koga:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  trener_filozofija:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
+  gm:
+    vrednost: null
+    izvor: agent
+    datum: '2026-11-03'
+    status: OPIS
+    zabeleska: чека T9/T10 + одобрение (`profil odobri`)
